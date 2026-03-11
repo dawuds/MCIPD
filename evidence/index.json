@@ -1,0 +1,1728 @@
+{
+  "8.1": {
+    "clauseId": "8.1",
+    "section": "Board oversight",
+    "title": "Board Tone-at-the-Top on Customer Information Protection",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will assess whether the board has demonstrably set the tone-at-the-top on customer information protection, looking beyond generic policy statements to evidence of active board championship. Examiners will scrutinise board communications, strategy documents, and annual reports for explicit references to customer information protection as a strategic priority. They will check whether the board has allocated agenda time specifically to customer information matters and whether board members can articulate the FSP's exposure and risk posture. A board that treats customer information protection as purely an IT or compliance matter rather than a board-level strategic concern will be flagged.",
+    "evidenceItems": [
+      {
+        "id": "8.1-E1",
+        "name": "Board Resolution on Customer Information Protection Strategy",
+        "description": "Formal board resolution or board paper demonstrating the board's commitment to safeguarding customer information, including articulation of potential consequences of breaches.",
+        "whatGoodLooksLike": [
+          "Board resolution explicitly references MCIPD requirements and sets expectations for customer information protection",
+          "Board minutes show substantive discussion of customer information risks and consequences, not merely a rubber-stamp approval",
+          "The resolution is communicated organisation-wide as evidence of tone-at-the-top",
+          "Annual review cycle is documented with board calendar entries"
+        ],
+        "commonGaps": [
+          "No specific board resolution exists; customer information protection is assumed to be covered by general IT governance",
+          "Board minutes show only a brief note that policies were approved with no evidence of substantive discussion",
+          "Tone-at-the-top messaging exists only in internal memos from management, not directly from the board"
+        ],
+        "suggestedSources": [
+          "Board Secretariat - board resolution register and minutes",
+          "Corporate Communications - board-endorsed communications on customer information protection",
+          "Annual report - governance disclosures"
+        ],
+        "format": "PDF/DOCX with board resolution attachment",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Request the last two years of board minutes and search for agenda items specifically addressing customer information protection - examiners will distinguish between dedicated agenda items and brief mentions buried in other reports.",
+      "AI Generated: Ask board members directly during interviews whether they can describe the FSP's customer information risk exposure and what consequences a breach could bring - inability to articulate this indicates tone-at-the-top has not been genuinely set."
+    ]
+  },
+  "8.2": {
+    "clauseId": "8.2",
+    "section": "Board oversight",
+    "title": "Board Approval of Customer Information Protection Policies",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that the board has formally approved specific customer information protection policies, not merely noted them. Examiners will look for a board resolution with a date, resolution number, and signatures or recorded assent. They will test whether the approved policies are comprehensive - covering confidentiality and security - and whether the board satisfied itself that corresponding procedures and controls exist. A key red flag is delegation of approval to a management committee without board ratification.",
+    "evidenceItems": [
+      {
+        "id": "8.2-E1",
+        "name": "Board-Approved Customer Information Protection Policy",
+        "description": "The written policy document approved by the full board, covering confidentiality and security of customer information.",
+        "whatGoodLooksLike": [
+          "Policy bears a board resolution number, approval date, and evidence of full board approval (not just committee endorsement)",
+          "Policy scope explicitly covers both confidentiality and security of customer information",
+          "Version history shows structured review cycle with board re-approval at each revision",
+          "Policy references specific procedures and controls that implement its requirements"
+        ],
+        "commonGaps": [
+          "Policy was approved by the IT Steering Committee or Risk Committee but never formally ratified by the full board",
+          "Policy covers information security generally but does not specifically address customer information confidentiality",
+          "No version control or evidence of periodic board re-approval after initial approval",
+          "Policy exists but corresponding procedures and controls are not documented or referenced"
+        ],
+        "suggestedSources": [
+          "Board Secretariat - board papers and resolution register",
+          "Compliance department - policy library with version control",
+          "Document management system - policy repository"
+        ],
+        "format": "PDF/DOCX with board resolution",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Verify the policy approval chain: check that the full board (not just a committee) approved the policy. Cross-reference the board resolution register with the policy version history.",
+      "AI Generated: Test completeness by checking whether the policy addresses both confidentiality AND security - many FSPs focus on security controls but neglect confidentiality obligations under banking secrecy laws."
+    ]
+  },
+  "8.3": {
+    "clauseId": "8.3",
+    "section": "Board oversight",
+    "title": "Board Oversight of Policy Implementation and Review",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will focus on whether the board receives and actively reviews reports from senior management on customer information management. Examiners will look for reports that include risk assessments, findings, and mitigation plans - not merely status dashboards. They will check board minutes for evidence that the board challenged management on report content and was satisfied that policies, procedures, and controls are adequate and effective. Periodic review to reflect changes in the operating environment is a specific examiner focus area.",
+    "evidenceItems": [
+      {
+        "id": "8.3-E1",
+        "name": "Senior Management Reports to Board on Customer Information Management",
+        "description": "Periodic reports from senior management to the board covering risk assessments, findings, and mitigation plans related to customer information protection.",
+        "whatGoodLooksLike": [
+          "Reports are submitted on a defined schedule (at least quarterly) and are part of the standing board agenda",
+          "Each report includes risk assessment findings, control effectiveness evaluation, and status of mitigation plans",
+          "Board minutes record substantive discussion and challenge on report content, not merely noting receipt",
+          "Reports are updated to reflect changes in the operating environment and evolving risks"
+        ],
+        "commonGaps": [
+          "Reports are operational dashboards with KPIs but lack risk assessments and mitigation plans",
+          "Reports are presented to a management committee but not escalated to the board",
+          "Board minutes show reports were noted but no evidence of discussion or challenge",
+          "Reports have not been updated to reflect material changes such as new digital channels or remote working arrangements"
+        ],
+        "suggestedSources": [
+          "Board Secretariat - board papers archive",
+          "Senior management - periodic reports on customer information management",
+          "Risk management department - risk assessment reports"
+        ],
+        "format": "PDF board papers with supporting data",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Request the last four quarters of board reports on customer information and check whether they contain all three required elements: risk assessments, findings, and mitigation plans.",
+      "AI Generated: Cross-reference report content with known changes in the operating environment (e.g., new digital products, remote working) to verify reports have been updated to reflect evolving risks."
+    ]
+  },
+  "8.4": {
+    "clauseId": "8.4",
+    "section": "Board oversight",
+    "title": "Annual Written Assurance from Senior Management",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will specifically request the annual written assurance from senior management to the board. This is a binary compliance check - it either exists or it does not. Examiners will verify that the assurance covers both: (a) that customer information protection controls are working effectively, and (b) that outsourced service providers are fulfilling their contractual obligations. Examiners will also check whether the assurance is based on substantive assessment (testing, reviews, audits) rather than a perfunctory sign-off.",
+    "evidenceItems": [
+      {
+        "id": "8.4-E1",
+        "name": "Annual Written Assurance Letter",
+        "description": "Formal annual written assurance from senior management to the board confirming that customer information protection controls are working effectively and OSPs are meeting contractual obligations.",
+        "whatGoodLooksLike": [
+          "A standalone letter or formal report signed by the CEO or designated senior officer, addressed to the board",
+          "Explicitly covers both control effectiveness AND outsourced service provider compliance",
+          "Assurance is supported by references to specific assessments, testing, or review activities conducted during the year",
+          "Board minutes record receipt and deliberation on the assurance, including any qualifications or exceptions noted",
+          "Issued annually within a defined timeline (e.g., within Q1 of the following year)"
+        ],
+        "commonGaps": [
+          "No formal annual assurance letter exists; management reports are assumed to provide implicit assurance",
+          "Assurance covers control effectiveness but omits outsourced service provider obligations",
+          "Assurance is a one-line statement with no reference to supporting assessments or testing",
+          "Assurance has not been issued in the current or prior year"
+        ],
+        "suggestedSources": [
+          "Board Secretariat - annual assurance letter on file",
+          "CEO or designated officer - signed assurance letter",
+          "Internal audit - reports supporting the assurance",
+          "OSP management function - OSP assessment reports referenced in the assurance"
+        ],
+        "format": "PDF signed letter with supporting assessment references",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: This is a hard compliance requirement - ask for the annual written assurance letter immediately. If it does not exist, it is a clear finding.",
+      "AI Generated: Check whether the assurance explicitly mentions outsourced service providers and their contractual obligations - many FSPs provide a generic assurance on controls but forget the OSP component."
+    ]
+  },
+  "9.1-9.2": {
+    "clauseId": "9.1-9.2",
+    "section": "Senior management",
+    "title": "Senior Management Accountability and Designated Officer",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that senior management accountability for customer information protection is formally documented and that a designated officer of sufficient senior ranking has been appointed. Examiners will check the designated officer's job description, reporting lines, and whether they have the authority and resources to discharge their responsibilities. The designated officer must be responsible for communicating policies and coordinating with key stakeholders. Examiners will also assess whether accountability is genuinely placed with senior management or has been effectively delegated down without proper oversight.",
+    "evidenceItems": [
+      {
+        "id": "9.1-E1",
+        "name": "Senior Management Accountability Framework for Customer Information",
+        "description": "Documentation establishing senior management's responsibility and accountability for customer information protection systems and controls.",
+        "whatGoodLooksLike": [
+          "RACI matrix or accountability framework clearly assigning customer information protection responsibilities to named senior management roles",
+          "Board-approved terms of reference for relevant management committees with customer information protection in their mandate",
+          "Senior management performance objectives include customer information protection metrics",
+          "Documented reporting lines from the designated officer to the board"
+        ],
+        "commonGaps": [
+          "Accountability is diffused across departments without clear senior management ownership",
+          "No formal accountability framework exists; responsibilities are assumed based on organisational convention",
+          "Senior management performance objectives do not include customer information protection"
+        ],
+        "suggestedSources": [
+          "HR department - job descriptions and performance frameworks for senior management",
+          "Board Secretariat - management committee terms of reference",
+          "Compliance department - RACI matrices"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.2-E1",
+        "name": "Designated Officer Appointment and Terms of Reference",
+        "description": "Formal appointment letter or board resolution designating a senior officer with overall responsibility for MCIPD implementation, including their specific responsibilities for policy communication and stakeholder coordination.",
+        "whatGoodLooksLike": [
+          "Formal appointment letter or board resolution naming the designated officer by role and individual",
+          "Terms of reference explicitly include: (a) communicating policies throughout the FSP, and (b) coordinating with key stakeholders",
+          "The designated officer is of sufficient senior ranking with direct access to senior management and the board",
+          "The role is mapped to an existing senior position such as CDO, CIO, or DPO per paragraph 9.3 guidance"
+        ],
+        "commonGaps": [
+          "No formal appointment exists; the role is informally assumed by a mid-level manager",
+          "The designated officer lacks sufficient seniority or authority to coordinate across business lines",
+          "Terms of reference do not explicitly cover policy communication and stakeholder coordination responsibilities",
+          "The appointment has not been updated following organisational changes"
+        ],
+        "suggestedSources": [
+          "Board Secretariat - appointment resolution",
+          "HR department - job description and reporting lines",
+          "Compliance department - MCIPD implementation records"
+        ],
+        "format": "PDF appointment letter or board resolution",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Ask to meet the designated officer and verify they can describe their MCIPD responsibilities. Check their seniority level - a manager-level appointee in a large FSP may not have sufficient authority.",
+      "AI Generated: Request evidence that the designated officer has actually communicated policies and coordinated with stakeholders - look for email trails, meeting records, or policy distribution logs."
+    ]
+  },
+  "9.4-9.6": {
+    "clauseId": "9.4-9.6",
+    "section": "Senior management",
+    "title": "Business Line Responsibility and Staff Communication",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will check whether responsibility for customer information confidentiality and security is embedded across business and functional lines, not concentrated solely in a centralised function. They will also verify that senior management has communicated clearly to all staff, representatives, and agents about the importance of preserving customer information confidentiality. Examiners will look for evidence of structured communication campaigns, not just policy distribution.",
+    "evidenceItems": [
+      {
+        "id": "9.4-E1",
+        "name": "Business Line Responsibility Assignment",
+        "description": "Documentation assigning customer information protection responsibilities to business and functional lines, demonstrating decentralised accountability.",
+        "whatGoodLooksLike": [
+          "Each business and functional line has a documented data steward or information protection champion",
+          "Business line operating procedures reference customer information handling requirements",
+          "Business line risk assessments explicitly address customer information risks",
+          "Regular reporting from business lines to the designated officer on customer information matters"
+        ],
+        "commonGaps": [
+          "Customer information protection is treated as solely the responsibility of IT or compliance",
+          "Business lines have no documented responsibilities for customer information protection",
+          "No mechanism exists for business lines to report customer information issues to the designated officer"
+        ],
+        "suggestedSources": [
+          "Business line heads - operating procedures and risk assessments",
+          "Designated officer - stakeholder coordination records",
+          "HR department - business line role descriptions"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "9.6-E1",
+        "name": "Senior Management Communications on Customer Information Protection",
+        "description": "Evidence of clear messaging from senior management to staff, representatives, and agents on the importance of preserving customer information confidentiality and security.",
+        "whatGoodLooksLike": [
+          "Annual or periodic communications from senior management (CEO, designated officer) emphasising customer information protection",
+          "Communications are distributed to all staff AND to representatives and agents, not just internal staff",
+          "Messaging addresses both confidentiality and security obligations",
+          "Communication reach and acknowledgement is tracked"
+        ],
+        "commonGaps": [
+          "No structured communications exist; reliance is placed on policy distribution alone",
+          "Communications reach internal staff but not representatives and agents",
+          "Messaging is generic and does not specifically address customer information obligations"
+        ],
+        "suggestedSources": [
+          "Corporate Communications - internal communication records",
+          "Designated officer - communication logs",
+          "Agent management team - agent communication records"
+        ],
+        "format": "Email/Intranet records, PDF communications",
+        "retentionPeriod": "3 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Interview business line heads and ask them to describe their specific responsibilities for customer information protection - if they defer entirely to IT or compliance, responsibility has not been effectively placed on business lines.",
+      "AI Generated: Sample representatives and agents to verify they received communications about customer information importance - this is frequently overlooked."
+    ]
+  },
+  "9.5": {
+    "clauseId": "9.5",
+    "section": "Senior management",
+    "title": "Representative and Agent Control Measures",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that appointed representatives and agents have adequate control measures in place for customer information protection. This extends the FSP's obligations to its distribution and agent network. Examiners will look for evidence of control requirements being imposed, monitored, and enforced across the agent and representative network.",
+    "evidenceItems": [
+      {
+        "id": "9.5-E1",
+        "name": "Representative and Agent Control Framework",
+        "description": "Documentation of control measures required of and implemented by appointed representatives and agents for safeguarding customer information.",
+        "whatGoodLooksLike": [
+          "Written control requirements specified in representative and agent agreements",
+          "Periodic assessment or audit of representative and agent control measures",
+          "Evidence of remediation where control gaps at representatives or agents are identified",
+          "Control requirements are proportionate to the volume and sensitivity of customer information handled"
+        ],
+        "commonGaps": [
+          "Agent agreements mention confidentiality but do not specify control measures",
+          "No assessment or monitoring of whether agents have implemented required controls",
+          "Control requirements have not been updated since initial agent appointment"
+        ],
+        "suggestedSources": [
+          "Agent management team - agreements, assessments, and remediation records",
+          "Compliance department - agent oversight records",
+          "Internal audit - agent audit reports"
+        ],
+        "format": "PDF/DOCX",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Sample a selection of representative and agent agreements and check for specific control measure requirements, not just generic confidentiality clauses.",
+      "AI Generated: Request evidence of any assessments or audits conducted on agents' customer information protection controls in the last two years."
+    ]
+  },
+  "9.7": {
+    "clauseId": "9.7",
+    "section": "Senior management",
+    "title": "Staff and Agent Training on Customer Information Policies",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that adequate training on customer information policies is provided to FSP staff AND that representatives and agents provide adequate training to their own staff. Examiners will check training records, completion rates, content relevance, and whether training extends to the entire representative and agent network. Adequacy will be assessed in terms of content, frequency, and coverage.",
+    "evidenceItems": [
+      {
+        "id": "9.7-E1",
+        "name": "Training Programme and Completion Records",
+        "description": "Training programme on customer information protection policies with records of completion for FSP staff and evidence that representatives/agents also train their staff.",
+        "whatGoodLooksLike": [
+          "Structured training programme covering MCIPD-relevant policies, updated at least annually",
+          "Training completion records showing high completion rates (above 90%) across all staff levels",
+          "Training content covers specific MCIPD requirements, not just generic data protection",
+          "Contractual requirements for representatives and agents to train their own staff, with evidence of compliance"
+        ],
+        "commonGaps": [
+          "Training is limited to an annual e-learning module with no assessment of understanding",
+          "Training records are incomplete or do not cover all staff categories",
+          "No mechanism exists to verify that representatives and agents have trained their own staff",
+          "Training content has not been updated to reflect current MCIPD requirements"
+        ],
+        "suggestedSources": [
+          "Learning management system - training records and completion data",
+          "HR department - training programme documentation",
+          "Agent management team - agent training compliance records"
+        ],
+        "format": "LMS export/PDF training records",
+        "retentionPeriod": "3 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Pull training completion data for the last 12 months and check for gaps in coverage across departments and staff levels. Pay particular attention to contract staff and new joiners.",
+      "AI Generated: Ask how the FSP verifies that representatives and agents are training their own staff - many FSPs impose the contractual requirement but never verify compliance."
+    ]
+  },
+  "9.8": {
+    "clauseId": "9.8",
+    "section": "Senior management",
+    "title": "Independent Review (Biennial)",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will check whether an independent review has been carried out at least once every two years, in accordance with paragraphs 10.53-10.56. This is a hard compliance requirement with a specific frequency. Examiners will verify independence of the reviewer, scope of the review, and whether findings have been acted upon.",
+    "evidenceItems": [
+      {
+        "id": "9.8-E1",
+        "name": "Independent Review Report and Schedule",
+        "description": "The independent review report on effectiveness of customer information protection policies, procedures, and controls, with evidence of the review schedule.",
+        "whatGoodLooksLike": [
+          "Independent review completed within the required two-year cycle",
+          "Reviewer is independent of business units handling customer information (e.g., internal audit)",
+          "Review scope covers effectiveness of policies, procedures, AND control measures",
+          "Written findings communicated to both senior management and the board",
+          "Remedial actions tracked to completion"
+        ],
+        "commonGaps": [
+          "No independent review has been conducted, or the two-year cycle has lapsed",
+          "Review was conducted by a function not independent of the business units",
+          "Review scope was limited to IT controls and did not cover policies and procedures holistically",
+          "Findings were communicated to management but not to the board"
+        ],
+        "suggestedSources": [
+          "Internal audit department - review reports and work programme",
+          "Board Secretariat - board papers presenting review findings",
+          "Compliance department - remediation tracking"
+        ],
+        "format": "PDF audit/review report",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Check the date of the last independent review and verify it falls within the two-year window. If it is overdue, this is an immediate compliance finding.",
+      "AI Generated: Verify reviewer independence - the review function must be independent of business units that handle customer information. Internal audit qualifies; a compliance team within the same division may not."
+    ]
+  },
+  "9.9-9.10": {
+    "clauseId": "9.9-9.10",
+    "section": "Senior management",
+    "title": "Board Notification and Reporting on Breaches",
+    "clauseType": "governance",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that senior management notifies the board upon detection of customer information breaches, with urgency proportional to breach severity and data sensitivity. They will also check that investigation findings are reported to the board per paragraph 11.21. Examiners will compare the breach register against board minutes to verify that all notifiable breaches reached the board.",
+    "evidenceItems": [
+      {
+        "id": "9.9-E1",
+        "name": "Board Breach Notification Records",
+        "description": "Records of senior management notifications to the board regarding detected customer information breaches, including investigation findings.",
+        "whatGoodLooksLike": [
+          "Board minutes record notification of all material breaches with appropriate urgency",
+          "Notifications include breach nature, sensitivity of data involved, and initial assessment",
+          "Investigation findings are subsequently reported to the board per paragraph 11.21",
+          "Board actions and directives in response to breach notifications are documented"
+        ],
+        "commonGaps": [
+          "Minor breaches are not escalated to the board even where data sensitivity warrants it",
+          "Breach notifications are batched into periodic reports rather than provided promptly",
+          "Investigation findings are reported to management committees but not to the board",
+          "No criteria exist for determining which breaches require board notification"
+        ],
+        "suggestedSources": [
+          "Board Secretariat - board minutes and papers",
+          "Designated officer - breach notification records",
+          "Breach register - cross-referenced with board reporting"
+        ],
+        "format": "PDF board minutes and breach notification records",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Cross-reference the breach register against board minutes for the same period to verify all material breaches were escalated to the board.",
+      "AI Generated: Check whether breach notification criteria are documented - without defined criteria, the FSP may be inconsistent in what reaches the board."
+    ]
+  },
+  "10.1-10.4": {
+    "clauseId": "10.1-10.4",
+    "section": "Control environment",
+    "subsection": "A: Risk assessment",
+    "title": "Customer Information Risk Assessment",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that FSPs have conducted a comprehensive risk assessment covering threats and vulnerabilities to customer information, including likelihood-and-impact assessments. The assessment must cover third-party service providers and outsourcing arrangements and be proportionate to the FSP's size, nature, complexity, and sensitivity of customer information held. Examiners will look for mitigation plans that are developed and implemented based on identified threats. A risk assessment that is copied from a template without customisation to the FSP's specific environment will be flagged.",
+    "evidenceItems": [
+      {
+        "id": "10.1-E1",
+        "name": "Customer Information Risk Assessment Report",
+        "description": "Comprehensive risk assessment identifying threats and vulnerabilities to customer information, including likelihood-and-impact analysis and mitigation plans.",
+        "whatGoodLooksLike": [
+          "Covers internal and external threats across the full customer information lifecycle (collection, storage, use, transmission, sharing, disposal)",
+          "Includes likelihood and impact assessment for each identified threat and vulnerability",
+          "Covers third-party service providers and outsourcing arrangements explicitly",
+          "Proportionate to FSP's size, complexity, and volume/sensitivity of customer information",
+          "Mitigation plans are developed for each identified risk with owners, timelines, and status tracking",
+          "Updated at least annually or following material changes in the operating environment"
+        ],
+        "commonGaps": [
+          "Risk assessment covers IT risks generally but does not specifically address customer information threats",
+          "Third-party and outsourcing risks are omitted from the assessment",
+          "Assessment is not proportionate - either overly complex for a small FSP or too superficial for a large one",
+          "Mitigation plans are identified but not implemented or tracked",
+          "Assessment has not been updated following material changes such as new products, channels, or outsourcing arrangements"
+        ],
+        "suggestedSources": [
+          "Risk management department - risk assessment reports and registers",
+          "IT security team - threat and vulnerability assessments",
+          "Compliance department - third-party risk assessments",
+          "Internal audit - risk assessment working papers"
+        ],
+        "format": "PDF/DOCX with supporting risk register (spreadsheet)",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Check whether the risk assessment specifically identifies customer information threats or merely recycles a generic IT risk assessment. The MCIPD requires customer-information-specific threat identification.",
+      "AI Generated: Verify proportionality - a small takaful operator should not have the same risk assessment framework as a large bank. Conversely, a large bank with millions of customer records should not have a cursory risk assessment.",
+      "AI Generated: Test whether mitigation plans have actually been implemented by sampling 3-5 high-rated risks and asking for evidence of the stated mitigation actions."
+    ]
+  },
+  "10.6-10.11": {
+    "clauseId": "10.6-10.11",
+    "section": "Control environment",
+    "subsection": "B: Policies and procedures",
+    "title": "Customer Information Protection Policies and Procedures",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will conduct a detailed review of the FSP's written policies and procedures to verify they cover the full customer information lifecycle (collection, access, storage, use, transmission, sharing, disclosure, and disposal). Specific policies must exist for: (a) off-site work arrangements, (b) physical document handling and transport, (c) portable IT equipment and storage devices, and (d) breach incident handling. Examiners will check that policies are proportionate, accessible to staff, clearly communicated by the designated officer, and continually reviewed. Outdated policies that do not reflect the current operating environment are a common finding.",
+    "evidenceItems": [
+      {
+        "id": "10.6-E1",
+        "name": "Suite of Customer Information Protection Policies and Procedures",
+        "description": "Complete set of written policies and procedures covering the full lifecycle of customer information, including the four mandatory specific policy areas.",
+        "whatGoodLooksLike": [
+          "Policies cover all lifecycle stages: collection, access, storage, use, transmission, sharing, disclosure, and disposal",
+          "Specific policies exist for: (a) off-site work, (b) physical document handling/transport, (c) portable IT equipment/storage, (d) breach incident handling",
+          "Policies are proportionate to the FSP's size, nature, complexity, and data sensitivity",
+          "Clear procedures translate policy requirements into operational steps",
+          "Version control with documented review and approval history"
+        ],
+        "commonGaps": [
+          "Policies exist for IT security but do not specifically address customer information lifecycle stages",
+          "One or more of the four mandatory specific policy areas (off-site work, physical documents, portable devices, breach handling) is missing",
+          "Policies are disproportionate - either overly generic or unnecessarily complex for the FSP's operations",
+          "Procedures do not exist or are not aligned to policy statements",
+          "Policies have not been reviewed or updated for more than 12 months"
+        ],
+        "suggestedSources": [
+          "Compliance department - policy register and library",
+          "Document management system - policy repository with version control",
+          "Designated officer - policy communication records"
+        ],
+        "format": "PDF/DOCX suite of policies with version control",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "10.10-E1",
+        "name": "Policy Communication and Accessibility Records",
+        "description": "Evidence that policies and procedures are readily accessible to staff and clearly communicated by the designated officer.",
+        "whatGoodLooksLike": [
+          "Policies are published on an accessible intranet or document management system",
+          "Communication from the designated officer evidencing policy distribution and awareness campaigns",
+          "Staff acknowledgement records confirming receipt and understanding of policies",
+          "Policy accessibility is verified through periodic checks or surveys"
+        ],
+        "commonGaps": [
+          "Policies are stored in a shared drive that not all staff can access",
+          "No evidence that the designated officer has communicated policies",
+          "Staff acknowledgement is not tracked or has low completion rates",
+          "Policies are communicated only at onboarding, with no periodic refresher"
+        ],
+        "suggestedSources": [
+          "Designated officer - communication records",
+          "Intranet/document management system - access logs and publication records",
+          "HR department - staff acknowledgement records"
+        ],
+        "format": "Intranet records, email logs, acknowledgement reports",
+        "retentionPeriod": "3 years"
+      },
+      {
+        "id": "10.11-E1",
+        "name": "Policy Review Records and Change Log",
+        "description": "Evidence of continual policy review including review schedules, change logs, and rationale for updates.",
+        "whatGoodLooksLike": [
+          "Documented review schedule with evidence reviews are conducted on time",
+          "Change log recording what was changed, why, and when for each policy revision",
+          "Reviews triggered by changes in operating environment (not just calendar-driven)",
+          "Board or senior management re-approval following material policy changes"
+        ],
+        "commonGaps": [
+          "No documented review schedule exists; reviews are ad hoc",
+          "Policies show a review date but no change log evidencing what was considered or changed",
+          "Reviews are purely calendar-driven and do not respond to environmental changes",
+          "Policies were last reviewed more than 18 months ago"
+        ],
+        "suggestedSources": [
+          "Compliance department - policy review schedule and change logs",
+          "Document management system - version history",
+          "Board Secretariat - approval records for policy changes"
+        ],
+        "format": "PDF change logs and review records",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Create a checklist of the eight lifecycle stages (collection, access, storage, use, transmission, sharing, disclosure, disposal) and the four mandatory specific policies (off-site work, physical documents, portable devices, breach handling). Map each policy document to these requirements and identify gaps.",
+      "AI Generated: Test accessibility by asking a randomly selected frontline staff member to locate the customer information protection policy - if they cannot find it within a few minutes, accessibility is inadequate.",
+      "AI Generated: Check whether policies have been updated to reflect post-pandemic remote working arrangements and new digital channels."
+    ]
+  },
+  "10.12-10.24": {
+    "clauseId": "10.12-10.24",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "title": "ICT Preventive and Detective Controls",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will assess the adequacy of both preventive and detective ICT controls for customer information protection. Key focus areas include: (1) off-site work controls including authentication and encryption, (2) portable storage device controls with business-need restrictions, (3) call recording access on need-to-know basis, (4) deterrent mechanisms against unauthorised disclosure, (5) web-based communication and social media restrictions for staff handling customer information, and (6) detection mechanisms for unauthorised access, unusual viewing, suspicious downloads, and unauthorised disclosure. Examiners will test whether controls are regularly monitored and remain responsive to changing threats.",
+    "evidenceItems": [
+      {
+        "id": "10.12-E1",
+        "name": "ICT Controls Inventory and Effectiveness Assessment",
+        "description": "Inventory of preventive and detective ICT controls deployed to protect customer information, with evidence of regular effectiveness monitoring.",
+        "whatGoodLooksLike": [
+          "Comprehensive inventory of controls mapped to specific customer information threats",
+          "Both preventive (access controls, encryption, DLP) and detective (monitoring, alerting, audit trail) controls are documented",
+          "Regular monitoring reports showing control effectiveness metrics",
+          "Controls are updated in response to changing threats"
+        ],
+        "commonGaps": [
+          "Controls are primarily preventive with weak detective capabilities",
+          "No regular monitoring of control effectiveness",
+          "Controls have not been updated to address new threats such as AI-assisted data extraction",
+          "Control inventory is incomplete or not mapped to customer information risks"
+        ],
+        "suggestedSources": [
+          "IT security team - control inventory and monitoring reports",
+          "SOC - detection and monitoring capabilities",
+          "GRC platform - control register"
+        ],
+        "format": "PDF/Spreadsheet",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "10.14-E1",
+        "name": "Off-Site Work Controls and Remote Access Security",
+        "description": "Documentation and evidence of controls for off-site work arrangements, including ICT equipment controls, authentication, and encryption.",
+        "whatGoodLooksLike": [
+          "Off-site work policy with specific controls for remote access to customer information",
+          "Multi-factor authentication enforced for all remote access",
+          "Data encryption on ICT equipment used off-site",
+          "Secure data transmission protocols enforced",
+          "Controls extend to staff, representatives, and agents undertaking off-site work"
+        ],
+        "commonGaps": [
+          "Off-site work policy exists but specific controls for customer information access are not defined",
+          "MFA is not enforced for all remote access scenarios",
+          "Encryption is not enforced on all off-site devices",
+          "Controls do not extend to representatives and agents"
+        ],
+        "suggestedSources": [
+          "IT security team - remote access configuration and logs",
+          "MDM platform - device encryption and compliance reports",
+          "HR department - remote work policy"
+        ],
+        "format": "PDF/technical configuration reports",
+        "retentionPeriod": "3 years"
+      },
+      {
+        "id": "10.16-E1",
+        "name": "Portable Storage Device Controls",
+        "description": "Evidence of controls restricting customer information downloads to portable storage devices to staff with legitimate business need, with data protection measures.",
+        "whatGoodLooksLike": [
+          "Policy restricting portable storage device use to authorised staff with documented business justification",
+          "Technical controls (USB port management, device encryption) enforced",
+          "Register of authorised portable storage devices and their users",
+          "Periodic review of authorisation list"
+        ],
+        "commonGaps": [
+          "USB ports are not managed or blocked by default",
+          "No register of authorised portable devices exists",
+          "Business need justification is not documented for authorised users",
+          "Encryption is not enforced on portable storage devices"
+        ],
+        "suggestedSources": [
+          "IT security team - endpoint management platform",
+          "DLP tools - portable device usage logs",
+          "Business units - business justification records"
+        ],
+        "format": "Spreadsheet/PDF reports from endpoint management",
+        "retentionPeriod": "3 years"
+      },
+      {
+        "id": "10.20-E1",
+        "name": "Deterrent Mechanisms Against Unauthorised Disclosure",
+        "description": "Evidence of mechanisms creating a strong deterrent effect against unauthorised disclosure of customer information by staff.",
+        "whatGoodLooksLike": [
+          "Documented disciplinary framework with clear consequences for unauthorised disclosure",
+          "Staff awareness of disciplinary actions evidenced through training and communications",
+          "Physical deterrents such as CCTV in high-risk areas, open office concepts",
+          "Personal electronic device restrictions in high-risk areas (data centres, call centres, dealing rooms)",
+          "Whistleblowing mechanisms for reporting suspected unauthorised disclosure"
+        ],
+        "commonGaps": [
+          "Disciplinary framework exists in HR policies but staff are not specifically aware of consequences for data disclosure",
+          "No physical deterrents in high-risk areas",
+          "Personal device restrictions are not enforced in call centres or data centres",
+          "No whistleblowing mechanism specific to customer information concerns"
+        ],
+        "suggestedSources": [
+          "HR department - disciplinary policy and records",
+          "Facilities management - CCTV and physical security records",
+          "Compliance department - whistleblowing programme",
+          "Security team - device restriction enforcement records"
+        ],
+        "format": "PDF/DOCX policies and evidence records",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "10.22-E1",
+        "name": "Web-Based Communication and Social Media Restrictions",
+        "description": "Evidence that web-based communication and social media platforms, particularly end-to-end encrypted platforms, are restricted for staff handling customer information.",
+        "whatGoodLooksLike": [
+          "Web filtering policy explicitly restricts encrypted messaging platforms (WhatsApp Desktop, Facebook Messenger, Skype) for staff handling customer information",
+          "Technical controls (web proxy, firewall rules) enforce the restrictions",
+          "Monitoring of compliance with restrictions",
+          "Exception process documented for any business-justified access"
+        ],
+        "commonGaps": [
+          "Web filtering is applied generically rather than targeted to staff handling customer information",
+          "WhatsApp Web and similar platforms are not blocked despite the specific MCIPD requirement",
+          "Restrictions are in policy but not technically enforced",
+          "No monitoring of compliance with social media restrictions"
+        ],
+        "suggestedSources": [
+          "IT security team - web proxy and firewall configuration",
+          "DLP tools - web communication monitoring logs",
+          "HR department - acceptable use policy"
+        ],
+        "format": "Technical configuration exports, PDF monitoring reports",
+        "retentionPeriod": "3 years"
+      },
+      {
+        "id": "10.23-E1",
+        "name": "Detection Mechanisms for Unauthorised Activity",
+        "description": "Evidence of detection mechanisms for: (a) unauthorised access, (b) unusual frequent viewing, (c) suspicious downloading, and (d) unauthorised disclosure to external parties.",
+        "whatGoodLooksLike": [
+          "Automated detection rules configured for all four categories of unauthorised activity",
+          "Regular review of audit trails and detection alerts",
+          "Random periodic sample checks conducted and documented",
+          "Detection mechanisms generate actionable alerts with defined escalation procedures",
+          "Detection capabilities are tested periodically for effectiveness"
+        ],
+        "commonGaps": [
+          "Detection mechanisms cover unauthorised access but not unusual viewing or suspicious downloads",
+          "Audit trails exist but are not regularly reviewed",
+          "No random sample checks are conducted",
+          "Detection alerts are generated but not acted upon due to alert fatigue",
+          "Detection mechanisms for unauthorised disclosure to external parties are absent"
+        ],
+        "suggestedSources": [
+          "SOC or IT security team - SIEM rules and alert logs",
+          "DLP platform - detection rule configuration and incident logs",
+          "Internal audit - sample check records",
+          "Application teams - user activity monitoring logs"
+        ],
+        "format": "SIEM/DLP reports, PDF audit trail reviews",
+        "retentionPeriod": "3 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Map each ICT control to the specific MCIPD paragraph it addresses - examiners will check for coverage across all mandatory requirements, not just whether some controls exist.",
+      "AI Generated: Test detection controls by requesting recent alert samples and following the trail from detection to investigation to resolution. Alerts that were generated but never investigated are a significant finding.",
+      "AI Generated: Specifically check whether WhatsApp Desktop and similar encrypted messaging platforms are blocked for staff in customer-facing roles - this is a frequently missed MCIPD requirement.",
+      "AI Generated: Verify that call recording access controls are enforced on a need-to-know basis (10.18) - request the access list and compare it to staff whose roles require access."
+    ]
+  },
+  "10.25-10.27": {
+    "clauseId": "10.25-10.27",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Access controls",
+    "title": "Access Controls and Data Mapping",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that: (1) role profiles include descriptions of access rights to customer information, (2) customer information locations across all systems are identified with multi-level access controls (application, database, OS, network), and (3) access rights are regularly reviewed with immediate revocation for departing or role-changing staff. Examiners commonly test access revocation timeliness by sampling recent leavers and checking when their access was revoked.",
+    "evidenceItems": [
+      {
+        "id": "10.25-E1",
+        "name": "Role Profiles with Access Rights Descriptions",
+        "description": "Job role profiles that include descriptions of customer information access rights for each relevant role.",
+        "whatGoodLooksLike": [
+          "Each role profile includes a section defining what customer information the role can access and at what level",
+          "Access rights descriptions are specific (e.g., 'read-only access to customer account details') not generic ('system access')",
+          "Role profiles are reviewed when roles change or new systems are introduced",
+          "RBAC implementation aligns with documented role profiles"
+        ],
+        "commonGaps": [
+          "Role profiles exist but do not include customer information access rights descriptions",
+          "Access rights are defined in IT systems but not reflected in HR role profiles",
+          "Role profiles are outdated and do not reflect current system access",
+          "Generic access descriptions that do not differentiate between types of customer information"
+        ],
+        "suggestedSources": [
+          "HR department - role profiles and job descriptions",
+          "IAM team - RBAC matrix and access rights definitions",
+          "Business line managers - role-specific access requirements"
+        ],
+        "format": "PDF/DOCX role profiles, RBAC matrix spreadsheet",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "10.26-E1",
+        "name": "Customer Information Data Map and Multi-Level Access Controls",
+        "description": "Data map identifying the location of customer information across systems, with evidence of access controls at application, database, operating system, and network levels.",
+        "whatGoodLooksLike": [
+          "Comprehensive data map showing all systems containing customer information",
+          "Access controls documented at all four levels: application, database, OS, and network",
+          "Controls are designed to prevent unauthorised access, modification, and disclosure",
+          "Data map is maintained and updated when new systems or data stores are introduced"
+        ],
+        "commonGaps": [
+          "No formal data map exists; customer information locations are known informally but not documented",
+          "Access controls exist at application level but not at database or OS level",
+          "Data map is incomplete, omitting shadow IT, legacy systems, or unstructured data stores",
+          "Data map has not been updated to include new systems or cloud services"
+        ],
+        "suggestedSources": [
+          "IT architecture team - system inventory and data flow diagrams",
+          "IAM team - access control configurations across system layers",
+          "Data governance team - data inventory or data catalogue",
+          "Cloud operations - cloud-hosted data access controls"
+        ],
+        "format": "Data map (Visio/PDF), access control configuration reports",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "10.27-E1",
+        "name": "Access Review and Revocation Records",
+        "description": "Evidence of regular access rights reviews and immediate revocation of access for departing staff or staff changing roles.",
+        "whatGoodLooksLike": [
+          "Regular access reviews (at least quarterly for privileged access, semi-annually for all) with documented results",
+          "Immediate access revocation on staff departure, evidenced by comparing HR departure dates with access revocation timestamps",
+          "Access changes on role transfers processed promptly with removal of access no longer required",
+          "Exceptions are documented and approved by management"
+        ],
+        "commonGaps": [
+          "Access reviews are infrequent or limited to a subset of systems",
+          "Delay between staff departure and access revocation (often days or weeks rather than immediate)",
+          "Role transfers result in access accumulation - new access is granted but old access is not revoked",
+          "No documented access review process or records"
+        ],
+        "suggestedSources": [
+          "IAM team - access review reports and revocation logs",
+          "HR department - leaver and role change data",
+          "Active Directory or IAM platform - account disable/delete logs",
+          "Internal audit - access review working papers"
+        ],
+        "format": "Spreadsheet/IAM platform reports",
+        "retentionPeriod": "3 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Sample 10 recent leavers from HR data and check the gap between their last working day and the date their system access was revoked. Any gap exceeding one working day is a finding under clause 10.27.",
+      "AI Generated: Request the data map and randomly select three systems to verify that access controls are actually implemented at all four levels (application, database, OS, network).",
+      "AI Generated: Check for role-access accumulation by sampling staff who have transferred between departments and verifying that their previous role's access was revoked."
+    ]
+  },
+  "10.28-10.30": {
+    "clauseId": "10.28-10.30",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Physical security",
+    "title": "Physical Security Controls",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will assess physical security controls for both paper and electronic customer information. They will inspect areas storing large amounts of or sensitive customer information (server rooms, filing rooms) for access restrictions and intruder deterrents. Examiners will conduct site walkthroughs to verify controls are implemented in practice, not just documented.",
+    "evidenceItems": [
+      {
+        "id": "10.28-E1",
+        "name": "Physical Security Controls for Customer Information",
+        "description": "Documentation and evidence of physical security controls protecting customer information in paper and electronic forms.",
+        "whatGoodLooksLike": [
+          "Physical access controls (card readers, biometrics) at server rooms, filing rooms, and data processing areas",
+          "CCTV coverage of sensitive areas with adequate retention of recordings",
+          "Intruder deterrents (alarms, security guards) at critical information storage areas",
+          "Access logs maintained for all restricted areas",
+          "Regular physical security assessments or walkthroughs documented"
+        ],
+        "commonGaps": [
+          "Physical security focuses on data centres but neglects branch filing rooms or record storage areas",
+          "Access logs for restricted areas are not regularly reviewed",
+          "CCTV coverage gaps in critical areas",
+          "Physical security controls for paper records are weaker than for electronic systems",
+          "Clear-desk policy is not implemented despite guidance in paragraph 10.30"
+        ],
+        "suggestedSources": [
+          "Facilities management - physical access control system reports and CCTV records",
+          "Security team - physical security assessment reports",
+          "Branch operations - branch physical security records",
+          "Internal audit - physical security review findings"
+        ],
+        "format": "PDF/access control system reports, CCTV coverage maps",
+        "retentionPeriod": "3 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Conduct a physical walkthrough of at least one server room, one filing room, and one branch to verify physical security controls are implemented as documented.",
+      "AI Generated: Check whether paper records containing customer information are secured - many FSPs focus on electronic security but have unsecured filing cabinets in open areas.",
+      "AI Generated: Verify CCTV coverage of areas where customer information is stored and check retention periods of recordings."
+    ]
+  },
+  "10.31": {
+    "clauseId": "10.31",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Off-site and data-in-transit",
+    "title": "Off-Site Collection and Data-in-Transit Controls",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that clear policies and procedures with adequate controls exist for customer information collected off-site and in-transit. This covers scenarios such as agents collecting customer applications at customer premises, courier services for physical documents, and electronic transmission of customer information. Examiners will check both physical document security and portable device protection.",
+    "evidenceItems": [
+      {
+        "id": "10.31-E1",
+        "name": "Off-Site Collection and Data-in-Transit Procedures",
+        "description": "Documented procedures and controls for handling customer information collected off-site and in-transit.",
+        "whatGoodLooksLike": [
+          "Specific procedures for agents and representatives collecting customer information at customer premises",
+          "Secure storage requirements for physical documents during transit",
+          "Encryption requirements for customer information on portable devices during transit",
+          "Chain of custody procedures for physical documents",
+          "Regular compliance checks on off-site collection processes"
+        ],
+        "commonGaps": [
+          "No specific procedures exist for off-site collection - agents use ad hoc methods",
+          "Physical documents are transported in unsecured bags or folders",
+          "Portable devices used off-site are not encrypted",
+          "No chain of custody for physical documents in transit"
+        ],
+        "suggestedSources": [
+          "Agent management team - off-site collection procedures",
+          "Operations team - document handling and transit procedures",
+          "IT security - portable device encryption reports"
+        ],
+        "format": "PDF/DOCX procedures",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Interview agents or representatives who collect customer information off-site and ask them to walk through their process - compare observed practices with documented procedures.",
+      "AI Generated: Check physical document transit methods - are forms and copies carried in lockable bags or secured containers, or in open folders and personal bags?"
+    ]
+  },
+  "10.32-10.37": {
+    "clauseId": "10.32-10.37",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Disposal",
+    "title": "Customer Information Disposal and Destruction",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that proper disposal procedures exist covering identification of data no longer needed, appropriate secure destruction methods, and outsourced destruction controls. Key areas include: procedures for identifying no-longer-needed data, secure destruction methods (not just file deletion), risk-benefit assessment for outsourced destruction, secure storage before collection (tamper-proof bags or locked containers), and random checks on outsourced destruction providers. Simple file deletion or reformatting is explicitly insufficient per the guidance.",
+    "evidenceItems": [
+      {
+        "id": "10.32-E1",
+        "name": "Data Disposal and Destruction Procedures and Records",
+        "description": "Procedures for identifying and securely disposing of customer information no longer required, with records of disposal activities.",
+        "whatGoodLooksLike": [
+          "Written procedures for identifying data no longer required operationally or legally",
+          "Defined retention periods aligned with legal requirements",
+          "Industry-standard destruction methods (data wiping software, physical destruction, degaussing) documented and applied",
+          "Certificates of destruction obtained and retained",
+          "For outsourced destruction: risk-benefit assessment, secure pre-collection storage (tamper-proof bags or locked containers), and random verification checks"
+        ],
+        "commonGaps": [
+          "No defined process for identifying data that is no longer required",
+          "Reliance on simple file deletion or reformatting rather than secure destruction",
+          "No certificates of destruction obtained from outsourced providers",
+          "Documents awaiting destruction are stored insecurely before collection",
+          "No random checks conducted on outsourced destruction providers"
+        ],
+        "suggestedSources": [
+          "Records management team - disposal procedures and certificates of destruction",
+          "IT operations - media sanitisation records",
+          "Procurement/vendor management - outsourced destruction contracts and assessment records",
+          "Facilities management - secure destruction bin and collection records"
+        ],
+        "format": "PDF procedures, certificates of destruction, inspection reports",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Ask to see the secure destruction bins or locked containers used before outsourced collection - check whether they are tamper-proof as required by paragraph 10.36.",
+      "AI Generated: Request records of random checks conducted on outsourced destruction providers (10.37) - many FSPs have never conducted such checks despite the mandatory requirement.",
+      "AI Generated: Verify that digital device disposal includes proper sanitisation, not just reformatting - request evidence of data wiping or physical destruction records."
+    ]
+  },
+  "10.39-10.52": {
+    "clauseId": "10.39-10.52",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "title": "Staff Controls, Training, and Accountability",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will assess the full spectrum of staff-related controls: (1) confidentiality undertakings in employment contracts, (2) external vendor personnel vetting and monitoring, (3) staff awareness programmes, (4) compliance monitoring mechanisms, (5) training programmes including onboarding, (6) training effectiveness measurement, (7) investigation and disciplinary processes for breaches, and (8) accountability for representatives and agents. Examiners frequently sample employment contracts and onboarding records to verify confidentiality undertaking compliance.",
+    "evidenceItems": [
+      {
+        "id": "10.39-E1",
+        "name": "Employment Contract Confidentiality Undertaking",
+        "description": "Sample employment contracts and confidentiality undertakings specifying legal obligations to safeguard customer information and consequences for non-compliance.",
+        "whatGoodLooksLike": [
+          "Confidentiality undertaking is a mandatory component of all employment contracts",
+          "Undertaking specifies obligations under relevant written law (FSA, IFSA, DFIA as applicable)",
+          "Clear articulation of consequences for non-compliance",
+          "100% signing rate evidenced through HR records",
+          "Undertaking applies to all staff categories including contract and temporary staff"
+        ],
+        "commonGaps": [
+          "Confidentiality clause exists in employment contracts but does not reference specific legal obligations under banking/financial services law",
+          "Legacy staff hired before MCIPD have not signed updated undertakings",
+          "Contract and temporary staff are not covered",
+          "Consequences for non-compliance are vague or not specified"
+        ],
+        "suggestedSources": [
+          "HR department - employment contract templates and signing records",
+          "Legal department - confidentiality undertaking template",
+          "Compliance department - compliance with signing requirements"
+        ],
+        "format": "PDF/DOCX contract templates and signing records",
+        "retentionPeriod": "Duration of employment plus 7 years"
+      },
+      {
+        "id": "10.40-E1",
+        "name": "External Vendor Personnel Vetting and Monitoring",
+        "description": "Evidence that external vendors working on FSP premises (security guards, cleaners, maintenance) appropriately vet and monitor their personnel.",
+        "whatGoodLooksLike": [
+          "Vendor contracts require vetting and monitoring of their personnel",
+          "FSP verifies vendor vetting practices through assessments or attestations",
+          "Access controls for vendor personnel in areas containing customer information",
+          "Vendor personnel are escorted in sensitive areas"
+        ],
+        "commonGaps": [
+          "No vetting requirement in vendor contracts for on-premises personnel",
+          "FSP does not verify whether vendors actually conduct vetting",
+          "Vendor personnel have unescorted access to areas containing customer information",
+          "Monitoring of vendor personnel behaviour is not conducted"
+        ],
+        "suggestedSources": [
+          "Procurement/vendor management - vendor contracts and vetting attestations",
+          "Facilities management - vendor personnel access records",
+          "Security team - escort and monitoring records"
+        ],
+        "format": "PDF contracts, attestation letters, access logs",
+        "retentionPeriod": "Duration of contract plus 3 years"
+      },
+      {
+        "id": "10.41-E1",
+        "name": "Staff Awareness Programme and Records",
+        "description": "Evidence of ongoing staff awareness programme on customer information protection, including awareness of confidentiality obligations, policy compliance requirements, and consequences of breach.",
+        "whatGoodLooksLike": [
+          "Structured awareness programme with multiple touchpoints (not just annual training)",
+          "Covers all three required elements: (a) confidentiality importance, (b) policy compliance, (c) breach consequences",
+          "Regular reminders through communications, posters, intranet, team meetings",
+          "Awareness reaches all staff levels from senior management to frontline",
+          "New staff receive specific onboarding training on customer information protection (10.44-10.45)"
+        ],
+        "commonGaps": [
+          "Awareness programme is limited to annual e-learning with no ongoing reinforcement",
+          "Content is generic information security rather than specific to customer information obligations",
+          "New staff onboarding does not include specific customer information protection training",
+          "New staff are not notified of consequences for non-compliance (10.45)",
+          "No measurement of awareness levels or training effectiveness (10.47)"
+        ],
+        "suggestedSources": [
+          "Learning management system - training records and awareness campaign records",
+          "Corporate communications - awareness materials",
+          "HR department - onboarding programme documentation",
+          "Compliance department - awareness survey results"
+        ],
+        "format": "LMS reports, communication records, survey results",
+        "retentionPeriod": "3 years"
+      },
+      {
+        "id": "10.47-E1",
+        "name": "Training Effectiveness Measurement",
+        "description": "Mechanisms and records demonstrating measurement of training effectiveness on safeguarding customer information.",
+        "whatGoodLooksLike": [
+          "Post-training assessments with pass/fail criteria",
+          "Annual awareness surveys assessing staff understanding",
+          "Survey results analysed and acted upon",
+          "Phishing simulation or scenario-based testing",
+          "Year-on-year trend analysis of awareness levels"
+        ],
+        "commonGaps": [
+          "Training completion is tracked but effectiveness is not measured",
+          "No awareness surveys or assessments are conducted",
+          "Survey results are collected but not analysed or acted upon",
+          "No mechanism to test whether staff apply training in practice"
+        ],
+        "suggestedSources": [
+          "Learning management system - assessment results",
+          "Compliance or HR department - awareness survey data and analysis",
+          "IT security team - phishing simulation results"
+        ],
+        "format": "PDF reports, survey data, assessment results",
+        "retentionPeriod": "3 years"
+      },
+      {
+        "id": "10.42-E1",
+        "name": "Staff Compliance Monitoring Mechanisms",
+        "description": "Evidence of robust monitoring mechanisms ensuring staff adhere to customer information protection policies, procedures, and controls.",
+        "whatGoodLooksLike": [
+          "Automated monitoring of policy compliance (e.g., clean desk checks, email DLP, USB usage)",
+          "Regular compliance spot-checks or walkthroughs documented",
+          "Non-compliance incidents tracked and addressed",
+          "Monitoring covers all relevant policies and procedures, not just IT controls",
+          "Monitoring results reported to management"
+        ],
+        "commonGaps": [
+          "Monitoring is limited to IT system logs without operational compliance checks",
+          "Spot-checks are conducted informally with no documentation",
+          "Non-compliance is identified but not tracked or addressed systematically",
+          "No monitoring of paper-based information handling"
+        ],
+        "suggestedSources": [
+          "Compliance department - monitoring programme and results",
+          "IT security team - DLP and monitoring reports",
+          "Branch operations - compliance check records",
+          "Internal audit - compliance monitoring findings"
+        ],
+        "format": "PDF monitoring reports, compliance check records",
+        "retentionPeriod": "3 years"
+      },
+      {
+        "id": "10.49-E1",
+        "name": "Staff Breach Investigation and Disciplinary Records",
+        "description": "Records of investigations into staff involvement in customer information breaches and disciplinary actions taken, including cases where no action was taken with documented rationale.",
+        "whatGoodLooksLike": [
+          "Thorough and timely investigations documented for each staff-related breach",
+          "Appropriate disciplinary actions taken that serve as a deterrent (10.50)",
+          "Where no action is taken, rationale is documented and approved by senior management",
+          "Investigation results and actions reported to the board (10.51)",
+          "Actions communicated (anonymised) to staff as deterrent"
+        ],
+        "commonGaps": [
+          "Investigations are conducted but not documented",
+          "No action taken against staff in breach without documented rationale approved by senior management",
+          "Disciplinary actions are not communicated to wider staff, reducing deterrent effect",
+          "Investigation results are not reported to the board"
+        ],
+        "suggestedSources": [
+          "HR department - disciplinary records",
+          "Compliance/designated officer - investigation reports",
+          "Board Secretariat - board reports on breach investigations",
+          "Legal department - investigation files"
+        ],
+        "format": "PDF investigation reports, disciplinary records",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Sample 10 employment contracts across different hiring years and staff categories to verify confidentiality undertakings are consistently present and adequately worded.",
+      "AI Generated: Check the onboarding programme documentation for specific customer information protection training content and evidence that new staff are informed of consequences for non-compliance.",
+      "AI Generated: Request training effectiveness data - if the FSP can only show completion rates but not assessment scores or awareness survey results, the effectiveness measurement requirement under 10.47 is not met.",
+      "AI Generated: For staff breaches, check whether the FSP can demonstrate that decisions not to take disciplinary action were documented and approved by senior management (10.50 requirement)."
+    ]
+  },
+  "10.53-10.56": {
+    "clauseId": "10.53-10.56",
+    "section": "Control environment",
+    "subsection": "E: Independent review",
+    "title": "Independent Review of Customer Information Protection",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that an independent review is conducted at least biennially by a function independent of business units handling customer information (e.g., internal audit). The review must assess: (a) senior management effectiveness and oversight, and (b) adequacy and effectiveness of customer information protection measures. Written findings must be communicated to both senior management and the board, and senior management must take timely corrective actions. Examiners will check the review scope, methodology, independence of the reviewer, and whether findings are tracked to remediation.",
+    "evidenceItems": [
+      {
+        "id": "10.53-E1",
+        "name": "Independent Review Report",
+        "description": "The independent review report covering effectiveness of policies, procedures, and controls for safeguarding customer information, including assessment of senior management oversight.",
+        "whatGoodLooksLike": [
+          "Review conducted by a function independent of business units handling customer information (e.g., internal audit)",
+          "Scope covers both senior management oversight effectiveness AND control adequacy/effectiveness",
+          "Report includes scope, methodologies used, findings, evidence obtained, and limitations (per footnote 12)",
+          "Written findings communicated to both senior management and the board",
+          "Completed within the two-year cycle requirement"
+        ],
+        "commonGaps": [
+          "Review was conducted by a function that is not independent of the business units",
+          "Scope covers IT controls but does not assess senior management oversight effectiveness",
+          "Findings communicated to management but not to the board",
+          "Review cycle has lapsed beyond two years",
+          "Report lacks methodology description, evidence references, or limitation disclosures"
+        ],
+        "suggestedSources": [
+          "Internal audit department - review reports",
+          "Board Secretariat - board papers presenting review findings",
+          "Risk management - remediation tracking"
+        ],
+        "format": "PDF audit/review report",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "10.56-E1",
+        "name": "Remediation Action Tracking for Independent Review Findings",
+        "description": "Evidence that senior management has taken appropriate and timely actions to rectify deficiencies identified in the independent review.",
+        "whatGoodLooksLike": [
+          "Remediation action plan developed for each finding with owners and deadlines",
+          "Regular tracking of remediation progress",
+          "Senior management sign-off on completed remediation actions",
+          "Overdue actions escalated appropriately",
+          "Evidence of verification that remediation actions are effective"
+        ],
+        "commonGaps": [
+          "Remediation plan exists but actions are overdue without escalation",
+          "Actions are marked complete without evidence of verification",
+          "No remediation plan was developed for some findings",
+          "Senior management is not actively tracking remediation progress"
+        ],
+        "suggestedSources": [
+          "Internal audit - finding tracking system",
+          "Compliance department - remediation tracker",
+          "Senior management - remediation progress reports"
+        ],
+        "format": "Spreadsheet/GRC tracker, PDF progress reports",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Check the independence of the reviewer - internal audit typically qualifies, but verify the auditors assigned did not have prior involvement in the business units being reviewed.",
+      "AI Generated: Verify the report was communicated to BOTH senior management AND the board - not just one or the other.",
+      "AI Generated: Track remediation actions from the most recent review and check completion status - open or overdue items from the prior review cycle are a significant examiner concern."
+    ]
+  },
+  "11.1-11.7": {
+    "clauseId": "11.1-11.7",
+    "section": "Customer information breaches",
+    "subsection": "A: Handling customer information breaches",
+    "title": "Breach Handling and Response Plan",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will review the breach handling and response plan for completeness and test whether it is operationally effective. The plan must cover both deliberate and non-deliberate breaches and include escalation procedures, clear responsibility lines for containment and remediation, and recurrence prevention. Examiners will check whether staff understand escalation procedures, whether a mechanism exists to identify breaches (including through customer complaints), and whether the FSP can demonstrate immediate containment actions. Impact assessment methodology must cover all five required factors: intent, data sensitivity, number affected, exposure recipients, and fraud likelihood.",
+    "evidenceItems": [
+      {
+        "id": "11.1-E1",
+        "name": "Customer Information Breach Handling and Response Plan",
+        "description": "The formal breach handling and response plan covering both deliberate and non-deliberate breaches, with escalation procedures and responsibility lines.",
+        "whatGoodLooksLike": [
+          "Comprehensive plan covering both deliberate (intentional disclosure, theft) and non-deliberate (accidental loss, misdirected emails) breaches",
+          "Clear escalation procedures with defined timeframes and decision points",
+          "Assigned responsibilities for containment, investigation, notification, and remediation",
+          "Impact assessment methodology covering all five required factors (11.7)",
+          "Plan has been tested through simulation or tabletop exercise",
+          "Cross-FSP breach notification procedure (11.6) included"
+        ],
+        "commonGaps": [
+          "Plan covers only deliberate breaches and not accidental or non-deliberate breaches",
+          "Escalation procedures lack timeframes or decision criteria",
+          "No clear responsibility assignment for containment and remediation",
+          "Impact assessment methodology does not cover all five required factors",
+          "Plan has never been tested through simulation or exercise",
+          "No procedure for notifying other FSPs when their customer data is affected"
+        ],
+        "suggestedSources": [
+          "Designated officer - breach response plan documentation",
+          "IT security team - incident response procedures",
+          "Compliance department - breach handling framework",
+          "Risk management - impact assessment methodology"
+        ],
+        "format": "PDF/DOCX plan document",
+        "retentionPeriod": "7 years"
+      },
+      {
+        "id": "11.4-E1",
+        "name": "Breach Identification Mechanisms",
+        "description": "Evidence of mechanisms to identify customer information breaches, including those arising from customer complaints.",
+        "whatGoodLooksLike": [
+          "Multiple breach detection channels: system monitoring, staff reporting, customer complaints, third-party notifications",
+          "Customer complaint handling process includes breach identification triage",
+          "Complaints are investigated promptly for potential breach implications",
+          "Detection mechanisms are tested periodically"
+        ],
+        "commonGaps": [
+          "Breach detection relies solely on IT monitoring without considering customer complaints as a breach source",
+          "Customer complaints about potential data misuse are not systematically triaged for breach implications",
+          "No defined process for staff to report suspected breaches",
+          "Third-party breach notifications are not systematically captured"
+        ],
+        "suggestedSources": [
+          "Customer complaint management team - complaint records with breach flags",
+          "SOC or IT security team - breach detection systems",
+          "Compliance department - staff reporting channels",
+          "Designated officer - breach identification records"
+        ],
+        "format": "PDF/system reports",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Conduct a tabletop walkthrough of the breach response plan with the designated officer - ask them to describe step-by-step what happens when different types of breaches are detected.",
+      "AI Generated: Test whether frontline staff know how to escalate a suspected breach - interview 3-5 frontline staff and check their understanding of escalation procedures.",
+      "AI Generated: Check whether the impact assessment methodology explicitly addresses all five factors in paragraph 11.7 - many plans cover only data type and number of customers but omit intent assessment and fraud likelihood."
+    ]
+  },
+  "11.8-11.17": {
+    "clauseId": "11.8-11.17",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "title": "BNM Breach Notification",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that the FSP has clear criteria and procedures for determining when BNM notification is required. The three triggers are: (a) reputational risk or public confidence threat, (b) significant harm to customers, and (c) significant scale (over 1,000 customers). Examiners will check that notification content meets the minimum requirements (breach description, data types, number affected, consequences, remedial measures) and that incomplete information is handled by phased notification. The designated senior officer must confirm significant harm assessments. Examiners will also verify law enforcement notification procedures for fraud or criminal activity.",
+    "evidenceItems": [
+      {
+        "id": "11.8-E1",
+        "name": "BNM Notification Procedure and Records",
+        "description": "Documented procedure for notifying BNM of customer information breaches, including criteria assessment and notification records.",
+        "whatGoodLooksLike": [
+          "Clear procedure documenting the three notification triggers and assessment criteria",
+          "Notification template covering all mandatory content items (11.16)",
+          "Procedure for phased notification when complete information is unavailable (11.17)",
+          "Records of all BNM notifications made, including timestamps and content",
+          "Designated officer sign-off on significant harm assessments (11.13)",
+          "Procedure for law enforcement notification when fraud or criminal activity is involved (11.15)"
+        ],
+        "commonGaps": [
+          "Notification criteria are not clearly documented, leading to inconsistent assessment",
+          "Notification content does not cover all mandatory items",
+          "No procedure for phased notification when information is incomplete",
+          "Designated officer sign-off on significant harm assessment is not obtained or documented",
+          "Law enforcement notification procedure is absent"
+        ],
+        "suggestedSources": [
+          "Designated officer - notification procedures and records",
+          "Compliance department - BNM notification templates and logs",
+          "Legal department - law enforcement notification records",
+          "Board Secretariat - board reports on breach notifications"
+        ],
+        "format": "PDF procedures, notification records",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Review all breach records for the past two years and check whether any breach that met the notification criteria was not notified to BNM - under-reporting is a critical examiner concern.",
+      "AI Generated: Verify that the 1,000-customer threshold for significant scale (11.11) is clearly documented in the FSP's procedures and that staff responsible for assessment understand it.",
+      "AI Generated: Check whether the designated officer has signed off on significant harm assessments for each notifiable breach - this is a specific mandatory requirement under 11.13."
+    ]
+  },
+  "11.18-11.24": {
+    "clauseId": "11.18-11.24",
+    "section": "Customer information breaches",
+    "subsection": "C: Submission of detailed investigation report",
+    "title": "Breach Investigation and Reporting",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will scrutinise the FSP's breach investigation process, including: competency and independence of the investigating party, three-month investigation timeline, Board tabling of the detailed report, one-working-day BNM submission after Board tabling for qualifying breaches, designated officer sign-off, maintenance of a breach register with root causes and lessons learnt, and seven-year retention of investigation reports. Examiners will request the breach register and sample investigation reports to verify compliance with all procedural requirements.",
+    "evidenceItems": [
+      {
+        "id": "11.18-E1",
+        "name": "Breach Investigation Reports",
+        "description": "Detailed investigation reports ascertaining root causes and remedial actions, conducted by a competent party with independent oversight.",
+        "whatGoodLooksLike": [
+          "Investigation conducted by a competent party with relevant expertise",
+          "Independent oversight by a party not from the business unit where the breach occurred",
+          "Investigation completed within three months of breach detection",
+          "Report includes root cause analysis, remedial actions, and recurrence prevention measures",
+          "Report tabled to the Board and submitted to BNM (with Appendix 1) within one working day of Board tabling for qualifying breaches",
+          "Signed off by the designated senior officer (9.2)"
+        ],
+        "commonGaps": [
+          "Investigations exceed the three-month timeline without documented justification",
+          "Investigation is conducted by the business unit where the breach occurred without independent oversight",
+          "Root cause analysis is superficial, identifying symptoms rather than root causes",
+          "Report not tabled to the Board",
+          "BNM submission exceeds the one-working-day deadline after Board tabling",
+          "Designated officer sign-off is absent"
+        ],
+        "suggestedSources": [
+          "Designated officer - investigation reports and timeline records",
+          "Internal audit or investigation team - investigation files",
+          "Board Secretariat - Board papers showing report tabling",
+          "Compliance department - BNM submission records"
+        ],
+        "format": "PDF investigation reports with Appendix 1",
+        "retentionPeriod": "7 years from Board tabling date"
+      },
+      {
+        "id": "11.23-E1",
+        "name": "Breach Register",
+        "description": "Register recording all customer information breaches with root causes, remedial actions, and lessons learnt.",
+        "whatGoodLooksLike": [
+          "Comprehensive register covering all customer information breaches, not just notifiable ones",
+          "Each entry includes root cause, remedial actions taken, and lessons learnt",
+          "Register is actively maintained and regularly reviewed",
+          "Lessons learnt are used to improve policies, procedures, and controls",
+          "Register is retained and accessible for at least seven years"
+        ],
+        "commonGaps": [
+          "Register only captures notifiable breaches, omitting minor incidents",
+          "Root causes are not documented or are superficial",
+          "Lessons learnt column is blank or generic",
+          "Register is not regularly reviewed or analysed for trends",
+          "Register does not exist at all"
+        ],
+        "suggestedSources": [
+          "Designated officer - breach register",
+          "Compliance department - incident management system",
+          "IT security team - security incident records"
+        ],
+        "format": "Spreadsheet or incident management system export",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Request the breach register and check for completeness - compare against other incident sources (SOC logs, customer complaints, HR disciplinary records) to identify potential unreported breaches.",
+      "AI Generated: For each investigation report, verify the three-month timeline by comparing breach detection date with investigation completion date.",
+      "AI Generated: Check that investigation reports for qualifying breaches (significant harm, significant scale, deliberate disclosure) were submitted to BNM within one working day of Board tabling - request BNM submission timestamps."
+    ]
+  },
+  "11.25-11.31": {
+    "clauseId": "11.25-11.31",
+    "section": "Customer information breaches",
+    "subsection": "D: Notification to affected customers",
+    "title": "Customer Breach Notification",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that the FSP has procedures for notifying affected customers when breaches cause or are likely to cause significant harm. Notifications must be in plain language and include all five mandatory content items: breach description, potential consequences, protective steps for customers, FSP remedial measures, and contact details. Direct notification is required unless disproportionate effort applies. Examiners will check that notification timing does not cause further harm, that staff are trained to handle customer queries, and that the FSP has a procedure for cases where affected customers cannot initially be identified.",
+    "evidenceItems": [
+      {
+        "id": "11.25-E1",
+        "name": "Customer Notification Procedures and Templates",
+        "description": "Procedures and templates for notifying affected customers of breaches that cause or are likely to cause significant harm.",
+        "whatGoodLooksLike": [
+          "Clear procedure linking significant harm assessment to customer notification trigger",
+          "Notification template covering all five mandatory content items (11.27)",
+          "Template written in plain language, drawing attention to protective steps",
+          "Procedure for direct notification with fallback to public announcement for disproportionate effort cases",
+          "Procedure for cases where affected customers cannot initially be identified (11.30)",
+          "Staff training records for handling customer breach queries (11.31)"
+        ],
+        "commonGaps": [
+          "No customer notification template or procedure exists",
+          "Template does not cover all five mandatory content items",
+          "Notification language is technical or legalistic rather than plain language",
+          "No procedure for handling cases where affected customers cannot be identified",
+          "Staff handling customer queries have not been trained on breach-related queries"
+        ],
+        "suggestedSources": [
+          "Designated officer - customer notification procedures and templates",
+          "Corporate communications - notification drafting guidelines",
+          "Customer service team - training records for breach query handling",
+          "Compliance department - notification records for past breaches"
+        ],
+        "format": "PDF procedures and notification templates",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Review any customer notifications sent for past breaches and check whether they contain all five mandatory items. If no breaches have required customer notification, review the template for completeness.",
+      "AI Generated: Test staff readiness by asking customer-facing staff how they would handle a call from an affected customer asking about a breach - lack of preparation is a finding under 11.31.",
+      "AI Generated: Check the notification timing procedure - the notification must be without undue delay after BNM notification, and any delay must not cause further harm to customers."
+    ]
+  },
+  "12.1-12.3": {
+    "clauseId": "12.1-12.3",
+    "section": "Outsourced service provider",
+    "title": "OSP Risk Monitoring and Due Diligence",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that FSPs actively monitor risks from outsourced service providers handling customer information and conduct adequate due diligence before appointing OSPs. Examiners will check that OSP policies, procedures, and controls are comparable to the FSP's own standards. Due diligence must assess processing, storage, and disposal risks. Examiners will compare the FSP's own control standards with what it requires and verifies from its OSPs.",
+    "evidenceItems": [
+      {
+        "id": "12.1-E1",
+        "name": "OSP Risk Monitoring Framework",
+        "description": "Framework and evidence of ongoing monitoring of risks arising from outsourced service providers handling customer information.",
+        "whatGoodLooksLike": [
+          "OSP risk register identifying all OSPs with access to customer information",
+          "Risk ratings assigned to each OSP based on volume and sensitivity of data accessed",
+          "Ongoing monitoring activities proportionate to OSP risk rating",
+          "Regular risk reporting on OSP-related customer information risks",
+          "Monitoring covers processing, storage, and disposal activities"
+        ],
+        "commonGaps": [
+          "No consolidated register of OSPs with access to customer information",
+          "OSP risks are not assessed or rated",
+          "Monitoring is limited to SLA performance metrics without addressing customer information risks specifically",
+          "No ongoing monitoring - only initial due diligence at onboarding"
+        ],
+        "suggestedSources": [
+          "Vendor management team - OSP register and risk assessments",
+          "Procurement department - OSP contracts and due diligence records",
+          "Compliance department - OSP monitoring reports"
+        ],
+        "format": "PDF/Spreadsheet",
+        "retentionPeriod": "Duration of contract plus 7 years"
+      },
+      {
+        "id": "12.2-E1",
+        "name": "OSP Due Diligence Assessment Reports",
+        "description": "Due diligence assessment reports for OSPs with access to customer information, including assessments of processing, storage, and disposal practices.",
+        "whatGoodLooksLike": [
+          "Comprehensive due diligence conducted before OSP appointment",
+          "Assessment covers data processing, storage, and disposal practices",
+          "OSP's policies, procedures, and controls assessed for comparability with FSP standards",
+          "Risk assessment determines the level of ongoing monitoring required",
+          "Due diligence refreshed periodically, not just at initial appointment"
+        ],
+        "commonGaps": [
+          "Due diligence is limited to financial and operational assessment without customer information focus",
+          "OSP's actual control environment is not assessed (reliance on self-attestation alone)",
+          "Due diligence is conducted at onboarding but never refreshed",
+          "Assessment does not cover disposal and destruction of customer information"
+        ],
+        "suggestedSources": [
+          "Vendor management team - due diligence reports",
+          "IT security team - security assessments of OSPs",
+          "Compliance department - OSP assessment records",
+          "Internal audit - OSP audit reports"
+        ],
+        "format": "PDF due diligence reports",
+        "retentionPeriod": "Duration of contract plus 7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Request a complete list of all OSPs with access to customer information and check whether due diligence has been conducted for each one.",
+      "AI Generated: Compare the FSP's own control standards with what it requires from its OSPs - paragraph 12.3 requires comparable standards, so a significant gap is a finding.",
+      "AI Generated: Check whether due diligence covers customer information disposal practices, not just processing and storage."
+    ]
+  },
+  "12.4": {
+    "clauseId": "12.4",
+    "section": "Outsourced service provider",
+    "title": "OSP Service Level Agreement Requirements",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will review OSP SLAs against the nine mandatory requirements specified in paragraph 12.4. This is a granular compliance check - examiners will verify each of the nine elements is present in the SLA. A key examiner focus is whether existing SLAs have been amended to comply (per footnote 24, which requires immediate amendment, not just upon renewal). Examiners will also check whether SLA provisions are actually enforced and monitored.",
+    "evidenceItems": [
+      {
+        "id": "12.4-E1",
+        "name": "OSP SLA Compliance Assessment",
+        "description": "Assessment of OSP SLAs against the nine mandatory requirements of paragraph 12.4, including evidence that existing SLAs have been amended to comply.",
+        "whatGoodLooksLike": [
+          "All nine mandatory SLA elements are present in each OSP agreement",
+          "Existing SLAs have been amended to comply, not deferred to renewal",
+          "SLA includes agreed timeframe for breach reporting to the FSP",
+          "Data return or destruction obligations upon SLA termination are specified",
+          "FSP audit rights over OSP customer information handling are contractually established",
+          "Personnel vetting requirements are specified"
+        ],
+        "commonGaps": [
+          "One or more of the nine mandatory elements is missing from OSP SLAs",
+          "Existing SLAs have not been amended - compliance is deferred to next renewal",
+          "Breach reporting timeframe is not specified or is unreasonably long",
+          "Data destruction or return upon termination is mentioned generally but lacks specifics (e.g., reference to paragraph 10.32 destruction standards)",
+          "FSP audit rights are included but have never been exercised"
+        ],
+        "suggestedSources": [
+          "Legal department - SLA templates and executed agreements",
+          "Vendor management team - SLA compliance register",
+          "Compliance department - SLA gap analysis",
+          "Procurement department - SLA amendment records"
+        ],
+        "format": "PDF SLAs and compliance gap analysis",
+        "retentionPeriod": "Duration of contract plus 7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Create a nine-point checklist from paragraph 12.4(a)-(i) and map each OSP SLA against it. Many FSPs will be missing at least one element.",
+      "AI Generated: Pay special attention to footnote 24 which requires existing SLAs to be amended immediately, not upon renewal. Check when SLAs were last amended relative to MCIPD effective date.",
+      "AI Generated: Verify that audit rights (12.4(i)) have been exercised at least once - contractual rights that are never used provide no assurance."
+    ]
+  },
+  "12.6-12.9": {
+    "clauseId": "12.6-12.9",
+    "section": "Outsourced service provider",
+    "title": "OSP NDA, Training, and Biennial Review",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify: (1) binding non-disclosure undertakings with all OSPs handling customer information, (2) OSP personnel training on customer information handling at regular intervals with effectiveness reviews, and (3) biennial reviews of OSPs confirming contractual compliance. Examiners will sample NDAs, training records, and review reports across the OSP portfolio.",
+    "evidenceItems": [
+      {
+        "id": "12.6-E1",
+        "name": "OSP Non-Disclosure Undertakings",
+        "description": "Executed binding non-disclosure agreements with all OSPs handling customer information.",
+        "whatGoodLooksLike": [
+          "Binding NDA executed with every OSP that handles customer information",
+          "NDA specifically covers customer information handling obligations",
+          "NDA survives contract termination",
+          "Complete inventory of NDAs maintained and tracked"
+        ],
+        "commonGaps": [
+          "Not all OSPs have signed NDAs",
+          "NDAs are generic and do not specifically address customer information",
+          "NDA inventory is incomplete - no tracking of which OSPs have signed",
+          "Legacy OSPs were never asked to sign NDAs"
+        ],
+        "suggestedSources": [
+          "Legal department - executed NDA register",
+          "Vendor management team - OSP documentation files",
+          "Procurement department - contract management system"
+        ],
+        "format": "PDF executed NDAs",
+        "retentionPeriod": "Duration of contract plus 7 years"
+      },
+      {
+        "id": "12.7-E1",
+        "name": "OSP Personnel Training Records and Effectiveness Review",
+        "description": "Evidence that OSPs provide regular training to their personnel on customer information handling and that training effectiveness is reviewed.",
+        "whatGoodLooksLike": [
+          "OSP training records showing regular training intervals (at least annual)",
+          "Training content covers relevant customer information handling policies and procedures",
+          "FSP reviews or receives reports on OSP training adequacy and effectiveness",
+          "FSP may provide training directly to OSP personnel (per 12.8 guidance)"
+        ],
+        "commonGaps": [
+          "FSP relies on contractual requirement for OSP training but never verifies compliance",
+          "No records of OSP personnel training are obtained or reviewed",
+          "Training effectiveness is not assessed by either the FSP or the OSP",
+          "OSP training content does not cover the FSP's specific customer information requirements"
+        ],
+        "suggestedSources": [
+          "Vendor management team - OSP training attestations",
+          "OSP relationship managers - training review records",
+          "Compliance department - OSP training compliance reports"
+        ],
+        "format": "PDF training records and attestations",
+        "retentionPeriod": "3 years"
+      },
+      {
+        "id": "12.9-E1",
+        "name": "Biennial OSP Review Reports",
+        "description": "Reports from biennial reviews of OSPs confirming compliance with contractual obligations for safeguarding customer information.",
+        "whatGoodLooksLike": [
+          "Formal review conducted at least once every two years for each OSP",
+          "Review scope covers all contractual obligations for customer information safeguarding",
+          "Review includes assessment of OSP controls, not just SLA performance metrics",
+          "Findings documented with remediation actions tracked",
+          "Review findings reported to senior management"
+        ],
+        "commonGaps": [
+          "No biennial review conducted - reliance on SLA monitoring alone",
+          "Review is limited to SLA performance metrics without assessing customer information controls",
+          "Review cycle has lapsed beyond two years for some OSPs",
+          "Findings are not documented or tracked to remediation"
+        ],
+        "suggestedSources": [
+          "Vendor management team - OSP review reports",
+          "Internal audit - OSP audit reports",
+          "Compliance department - OSP compliance review records"
+        ],
+        "format": "PDF review reports",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Cross-reference the OSP register with the NDA register to identify any OSPs handling customer information without an executed NDA.",
+      "AI Generated: Request OSP training evidence for the last two years - if the FSP cannot produce it, the contractual requirement under 12.7 is not being monitored.",
+      "AI Generated: Check the biennial review schedule against actual review dates for each OSP - overdue reviews are a direct compliance gap under 12.9."
+    ]
+  },
+  "12.10": {
+    "clauseId": "12.10",
+    "section": "Outsourced service provider",
+    "title": "OSP Customer Information Sharing Records",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that FSPs maintain accurate and complete records and audit trails of all customer information shared with or given to OSPs. Examiners will test whether the records are current, complete, and can be used to identify exactly what customer information each OSP has access to.",
+    "evidenceItems": [
+      {
+        "id": "12.10-E1",
+        "name": "Customer Information Sharing Records with OSPs",
+        "description": "Records and audit trails of all customer information shared with or provided to outsourced service providers.",
+        "whatGoodLooksLike": [
+          "Comprehensive records showing what customer information has been shared with each OSP",
+          "Records include type of information, volume, purpose, date of sharing, and method of transfer",
+          "Audit trails are maintained for ongoing data access by OSPs",
+          "Records are accurate and regularly reconciled",
+          "Records support the ability to identify all data at risk if an OSP experiences a breach"
+        ],
+        "commonGaps": [
+          "No centralised record of customer information shared with OSPs",
+          "Records are incomplete - some data transfers are not documented",
+          "Audit trails for ongoing OSP access are not maintained",
+          "Records have not been updated when new data types are shared with existing OSPs"
+        ],
+        "suggestedSources": [
+          "Vendor management team - data sharing records",
+          "IT operations - data transfer logs",
+          "Data governance team - data sharing inventory",
+          "Compliance department - data sharing register"
+        ],
+        "format": "Spreadsheet/database with data transfer logs",
+        "retentionPeriod": "Duration of contract plus 7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Ask the FSP to identify exactly what customer information a specific OSP has access to - inability to answer this question precisely indicates inadequate records under 12.10.",
+      "AI Generated: Compare the data sharing records against actual data flows by sampling API logs or data transfer mechanisms to verify completeness of records."
+    ]
+  },
+  "13.1-13.3": {
+    "clauseId": "13.1-13.3",
+    "section": "Conditions in relation to permitted disclosure",
+    "title": "Permitted Disclosure Controls",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that adequate control measures are in place over permitted disclosures of customer information under the FSA, IFSA, and DFIA schedules. The three minimum control areas are: (a) verification processes for authenticity of disclosure orders/requests, (b) documentation requirements, and (c) approval authority levels at an appropriately senior level. Examiners will sample recent disclosure requests and trace the control process from request receipt to approval to disclosure.",
+    "evidenceItems": [
+      {
+        "id": "13.1-E1",
+        "name": "Permitted Disclosure Control Framework",
+        "description": "Control framework governing permitted disclosures of customer information, including verification procedures, documentation requirements, and approval authority levels.",
+        "whatGoodLooksLike": [
+          "Documented procedures covering all categories of permitted disclosure under Schedule 11 FSA/IFSA and Fourth Schedule DFIA",
+          "Verification process for confirming authenticity of disclosure orders and requests",
+          "Documentation requirements specifying what records must be maintained for each disclosure",
+          "Authority levels for approving disclosures set at an appropriately senior level",
+          "Register of all permitted disclosures made"
+        ],
+        "commonGaps": [
+          "No formal verification process for disclosure request authenticity",
+          "Approval authority is not defined or is set too low",
+          "Documentation of disclosures made is incomplete or inconsistent",
+          "Not all categories of permitted disclosure are covered by the control framework",
+          "No register or log of disclosures made"
+        ],
+        "suggestedSources": [
+          "Legal department - permitted disclosure procedures and register",
+          "Compliance department - disclosure control framework",
+          "Operations team - disclosure processing records",
+          "Board Secretariat - authority level approvals"
+        ],
+        "format": "PDF procedures and disclosure register",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Sample 5-10 recent permitted disclosures and trace the full control process: was the request verified for authenticity, was it documented, and was it approved at an appropriately senior level?",
+      "AI Generated: Check whether the authority levels for approving disclosures are formally defined and whether approvals are actually obtained at the defined level in practice.",
+      "AI Generated: Verify that the FSP distinguishes between different types of permitted disclosure (court orders, regulatory requests, group sharing, etc.) with appropriate controls for each."
+    ]
+  },
+  "13.4": {
+    "clauseId": "13.4",
+    "section": "Conditions in relation to permitted disclosure",
+    "title": "BNM Approval Application for Disclosure",
+    "clauseType": "control",
+    "marker": "S",
+    "auditorFocus": "AI Generated: BNM examiners will verify that the FSP is aware of the requirement to apply to BNM using Appendix V for disclosures under section 134(1)(b) FSA, section 146(1)(b) IFSA, or section 120(1)(b) DFIA, and that any such applications have been properly completed and submitted.",
+    "evidenceItems": [
+      {
+        "id": "13.4-E1",
+        "name": "BNM Disclosure Approval Applications",
+        "description": "Records of applications submitted to BNM for customer information disclosure approval using Appendix V, including application forms and BNM responses.",
+        "whatGoodLooksLike": [
+          "Appendix V application form properly completed for each applicable disclosure",
+          "Application submitted to BNM before disclosure is made",
+          "BNM approval obtained and on file before disclosure proceeds",
+          "Register of all Appendix V applications and their status"
+        ],
+        "commonGaps": [
+          "FSP is unaware of the Appendix V requirement",
+          "Disclosures were made without first obtaining BNM approval",
+          "Application forms are incomplete or improperly completed",
+          "No register of applications and their outcomes"
+        ],
+        "suggestedSources": [
+          "Legal department - Appendix V applications and BNM correspondence",
+          "Compliance department - disclosure approval register",
+          "Board Secretariat - records of disclosure approval requests"
+        ],
+        "format": "PDF application forms and BNM approval letters",
+        "retentionPeriod": "7 years"
+      }
+    ],
+    "auditTips": [
+      "AI Generated: Ask the FSP whether any disclosures have been made under section 134(1)(b) FSA, 146(1)(b) IFSA, or 120(1)(b) DFIA and verify that Appendix V was completed and BNM approval obtained before each disclosure.",
+      "AI Generated: Check whether the compliance team is aware of the Appendix V process - lack of awareness indicates a gap even if no applicable disclosures have been made."
+    ]
+  }
+}

@@ -1,0 +1,1088 @@
+{
+  "policies": [
+    {
+      "slug": "customer-information-protection-policy",
+      "name": "Customer Information Protection Policy",
+      "category": "policies",
+      "description": "AI Generated: Master policy governing the protection of customer information across the full data lifecycle, approved by the board per paragraph 8.2.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["8.2", "10.6", "10.7"],
+      "owner": "Designated Officer (per 9.2)",
+      "reviewFrequency": "Annual",
+      "typicalPages": "20-35",
+      "keyContents": [
+        "Purpose and scope",
+        "Definitions and data classification",
+        "Board approval and governance structure",
+        "Policy statements covering collection, access, storage, use, transmission, sharing, disclosure, and disposal",
+        "Roles and responsibilities",
+        "Compliance and enforcement",
+        "Review and approval history"
+      ]
+    },
+    {
+      "slug": "off-site-work-policy",
+      "name": "Off-Site Work Arrangements Policy",
+      "category": "policies",
+      "description": "AI Generated: Policy governing access to customer information under off-site or remote work arrangements, including ICT equipment controls.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["10.8", "10.14", "10.15"],
+      "owner": "Head of IT Security / CISO",
+      "reviewFrequency": "Annual",
+      "typicalPages": "10-20",
+      "keyContents": [
+        "Scope of off-site work arrangements",
+        "Authentication requirements for remote access",
+        "Encryption requirements for off-site devices",
+        "Secure data transmission protocols",
+        "Staff, representative, and agent coverage",
+        "Monitoring and compliance checks"
+      ]
+    },
+    {
+      "slug": "physical-document-handling-policy",
+      "name": "Physical Document Handling and Transport Policy",
+      "category": "policies",
+      "description": "AI Generated: Policy governing the handling and transportation of physical documents containing customer information outside FSP premises.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["10.8", "10.28", "10.31"],
+      "owner": "Head of Operations",
+      "reviewFrequency": "Annual",
+      "typicalPages": "8-15",
+      "keyContents": [
+        "Physical document handling requirements",
+        "Transport and courier security standards",
+        "Chain of custody procedures",
+        "Secure storage during transit",
+        "Off-site collection procedures for agents and representatives"
+      ]
+    },
+    {
+      "slug": "portable-device-policy",
+      "name": "Portable IT Equipment and Storage Devices Policy",
+      "category": "policies",
+      "description": "AI Generated: Policy governing the use of portable IT equipment and data storage devices containing customer information, including USB controls.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["10.8", "10.16", "10.17", "10.19"],
+      "owner": "Head of IT Security / CISO",
+      "reviewFrequency": "Annual",
+      "typicalPages": "8-15",
+      "keyContents": [
+        "Authorised portable device types and register",
+        "Business-need justification requirements",
+        "Password and encryption requirements",
+        "USB port and CD writer management",
+        "Device tracking and return procedures"
+      ]
+    },
+    {
+      "slug": "breach-incident-handling-policy",
+      "name": "Customer Information Breach Incident Handling Policy",
+      "category": "policies",
+      "description": "AI Generated: Policy governing the handling of customer information breach incidents, covering both deliberate and non-deliberate breaches.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["10.8", "11.1", "11.2"],
+      "owner": "Designated Officer (per 9.2)",
+      "reviewFrequency": "Annual",
+      "typicalPages": "15-25",
+      "keyContents": [
+        "Breach definitions and classification",
+        "Scope covering deliberate and non-deliberate breaches",
+        "Escalation procedures and responsibility lines",
+        "Containment and remediation framework",
+        "Notification triggers and procedures",
+        "Recurrence prevention"
+      ]
+    },
+    {
+      "slug": "access-control-policy",
+      "name": "Access Control Policy for Customer Information",
+      "category": "policies",
+      "description": "AI Generated: Policy defining access control rules and requirements for all systems containing customer information, including role-based access and multi-level controls.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["10.25", "10.26", "10.27"],
+      "owner": "IAM Manager / Head of IT Security",
+      "reviewFrequency": "Annual",
+      "typicalPages": "15-25",
+      "keyContents": [
+        "Role-based access control framework",
+        "Access rights descriptions per role profile",
+        "Multi-level access controls (application, database, OS, network)",
+        "Access provisioning and deprovisioning workflow",
+        "Periodic access review and certification process",
+        "Immediate revocation procedures for leavers and role changes"
+      ]
+    },
+    {
+      "slug": "data-disposal-policy",
+      "name": "Customer Information Disposal and Destruction Policy",
+      "category": "policies",
+      "description": "AI Generated: Policy governing the identification, disposal, and secure destruction of customer information no longer required.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["10.32", "10.33", "10.34", "10.35", "10.36", "10.37"],
+      "owner": "Head of Operations / Records Manager",
+      "reviewFrequency": "Annual",
+      "typicalPages": "10-18",
+      "keyContents": [
+        "Data retention periods and legal requirements",
+        "Process for identifying data no longer required",
+        "Approved destruction methods (wiping, physical destruction, degaussing)",
+        "Outsourced destruction risk assessment requirements",
+        "Secure pre-collection storage requirements",
+        "Random check requirements for outsourced providers",
+        "Certificate of destruction requirements"
+      ]
+    },
+    {
+      "slug": "physical-security-policy",
+      "name": "Physical Security Policy for Customer Information Areas",
+      "category": "policies",
+      "description": "AI Generated: Policy defining physical security controls for areas where customer information is stored or processed in paper or electronic form.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["10.28", "10.29", "10.30"],
+      "owner": "Head of Facilities / Physical Security Manager",
+      "reviewFrequency": "Annual",
+      "typicalPages": "10-20",
+      "keyContents": [
+        "Physical access control zones and classifications",
+        "Access restrictions for server rooms, filing rooms, and sensitive areas",
+        "Intruder deterrent requirements",
+        "CCTV coverage requirements",
+        "Clear-desk policy guidance",
+        "Visitor management in restricted areas"
+      ]
+    },
+    {
+      "slug": "acceptable-use-policy",
+      "name": "Acceptable Use Policy - Web and Social Media",
+      "category": "policies",
+      "description": "AI Generated: Policy restricting access to web-based communication and social media platforms for staff handling customer information.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["10.22"],
+      "owner": "Head of IT Security / CISO",
+      "reviewFrequency": "Annual",
+      "typicalPages": "8-12",
+      "keyContents": [
+        "Restricted platforms (WhatsApp Desktop, Facebook, Skype Messenger, etc.)",
+        "Staff categories subject to restrictions",
+        "Technical enforcement mechanisms",
+        "Exception process",
+        "Monitoring and compliance"
+      ]
+    },
+    {
+      "slug": "permitted-disclosure-policy",
+      "name": "Permitted Disclosure of Customer Information Policy",
+      "category": "policies",
+      "description": "AI Generated: Policy governing conditions and controls for permitted disclosures of customer information under Schedule 11 FSA/IFSA and Fourth Schedule DFIA.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["13.1", "13.3", "13.4"],
+      "owner": "Head of Compliance / Legal Counsel",
+      "reviewFrequency": "Annual",
+      "typicalPages": "15-25",
+      "keyContents": [
+        "Categories of permitted disclosure",
+        "Verification procedures for disclosure request authenticity",
+        "Documentation requirements per disclosure type",
+        "Approval authority levels",
+        "Appendix V application process for BNM-approved disclosures",
+        "Disclosure register requirements"
+      ]
+    },
+    {
+      "slug": "outsourcing-customer-information-policy",
+      "name": "Outsourcing Policy - Customer Information Protection",
+      "category": "policies",
+      "description": "AI Generated: Policy governing customer information protection requirements for outsourced service provider arrangements.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["12.1", "12.2", "12.3", "12.4", "12.6"],
+      "owner": "Head of Vendor Management / Head of Procurement",
+      "reviewFrequency": "Annual",
+      "typicalPages": "15-25",
+      "keyContents": [
+        "OSP due diligence requirements",
+        "Comparable standards assessment framework",
+        "Mandatory SLA requirements (nine elements per 12.4)",
+        "NDA requirements",
+        "Risk monitoring framework",
+        "Biennial review requirements"
+      ]
+    },
+    {
+      "slug": "staff-confidentiality-policy",
+      "name": "Staff Confidentiality and Information Protection Policy",
+      "category": "policies",
+      "description": "AI Generated: Policy covering staff obligations for customer information confidentiality, including deterrent mechanisms and consequences for non-compliance.",
+      "format": "PDF/DOCX, version-controlled",
+      "mandatory": true,
+      "clauses": ["10.20", "10.39", "10.41", "10.50"],
+      "owner": "Head of HR / Head of Compliance",
+      "reviewFrequency": "Annual",
+      "typicalPages": "10-18",
+      "keyContents": [
+        "Confidentiality obligations under law",
+        "Deterrent mechanisms",
+        "Consequences for unauthorised disclosure",
+        "Whistleblowing provisions",
+        "Personal device restrictions in high-risk areas",
+        "CCTV notice and usage"
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "slug": "breach-response-procedure",
+      "name": "Customer Information Breach Response Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Step-by-step procedure for responding to customer information breaches, from detection through containment, investigation, notification, and remediation.",
+      "format": "PDF/DOCX with flowcharts",
+      "mandatory": true,
+      "clauses": ["11.1", "11.2", "11.3", "11.5", "11.6", "11.7"],
+      "owner": "Designated Officer (per 9.2)",
+      "reviewFrequency": "Annual",
+      "typicalPages": "15-25",
+      "keyContents": [
+        "Breach detection and identification steps",
+        "Immediate containment actions",
+        "Escalation flowchart with timeframes",
+        "Impact assessment methodology (five factors per 11.7)",
+        "Cross-FSP breach notification procedure",
+        "Roles and responsibilities matrix"
+      ]
+    },
+    {
+      "slug": "bnm-breach-notification-procedure",
+      "name": "BNM Breach Notification Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for notifying BNM of customer information breaches meeting the notification criteria, including the three triggers and phased notification process.",
+      "format": "PDF/DOCX with templates",
+      "mandatory": true,
+      "clauses": ["11.8", "11.9", "11.10", "11.11", "11.12", "11.13", "11.14", "11.15", "11.16", "11.17"],
+      "owner": "Designated Officer (per 9.2) / Head of Compliance",
+      "reviewFrequency": "Annual",
+      "typicalPages": "10-18",
+      "keyContents": [
+        "Three notification triggers and assessment criteria",
+        "Significant harm assessment checklist",
+        "Significant scale threshold (1,000 customers)",
+        "Notification content template (five mandatory items)",
+        "Phased notification process for incomplete information",
+        "Designated officer sign-off requirement",
+        "Law enforcement notification procedure",
+        "Reputational risk management"
+      ]
+    },
+    {
+      "slug": "breach-investigation-procedure",
+      "name": "Breach Investigation Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for conducting customer information breach investigations, including competent party requirements, independent oversight, and BNM reporting.",
+      "format": "PDF/DOCX with templates",
+      "mandatory": true,
+      "clauses": ["11.18", "11.19", "11.20", "11.21", "11.22"],
+      "owner": "Designated Officer (per 9.2)",
+      "reviewFrequency": "Annual",
+      "typicalPages": "12-20",
+      "keyContents": [
+        "Investigation initiation and scoping",
+        "Competent party selection criteria",
+        "Independent oversight arrangements",
+        "Three-month investigation timeline",
+        "Root cause analysis methodology",
+        "Board tabling procedure",
+        "BNM submission procedure (one working day after Board tabling)",
+        "Designated officer sign-off",
+        "Appendix 1 completion guidance",
+        "BNM submission addresses (CMCD and PSOD)"
+      ]
+    },
+    {
+      "slug": "customer-breach-notification-procedure",
+      "name": "Customer Breach Notification Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for notifying affected customers of breaches causing or likely to cause significant harm, including direct and public notification methods.",
+      "format": "PDF/DOCX with templates",
+      "mandatory": true,
+      "clauses": ["11.25", "11.26", "11.27", "11.28", "11.29", "11.30", "11.31"],
+      "owner": "Designated Officer (per 9.2) / Head of Customer Relations",
+      "reviewFrequency": "Annual",
+      "typicalPages": "10-15",
+      "keyContents": [
+        "Significant harm trigger for customer notification",
+        "Notification timing requirements",
+        "Notification content template (five mandatory items)",
+        "Plain language communication guidelines",
+        "Direct notification methods and channels",
+        "Public announcement fallback procedure",
+        "Procedure for unidentified affected customers",
+        "Staff training for handling customer queries"
+      ]
+    },
+    {
+      "slug": "access-review-procedure",
+      "name": "Access Rights Review and Revocation Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for regular review of staff access rights to customer information and immediate revocation upon departure or role change.",
+      "format": "PDF/DOCX with flowcharts",
+      "mandatory": true,
+      "clauses": ["10.27"],
+      "owner": "IAM Manager",
+      "reviewFrequency": "Annual",
+      "typicalPages": "8-12",
+      "keyContents": [
+        "Periodic access review schedule and process",
+        "Leaver access revocation procedure (immediate)",
+        "Role change access adjustment procedure",
+        "Access review documentation requirements",
+        "Exception handling and approval",
+        "Integration with HR processes"
+      ]
+    },
+    {
+      "slug": "data-destruction-procedure",
+      "name": "Secure Data Destruction Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for securely disposing of customer information in paper and digital forms, including outsourced destruction controls.",
+      "format": "PDF/DOCX",
+      "mandatory": true,
+      "clauses": ["10.32", "10.33", "10.34", "10.35", "10.36", "10.37"],
+      "owner": "Records Manager / Head of Operations",
+      "reviewFrequency": "Annual",
+      "typicalPages": "10-15",
+      "keyContents": [
+        "Data identification and disposal approval process",
+        "Approved destruction methods per media type",
+        "Chain of custody controls",
+        "Tamper-proof storage before outsourced collection",
+        "Random check schedule for outsourced providers",
+        "Certificate of destruction process"
+      ]
+    },
+    {
+      "slug": "osp-due-diligence-procedure",
+      "name": "OSP Due Diligence and Onboarding Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for conducting due diligence on outsourced service providers with access to customer information.",
+      "format": "PDF/DOCX with checklists",
+      "mandatory": true,
+      "clauses": ["12.2", "12.3", "12.4", "12.6"],
+      "owner": "Head of Vendor Management",
+      "reviewFrequency": "Annual",
+      "typicalPages": "10-18",
+      "keyContents": [
+        "Due diligence assessment scope and criteria",
+        "Comparable standards assessment checklist",
+        "SLA nine-element compliance checklist",
+        "NDA execution process",
+        "Risk rating and monitoring level determination",
+        "Onboarding approval workflow"
+      ]
+    },
+    {
+      "slug": "osp-review-procedure",
+      "name": "Biennial OSP Review Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for conducting biennial reviews of outsourced service providers to confirm compliance with contractual customer information obligations.",
+      "format": "PDF/DOCX with review template",
+      "mandatory": true,
+      "clauses": ["12.9"],
+      "owner": "Head of Vendor Management",
+      "reviewFrequency": "Every 2 years",
+      "typicalPages": "8-12",
+      "keyContents": [
+        "Review scope and objectives",
+        "Review methodology and assessment criteria",
+        "Evidence collection requirements",
+        "Finding classification and remediation",
+        "Reporting to senior management"
+      ]
+    },
+    {
+      "slug": "permitted-disclosure-procedure",
+      "name": "Permitted Disclosure Processing Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for processing permitted disclosure requests, including verification, documentation, approval, and Appendix V applications.",
+      "format": "PDF/DOCX with flowcharts",
+      "mandatory": true,
+      "clauses": ["13.3", "13.4"],
+      "owner": "Head of Compliance / Legal Counsel",
+      "reviewFrequency": "Annual",
+      "typicalPages": "10-15",
+      "keyContents": [
+        "Request receipt and initial verification",
+        "Authenticity verification steps per request type",
+        "Documentation checklist",
+        "Approval authority matrix",
+        "Appendix V completion and submission process",
+        "Disclosure register update procedure"
+      ]
+    },
+    {
+      "slug": "staff-onboarding-ci-procedure",
+      "name": "New Staff Onboarding - Customer Information Protection",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for onboarding new staff with specific training on customer information protection policies, procedures, and consequences for non-compliance.",
+      "format": "PDF/DOCX",
+      "mandatory": true,
+      "clauses": ["10.44", "10.45"],
+      "owner": "Head of HR / Learning and Development",
+      "reviewFrequency": "Annual",
+      "typicalPages": "5-10",
+      "keyContents": [
+        "Onboarding training content and schedule",
+        "Customer information protection module",
+        "Non-compliance consequences notification",
+        "Confidentiality undertaking signing process",
+        "Completion tracking requirements"
+      ]
+    },
+    {
+      "slug": "detection-monitoring-procedure",
+      "name": "Customer Information Detection and Monitoring Procedure",
+      "category": "procedures",
+      "description": "AI Generated: Procedure for detecting unauthorised access, unusual viewing, suspicious downloads, and unauthorised disclosure of customer information.",
+      "format": "PDF/DOCX",
+      "mandatory": true,
+      "clauses": ["10.23", "10.24"],
+      "owner": "SOC Manager / Head of IT Security",
+      "reviewFrequency": "Annual",
+      "typicalPages": "12-18",
+      "keyContents": [
+        "Detection rules and thresholds for each category",
+        "Alert triage and investigation process",
+        "Audit trail review schedule",
+        "Random sample check procedures",
+        "Escalation procedures for confirmed incidents",
+        "Detection effectiveness review"
+      ]
+    }
+  ],
+  "governance": [
+    {
+      "slug": "board-ci-governance-charter",
+      "name": "Board Customer Information Governance Charter",
+      "category": "governance",
+      "description": "AI Generated: Charter defining the board's oversight responsibilities for customer information protection, including reporting requirements and review cycles.",
+      "format": "PDF/DOCX, board-approved",
+      "mandatory": true,
+      "clauses": ["8.1", "8.2", "8.3", "8.4"],
+      "owner": "Board Secretariat / Company Secretary",
+      "reviewFrequency": "Annual",
+      "typicalPages": "8-15",
+      "keyContents": [
+        "Board tone-at-the-top statement",
+        "Board oversight responsibilities",
+        "Reporting requirements from senior management",
+        "Annual assurance requirement",
+        "Policy approval process",
+        "Review cycle and triggers"
+      ]
+    },
+    {
+      "slug": "designated-officer-tor",
+      "name": "Designated Officer Terms of Reference",
+      "category": "governance",
+      "description": "AI Generated: Terms of reference for the designated officer responsible for MCIPD implementation, covering policy communication and stakeholder coordination duties.",
+      "format": "PDF/DOCX, board-approved",
+      "mandatory": true,
+      "clauses": ["9.2", "9.3"],
+      "owner": "Board / Senior Management",
+      "reviewFrequency": "Annual",
+      "typicalPages": "3-6",
+      "keyContents": [
+        "Appointment and seniority requirements",
+        "Policy communication responsibilities",
+        "Stakeholder coordination duties",
+        "Reporting lines to board and senior management",
+        "Authority and resources",
+        "Performance expectations"
+      ]
+    },
+    {
+      "slug": "senior-mgmt-accountability-framework",
+      "name": "Senior Management Accountability Framework - Customer Information",
+      "category": "governance",
+      "description": "AI Generated: Framework defining senior management accountability for customer information protection, including RACI matrix and business line responsibilities.",
+      "format": "PDF/DOCX",
+      "mandatory": true,
+      "clauses": ["9.1", "9.4", "10.52"],
+      "owner": "CEO / Designated Officer",
+      "reviewFrequency": "Annual",
+      "typicalPages": "5-10",
+      "keyContents": [
+        "RACI matrix for customer information protection",
+        "Business and functional line responsibilities",
+        "Accountability for representative and agent conduct",
+        "Management committee mandates",
+        "Performance linkage"
+      ]
+    },
+    {
+      "slug": "ci-risk-assessment-framework",
+      "name": "Customer Information Risk Assessment Framework",
+      "category": "governance",
+      "description": "AI Generated: Framework for identifying, assessing, and mitigating threats and vulnerabilities to customer information, including third-party risks.",
+      "format": "PDF/DOCX",
+      "mandatory": true,
+      "clauses": ["10.1", "10.2", "10.4"],
+      "owner": "Head of Risk Management / CISO",
+      "reviewFrequency": "Annual",
+      "typicalPages": "12-20",
+      "keyContents": [
+        "Threat and vulnerability identification methodology",
+        "Likelihood and impact assessment criteria",
+        "Third-party and outsourcing risk integration",
+        "Proportionality guidance",
+        "Mitigation plan template and tracking",
+        "Review triggers and schedule"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "slug": "breach-register",
+      "name": "Customer Information Breach Register",
+      "category": "evidence",
+      "description": "AI Generated: Centralised register recording all customer information breaches with root causes, remedial actions, and lessons learnt.",
+      "format": "Spreadsheet or incident management system",
+      "mandatory": true,
+      "clauses": ["11.23", "11.24"],
+      "owner": "Designated Officer (per 9.2)",
+      "reviewFrequency": "Continuous, with quarterly review",
+      "typicalPages": "N/A - ongoing register",
+      "keyContents": [
+        "Breach date and detection method",
+        "Breach type and classification",
+        "Customer information types affected",
+        "Number of affected customers",
+        "Root cause analysis",
+        "Remedial actions taken",
+        "Lessons learnt",
+        "Board tabling date",
+        "BNM notification status"
+      ]
+    },
+    {
+      "slug": "data-map",
+      "name": "Customer Information Data Map",
+      "category": "evidence",
+      "description": "AI Generated: Map identifying the location of customer information across all systems, supporting access control and risk assessment activities.",
+      "format": "Visio/PDF/Spreadsheet",
+      "mandatory": true,
+      "clauses": ["10.26"],
+      "owner": "Data Governance Team / IT Architecture",
+      "reviewFrequency": "Annual or upon system changes",
+      "typicalPages": "Varies by complexity",
+      "keyContents": [
+        "Systems containing customer information",
+        "Data types and classifications per system",
+        "Data flows between systems",
+        "Third-party data sharing",
+        "Access control levels per system"
+      ]
+    },
+    {
+      "slug": "confidentiality-undertaking-records",
+      "name": "Staff Confidentiality Undertaking Records",
+      "category": "evidence",
+      "description": "AI Generated: Records of confidentiality undertakings signed by all staff as part of employment contracts, specifying legal obligations and consequences.",
+      "format": "PDF scans / HRIS records",
+      "mandatory": true,
+      "clauses": ["10.39"],
+      "owner": "Head of HR",
+      "reviewFrequency": "Continuous at hiring, annual compliance check",
+      "typicalPages": "N/A - per-employee record",
+      "keyContents": [
+        "Signed confidentiality undertaking",
+        "Reference to legal obligations (FSA/IFSA/DFIA)",
+        "Consequences for non-compliance",
+        "Date of signing",
+        "Employee acknowledgement"
+      ]
+    },
+    {
+      "slug": "training-completion-records",
+      "name": "Customer Information Protection Training Records",
+      "category": "evidence",
+      "description": "AI Generated: Records of training completion for customer information protection, including FSP staff, representatives, and agents.",
+      "format": "LMS export / Spreadsheet",
+      "mandatory": true,
+      "clauses": ["9.7", "10.43", "10.44"],
+      "owner": "Learning and Development / HR",
+      "reviewFrequency": "Continuous, with quarterly reporting",
+      "typicalPages": "N/A - system records",
+      "keyContents": [
+        "Training programme details",
+        "Completion rates by department and staff category",
+        "Assessment scores where applicable",
+        "New staff onboarding training records",
+        "Representative and agent training verification"
+      ]
+    },
+    {
+      "slug": "training-effectiveness-records",
+      "name": "Training Effectiveness Assessment Records",
+      "category": "evidence",
+      "description": "AI Generated: Records demonstrating measurement of training effectiveness, including awareness surveys, assessment results, and trend analysis.",
+      "format": "PDF reports / Survey platform export",
+      "mandatory": true,
+      "clauses": ["10.47", "10.48"],
+      "owner": "Learning and Development / Compliance",
+      "reviewFrequency": "Annual",
+      "typicalPages": "5-10 per assessment cycle",
+      "keyContents": [
+        "Awareness survey results and analysis",
+        "Post-training assessment scores",
+        "Year-on-year trend analysis",
+        "Phishing simulation results",
+        "Action plans for identified gaps"
+      ]
+    },
+    {
+      "slug": "osp-register",
+      "name": "Outsourced Service Provider Register",
+      "category": "evidence",
+      "description": "AI Generated: Register of all outsourced service providers with access to customer information, including risk ratings, due diligence status, and review schedules.",
+      "format": "Spreadsheet / Vendor management system",
+      "mandatory": true,
+      "clauses": ["12.1", "12.2", "12.10"],
+      "owner": "Head of Vendor Management",
+      "reviewFrequency": "Continuous, with quarterly review",
+      "typicalPages": "N/A - ongoing register",
+      "keyContents": [
+        "OSP name and services provided",
+        "Customer information types accessed",
+        "Risk rating",
+        "Due diligence status and date",
+        "SLA compliance status (nine elements)",
+        "NDA execution status",
+        "Biennial review schedule and status",
+        "Data sharing records"
+      ]
+    },
+    {
+      "slug": "access-review-records",
+      "name": "Access Rights Review Records",
+      "category": "evidence",
+      "description": "AI Generated: Records of periodic access rights reviews and immediate access revocations for departing or role-changing staff.",
+      "format": "IAM platform export / Spreadsheet",
+      "mandatory": true,
+      "clauses": ["10.27"],
+      "owner": "IAM Manager",
+      "reviewFrequency": "Quarterly for privileged, semi-annual for standard",
+      "typicalPages": "N/A - system records",
+      "keyContents": [
+        "Access review dates and scope",
+        "Review findings and actions taken",
+        "Leaver access revocation timestamps",
+        "Role change access adjustments",
+        "Exception documentation"
+      ]
+    },
+    {
+      "slug": "portable-device-register",
+      "name": "Authorised Portable Storage Device Register",
+      "category": "evidence",
+      "description": "AI Generated: Register of authorised portable storage devices and their users, with business need justification.",
+      "format": "Spreadsheet / Endpoint management system",
+      "mandatory": true,
+      "clauses": ["10.16", "10.17"],
+      "owner": "Head of IT Security",
+      "reviewFrequency": "Quarterly",
+      "typicalPages": "N/A - ongoing register",
+      "keyContents": [
+        "Device identifier and type",
+        "Assigned user",
+        "Business need justification",
+        "Encryption status",
+        "Authorisation date and approver",
+        "Review and renewal status"
+      ]
+    },
+    {
+      "slug": "vendor-personnel-vetting-records",
+      "name": "External Vendor Personnel Vetting Records",
+      "category": "evidence",
+      "description": "AI Generated: Records of vetting and monitoring conducted on external vendor personnel working on FSP premises.",
+      "format": "PDF attestations / Spreadsheet",
+      "mandatory": true,
+      "clauses": ["10.40"],
+      "owner": "Facilities Management / Procurement",
+      "reviewFrequency": "Annual",
+      "typicalPages": "N/A - per-vendor records",
+      "keyContents": [
+        "Vendor vetting requirement in contracts",
+        "Vendor attestations on personnel vetting",
+        "FSP verification records",
+        "Personnel access records for sensitive areas"
+      ]
+    },
+    {
+      "slug": "permitted-disclosure-register",
+      "name": "Permitted Disclosure Register",
+      "category": "evidence",
+      "description": "AI Generated: Register of all permitted disclosures of customer information made under the FSA, IFSA, and DFIA, with verification and approval records.",
+      "format": "Spreadsheet / Compliance system",
+      "mandatory": true,
+      "clauses": ["13.1", "13.3"],
+      "owner": "Head of Compliance / Legal Counsel",
+      "reviewFrequency": "Continuous, with quarterly review",
+      "typicalPages": "N/A - ongoing register",
+      "keyContents": [
+        "Disclosure request date and source",
+        "Legal basis for disclosure",
+        "Verification of request authenticity",
+        "Approving authority and approval date",
+        "Customer information disclosed",
+        "Documentation retained"
+      ]
+    },
+    {
+      "slug": "destruction-certificates",
+      "name": "Certificates of Destruction",
+      "category": "evidence",
+      "description": "AI Generated: Certificates of destruction for customer information securely disposed of, including both in-house and outsourced destruction.",
+      "format": "PDF certificates",
+      "mandatory": true,
+      "clauses": ["10.32", "10.37"],
+      "owner": "Records Manager / Operations",
+      "reviewFrequency": "Per destruction event",
+      "typicalPages": "1-2 per certificate",
+      "keyContents": [
+        "Description of materials destroyed",
+        "Destruction method used",
+        "Date and location of destruction",
+        "Witness or verification details",
+        "Service provider details (if outsourced)"
+      ]
+    },
+    {
+      "slug": "osp-data-sharing-records",
+      "name": "OSP Customer Information Sharing Audit Trail",
+      "category": "evidence",
+      "description": "AI Generated: Audit trail of all customer information shared with or given to outsourced service providers.",
+      "format": "Spreadsheet / System logs",
+      "mandatory": true,
+      "clauses": ["12.10"],
+      "owner": "Data Governance Team / IT Operations",
+      "reviewFrequency": "Continuous, with quarterly reconciliation",
+      "typicalPages": "N/A - system records",
+      "keyContents": [
+        "Data type and volume shared",
+        "Purpose of sharing",
+        "Date and method of transfer",
+        "Receiving OSP",
+        "Access granted and duration"
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "slug": "access-audit-trail",
+      "name": "Customer Information Access Audit Trail",
+      "category": "logs",
+      "description": "AI Generated: System logs recording access to customer information for audit trail review and detection of unauthorised or unusual activity.",
+      "format": "SIEM / System logs",
+      "mandatory": true,
+      "clauses": ["10.23", "10.24", "10.26"],
+      "owner": "SOC Manager / IT Operations",
+      "reviewFrequency": "Continuous monitoring, periodic review",
+      "typicalPages": "N/A - system-generated logs",
+      "keyContents": [
+        "User identification",
+        "Timestamp of access",
+        "System and data accessed",
+        "Action performed (view, modify, download, delete)",
+        "Source IP and device information"
+      ]
+    },
+    {
+      "slug": "breach-notification-log",
+      "name": "BNM and Customer Breach Notification Log",
+      "category": "logs",
+      "description": "AI Generated: Log of all breach notifications made to BNM, law enforcement, and affected customers, with timestamps and content records.",
+      "format": "Spreadsheet / Incident management system",
+      "mandatory": true,
+      "clauses": ["11.8", "11.16", "11.17", "11.25"],
+      "owner": "Designated Officer (per 9.2)",
+      "reviewFrequency": "Per breach event",
+      "typicalPages": "N/A - ongoing log",
+      "keyContents": [
+        "Breach reference number",
+        "BNM notification date and time",
+        "Notification content summary",
+        "Phased notification updates",
+        "Customer notification date and method",
+        "Law enforcement notification status"
+      ]
+    },
+    {
+      "slug": "policy-communication-log",
+      "name": "Policy Communication and Distribution Log",
+      "category": "logs",
+      "description": "AI Generated: Log recording policy communications and distributions by the designated officer to ensure staff awareness and accessibility.",
+      "format": "Spreadsheet / Email records",
+      "mandatory": true,
+      "clauses": ["10.10"],
+      "owner": "Designated Officer (per 9.2)",
+      "reviewFrequency": "Quarterly",
+      "typicalPages": "N/A - ongoing log",
+      "keyContents": [
+        "Policy name and version",
+        "Communication date and method",
+        "Target audience",
+        "Acknowledgement rates",
+        "Designated officer sign-off"
+      ]
+    },
+    {
+      "slug": "physical-access-log",
+      "name": "Physical Access Log for Restricted Areas",
+      "category": "logs",
+      "description": "AI Generated: Access logs for restricted areas where customer information is stored, such as server rooms and filing rooms.",
+      "format": "Access control system export",
+      "mandatory": true,
+      "clauses": ["10.29"],
+      "owner": "Facilities Management / Security",
+      "reviewFrequency": "Continuous, with monthly review",
+      "typicalPages": "N/A - system-generated logs",
+      "keyContents": [
+        "Person identity",
+        "Area accessed",
+        "Entry and exit timestamps",
+        "Visitor details and escort records",
+        "After-hours access records"
+      ]
+    },
+    {
+      "slug": "destruction-random-check-log",
+      "name": "Outsourced Destruction Random Check Log",
+      "category": "logs",
+      "description": "AI Generated: Log of random checks conducted on outsourced service providers' collection and destruction processes.",
+      "format": "Spreadsheet / PDF",
+      "mandatory": true,
+      "clauses": ["10.37"],
+      "owner": "Records Manager / Operations",
+      "reviewFrequency": "Per check event, at least quarterly",
+      "typicalPages": "N/A - ongoing log",
+      "keyContents": [
+        "Check date and location",
+        "Process observed",
+        "Findings and observations",
+        "Corrective actions if any",
+        "Inspector name and sign-off"
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "slug": "board-ci-report",
+      "name": "Board Report on Customer Information Management",
+      "category": "reports",
+      "description": "AI Generated: Periodic report from senior management to the board on customer information management, including risk assessments, findings, and mitigation plans.",
+      "format": "PDF board paper",
+      "mandatory": true,
+      "clauses": ["8.3"],
+      "owner": "Designated Officer / Senior Management",
+      "reviewFrequency": "Quarterly",
+      "typicalPages": "10-20",
+      "keyContents": [
+        "Risk assessment summary and changes",
+        "Control effectiveness findings",
+        "Breach incidents and status",
+        "Mitigation plan status",
+        "OSP compliance summary",
+        "Changes in operating environment"
+      ]
+    },
+    {
+      "slug": "annual-assurance-letter",
+      "name": "Annual Written Assurance to Board",
+      "category": "reports",
+      "description": "AI Generated: Annual written assurance from senior management to the board confirming effectiveness of customer information controls and OSP compliance.",
+      "format": "PDF signed letter",
+      "mandatory": true,
+      "clauses": ["8.4"],
+      "owner": "CEO / Designated Officer",
+      "reviewFrequency": "Annual",
+      "typicalPages": "2-5",
+      "keyContents": [
+        "Assurance on control effectiveness",
+        "Assurance on OSP contractual compliance",
+        "Supporting assessment references",
+        "Any qualifications or exceptions",
+        "Senior management signature"
+      ]
+    },
+    {
+      "slug": "independent-review-report",
+      "name": "Independent Review Report - Customer Information Protection",
+      "category": "reports",
+      "description": "AI Generated: Biennial independent review report assessing effectiveness of customer information protection policies, procedures, and controls.",
+      "format": "PDF audit/review report",
+      "mandatory": true,
+      "clauses": ["9.8", "10.53", "10.54", "10.55"],
+      "owner": "Internal Audit / Independent Reviewer",
+      "reviewFrequency": "Every 2 years",
+      "typicalPages": "20-40",
+      "keyContents": [
+        "Review scope and methodology",
+        "Senior management oversight assessment",
+        "Policy and procedure adequacy assessment",
+        "Control effectiveness assessment",
+        "Findings with severity ratings",
+        "Evidence obtained",
+        "Limitations of the review",
+        "Recommendations"
+      ]
+    },
+    {
+      "slug": "independent-review-remediation-tracker",
+      "name": "Independent Review Remediation Tracker",
+      "category": "reports",
+      "description": "AI Generated: Tracker for remediation actions arising from independent review findings, with owner, deadline, and status tracking.",
+      "format": "Spreadsheet / GRC platform",
+      "mandatory": true,
+      "clauses": ["10.56"],
+      "owner": "Designated Officer / Compliance",
+      "reviewFrequency": "Monthly until completion",
+      "typicalPages": "N/A - ongoing tracker",
+      "keyContents": [
+        "Finding reference and description",
+        "Remediation action",
+        "Action owner",
+        "Target completion date",
+        "Current status",
+        "Verification evidence"
+      ]
+    },
+    {
+      "slug": "breach-investigation-report",
+      "name": "Detailed Breach Investigation Report",
+      "category": "reports",
+      "description": "AI Generated: Detailed investigation report for customer information breaches, including root cause analysis and remedial actions, for Board tabling and BNM submission.",
+      "format": "PDF report with Appendix 1",
+      "mandatory": true,
+      "clauses": ["11.18", "11.19", "11.20", "11.21"],
+      "owner": "Designated Officer / Investigation Team",
+      "reviewFrequency": "Per breach event",
+      "typicalPages": "15-30",
+      "keyContents": [
+        "Breach description and timeline",
+        "Investigation methodology",
+        "Root cause analysis",
+        "Impact assessment",
+        "Remedial actions and recurrence prevention",
+        "Designated officer sign-off",
+        "Appendix 1 (per BNM format)"
+      ]
+    },
+    {
+      "slug": "ci-risk-assessment-report",
+      "name": "Customer Information Risk Assessment Report",
+      "category": "reports",
+      "description": "AI Generated: Periodic risk assessment report covering threats and vulnerabilities to customer information, including third-party risks and mitigation plans.",
+      "format": "PDF/DOCX with risk register",
+      "mandatory": true,
+      "clauses": ["10.1", "10.2", "10.4"],
+      "owner": "Head of Risk Management / CISO",
+      "reviewFrequency": "Annual",
+      "typicalPages": "15-30",
+      "keyContents": [
+        "Threat and vulnerability inventory",
+        "Likelihood and impact assessment",
+        "Third-party and outsourcing risk assessment",
+        "Proportionality statement",
+        "Mitigation plans with owners and timelines",
+        "Changes since last assessment"
+      ]
+    },
+    {
+      "slug": "osp-due-diligence-report",
+      "name": "OSP Due Diligence Assessment Report",
+      "category": "reports",
+      "description": "AI Generated: Due diligence assessment report for each outsourced service provider with access to customer information.",
+      "format": "PDF report",
+      "mandatory": true,
+      "clauses": ["12.2", "12.3"],
+      "owner": "Head of Vendor Management",
+      "reviewFrequency": "At onboarding and periodic refresh",
+      "typicalPages": "8-15 per OSP",
+      "keyContents": [
+        "OSP profile and services",
+        "Customer information types and volumes",
+        "Control environment assessment",
+        "Comparable standards assessment",
+        "Risk rating and monitoring recommendations",
+        "Findings and conditions"
+      ]
+    },
+    {
+      "slug": "osp-biennial-review-report",
+      "name": "OSP Biennial Review Report",
+      "category": "reports",
+      "description": "AI Generated: Report from the biennial review of each outsourced service provider confirming compliance with contractual customer information obligations.",
+      "format": "PDF report",
+      "mandatory": true,
+      "clauses": ["12.9"],
+      "owner": "Head of Vendor Management / Internal Audit",
+      "reviewFrequency": "Every 2 years per OSP",
+      "typicalPages": "8-15 per OSP",
+      "keyContents": [
+        "Review scope and methodology",
+        "Contractual compliance assessment",
+        "Control adequacy findings",
+        "Training compliance verification",
+        "Recommendations and remediation actions"
+      ]
+    },
+    {
+      "slug": "staff-awareness-survey-report",
+      "name": "Staff Awareness Survey Report",
+      "category": "reports",
+      "description": "AI Generated: Report on annual awareness survey results assessing staff understanding of customer information protection obligations.",
+      "format": "PDF report",
+      "mandatory": false,
+      "clauses": ["10.47", "10.48"],
+      "owner": "Learning and Development / Compliance",
+      "reviewFrequency": "Annual",
+      "typicalPages": "5-10",
+      "keyContents": [
+        "Survey methodology and response rates",
+        "Understanding levels by topic area",
+        "Year-on-year trend analysis",
+        "Gaps identified",
+        "Recommended actions"
+      ]
+    },
+    {
+      "slug": "board-breach-notification-report",
+      "name": "Board Breach Notification and Investigation Report",
+      "category": "reports",
+      "description": "AI Generated: Report from senior management to the board on detected breaches, investigation findings, and actions taken.",
+      "format": "PDF board paper",
+      "mandatory": true,
+      "clauses": ["9.9", "9.10", "10.51"],
+      "owner": "Designated Officer / Senior Management",
+      "reviewFrequency": "Per breach event or as part of quarterly board report",
+      "typicalPages": "5-15",
+      "keyContents": [
+        "Breach notification details",
+        "Investigation findings summary",
+        "Actions taken against staff (if applicable)",
+        "Board directives and follow-up actions"
+      ]
+    }
+  ]
+}

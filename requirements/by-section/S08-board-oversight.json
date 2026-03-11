@@ -1,0 +1,294 @@
+{
+  "8.1": {
+    "clauseId": "8.1",
+    "section": "Board oversight",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The board must establish an authoritative tone-at-the-top on safeguarding customer information, making clear to the entire organisation that customer data protection is a strategic priority with serious consequences for failure. This drives organisational culture and ensures customer information protection is embedded in business strategy rather than treated as a peripheral compliance exercise.",
+      "requirements": [
+        {
+          "id": "8.1-B1",
+          "requirement": "Develop and communicate a formal Board-level Position Statement on Customer Information Protection that articulates the strategic importance of safeguarding customer data, the expected standards of conduct, and the potential business consequences of breaches including regulatory, reputational, and financial impacts.",
+          "rationale": "Clause 8.1 requires the Board to set the tone-at-the-top on customer information protection. A documented position statement provides the foundational anchor for all downstream policies and controls, ensuring consistent messaging across the organisation.",
+          "owner": "Board",
+          "frequency": "Annual review; communicated upon any material update",
+          "priority": "critical"
+        },
+        {
+          "id": "8.1-B2",
+          "requirement": "Incorporate customer information protection as a standing agenda item in Board meetings, with regular reporting on the state of customer data safeguarding, breach incidents, and emerging risks.",
+          "rationale": "Clause 8.1 mandates that the Board exercise its oversight function in all matters pertaining to proper handling of customer information. A standing agenda item ensures continuous board engagement rather than reactive involvement.",
+          "owner": "Board",
+          "frequency": "Every Board meeting (quarterly at minimum)",
+          "priority": "critical"
+        },
+        {
+          "id": "8.1-B3",
+          "requirement": "Ensure that customer information protection expectations are embedded in the FSP's corporate values, code of conduct, and performance management frameworks to reinforce tone-at-the-top throughout all business lines.",
+          "rationale": "Setting tone-at-the-top requires more than policy statements; it must be reflected in cultural artefacts and incentive structures to drive behavioural change across the organisation.",
+          "owner": "Senior Management",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must provide the Board with the tools and reporting capabilities necessary to exercise meaningful oversight of customer information protection, including dashboards, metrics, and incident summaries that translate technical controls into board-level visibility.",
+      "requirements": [
+        {
+          "id": "8.1-T1",
+          "requirement": "Implement a Board-level Customer Information Protection Dashboard that provides aggregated metrics on data protection posture, including breach incident counts, control effectiveness ratings, and risk exposure levels.",
+          "rationale": "The Board cannot exercise meaningful oversight without timely, accessible, and comprehensible information about the state of customer data protection across the FSP.",
+          "owner": "CISO",
+          "frequency": "Dashboard updated monthly; presented to Board quarterly",
+          "priority": "high"
+        },
+        {
+          "id": "8.1-T2",
+          "requirement": "Establish automated reporting mechanisms that aggregate customer information protection metrics from across all systems and business lines into a unified view suitable for Board consumption.",
+          "rationale": "Manual compilation of protection metrics is error-prone and delays reporting. Automated aggregation ensures the Board receives timely and accurate information to fulfil its oversight function.",
+          "owner": "IT Security",
+          "frequency": "Continuous collection; quarterly Board reporting",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The Board must formalise its oversight role through documented governance structures including committee mandates, reporting lines, and escalation protocols that ensure customer information protection receives sustained board-level attention and is not delegated without accountability.",
+      "requirements": [
+        {
+          "id": "8.1-G1",
+          "requirement": "Assign explicit responsibility for customer information protection oversight to a Board committee (e.g., Board Risk Committee or Board Audit Committee) with documented terms of reference that include customer data safeguarding within the committee's mandate.",
+          "rationale": "Clause 8.1 requires the Board to exercise oversight in all matters pertaining to customer information. Formal committee assignment ensures structured and consistent oversight rather than ad-hoc attention.",
+          "owner": "Board",
+          "frequency": "Terms of reference reviewed annually",
+          "priority": "critical"
+        },
+        {
+          "id": "8.1-G2",
+          "requirement": "Establish a formal escalation protocol that defines when and how customer information protection matters must be escalated to the Board, including breach severity thresholds that trigger immediate Board notification.",
+          "rationale": "Without a defined escalation protocol, critical customer information incidents may not reach the Board in a timely manner, undermining the Board's ability to exercise its oversight function.",
+          "owner": "Compliance",
+          "frequency": "Annual review of escalation thresholds",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "8.2": {
+    "clauseId": "8.2",
+    "section": "Board oversight",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The Board must formally approve the FSP's written information protection policies and verify that comprehensive policies, procedures, and controls are in place. This establishes Board-level ownership of the policy framework and creates accountability for ensuring adequate protection of customer data confidentiality and security.",
+      "requirements": [
+        {
+          "id": "8.2-B1",
+          "requirement": "Present a comprehensive Customer Information Protection Policy Suite to the Board for formal approval, covering all aspects of customer data confidentiality and security across the full data lifecycle.",
+          "rationale": "Clause 8.2 mandates Board approval of the FSP's written policies. The Board must review and approve the policy framework to establish formal accountability and ensure the policies meet regulatory expectations.",
+          "owner": "Senior Management",
+          "frequency": "Annual Board approval; immediate re-approval upon material changes",
+          "priority": "critical"
+        },
+        {
+          "id": "8.2-B2",
+          "requirement": "Conduct a Board-level adequacy assessment of existing policies, procedures, and controls to verify they provide adequate protection over the confidentiality and security of customer information, documenting any identified gaps and remediation plans.",
+          "rationale": "Clause 8.2 requires the Board to ensure that policies, procedures, and controls are in place to provide adequate protection. A structured adequacy assessment provides the evidence base for this determination.",
+          "owner": "Board",
+          "frequency": "Annual",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must ensure that the technical control environment is documented, mapped to approved policies, and demonstrably provides adequate protection over customer information confidentiality and security.",
+      "requirements": [
+        {
+          "id": "8.2-T1",
+          "requirement": "Maintain a Controls Mapping Document that links each Board-approved policy requirement to specific technical controls, systems, and configurations that implement and enforce the policy, enabling traceability from policy to technical enforcement.",
+          "rationale": "The Board must be satisfied that controls are in place. A controls mapping document provides the evidence chain from approved policy to implemented control, enabling Board verification and audit readiness.",
+          "owner": "IT Security",
+          "frequency": "Updated upon any policy or control change; reviewed annually",
+          "priority": "high"
+        },
+        {
+          "id": "8.2-T2",
+          "requirement": "Implement technical controls for data confidentiality (encryption at rest and in transit) and security (access controls, intrusion detection) that directly support the Board-approved policies and can be evidenced during Board reviews.",
+          "rationale": "Board approval of policies is meaningless without corresponding technical enforcement. Controls must be implemented, operational, and demonstrable.",
+          "owner": "CISO",
+          "frequency": "Continuous operation; effectiveness reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: A formal policy governance lifecycle must be established that ensures the Board's approval role is structured, documented, and repeatable, with clear ownership of policy development, review, and Board presentation.",
+      "requirements": [
+        {
+          "id": "8.2-G1",
+          "requirement": "Establish a Policy Governance Framework that defines the lifecycle of customer information protection policies including drafting, review, Board approval, communication, implementation, and periodic reassessment.",
+          "rationale": "Clause 8.2 requires Board approval and assurance of adequacy. A structured policy governance framework ensures that this is a systematic process rather than an ad-hoc activity.",
+          "owner": "Compliance",
+          "frequency": "Framework reviewed annually",
+          "priority": "critical"
+        },
+        {
+          "id": "8.2-G2",
+          "requirement": "Maintain a Board Policy Approval Register that records all customer information protection policies, their approval dates, review schedules, and Board resolution references.",
+          "rationale": "Documentary evidence of Board approval is essential for regulatory examination. A centralised register provides an audit trail demonstrating compliance with the approval requirement.",
+          "owner": "Compliance",
+          "frequency": "Updated upon each Board approval; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "8.3": {
+    "clauseId": "8.3",
+    "section": "Board oversight",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The Board must actively oversee policy implementation and maintenance by reviewing senior management reports on customer information management, including risk assessments, findings, and mitigation plans. The Board must be satisfied that controls are adequate and effective, with periodic reviews to adapt to changing risks.",
+      "requirements": [
+        {
+          "id": "8.3-B1",
+          "requirement": "Establish a structured Senior Management Reporting Framework that requires regular reports to the Board on customer information management, encompassing risk assessments, control effectiveness findings, breach incidents, and mitigation plans.",
+          "rationale": "Clause 8.3 mandates Board review of senior management reports including risk assessments, findings, and mitigation plans. A structured framework ensures comprehensive and consistent reporting.",
+          "owner": "Senior Management",
+          "frequency": "Quarterly reporting to the Board",
+          "priority": "critical"
+        },
+        {
+          "id": "8.3-B2",
+          "requirement": "Conduct periodic Board-level reviews of policies, procedures, and controls to confirm continued adequacy and effectiveness in response to changes in the operating environment and evolving risks.",
+          "rationale": "Clause 8.3 explicitly requires periodic review to reflect changes in the operating environment. Static policies become ineffective as threats, technology, and business models evolve.",
+          "owner": "Board",
+          "frequency": "At least annually; triggered reviews upon material environmental changes",
+          "priority": "critical"
+        },
+        {
+          "id": "8.3-B3",
+          "requirement": "Require senior management to present mitigation plans for identified risks with clear timelines, resource allocations, and success criteria, enabling the Board to track remediation progress across reporting periods.",
+          "rationale": "Clause 8.3 requires reports to include mitigation plans. Without trackable plans, the Board cannot assess whether identified risks are being adequately addressed.",
+          "owner": "Senior Management",
+          "frequency": "Quarterly progress updates to the Board",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must produce the data, metrics, and evidence that enable senior management to compile meaningful Board reports on the state of customer information protection controls.",
+      "requirements": [
+        {
+          "id": "8.3-T1",
+          "requirement": "Implement control effectiveness monitoring tools that generate quantifiable metrics on the operational status of customer information protection controls, including uptime, alert volumes, false positive rates, and remediation timelines.",
+          "rationale": "Board reports require evidence-based findings. Automated control monitoring provides the objective data necessary for senior management to report accurately on control adequacy and effectiveness.",
+          "owner": "IT Security",
+          "frequency": "Continuous monitoring; metrics compiled quarterly for Board reporting",
+          "priority": "high"
+        },
+        {
+          "id": "8.3-T2",
+          "requirement": "Maintain a Risk Assessment Platform or register that captures identified threats, vulnerability assessments, likelihood ratings, impact scores, and linked mitigation plans in a format suitable for Board-level summary reporting.",
+          "rationale": "Clause 8.3 requires risk assessments to be reported to the Board. A structured platform ensures completeness and consistency of risk data reported upward.",
+          "owner": "CISO",
+          "frequency": "Continuously updated; quarterly Board summary extraction",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance structures must ensure that Board oversight of policy implementation is formalised through reporting calendars, review protocols, and documented Board deliberations that evidence active oversight rather than passive receipt of information.",
+      "requirements": [
+        {
+          "id": "8.3-G1",
+          "requirement": "Establish a Board Oversight Calendar that schedules periodic reviews of customer information protection policies, risk assessments, and mitigation plans, ensuring no aspect goes unreviewed for more than twelve months.",
+          "rationale": "Clause 8.3 requires periodic review. A governance calendar ensures systematic coverage and prevents oversight gaps.",
+          "owner": "Board",
+          "frequency": "Calendar set annually; reviews conducted per schedule",
+          "priority": "high"
+        },
+        {
+          "id": "8.3-G2",
+          "requirement": "Document Board deliberations on customer information management reports in meeting minutes, recording questions raised, concerns expressed, decisions made, and any directives issued to senior management.",
+          "rationale": "Evidence of active Board oversight requires documented deliberation. Minutes provide the audit trail demonstrating the Board is satisfied controls are adequate and effective.",
+          "owner": "Board",
+          "frequency": "Every Board meeting where reports are reviewed",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "8.4": {
+    "clauseId": "8.4",
+    "section": "Board oversight",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The Board must obtain annual written assurance from senior management confirming that customer information protection controls are working effectively and that outsourced service providers are meeting their contractual obligations. This creates a formal annual accountability checkpoint.",
+      "requirements": [
+        {
+          "id": "8.4-B1",
+          "requirement": "Require senior management to provide a formal Annual Written Assurance Letter to the Board confirming that all customer information protection controls are operating effectively and that the FSP's outsourced service providers are fulfilling their contractual obligations on safeguarding customer information.",
+          "rationale": "Clause 8.4 explicitly requires annual written assurance from senior management. This formal certification creates personal accountability and compels senior management to verify control effectiveness before attesting.",
+          "owner": "Senior Management",
+          "frequency": "Annual",
+          "priority": "critical"
+        },
+        {
+          "id": "8.4-B2",
+          "requirement": "Establish a pre-assurance verification process requiring senior management to conduct a comprehensive review of control effectiveness and OSP compliance before issuing the annual written assurance to the Board.",
+          "rationale": "The written assurance must be evidence-based. A structured verification process ensures senior management has a defensible basis for their attestation.",
+          "owner": "Senior Management",
+          "frequency": "Annual (preceding the assurance letter)",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must provide the evidence base that supports senior management's annual assurance to the Board, including control testing results, system audit logs, and OSP compliance monitoring data.",
+      "requirements": [
+        {
+          "id": "8.4-T1",
+          "requirement": "Conduct an annual comprehensive assessment of all technical controls protecting customer information, documenting test results, identified gaps, and remediation status to support senior management's written assurance to the Board.",
+          "rationale": "Senior management cannot provide written assurance without evidence. An annual technical controls assessment provides the foundation for the attestation.",
+          "owner": "IT Security",
+          "frequency": "Annual",
+          "priority": "critical"
+        },
+        {
+          "id": "8.4-T2",
+          "requirement": "Generate an annual OSP Compliance Report summarising the results of monitoring and review activities for each outsourced service provider handling customer information, confirming contractual obligation fulfilment.",
+          "rationale": "Clause 8.4 specifically requires assurance that OSPs fulfil their contractual obligations. An OSP compliance report provides the evidence to support this element of the assurance.",
+          "owner": "IT Security",
+          "frequency": "Annual",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The annual assurance process must be formalised with clear governance protocols including defined content requirements, sign-off procedures, and Board review processes.",
+      "requirements": [
+        {
+          "id": "8.4-G1",
+          "requirement": "Define a formal Annual Assurance Process specifying the content requirements, evidence standards, sign-off authorities, and Board presentation protocol for the annual written assurance on customer information protection.",
+          "rationale": "A structured assurance process ensures consistency, completeness, and auditability of the annual certification, providing regulatory evidence of Board oversight.",
+          "owner": "Compliance",
+          "frequency": "Process reviewed annually",
+          "priority": "high"
+        },
+        {
+          "id": "8.4-G2",
+          "requirement": "Maintain an archive of all annual written assurances provided to the Board, along with supporting evidence packages, for regulatory examination purposes.",
+          "rationale": "Regulatory examiners will expect to see historical evidence of annual assurance. An organised archive demonstrates sustained compliance.",
+          "owner": "Compliance",
+          "frequency": "Annual archival; retained for minimum 7 years",
+          "priority": "medium"
+        }
+      ]
+    }
+  }
+}

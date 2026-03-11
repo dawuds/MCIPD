@@ -1,0 +1,88 @@
+{
+  "source": "MCIPD 2025 (BNM/RH/PD 028-65)",
+  "target": "Personal Data Protection Act 2010 (Act 709) as amended by A1727",
+  "relationship": "MCIPD operationalises PDPA requirements for the financial sector under FSA/IFSA/DFIA framework",
+  "explicitReference": "Paragraph 6.2: 'The Personal Data Protection Act 2010 (PDPA), including any amendments made to the PDPA, in particular, the Personal Data Protection (Amendment) Act 2024 and any legal instruments, standards or codes issued under such law.'",
+  "mappings": [
+    {
+      "mcipd": "10.1-10.5",
+      "pdpa": ["s9"],
+      "domain": "Risk assessment / Security principle",
+      "rationale": "MCIPD risk assessment for customer information threats operationalises PDPA s9 Security Principle requiring practical steps to protect personal data."
+    },
+    {
+      "mcipd": "10.6-10.11",
+      "pdpa": ["s9", "s7"],
+      "domain": "Policies and procedures / Notice and choice",
+      "rationale": "MCIPD written policies covering collection, use, disclosure align with PDPA s7 (Notice and Choice) and s9 (Security) principles."
+    },
+    {
+      "mcipd": "10.25-10.27",
+      "pdpa": ["s9"],
+      "domain": "Access controls / Security principle",
+      "rationale": "MCIPD access controls implement PDPA s9 requirement for practical steps to protect personal data from loss, misuse, modification, unauthorised access."
+    },
+    {
+      "mcipd": "10.32-10.37",
+      "pdpa": ["s10", "s11"],
+      "domain": "Disposal / Retention principle",
+      "rationale": "MCIPD secure disposal requirements implement PDPA s10 (Retention) and s11 (Data Integrity) by ensuring data no longer needed is securely destroyed."
+    },
+    {
+      "mcipd": "11.1-11.7",
+      "pdpa": ["s12B"],
+      "domain": "Breach handling / Data breach notification",
+      "rationale": "MCIPD breach handling requirements complement PDPA s12B mandatory data breach notification (A1727 amendment, effective June 2025)."
+    },
+    {
+      "mcipd": "11.8-11.17",
+      "pdpa": ["s12B"],
+      "domain": "BNM notification / Commissioner notification",
+      "rationale": "MCIPD para 11.8 footnote 14 explicitly states FSPs must also comply with s12B PDPA breach notification to Commissioner. Dual notification obligation."
+    },
+    {
+      "mcipd": "11.25-11.31",
+      "pdpa": ["s12B"],
+      "domain": "Customer notification / Data subject notification",
+      "rationale": "MCIPD customer breach notification requirements parallel PDPA s12B data subject notification provisions."
+    },
+    {
+      "mcipd": "12.1-12.10",
+      "pdpa": ["s4"],
+      "domain": "Outsourced service providers / Data processors",
+      "rationale": "MCIPD OSP requirements complement PDPA data processor obligations. Both require contractual safeguards and oversight."
+    },
+    {
+      "mcipd": "13.1 Item 8",
+      "pdpa": ["s6", "s42"],
+      "domain": "Consent conditions / Consent principle",
+      "rationale": "MCIPD Item 8 consent conditions (specific, voluntary, explicit, revocable) directly operationalise and extend PDPA s6 (General Principle/consent) for financial sector. PDPA s42 (withdrawal of consent, A1727) aligns with MCIPD revocability requirement."
+    },
+    {
+      "mcipd": "13.1 Item 5",
+      "pdpa": ["s129"],
+      "domain": "Foreign supervisory authority / Cross-border transfer",
+      "rationale": "MCIPD conditions for disclosure to foreign supervisory authorities complement PDPA s129 cross-border data transfer restrictions."
+    }
+  ],
+  "dualObligations": [
+    {
+      "obligation": "Data breach notification",
+      "mcipd": "11.8 (notify BNM immediately)",
+      "pdpa": "s12B (notify Commissioner within prescribed period)",
+      "note": "Footnote 14 of MCIPD explicitly confirms dual obligation. FSPs must notify BOTH BNM and the Personal Data Protection Commissioner."
+    },
+    {
+      "obligation": "Consent management",
+      "mcipd": "13.1 Item 8 (specific, voluntary, explicit, revocable - effective 1 Jan 2024)",
+      "pdpa": "s6 General Principle + s42 withdrawal of consent (A1727)",
+      "note": "MCIPD consent conditions are sector-specific and may be more stringent than general PDPA consent requirements in certain areas (e.g., prohibition on pre-ticked boxes, 7-day withdrawal processing)."
+    }
+  ],
+  "notes": [
+    "AI Generated: These cross-references are based on thematic alignment between MCIPD requirements and PDPA provisions. They should be verified against specific organisational data processing activities.",
+    "MCIPD paragraph 6.2 explicitly references PDPA 2010 including A1727 amendments.",
+    "PDPA section numbers reference Act 709 as amended by A1727 (Personal Data Protection (Amendment) Act 2024).",
+    "The PDPA-MY repository at /Users/dawud/claude/pdpa-my/ contains detailed provision analysis for all referenced PDPA sections."
+  ]
+}

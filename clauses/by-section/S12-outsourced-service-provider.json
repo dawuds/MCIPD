@@ -1,0 +1,112 @@
+[
+  {
+    "id": "12.1",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "FSPs must monitor the risks that may arise from outsourced service providers (OSPs) with the functions of the handling of customer information.",
+    "translation": "AI Generated: FSPs are required to actively monitor and manage risks associated with outsourced service providers that handle customer information on their behalf.",
+    "keywords": ["outsourced service provider", "OSP", "risk monitoring", "customer information"]
+  },
+  {
+    "id": "12.2",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "FSPs must perform adequate and relevant due diligence assessments when selecting an OSP which has access to customer information including for processing, storing, or disposing customer information. These assessments will help FSPs understand the level of risks that may be introduced by the OSP and determine the appropriate monitoring that must be maintained.",
+    "translation": "AI Generated: Before appointing an OSP with access to customer information, FSPs must conduct thorough due diligence to assess the risks the OSP may introduce, particularly regarding processing, storage, and disposal of customer data, and to determine the level of ongoing monitoring required.",
+    "keywords": ["due diligence", "OSP selection", "risk assessment", "processing", "storage", "disposal"]
+  },
+  {
+    "id": "12.3",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "FSPs must be satisfied that the OSP has in place policies, procedures and controls that are comparable to that of the FSPs, to ensure that customer information is properly safeguarded at all times.",
+    "translation": "AI Generated: FSPs must verify that their OSPs maintain policies, procedures, and controls at a standard comparable to the FSP's own, ensuring customer information is continuously protected.",
+    "keywords": ["OSP", "policies", "procedures", "controls", "comparable standards", "safeguard"]
+  },
+  {
+    "id": "12.4",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "In ensuring the obligation to safeguard customer information is adequately reflected in a Service Level Agreement (SLA) with an OSP, at a minimum, the SLA must require the OSP to- (a) undertake to safeguard the customer information and prevent any theft, loss, misuse or unauthorised access, modification or disclosure by whatever means, of the customer information; (b) ensure the adequacy and effectiveness of its policies and procedures to protect the FSP's customer information; (c) conduct robust vetting on its personnel who handles customer information; (d) only allow its personnel to have access to customer information strictly for the purpose of carrying out the OSP's functions under the SLA; (e) ensure that its personnel understands and undertakes to comply with the prohibition on disclosure by whatever means of customer information to any person for any purpose other than that which is specified in the SLA, permitted under the written law or approved by BNM, as the case may be (including after the end of the contract term); (f) investigate any customer information breach to determine when and how the breach occurred; (g) report any customer information breach to the FSP within an agreed timeframe; (h) destroy in accordance with paragraph 10.32 or return all customer information to the FSP upon the expiry or termination of the SLA; and (i) allow the FSP to audit or inspect how customer information is safeguarded. [Footnote 24: For clarity, FSPs are expected to amend all of their existing relevant SLAs to comply with paragraph 12.4 and not upon renewal only.]",
+    "translation": "AI Generated: The SLA with an OSP must, at minimum, obligate the OSP to: (a) safeguard customer data against theft, loss, misuse, or unauthorised access/modification/disclosure; (b) maintain adequate policies and procedures; (c) vet personnel handling customer data; (d) restrict access to SLA purposes only; (e) ensure personnel comply with disclosure prohibitions even after contract ends; (f) investigate any breach; (g) report breaches within agreed timeframes; (h) destroy or return all data upon SLA termination; and (i) permit FSP audits. Existing SLAs must be amended to comply, not just upon renewal.",
+    "keywords": ["SLA", "service level agreement", "OSP obligations", "safeguard", "vetting", "breach reporting", "audit", "data return", "destruction", "disclosure prohibition"]
+  },
+  {
+    "id": "12.5",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "G",
+    "verbatim": "FSPs may provide clear expectations to the OSP on the control measures required in respect of processing, storage, transmission, disposal or destruction of the FSPs' customer information.",
+    "translation": "AI Generated: FSPs are encouraged to clearly communicate to OSPs the specific control measures expected for processing, storing, transmitting, disposing, or destroying customer information.",
+    "keywords": ["OSP", "control measures", "processing", "storage", "transmission", "disposal", "destruction", "guidance"]
+  },
+  {
+    "id": "12.6",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "FSPs must require the OSP to sign a binding non-disclosure undertaking with regard to the handling of customer information.",
+    "translation": "AI Generated: FSPs must ensure that OSPs execute a legally binding non-disclosure agreement covering the handling of customer information.",
+    "keywords": ["OSP", "non-disclosure", "NDA", "undertaking", "binding"]
+  },
+  {
+    "id": "12.7",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "FSPs must ensure that the OSP conducts training to its personnel, at regular intervals, on relevant policies and procedures relating to the proper handling of customer information as well as reviews the adequacy and effectiveness of the training programme.",
+    "translation": "AI Generated: FSPs must ensure OSPs provide regular training to their personnel on customer information handling policies and procedures, and that the effectiveness of the training programme is periodically reviewed.",
+    "keywords": ["OSP", "training", "personnel", "policies", "procedures", "effectiveness review"]
+  },
+  {
+    "id": "12.8",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "G",
+    "verbatim": "FSPs may consider providing training to the OSPs' personnel to promote awareness of the importance of safeguarding the FSPs' customer information and to ensure compliance with the contractual requirements.",
+    "translation": "AI Generated: FSPs are encouraged to consider directly training OSP personnel to raise awareness about safeguarding customer information and ensuring compliance with contractual obligations.",
+    "keywords": ["OSP", "training", "awareness", "compliance", "contractual requirements", "guidance"]
+  },
+  {
+    "id": "12.9",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "FSPs must conduct a review of the OSP at least once in every two years to confirm that the OSP fulfils its obligations in accordance with the contract provisions in safeguarding the FSPs' customer information.",
+    "translation": "AI Generated: FSPs must review their OSPs at least biennially to confirm the OSP is meeting its contractual obligations to safeguard customer information.",
+    "keywords": ["OSP", "review", "biennial", "two years", "contract compliance", "safeguard"]
+  },
+  {
+    "id": "12.10",
+    "section": "12",
+    "sectionTitle": "Outsourced service provider",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "FSPs must take reasonable steps to maintain accurate and complete records and trail of all customer information that have been shared or given to the OSPs.",
+    "translation": "AI Generated: FSPs must maintain accurate and complete records, including audit trails, of all customer information shared with or provided to OSPs.",
+    "keywords": ["OSP", "records", "audit trail", "customer information sharing", "tracking"]
+  }
+]

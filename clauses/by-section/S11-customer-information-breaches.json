@@ -1,0 +1,397 @@
+[
+  {
+    "id": "11.1",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "verbatim": "FSPs must have in place a customer information breach handling and response plan to address any theft, loss, misuse or unauthorised access, modification or disclosure by whatever means of customer information. For the avoidance of doubt, FSPs must ensure that their customer information breach handling and response plans comprise of deliberate and non-deliberate customer information breaches.",
+    "translation": "AI Generated: FSPs must establish a breach handling and response plan covering theft, loss, misuse, or unauthorised access, modification, or disclosure of customer information, encompassing both deliberate and non-deliberate breaches.",
+    "keywords": ["breach handling", "response plan", "theft", "loss", "misuse", "unauthorised access", "deliberate", "non-deliberate"]
+  },
+  {
+    "id": "11.2",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "verbatim": "The plan by FSPs under paragraph 11.1 must at a minimum, include escalation procedures and a clear line of responsibility to contain and take remedial actions relating to the customer information breach to prevent any future recurrence of the breach.",
+    "translation": "AI Generated: The breach response plan must include, at minimum, escalation procedures and clear responsibility lines for containment, remediation, and prevention of recurrence.",
+    "keywords": ["escalation procedures", "responsibility", "containment", "remedial actions", "recurrence prevention"]
+  },
+  {
+    "id": "11.3",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that all staff understand the escalation procedures and that the relevant staff are trained to effectively take the appropriate remedial actions for a customer information breach to protect affected customers' interests.",
+    "translation": "AI Generated: All staff must understand escalation procedures, and relevant staff must be trained to take effective remedial actions to protect affected customers during a breach.",
+    "keywords": ["staff training", "escalation procedures", "remedial actions", "customer protection"]
+  },
+  {
+    "id": "11.4",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "verbatim": "FSPs must have in place a mechanism to identify customer information breaches including those which arise from customer complaints and the FSPs must investigate the complaints promptly and properly.",
+    "translation": "AI Generated: FSPs must have mechanisms to detect breaches, including those surfaced through customer complaints, and must investigate such complaints promptly and properly.",
+    "keywords": ["breach identification", "customer complaints", "investigation", "detection mechanism"]
+  },
+  {
+    "id": "11.5",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "verbatim": "FSPs must take appropriate mitigating actions to contain a customer information breach immediately.",
+    "translation": "AI Generated: FSPs must act immediately to contain any customer information breach through appropriate mitigation measures.",
+    "keywords": ["containment", "mitigation", "immediate action"]
+  },
+  {
+    "id": "11.6",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "verbatim": "In the event that a customer information breach at one FSP involves customer data belonging to another FSP, the FSP in which the breach occurred must promptly notify the affected FSP to ensure that timely and appropriate remedial actions are undertaken.",
+    "translation": "AI Generated: When a breach at one FSP involves customer data belonging to another FSP, the breached FSP must promptly notify the other FSP so timely remedial actions can be taken.",
+    "keywords": ["cross-FSP breach", "notification", "affected FSP", "remedial actions"]
+  },
+  {
+    "id": "11.7",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "verbatim": "FSPs must assess the impact arising from the theft, loss, misuse or unauthorised access, modification or disclosure by whatever means of customer information. In ascertaining the impact of the customer information breach, FSPs must have regard to, at a minimum, the following: (a) whether the breach involved accidental errors or intentional and malicious action; (b) the type and sensitivity of customer information involved; (c) the number of customers affected; (d) to whom the customer information was exposed to; and (e) the likelihood of the customer information being used for fraudulent or other harmful purposes.",
+    "translation": "AI Generated: FSPs must assess breach impact considering at minimum: whether it was accidental or intentional, the type and sensitivity of data, number of affected customers, who the data was exposed to, and likelihood of fraudulent or harmful use.",
+    "keywords": ["impact assessment", "accidental", "intentional", "sensitivity", "affected customers", "fraud risk"]
+  },
+  {
+    "id": "11.8",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "FSPs must notify BNM immediately upon becoming aware of a customer information breach where the breach - (a) poses or is likely to pose reputational risk to the FSP or a threat to public confidence and trust; (b) causes or is likely to cause significant harm to affected customer(s); or (c) involves or is likely to involve a large number of customers (i.e. significant scale).",
+    "translation": "AI Generated: FSPs must immediately notify BNM upon discovering a breach that poses reputational risk or threatens public confidence, causes or may cause significant harm to customers, or affects or may affect a large number of customers.",
+    "keywords": ["BNM notification", "reputational risk", "significant harm", "significant scale", "immediate notification"],
+    "footnotes": [
+      {
+        "number": 14,
+        "text": "In addition to notifying BNM, FSPs as data controllers shall comply with the mandatory data breach notification obligation to the Personal Data Protection Commissioner as prescribed in in Section 12B of PDPA and Circular of Personal Data Protection Commissioner No.2/2025 (Data Breach Notification), effective 1 June 2025 onwards."
+      }
+    ]
+  },
+  {
+    "id": "11.9",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "With respect to paragraph 11.8(a), a customer information breach poses or is likely to pose reputational risk to the FSP or a threat to public confidence and trust, where the breach involves, includes but not limited to where it fulfils any of the following circumstances: (a) disclosures to a party suspected of being involved in criminal activity; (b) information being made public or circulated via any medium including the social media; or (c) a customer known to the public, e.g., a celebrity or a public figure or where the breach is likely to attract media attention.",
+    "translation": "AI Generated: A breach poses reputational risk or threatens public confidence when it involves disclosure to suspected criminals, public circulation including via social media, or concerns a public figure or is likely to attract media attention. This list is non-exhaustive.",
+    "keywords": ["reputational risk", "criminal activity", "social media", "public figure", "media attention"],
+    "footnotes": [
+      {
+        "number": 15,
+        "text": "For the avoidance of doubt, this is a non-exhaustive list."
+      }
+    ]
+  },
+  {
+    "id": "11.10",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "With respect to paragraph 11.8(b), FSPs shall consider that a customer information breach causes or is likely to cause significant harm if there is a risk that the breach: (a) may result in financial loss, damage to or loss of property, loss of business opportunities, damage to reputation, a negative effect on credit record or threat to safety of customer(s); (b) may be misused for illegal purposes; (c) could enable identification of theft or fraud; or (d) consists of sensitive customer information.",
+    "translation": "AI Generated: A breach causes significant harm if it risks financial loss, property damage, reputational harm, credit record impact, safety threats, illegal misuse, identity theft or fraud, or involves sensitive customer information.",
+    "keywords": ["significant harm", "financial loss", "identity theft", "fraud", "sensitive information", "credit record"],
+    "footnotes": [
+      {
+        "number": 16,
+        "text": "Examples of sensitive customer information include security credential to access customer's account, biometric data, medical or health related information."
+      }
+    ]
+  },
+  {
+    "id": "11.11",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "With respect to paragraph 11.8(c), FSPs shall consider that a customer information breach involves or is likely to involve a large number of customers (i.e. significant scale) if the number of affected customers exceed one thousand (1,000).",
+    "translation": "AI Generated: A breach is of significant scale if the number of affected customers exceeds 1,000.",
+    "keywords": ["significant scale", "1000 customers", "threshold", "large number"]
+  },
+  {
+    "id": "11.12",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "In the event a customer information breach meets the criteria of significant scale under paragraph 11.11, FSPs must assess the potential impact and take appropriate actions to avoid or reduce any harm on the affected customers.",
+    "translation": "AI Generated: When a breach reaches significant scale (over 1,000 customers), FSPs must assess the potential impact and take appropriate actions to avoid or reduce harm to affected customers.",
+    "keywords": ["significant scale", "impact assessment", "harm reduction", "appropriate actions"]
+  },
+  {
+    "id": "11.13",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that the assessment of significant harm is confirmed by the designated officer of sufficient senior ranking as specified under paragraph 9.2.",
+    "translation": "AI Generated: The assessment of whether significant harm has occurred must be confirmed by the designated senior officer appointed under paragraph 9.2.",
+    "keywords": ["significant harm assessment", "designated officer", "senior ranking", "confirmation"]
+  },
+  {
+    "id": "11.14",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "With respect to customer information breaches that have been made public and circulated via any medium such as social media, FSPs must effectively manage the reputational risk arising from it, including ensuring immediate notification to BNM under paragraph 11.8.",
+    "translation": "AI Generated: When breaches become public via social media or other channels, FSPs must manage the resulting reputational risk and ensure immediate BNM notification.",
+    "keywords": ["public breach", "social media", "reputational risk management", "BNM notification"]
+  },
+  {
+    "id": "11.15",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "If based on FSP's assessment a customer information breach appears to involve fraud, criminal activity or may result in identity theft, FSPs must also notify the relevant law enforcement agency, as soon as practicable.",
+    "translation": "AI Generated: If a breach appears to involve fraud, criminal activity, or potential identity theft, FSPs must also notify the relevant law enforcement agency as soon as practicable.",
+    "keywords": ["law enforcement", "fraud", "criminal activity", "identity theft", "notification"]
+  },
+  {
+    "id": "11.16",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "With respect to paragraph 11.8, the notification to BNM must, at a minimum, include the following information: (a) a description of the customer information breach that has occurred, including the type or nature of customer information that has been affected by the breach; (b) the number of affected customers; (c) consequences or harm to the affected customers due to the customer information breach; (d) potential consequences or harm to the affected customers that may arise as a result of the customer information breach; and (e) a description of measures that have been taken or will be taken by the FSP to address the breach.",
+    "translation": "AI Generated: The BNM notification must include at minimum: a breach description with data types affected, number of affected customers, actual and potential consequences or harm, and measures taken or planned to address the breach.",
+    "keywords": ["BNM notification content", "breach description", "affected customers", "consequences", "remedial measures"]
+  },
+  {
+    "id": "11.17",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "verbatim": "In the event the complete information as required under paragraph 11.16 is not available to be submitted to BNM as required, under paragraph 11.8, the FSP must adhere to the following: (a) the FSP shall proceed to immediately provide BNM with all other information that is available at the time; (b) on the information under paragraph 11.16(b), the FSP must submit the estimated number of the affected customers based on their initial assessment of the breach; and (c) the FSP must take timely and relevant measures to determine the final number of affected customers without undue delay with respect to paragraph 11.16(b). Once the complete information required under paragraph 11.16 is obtained, the FSP must provide this information to BNM immediately.",
+    "translation": "AI Generated: If complete information is unavailable when notifying BNM, FSPs must immediately provide whatever information is available, submit estimated affected customer numbers based on initial assessment, and work without undue delay to determine final numbers. Complete information must be submitted to BNM as soon as obtained.",
+    "keywords": ["incomplete information", "estimated numbers", "phased notification", "without undue delay"]
+  },
+  {
+    "id": "11.18",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "verbatim": "FSPs must carry out an investigation to ascertain the root causes of a customer information breach and determine appropriate remedial actions to prevent future recurrence. Additionally, FSPs must ensure that the investigation must be carried out by a competent party, overseen by a party independent of the relevant business unit where the breach occurred.",
+    "translation": "AI Generated: FSPs must investigate breach root causes and determine remedial actions to prevent recurrence. The investigation must be conducted by a competent party and overseen by a party independent of the business unit where the breach occurred.",
+    "keywords": ["investigation", "root cause", "remedial actions", "competent party", "independent oversight"],
+    "footnotes": [
+      {
+        "number": 17,
+        "text": "Competent party refers to a party with the relevant expertise and experience in assessing a customer information breach."
+      }
+    ]
+  },
+  {
+    "id": "11.19",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "verbatim": "FSPs must complete the investigation within three (3) months upon detecting a customer information breach having regard to the complexity of the breach and table a detailed investigation report to the Board.",
+    "translation": "AI Generated: Investigations must be completed within three months of detecting a breach, considering breach complexity, and a detailed investigation report must be tabled to the Board.",
+    "keywords": ["investigation timeline", "three months", "Board report", "complexity"]
+  },
+  {
+    "id": "11.20",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "verbatim": "FSPs must submit the detailed investigation report and Appendix 1 to BNM within one (1) working day upon tabling to the Board in respect of a customer information breach that- (a) causes or is likely to cause significant harm to the affected customer(s); (b) is of significant scale (i.e., affected customers exceeds or is likely to exceed 1,000); or (c) involves a deliberate attempt on unauthorised disclosure of customer information.",
+    "translation": "AI Generated: The detailed investigation report and Appendix 1 must be submitted to BNM within one working day of Board tabling for breaches causing significant harm, exceeding 1,000 affected customers, or involving deliberate unauthorised disclosure.",
+    "keywords": ["investigation report", "Appendix 1", "BNM submission", "one working day", "Board tabling", "significant harm", "significant scale", "deliberate disclosure"],
+    "footnotes": [
+      {
+        "number": 18,
+        "text": "For the avoidance of doubt, the definition of significant harm as specified in paragraph 11.10(a) shall apply for the purpose of paragraph 11.20(a)."
+      }
+    ]
+  },
+  {
+    "id": "11.21",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "verbatim": "With respect to paragraph 11.20, FSPs must ensure that the detailed investigation report to be submitted to BNM is signed off by the designated officer of sufficient senior ranking as specified under paragraph 9.2 and shall be submitted to- Director Consumer and Market Conduct Department Bank Negara Malaysia Jalan Dato' Onn 50480 Kuala Lumpur. For non-bank approved issuers of designated payment instruments and Islamic designated payment instruments as well as approved and registered operators of a payment system, the abovementioned report must be submitted to- Director Payment Services Oversight Department Bank Negara Malaysia Jalan Dato' Onn 50480 Kuala Lumpur",
+    "translation": "AI Generated: The investigation report must be signed off by the designated senior officer under paragraph 9.2 and submitted to the Director of Consumer and Market Conduct Department at BNM. For non-bank payment instrument issuers and payment system operators, the report must be submitted to the Director of Payment Services Oversight Department at BNM.",
+    "keywords": ["designated officer sign-off", "Consumer and Market Conduct Department", "Payment Services Oversight Department", "BNM submission address"]
+  },
+  {
+    "id": "11.22",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "verbatim": "If a customer information breach at one FSP involves a customer information breach belonging to another FSP, it is the responsibility of the FSP in which the customer information breach occurred to carry out the required actions specified under paragraphs 11.18 to 11.21.",
+    "translation": "AI Generated: When a breach at one FSP involves another FSP's customer data, the FSP where the breach occurred bears responsibility for carrying out all investigation and reporting actions under paragraphs 11.18 to 11.21.",
+    "keywords": ["cross-FSP breach", "responsibility", "investigation", "reporting"]
+  },
+  {
+    "id": "11.23",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "verbatim": "FSPs must put in place a register to record all customer information breaches covering the root causes, remedial actions and lessons learnt to prevent future recurrences.",
+    "translation": "AI Generated: FSPs must maintain a breach register recording all customer information breaches, their root causes, remedial actions taken, and lessons learnt to prevent recurrence.",
+    "keywords": ["breach register", "root causes", "remedial actions", "lessons learnt"]
+  },
+  {
+    "id": "11.24",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "verbatim": "With respect to paragraph 11.23, FSP must retain the investigation reports of all customer information breach incidents for at least seven (7) years from the date the reports are tabled to the Board.",
+    "translation": "AI Generated: Investigation reports for all breach incidents must be retained for at least seven years from the date they are tabled to the Board.",
+    "keywords": ["retention period", "seven years", "investigation reports", "Board tabling"]
+  },
+  {
+    "id": "11.25",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "verbatim": "Where the customer information breach meets the definition of causing, or is likely to cause, significant harm as outlined in paragraph 11.10, the FSP must notify the affected customers without undue delay after the notification is made to BNM under paragraph 11.8.",
+    "translation": "AI Generated: When a breach causes or is likely to cause significant harm as defined in paragraph 11.10, the FSP must notify affected customers without undue delay after notifying BNM.",
+    "keywords": ["customer notification", "significant harm", "without undue delay", "BNM notification first"]
+  },
+  {
+    "id": "11.26",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "verbatim": "With respect to paragraph 11.25, FSPs shall ensure any delay of the notification to the affected customers does not cause further harm to the affected customers.",
+    "translation": "AI Generated: Any delay in notifying affected customers must not result in further harm to those customers.",
+    "keywords": ["notification delay", "further harm", "customer protection"]
+  },
+  {
+    "id": "11.27",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "verbatim": "When notifying affected customers under paragraph 11.25, FSPs must ensure that the affected customers, at a minimum, are provided with the following information: (a) a brief description of the customer information breach that has occurred; (b) details of the potential consequences to the customer as a result of the breach; (c) advice on the steps that should be taken by the customer to reduce or mitigate any potential consequences resulting from the breach; (d) a description of the measures taken or proposed to be taken by the FSP to remedy the breach and mitigate its potential consequences; and (e) FSP's contact details from whom more information or assistance regarding the customer information breach can be obtained.",
+    "translation": "AI Generated: Customer notifications must include at minimum: a breach description, potential consequences, advice on protective steps customers should take, FSP measures to remedy the breach, and FSP contact details for further information or assistance.",
+    "keywords": ["customer notification content", "breach description", "protective steps", "remedial measures", "contact details"],
+    "footnotes": [
+      {
+        "number": 19,
+        "text": "For the avoidance of doubt, this includes advising the customer on any potential harm that may result from the breach."
+      },
+      {
+        "number": 20,
+        "text": "Examples of protective measures include advising the customer to change their passwords or PINs, monitoring their accounts for suspicious activities and being vigilant against phishing attempts."
+      }
+    ]
+  },
+  {
+    "id": "11.28",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that notification to the affected customers is clear and written in plain language. The FSP must draw the customers' attention to the steps that they should take to protect themselves from any potential consequences in view of the customer information breach.",
+    "translation": "AI Generated: Notifications must be clear and in plain language, drawing customers' attention to protective steps they should take against potential consequences of the breach.",
+    "keywords": ["plain language", "clear notification", "protective steps", "customer communication"]
+  },
+  {
+    "id": "11.29",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "verbatim": "FSPs must notify the affected customers directly. However, in exceptional circumstances where direct notification would entail disproportionate effort, the FSP may issue a public announcement and display prominent notices at the FSP's branches and websites, provided such measures are sufficient.",
+    "translation": "AI Generated: Affected customers must be notified directly. In exceptional cases where direct notification would require disproportionate effort, FSPs may instead issue public announcements and display prominent notices at branches and websites, if sufficient.",
+    "keywords": ["direct notification", "disproportionate effort", "public announcement", "branch notices", "website notices"],
+    "footnotes": [
+      {
+        "number": 21,
+        "text": "Direct notification refers to notification made to each individual affected customer through any appropriate communication channels such as registered mail, email, phone call, short messaging service (SMS), push notification or in-app notification."
+      },
+      {
+        "number": 22,
+        "text": "Disproportionate effort refers to the effort required to notify each individual customer directly that is significantly greater than what is reasonable or practical, considering the circumstances of the breach, the number of affected customers and the available resources of the FSP."
+      },
+      {
+        "number": 23,
+        "text": "Public announcement refers to a statement or notice made available to the general public through appropriate channels such as press releases, social media or official website."
+      }
+    ]
+  },
+  {
+    "id": "11.30",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "verbatim": "For the avoidance of doubt, in the event an FSP is unable to identify the specific customer(s) who are affected by a customer information breach at the point it is required to notify the affected customer under paragraph 11.25, the FSP must first notify its customers generally through a public announcement and display prominent notice at the FSP's branches and website. Upon identifying the specific affected customer(s), the FSP must notify the customer(s) directly, as soon as it is feasible to do so.",
+    "translation": "AI Generated: If the FSP cannot yet identify specific affected customers when notification is required, it must first issue a general public announcement and display notices at branches and its website. Once specific affected customers are identified, they must be notified directly as soon as feasible.",
+    "keywords": ["unidentified customers", "public announcement", "general notification", "direct notification", "feasibility"]
+  },
+  {
+    "id": "11.31",
+    "section": "11",
+    "sectionTitle": "Customer information breaches",
+    "part": "B",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that their staff are trained to handle queries from the affected customers and to provide the necessary assistance on protective measures against any potential consequences that could be caused by the breach.",
+    "translation": "AI Generated: Staff must be trained to handle queries from affected customers and provide assistance on protective measures against potential consequences of the breach.",
+    "keywords": ["staff training", "customer queries", "protective measures", "customer assistance"]
+  }
+]

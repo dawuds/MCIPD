@@ -1,0 +1,553 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-03-11",
+    "alignment": "BNM MCIPD June 2025",
+    "aiGenerated": true,
+    "verificationNote": "AI Generated: Customer information risk assessment checklist. Organisations should adapt scope and depth proportionate to their size, complexity, and data holdings per clause 10.4."
+  },
+  "title": "Customer Information Risk Assessment Checklist",
+  "description": "Structured checklist for conducting customer information risk assessments under BNM MCIPD, covering all key risk domains.",
+  "instructions": "For each checklist item, assess the current state, identify gaps, assign a risk rating, and document remediation actions where applicable. The checklist should be completed at least annually or upon material changes to the operating environment.",
+  "sections": [
+    {
+      "id": "CHK-GOV",
+      "section": "Governance and Oversight",
+      "applicableClauses": ["8.1", "8.2", "8.3", "8.4"],
+      "items": [
+        {
+          "id": "CHK-GOV-01",
+          "question": "Has the Board set and communicated a clear tone-at-the-top on the importance of safeguarding customer information?",
+          "evidenceExpected": "Board communications, charter provisions, corporate values documentation",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-GOV-02",
+          "question": "Has the Board formally approved the FSP's written policies on customer information protection?",
+          "evidenceExpected": "Board minutes, resolution records, policy approval documentation",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-GOV-03",
+          "question": "Does the Board regularly review senior management reports on customer information management including risk assessments, findings, and mitigation plans?",
+          "evidenceExpected": "Board meeting minutes, management reports, risk assessment presentations",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-GOV-04",
+          "question": "Does the Board obtain annual written assurance from senior management on the effectiveness of controls and OSP compliance?",
+          "evidenceExpected": "Annual assurance letter, supporting evidence, Board acknowledgement",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-GOV-05",
+          "question": "Are reports and mitigation plans periodically reviewed to reflect changes in the operating environment and evolving risks?",
+          "evidenceExpected": "Review records, updated risk assessments, amended mitigation plans",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-RA",
+      "section": "Risk Assessment",
+      "applicableClauses": ["10.1", "10.2", "10.3", "10.4", "10.5"],
+      "items": [
+        {
+          "id": "CHK-RA-01",
+          "question": "Has the FSP identified and addressed potential threats and vulnerabilities to customer information (internal, external, negligent, deliberate)?",
+          "evidenceExpected": "Threat register, vulnerability assessment reports, remediation records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-RA-02",
+          "question": "Has a likelihood and impact assessment been conducted for identified threats and vulnerabilities?",
+          "evidenceExpected": "Risk assessment documentation, likelihood-impact matrices, risk ratings",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-RA-03",
+          "question": "Does the risk assessment include third-party service providers and outsourcing arrangements?",
+          "evidenceExpected": "Third-party risk assessments, OSP risk registers",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-RA-04",
+          "question": "Are mitigation plans developed and implemented based on identified threats?",
+          "evidenceExpected": "Mitigation plans with owners and deadlines, implementation evidence",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-RA-05",
+          "question": "Is the risk assessment proportionate to the FSP's size, nature, complexity, and volume/sensitivity of customer information?",
+          "evidenceExpected": "Proportionality rationale documentation, calibration records",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-PP",
+      "section": "Policies and Procedures",
+      "applicableClauses": ["10.6", "10.7", "10.8", "10.9", "10.10", "10.11"],
+      "items": [
+        {
+          "id": "CHK-PP-01",
+          "question": "Are written policies and procedures in place covering the full customer information lifecycle (collection, access, storage, use, transmission, sharing, disclosure, disposal)?",
+          "evidenceExpected": "Policy documents covering each lifecycle stage, procedures manuals",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-PP-02",
+          "question": "Are policies proportionate to the FSP's size, complexity, and data sensitivity?",
+          "evidenceExpected": "Proportionality assessment, policy scope documentation",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-PP-03",
+          "question": "Do specific policies exist for: (a) off-site work, (b) physical document transport, (c) portable IT equipment, (d) breach incident handling?",
+          "evidenceExpected": "Specific policy documents for each area",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-PP-04",
+          "question": "Are policies readily accessible and clearly communicated to staff by the designated officer?",
+          "evidenceExpected": "Policy portal, communication records, staff acknowledgements",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-PP-05",
+          "question": "Are policies continually reviewed for adequacy, relevance, and effectiveness?",
+          "evidenceExpected": "Review records, amendment history, review schedule",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-ICT",
+      "section": "ICT Controls",
+      "applicableClauses": ["10.12", "10.13", "10.14", "10.15", "10.16", "10.17", "10.18", "10.19", "10.20", "10.21", "10.22", "10.23", "10.24"],
+      "items": [
+        {
+          "id": "CHK-ICT-01",
+          "question": "Are preventive and detective ICT controls deployed and regularly monitored for effectiveness?",
+          "evidenceExpected": "Control inventory, SIEM logs, monitoring reports, effectiveness reviews",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ICT-02",
+          "question": "Are appropriate controls in place for off-site work arrangements including MFA, encryption, and secure transmission?",
+          "evidenceExpected": "Remote access architecture, MFA enforcement evidence, encryption policies",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ICT-03",
+          "question": "Are portable storage device downloads restricted to staff with legitimate business need, with encryption and password protection enforced?",
+          "evidenceExpected": "Device whitelisting policy, download approval records, encryption enforcement",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ICT-04",
+          "question": "Is access to call recordings containing customer information restricted on a need-to-know basis?",
+          "evidenceExpected": "Call recording access controls, audit logs, access review records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ICT-05",
+          "question": "Are deterrent mechanisms in place against unauthorised disclosure (CCTV, device restrictions, disciplinary awareness, whistleblowing)?",
+          "evidenceExpected": "CCTV coverage map, device restriction policy, disciplinary matrix, whistleblowing channel",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ICT-06",
+          "question": "Is access to web-based communication and social media platforms restricted for staff handling customer information?",
+          "evidenceExpected": "Web filtering configuration, policy exceptions register, enforcement reports",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ICT-07",
+          "question": "Are detection mechanisms in place for unauthorised access, unusual viewing, suspicious downloads, and unauthorised disclosure?",
+          "evidenceExpected": "SIEM use cases, alert configurations, audit trail review schedule, sample check records",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-AC",
+      "section": "Access Controls",
+      "applicableClauses": ["10.25", "10.26", "10.27"],
+      "items": [
+        {
+          "id": "CHK-AC-01",
+          "question": "Do role profiles include descriptions of access rights to customer information?",
+          "evidenceExpected": "Role profile documents, access rights matrices, HR-IT mapping",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-AC-02",
+          "question": "Are customer information locations mapped across systems with access controls at application, database, OS, and network levels?",
+          "evidenceExpected": "Data inventory, access control documentation at each level, testing evidence",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-AC-03",
+          "question": "Are access rights regularly reviewed and immediately revoked for departing staff or role changes?",
+          "evidenceExpected": "Access review reports, revocation records, JML process documentation",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-PS",
+      "section": "Physical Security",
+      "applicableClauses": ["10.28", "10.29", "10.30", "10.31"],
+      "items": [
+        {
+          "id": "CHK-PS-01",
+          "question": "Are physical security controls adequate for protecting customer information in paper and electronic forms?",
+          "evidenceExpected": "Physical security assessment, access control systems, CCTV coverage",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-PS-02",
+          "question": "Are restricted areas (server rooms, filing rooms) access-controlled with intruder deterrents?",
+          "evidenceExpected": "Restricted area register, access logs, intrusion detection records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-PS-03",
+          "question": "Is a clear-desk policy implemented and monitored?",
+          "evidenceExpected": "Clear-desk policy, spot check records, compliance reports",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-PS-04",
+          "question": "Are adequate controls in place for off-site customer information collection and data-in-transit?",
+          "evidenceExpected": "Off-site handling procedures, secure transport evidence, device protection records",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-DD",
+      "section": "Data Disposal",
+      "applicableClauses": ["10.32", "10.33", "10.34", "10.35", "10.36", "10.37"],
+      "items": [
+        {
+          "id": "CHK-DD-01",
+          "question": "Are procedures in place to identify customer information no longer required operationally or legally?",
+          "evidenceExpected": "Data retention schedule, identification procedures, disposal approval records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-DD-02",
+          "question": "Are industry-standard secure destruction methods used (data wiping, physical destruction, degaussing)?",
+          "evidenceExpected": "Destruction certificates, tool certifications, chain of custody records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-DD-03",
+          "question": "If outsourced destruction is used, has a risk-benefit assessment been conducted?",
+          "evidenceExpected": "Risk-benefit assessment documentation, provider evaluation records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-DD-04",
+          "question": "Is customer information shredded or stored in tamper-proof containers before outsourced collection?",
+          "evidenceExpected": "Pre-collection storage evidence, tamper-proof container procurement records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-DD-05",
+          "question": "Are random checks conducted on outsourced destruction processes?",
+          "evidenceExpected": "Random check reports, inspection records, findings and actions",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-ST",
+      "section": "Staff Awareness and Training",
+      "applicableClauses": ["10.38", "10.39", "10.40", "10.41", "10.42", "10.43", "10.44", "10.45", "10.46", "10.47", "10.48", "10.49", "10.50", "10.51", "10.52"],
+      "items": [
+        {
+          "id": "CHK-ST-01",
+          "question": "Do employment contracts contain confidentiality undertakings specifying legal obligations and consequences?",
+          "evidenceExpected": "Contract template, signed undertakings, legal obligation references",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ST-02",
+          "question": "Are external vendor personnel appropriately vetted and monitored?",
+          "evidenceExpected": "Vendor contracts with vetting requirements, verification records, monitoring reports",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ST-03",
+          "question": "Is a high degree of staff awareness maintained on confidentiality, compliance, and breach consequences?",
+          "evidenceExpected": "Awareness programme records, communication materials, acknowledgement tracking",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ST-04",
+          "question": "Are robust monitoring mechanisms in place to ensure staff adhere to policies, procedures, and controls?",
+          "evidenceExpected": "Monitoring framework, compliance reports, non-compliance escalation records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ST-05",
+          "question": "Is relevant training provided regularly, including specific onboarding training for new staff?",
+          "evidenceExpected": "Training curriculum, completion records, onboarding programme content",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ST-06",
+          "question": "Are mechanisms in place to gauge training effectiveness (e.g., annual awareness survey)?",
+          "evidenceExpected": "Survey results, assessment scores, gap analysis, improvement actions",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-ST-07",
+          "question": "Are staff breaches thoroughly investigated with appropriate disciplinary actions and Board reporting?",
+          "evidenceExpected": "Investigation records, disciplinary action records, Board reports",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-IR",
+      "section": "Independent Review",
+      "applicableClauses": ["10.53", "10.54", "10.55", "10.56"],
+      "items": [
+        {
+          "id": "CHK-IR-01",
+          "question": "Has an independent review of customer information protection been conducted within the last two years?",
+          "evidenceExpected": "Independent review report, review schedule, scope documentation",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-IR-02",
+          "question": "Does the review assess senior management effectiveness and control adequacy?",
+          "evidenceExpected": "Review scope covering management effectiveness and control adequacy sections",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-IR-03",
+          "question": "Have written findings been communicated to senior management and the Board?",
+          "evidenceExpected": "Written findings report, senior management and Board presentation records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-IR-04",
+          "question": "Have timely corrective actions been taken to address identified deficiencies?",
+          "evidenceExpected": "Corrective action plans, implementation evidence, closure records",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-BM",
+      "section": "Breach Management",
+      "applicableClauses": ["11.1", "11.2", "11.3", "11.4", "11.5", "11.6", "11.7", "11.8", "11.16", "11.17", "11.18", "11.19", "11.20", "11.23", "11.24", "11.25", "11.27", "11.29", "11.31"],
+      "items": [
+        {
+          "id": "CHK-BM-01",
+          "question": "Is a customer information breach response plan in place covering both deliberate and non-deliberate breaches?",
+          "evidenceExpected": "Breach response plan document, escalation matrix, responsibility assignments",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-BM-02",
+          "question": "Do all staff understand escalation procedures, and are relevant staff trained on remedial actions?",
+          "evidenceExpected": "Training records, escalation procedure communications, drill participation records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-BM-03",
+          "question": "Are breach detection mechanisms in place, including customer complaint integration?",
+          "evidenceExpected": "Detection system documentation, complaint-to-breach linkage process",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-BM-04",
+          "question": "Can breaches be contained immediately with appropriate mitigating actions?",
+          "evidenceExpected": "Containment playbooks, response time metrics, cross-FSP notification procedures",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-BM-05",
+          "question": "Is there a structured process for BNM notification with prescribed minimum content?",
+          "evidenceExpected": "Notification templates, trigger assessment criteria, submission records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-BM-06",
+          "question": "Are investigations completed within three months with Board reporting and BNM submission?",
+          "evidenceExpected": "Investigation timeline records, Board reports, BNM submission records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-BM-07",
+          "question": "Is a breach register maintained with root causes, remedial actions, and lessons learnt?",
+          "evidenceExpected": "Breach register, trend analysis reports",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-BM-08",
+          "question": "Are investigation reports retained for at least seven years from Board tabling date?",
+          "evidenceExpected": "Retention schedule, archived reports, retention compliance records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-BM-09",
+          "question": "Is there a process for notifying affected customers directly in plain language with prescribed content?",
+          "evidenceExpected": "Customer notification templates, communication procedures, staff training records",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-OSP",
+      "section": "Outsourced Service Providers",
+      "applicableClauses": ["12.1", "12.2", "12.3", "12.4", "12.5", "12.6", "12.7", "12.8", "12.9", "12.10"],
+      "items": [
+        {
+          "id": "CHK-OSP-01",
+          "question": "Are OSP risks monitored on an ongoing basis?",
+          "evidenceExpected": "OSP risk register, monitoring reports, escalation records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-OSP-02",
+          "question": "Is adequate due diligence performed when selecting OSPs with customer information access?",
+          "evidenceExpected": "Due diligence assessment reports, selection criteria documentation",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-OSP-03",
+          "question": "Do OSPs maintain controls comparable to the FSP's own standards?",
+          "evidenceExpected": "Control assessment reports, comparable standard documentation, gap analysis",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-OSP-04",
+          "question": "Do SLAs include all mandatory provisions per paragraph 12.4 (safeguarding, vetting, access restriction, breach reporting, data return/destruction, audit rights)?",
+          "evidenceExpected": "SLA review checklist, contract analysis, amendment records for existing SLAs",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-OSP-05",
+          "question": "Have binding NDAs been executed with all OSPs handling customer information?",
+          "evidenceExpected": "NDA register, executed NDA copies, renewal tracking",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-OSP-06",
+          "question": "Do OSPs conduct regular training for their personnel on customer information handling?",
+          "evidenceExpected": "OSP training records, effectiveness review reports",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-OSP-07",
+          "question": "Are OSPs reviewed at least biennially for contractual compliance?",
+          "evidenceExpected": "OSP review reports, review schedule, findings and remediation tracking",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-OSP-08",
+          "question": "Are accurate and complete records maintained of all customer information shared with OSPs?",
+          "evidenceExpected": "Data sharing register, audit trail records, reconciliation reports",
+          "status": null,
+          "findings": null
+        }
+      ]
+    },
+    {
+      "id": "CHK-PD",
+      "section": "Permitted Disclosure",
+      "applicableClauses": ["13.1", "13.2", "13.3", "13.4", "13.5"],
+      "items": [
+        {
+          "id": "CHK-PD-01",
+          "question": "Is valid informed consent obtained before disclosing customer information where required?",
+          "evidenceExpected": "Consent management records, consent forms, withdrawal mechanisms",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-PD-02",
+          "question": "Are cross-border disclosures governed by adequate safeguards and regulatory approvals?",
+          "evidenceExpected": "Cross-border transfer register, adequacy assessments, regulatory approval records",
+          "status": null,
+          "findings": null
+        },
+        {
+          "id": "CHK-PD-03",
+          "question": "Are comprehensive records maintained of all permitted disclosures with legal basis and approval evidence?",
+          "evidenceExpected": "Disclosure register, legal basis documentation, approval records",
+          "status": null,
+          "findings": null
+        }
+      ]
+    }
+  ]
+}

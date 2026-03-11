@@ -1,0 +1,139 @@
+{
+  "verified": true,
+  "verification_date": "2026-03-11",
+  "verification_notes": "Cross-reference mappings verified against RMiT Nov 2025 clause data in /Users/dawud/claude/RMIT/clauses/sections.json and by-section files. Multiple corrections applied where clause IDs did not exist or where domain descriptions did not match actual RMiT subsection topics.",
+  "source": "MCIPD 2025 (BNM/RH/PD 028-65)",
+  "target": "RMiT Nov 2025 (BNM/RH/PD 028-98)",
+  "relationship": "MCIPD provides customer information protection requirements that complement and operationalise RMiT data security and cybersecurity controls",
+  "mappings": [
+    {
+      "mcipd": "8.1-8.4",
+      "rmit": ["8.1", "8.2", "8.3", "8.4", "8.5"],
+      "domain": "Board oversight",
+      "rationale": "Both require board-level oversight of information protection. RMiT S8 covers technology risk governance broadly; MCIPD S8 focuses specifically on customer information.",
+      "verification_status": "verified"
+    },
+    {
+      "mcipd": "9.1-9.10",
+      "rmit": ["8.6", "8.7", "9.4", "9.5"],
+      "domain": "Senior management and CISO",
+      "rationale": "MCIPD senior management accountability maps to RMiT 8.6-8.7 (Responsibilities of the senior management) and 9.4-9.5 (Designated CISO and CISO responsibilities). MCIPD 9.2 requires designated officer aligning with RMiT CISO designation.",
+      "verification_status": "corrected",
+      "correction_notes": "Original mapped to RMiT 9.1-9.4. RMiT 9.1-9.3 are 'Risk Management Framework' clauses, not senior management responsibility clauses. The primary senior management clauses in RMiT are 8.6-8.7. Retained 9.4-9.5 for CISO alignment."
+    },
+    {
+      "mcipd": "10.1-10.4",
+      "rmit": ["9.1", "9.2", "9.3"],
+      "domain": "Risk assessment",
+      "rationale": "MCIPD risk assessment for customer information threats maps to RMiT technology risk management framework (9.1-9.3) which covers risk identification, assessment approaches, and independent risk management function.",
+      "verification_status": "corrected",
+      "correction_notes": "Original mapped to RMiT 9.5, 9.6, 9.7. Clauses 9.6 and 9.7 do not exist in RMiT. RMiT Section 9 only has clauses 9.1 through 9.5. Corrected to 9.1-9.3 (Risk Management Framework)."
+    },
+    {
+      "mcipd": "10.6-10.11",
+      "rmit": ["10.1", "10.2", "10.3"],
+      "domain": "Technology project governance",
+      "rationale": "MCIPD policies and procedures requirements complement RMiT technology project governance requirements covering oversight, risk assessment, and management structures.",
+      "verification_status": "verified",
+      "correction_notes": "Domain label updated from 'Policies and procedures' to 'Technology project governance' to accurately reflect RMiT 10.1-10.3 subsection (Technology Project Management)."
+    },
+    {
+      "mcipd": "10.12-10.13",
+      "rmit": ["11.1", "11.2", "11.3"],
+      "domain": "Cyber risk management",
+      "rationale": "MCIPD preventive and detective ICT controls for customer information align with RMiT cyber risk management requirements (11.1-11.3) covering enterprise-wide cyber risk focus, cyber resilience framework, and cyber risk assessment.",
+      "verification_status": "verified"
+    },
+    {
+      "mcipd": "10.14-10.15",
+      "rmit": ["10.53", "10.54", "10.55"],
+      "domain": "Access controls for remote/off-site work",
+      "rationale": "MCIPD offsite work controls for customer information align with RMiT access control policy (10.53), access control principles (10.54), and multi-factor authentication requirements (10.55) which govern secure remote access.",
+      "verification_status": "corrected",
+      "correction_notes": "Original mapped to RMiT 10.44-10.45 which are 'System backup and restoration' clauses, not remote access. RMiT does not have a dedicated remote access subsection; access control clauses 10.53-10.55 are the closest thematic match for securing off-site work."
+    },
+    {
+      "mcipd": "10.16-10.19",
+      "rmit": ["10.20", "10.21", "10.22", "10.23"],
+      "domain": "Cryptography and data protection controls",
+      "rationale": "MCIPD controls for portable storage devices, USB restrictions, and media handling align with RMiT cryptography requirements (10.20-10.23) which cover encryption of data at rest and in transit, including on portable media.",
+      "verification_status": "corrected",
+      "correction_notes": "Original mapped to RMiT 10.46-10.47 which are 'Third Party Service Provider Management' clauses. RMiT Cryptography subsection (10.20-10.23) is the closest match for portable device and media data protection controls."
+    },
+    {
+      "mcipd": "10.20-10.24",
+      "rmit": ["11.4", "11.5", "11.6", "11.7"],
+      "domain": "Cyber risk management - detection and monitoring",
+      "rationale": "MCIPD detection mechanisms for unauthorised access/disclosure complement RMiT cyber risk management clauses 11.4-11.7 which cover security monitoring, threat detection, and cybersecurity controls.",
+      "verification_status": "verified"
+    },
+    {
+      "mcipd": "10.25-10.27",
+      "rmit": ["10.53", "10.54", "10.55", "10.56", "10.57"],
+      "domain": "Access controls",
+      "rationale": "Direct alignment - MCIPD access control requirements for customer information map to RMiT access management framework including access control policy (10.53), principles (10.54), MFA (10.55), user access matrix (10.56), and access monitoring (10.57).",
+      "verification_status": "verified"
+    },
+    {
+      "mcipd": "10.28-10.30",
+      "rmit": ["10.24", "10.25", "10.26"],
+      "domain": "Data centre resilience and physical security",
+      "rationale": "MCIPD physical security for customer information complements RMiT data centre resilience requirements including objectives (10.24), redundancy (10.25), and physical security (10.26).",
+      "verification_status": "verified",
+      "correction_notes": "Domain label clarified. RMiT 10.24-10.26 are specifically 'Data Centre Resilience' subsection, with 10.26 covering physical security."
+    },
+    {
+      "mcipd": "10.32-10.37",
+      "rmit": [],
+      "domain": "Secure disposal",
+      "rationale": "MCIPD secure disposal requirements for customer information do not have a direct RMiT counterpart. RMiT does not contain a dedicated data disposal or data lifecycle management subsection.",
+      "verification_status": "corrected",
+      "correction_notes": "Original mapped to RMiT 10.48-10.49 which are 'Third Party Service Provider Management' clauses (SLA Requirements and Continuous Third Party Cybersecurity Monitoring). These do not address data disposal. No directly corresponding RMiT clauses identified for secure disposal; this is an MCIPD-specific requirement."
+    },
+    {
+      "mcipd": "10.39-10.52",
+      "rmit": ["15.1", "15.2", "15.3"],
+      "domain": "Security awareness and education",
+      "rationale": "MCIPD staff confidentiality and training requirements complement RMiT security awareness and education programme covering cybersecurity awareness (15.1), continuous training for technology staff (15.2), and board training (15.3).",
+      "verification_status": "verified"
+    },
+    {
+      "mcipd": "10.53-10.56",
+      "rmit": ["13.1", "13.2", "13.3", "13.4"],
+      "domain": "Technology audits",
+      "rationale": "Both require independent review. MCIPD 9.8 explicitly references 10.53-10.56 for biennial review. RMiT 13.1-13.4 cover audit scope (13.1), annual audit plan (13.2), audit competency (13.3), and audit advisory role (13.4).",
+      "verification_status": "verified"
+    },
+    {
+      "mcipd": "11.1-11.7",
+      "rmit": ["11.12", "11.13", "11.14", "11.15", "11.16", "11.17"],
+      "domain": "Cyber response and recovery",
+      "rationale": "MCIPD breach handling and response plan maps to RMiT Cyber Response and Recovery subsection covering crisis management (11.12), incident response plan (11.13), CERT readiness (11.14), out-of-band communications (11.15), cyber drills (11.16), and cyber insurance (11.17).",
+      "verification_status": "corrected",
+      "correction_notes": "Original mapped to RMiT 11.8-11.10 which are 'Cybersecurity Operations' (SOC operations, monitoring, threat intelligence). The correct subsection for incident response is 'Cyber Response and Recovery' (11.12-11.17)."
+    },
+    {
+      "mcipd": "11.8-11.17",
+      "rmit": ["11.18", "11.19", "11.20"],
+      "domain": "Cyber incident reporting and notification",
+      "rationale": "Both require notification to BNM. MCIPD specifies customer information breach notification triggers and timelines; RMiT 11.18-11.20 cover cyber incident notification to BNM (11.18), threat intelligence sharing (11.19), and stakeholder collaboration (11.20).",
+      "verification_status": "corrected",
+      "correction_notes": "Original mapped to RMiT 16.1-16.3 which are 'Notification for Technology-Related Applications' (digital service launch notifications to BNM). The correct RMiT clauses for incident/breach notification are 11.18-11.20 (Cyber Reporting and Threat Information Sharing)."
+    },
+    {
+      "mcipd": "12.1-12.10",
+      "rmit": ["10.46", "10.47", "10.48", "10.49", "14.1", "14.2"],
+      "domain": "Third party service provider management and external party assurance",
+      "rationale": "MCIPD OSP requirements for customer information map to both RMiT Third Party Service Provider Management (10.46-10.49 covering oversight, due diligence, SLAs, and monitoring) and External Party Assurance (14.1-14.2 covering data centre and network resilience assessments).",
+      "verification_status": "corrected",
+      "correction_notes": "Original mapped only to RMiT 14.1-14.2 which are specifically about data centre and network resilience assessments by external parties. Added RMiT 10.46-10.49 (Third Party Service Provider Management) as the primary mapping for outsourced service provider requirements."
+    }
+  ],
+  "notes": [
+    "Verified 2026-03-11: Mappings verified against actual RMiT clause data. Multiple corrections applied for non-existent clause IDs (9.6, 9.7) and misaligned domain mappings.",
+    "MCIPD paragraph 6.1(e) explicitly references RMiT as a related policy document.",
+    "RMiT clause numbers reference the November 2025 version (BNM/RH/PD 028-98).",
+    "Where RMiT clause ranges are listed, mapping is to the most thematically relevant clauses, not necessarily all clauses in the range.",
+    "RMiT does not contain a dedicated secure disposal or data lifecycle management subsection; MCIPD 10.32-10.37 requirements are MCIPD-specific."
+  ]
+}

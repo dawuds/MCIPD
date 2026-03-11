@@ -1,0 +1,76 @@
+{
+  "documentReference": "BNM/RH/PD 028-65",
+  "documentTitle": "Management of Customer Information and Permitted Disclosures",
+  "issuedDate": "2025-10-31",
+  "effectiveDate": "2025-10-31",
+  "classification": "SULIT",
+  "totalPages": 35,
+  "supersedes": [
+    "Policy document on Management of Customer Information and Permitted Disclosures issued on 3 April 2023",
+    "BNM's Letter on Disclosure of Customer Information to Lembaga Hasil Dalam Negeri issued on 18 February 2022"
+  ],
+  "parts": [
+    {
+      "id": "A",
+      "title": "Overview",
+      "sections": ["1", "2", "3", "4", "5", "6", "7"],
+      "pageRange": "1-4"
+    },
+    {
+      "id": "B",
+      "title": "Policy Requirements",
+      "sections": ["8", "9", "10", "11", "12"],
+      "pageRange": "5-18",
+      "applicability": "All FSPs as defined in paragraph 5.2"
+    },
+    {
+      "id": "C",
+      "title": "Specific Requirements on Permitted Disclosure",
+      "sections": ["13"],
+      "pageRange": "19-30",
+      "applicability": "Financial institutions only (s131 FSA, s143 IFSA, s3(1) DFIA)"
+    }
+  ],
+  "appendices": [
+    {
+      "id": "I",
+      "title": "Template for reporting customer information breach",
+      "page": 31
+    },
+    {
+      "id": "II",
+      "title": "Application form for PDRM",
+      "page": 32
+    },
+    {
+      "id": "III",
+      "title": "Application form for Jabatan Kastam Diraja Malaysia",
+      "page": 33
+    },
+    {
+      "id": "IV",
+      "title": "Application form for law enforcement agencies other than PDRM and Jabatan Kastam Diraja Malaysia",
+      "page": 34
+    },
+    {
+      "id": "V",
+      "title": "Application for Disclosure of Customer Information",
+      "page": 35
+    }
+  ],
+  "sections": [
+    { "id": "1", "part": "A", "title": "Introduction", "clauseCount": 3 },
+    { "id": "2", "part": "A", "title": "Applicability", "clauseCount": 2 },
+    { "id": "3", "part": "A", "title": "Legal provisions", "clauseCount": 3 },
+    { "id": "4", "part": "A", "title": "Effective date", "clauseCount": 1 },
+    { "id": "5", "part": "A", "title": "Interpretation", "clauseCount": 2 },
+    { "id": "6", "part": "A", "title": "Related policy documents and legal instruments", "clauseCount": 2 },
+    { "id": "7", "part": "A", "title": "Policy documents or circulars superseded", "clauseCount": 1 },
+    { "id": "8", "part": "B", "title": "Board oversight", "clauseCount": 4 },
+    { "id": "9", "part": "B", "title": "Senior management", "clauseCount": 10 },
+    { "id": "10", "part": "B", "title": "Control environment", "clauseCount": 56, "subsections": ["A. Risk assessment", "B. Policies and procedures", "C. Control measures", "D. Staff, Representatives, Agents and External Vendors' Personnel", "E. Independent review"] },
+    { "id": "11", "part": "B", "title": "Customer information breaches", "clauseCount": 31, "subsections": ["A. Handling customer information breaches", "B. Notification to BNM", "C. Submission of detailed investigation report", "D. Notification to affected customers"] },
+    { "id": "12", "part": "B", "title": "Outsourced service provider", "clauseCount": 10 },
+    { "id": "13", "part": "C", "title": "Conditions in relation to permitted disclosure", "clauseCount": 4 }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-03-11",
+    "alignment": "BNM MCIPD June 2025",
+    "aiGenerated": true,
+    "verificationNote": "AI Generated: Risk treatment options and strategies for customer information risks. Organisations should select treatment approaches based on their board-approved risk appetite and proportionality considerations."
+  },
+  "title": "Customer Information Risk Treatment Options",
+  "description": "Framework for selecting and implementing risk treatment strategies for customer information risks under BNM MCIPD.",
+  "treatmentStrategies": [
+    {
+      "strategy": "avoid",
+      "label": "Risk Avoidance",
+      "description": "Eliminate the risk by ceasing the activity or removing the source of risk entirely.",
+      "applicability": "Where the risk exposure exceeds the FSP's risk appetite and no cost-effective controls can reduce it to acceptable levels.",
+      "examples": [
+        "Discontinuing a product or service that requires excessive customer data handling with insufficient safeguards",
+        "Ceasing cross-border data sharing with jurisdictions lacking adequate data protection frameworks",
+        "Eliminating the use of personal portable storage devices for customer data entirely"
+      ],
+      "considerations": [
+        "May limit business operations or revenue-generating activities",
+        "Should be a last resort when other treatment options are insufficient",
+        "Requires Board-level decision for material business impact"
+      ]
+    },
+    {
+      "strategy": "mitigate",
+      "label": "Risk Mitigation",
+      "description": "Reduce the likelihood or impact of the risk through implementing or strengthening controls.",
+      "applicability": "The primary treatment strategy for most customer information risks, aligned with MCIPD control environment requirements.",
+      "subStrategies": [
+        {
+          "type": "reduce-likelihood",
+          "label": "Reduce Likelihood",
+          "description": "Implement preventive controls to reduce the probability of the risk materialising.",
+          "treatmentOptions": [
+            {
+              "id": "TRT-ML-01",
+              "name": "Strengthen Access Controls",
+              "description": "Implement or enhance role-based access controls, multi-factor authentication, and periodic access reviews to reduce the likelihood of unauthorised access.",
+              "applicableRisks": ["CIR-002", "CIR-006", "CIR-015"],
+              "controlsToImplement": ["role-based-access-profiles", "multi-level-access-controls", "access-review-and-revocation"],
+              "clauses": ["10.25", "10.26", "10.27"],
+              "implementationTimeline": "30-90 days",
+              "costIndicator": "Medium"
+            },
+            {
+              "id": "TRT-ML-02",
+              "name": "Deploy Data Loss Prevention",
+              "description": "Implement technical DLP controls across endpoints, email, and web channels to prevent unauthorised exfiltration of customer information.",
+              "applicableRisks": ["CIR-001", "CIR-002", "CIR-013"],
+              "controlsToImplement": ["preventive-detective-ict-controls", "social-media-web-restriction", "portable-device-controls"],
+              "clauses": ["10.12", "10.16", "10.17", "10.22"],
+              "implementationTimeline": "60-180 days",
+              "costIndicator": "High"
+            },
+            {
+              "id": "TRT-ML-03",
+              "name": "Enhance Staff Training and Awareness",
+              "description": "Strengthen training programmes to reduce human error and negligent disclosure, including phishing simulations and role-specific training.",
+              "applicableRisks": ["CIR-005", "CIR-017"],
+              "controlsToImplement": ["training-and-reminders", "staff-awareness-programme", "training-effectiveness-measurement"],
+              "clauses": ["10.41", "10.43", "10.44", "10.47"],
+              "implementationTimeline": "30-60 days",
+              "costIndicator": "Low-Medium"
+            },
+            {
+              "id": "TRT-ML-04",
+              "name": "Strengthen OSP Due Diligence and Monitoring",
+              "description": "Enhance pre-engagement due diligence and ongoing monitoring of outsourced service providers to reduce the likelihood of OSP-related breaches.",
+              "applicableRisks": ["CIR-003", "CIR-011", "CIR-016"],
+              "controlsToImplement": ["osp-due-diligence", "osp-comparable-controls", "osp-biennial-review", "osp-risk-monitoring"],
+              "clauses": ["12.1", "12.2", "12.3", "12.9"],
+              "implementationTimeline": "60-120 days",
+              "costIndicator": "Medium"
+            },
+            {
+              "id": "TRT-ML-05",
+              "name": "Implement Physical Deterrence Programme",
+              "description": "Deploy physical deterrence measures including CCTV, personal device restrictions, privacy screens, and clear-desk enforcement to reduce deliberate data capture attempts.",
+              "applicableRisks": ["CIR-007", "CIR-012", "CIR-013"],
+              "controlsToImplement": ["unauthorised-disclosure-deterrence", "physical-security-controls", "restricted-area-controls", "clear-desk-policy"],
+              "clauses": ["10.20", "10.21", "10.28", "10.29", "10.30"],
+              "implementationTimeline": "30-90 days",
+              "costIndicator": "Medium"
+            },
+            {
+              "id": "TRT-ML-06",
+              "name": "Encrypt Portable Devices and Data-in-Transit",
+              "description": "Apply full-disk encryption on all portable devices and enforce encrypted transmission channels to reduce the likelihood of data compromise from lost or stolen devices.",
+              "applicableRisks": ["CIR-019"],
+              "controlsToImplement": ["portable-device-controls", "offsite-work-controls", "offsite-data-in-transit-controls"],
+              "clauses": ["10.14", "10.15", "10.16", "10.17", "10.31"],
+              "implementationTimeline": "30-60 days",
+              "costIndicator": "Medium"
+            }
+          ]
+        },
+        {
+          "type": "reduce-impact",
+          "label": "Reduce Impact",
+          "description": "Implement detective and corrective controls to limit the impact when a risk materialises.",
+          "treatmentOptions": [
+            {
+              "id": "TRT-MI-01",
+              "name": "Establish Breach Response Capability",
+              "description": "Develop and test comprehensive breach response plans with escalation procedures, BNM notification templates, and customer notification protocols to minimise impact when breaches occur.",
+              "applicableRisks": ["CIR-001", "CIR-002", "CIR-003", "CIR-005", "CIR-010", "CIR-018"],
+              "controlsToImplement": ["breach-response-plan", "bnm-notification", "customer-breach-notification", "breach-investigation-and-reporting"],
+              "clauses": ["11.1", "11.2", "11.8", "11.16", "11.18", "11.25"],
+              "implementationTimeline": "30-90 days",
+              "costIndicator": "Medium"
+            },
+            {
+              "id": "TRT-MI-02",
+              "name": "Deploy Anomaly Detection and Early Warning",
+              "description": "Implement UEBA, SIEM monitoring, and automated alerting to detect breaches early and limit the volume of affected data and customers.",
+              "applicableRisks": ["CIR-001", "CIR-002", "CIR-005", "CIR-006"],
+              "controlsToImplement": ["unauthorised-activity-detection", "breach-detection-mechanism"],
+              "clauses": ["10.23", "10.24", "11.4"],
+              "implementationTimeline": "60-180 days",
+              "costIndicator": "High"
+            },
+            {
+              "id": "TRT-MI-03",
+              "name": "Implement Data Segmentation and Minimisation",
+              "description": "Segment customer data stores and apply data minimisation principles to limit the blast radius of any single breach event.",
+              "applicableRisks": ["CIR-002", "CIR-003", "CIR-005"],
+              "controlsToImplement": ["multi-level-access-controls"],
+              "clauses": ["10.26"],
+              "implementationTimeline": "90-180 days",
+              "costIndicator": "High"
+            },
+            {
+              "id": "TRT-MI-04",
+              "name": "Maintain Breach Register and Lessons Learnt Programme",
+              "description": "Systematically capture breach data, root causes, and lessons learnt to continuously improve controls and prevent recurrence.",
+              "applicableRisks": ["CIR-010", "CIR-018", "CIR-020"],
+              "controlsToImplement": ["breach-register", "review-findings-communication"],
+              "clauses": ["11.23", "11.24", "10.55", "10.56"],
+              "implementationTimeline": "30 days",
+              "costIndicator": "Low"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "transfer",
+      "label": "Risk Transfer",
+      "description": "Transfer some or all of the financial impact of the risk to a third party, typically through insurance or contractual arrangements.",
+      "applicability": "Suitable for residual financial impact that remains after control implementation, but does not transfer regulatory accountability.",
+      "examples": [
+        "Cyber insurance covering customer data breach costs including notification, forensics, and legal fees",
+        "Contractual indemnities from OSPs for breaches caused by their negligence or control failures",
+        "Professional indemnity insurance for directors and officers covering regulatory investigations"
+      ],
+      "considerations": [
+        "FSP retains full regulatory accountability regardless of insurance or contractual transfers",
+        "Insurance may not cover regulatory fines or penalties",
+        "Contractual indemnities are only as strong as the counterparty's financial capacity",
+        "Board must understand that risk transfer does not absolve governance obligations under MCIPD"
+      ],
+      "treatmentOptions": [
+        {
+          "id": "TRT-TR-01",
+          "name": "Cyber Liability Insurance",
+          "description": "Procure cyber insurance covering breach response costs, customer notification, forensic investigation, regulatory defence, and business interruption arising from customer information breaches.",
+          "applicableRisks": ["CIR-001", "CIR-002", "CIR-003", "CIR-005"],
+          "implementationTimeline": "30-60 days",
+          "costIndicator": "Medium-High"
+        },
+        {
+          "id": "TRT-TR-02",
+          "name": "OSP Contractual Indemnity",
+          "description": "Include contractual indemnity provisions in OSP SLAs requiring the OSP to bear the financial costs of breaches caused by their negligence or failure to meet contractual obligations.",
+          "applicableRisks": ["CIR-003", "CIR-011", "CIR-016"],
+          "controlsToImplement": ["osp-sla-requirements"],
+          "clauses": ["12.4"],
+          "implementationTimeline": "30-90 days",
+          "costIndicator": "Low"
+        }
+      ]
+    },
+    {
+      "strategy": "accept",
+      "label": "Risk Acceptance",
+      "description": "Formally accept the risk when it falls within the FSP's risk appetite and the cost of further mitigation exceeds the potential benefit.",
+      "applicability": "Only for risks rated Low after control implementation, or where proportionality considerations under clause 10.4 justify acceptance.",
+      "requirements": [
+        "Formal risk acceptance must be documented and approved by the designated officer under paragraph 9.2",
+        "Material risk acceptances must be reported to the Board under paragraph 8.3",
+        "Accepted risks must be periodically reviewed to ensure they remain within appetite",
+        "Risk acceptance does not exempt the FSP from compliance with MCIPD mandatory requirements (S-marked clauses)"
+      ],
+      "treatmentOptions": [
+        {
+          "id": "TRT-AC-01",
+          "name": "Formal Risk Acceptance with Monitoring",
+          "description": "Document and approve risk acceptance with ongoing monitoring through the regular risk review cycle, including trigger conditions for re-assessment.",
+          "applicableRisks": ["Risks rated Low after control implementation"],
+          "implementationTimeline": "Immediate",
+          "costIndicator": "Nil"
+        }
+      ]
+    }
+  ],
+  "treatmentSelectionCriteria": {
+    "description": "Criteria for selecting appropriate treatment strategies based on risk characteristics and organisational context.",
+    "factors": [
+      {
+        "factor": "Risk Rating",
+        "guidance": "Critical and High risks: Mitigate as priority. Medium risks: Mitigate within 90 days. Low risks: Consider acceptance with monitoring."
+      },
+      {
+        "factor": "Regulatory Mandate",
+        "guidance": "Standard (S-marked) clause requirements must be complied with regardless of risk rating. Risk acceptance cannot override regulatory mandates."
+      },
+      {
+        "factor": "Proportionality",
+        "guidance": "Treatment intensity should be proportionate to the FSP's size, complexity, and volume/sensitivity of customer information per clause 10.4."
+      },
+      {
+        "factor": "Cost-Benefit",
+        "guidance": "Evaluate the cost of controls against the potential financial and reputational impact of the risk materialising."
+      },
+      {
+        "factor": "Implementation Feasibility",
+        "guidance": "Consider technical feasibility, resource availability, and implementation timeline when selecting treatment options."
+      },
+      {
+        "factor": "Control Layering",
+        "guidance": "Prefer defence-in-depth with multiple control layers (policy, process, technical, physical) rather than relying on a single control type."
+      }
+    ]
+  },
+  "treatmentPlanTemplate": {
+    "description": "Standard template for documenting risk treatment plans aligned with MCIPD mitigation plan requirements (clause 10.2).",
+    "fields": [
+      { "field": "riskId", "description": "Reference to the risk register entry" },
+      { "field": "treatmentStrategy", "description": "Avoid, mitigate, transfer, or accept" },
+      { "field": "treatmentOptions", "description": "Specific treatment options selected from the catalogue" },
+      { "field": "controlsToImplement", "description": "Controls from the library to be implemented or enhanced" },
+      { "field": "owner", "description": "Accountable person for implementing the treatment" },
+      { "field": "targetDate", "description": "Target date for treatment completion" },
+      { "field": "targetResidualRisk", "description": "Expected residual risk rating after treatment implementation" },
+      { "field": "milestones", "description": "Key implementation milestones with dates" },
+      { "field": "resourceRequirements", "description": "Budget, personnel, and technology requirements" },
+      { "field": "approvalAuthority", "description": "Who approved the treatment plan (designated officer or Board)" },
+      { "field": "reviewDate", "description": "Date for reviewing treatment effectiveness" }
+    ]
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "12.1": {
+    "clauseId": "12.1",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must actively monitor and manage risks associated with outsourced service providers that handle customer information.",
+      "requirements": [
+        {
+          "id": "12.1-B1",
+          "requirement": "Establish an OSP Risk Monitoring Programme that identifies, assesses, and monitors risks arising from all outsourced service providers handling customer information.",
+          "rationale": "Clause 12.1 mandates risk monitoring for OSPs. A structured programme ensures systematic coverage of all OSP relationships.",
+          "owner": "Operations",
+          "frequency": "Continuous monitoring; formal review quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology must support monitoring of OSP-related risks and activities.",
+      "requirements": [
+        {
+          "id": "12.1-T1",
+          "requirement": "Implement monitoring capabilities for OSP activities involving customer information, including access logging, data transfer monitoring, and SLA performance tracking.",
+          "rationale": "Risk monitoring requires visibility into OSP activities. Technical monitoring provides objective data for risk assessment.",
+          "owner": "IT Security",
+          "frequency": "Continuous",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: OSP risk monitoring must be governed within the broader risk management framework.",
+      "requirements": [
+        {
+          "id": "12.1-G1",
+          "requirement": "Integrate OSP risk monitoring into the enterprise risk management framework with defined reporting, escalation, and remediation processes.",
+          "rationale": "OSP risks must receive governance attention proportionate to their significance.",
+          "owner": "Compliance",
+          "frequency": "Annual framework review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "12.2": {
+    "clauseId": "12.2",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must perform thorough due diligence when selecting OSPs with access to customer information, to understand risk levels and determine appropriate ongoing monitoring.",
+      "requirements": [
+        {
+          "id": "12.2-B1",
+          "requirement": "Conduct comprehensive due diligence on all prospective OSPs that will access, process, store, or dispose of customer information, covering security posture, financial stability, regulatory compliance, and track record.",
+          "rationale": "Clause 12.2 mandates adequate due diligence. Pre-engagement assessment prevents onboarding of high-risk providers.",
+          "owner": "Operations",
+          "frequency": "Per OSP selection; repeated at contract renewal",
+          "priority": "critical"
+        },
+        {
+          "id": "12.2-B2",
+          "requirement": "Use due diligence findings to determine a risk-based monitoring intensity level for each OSP, with higher-risk providers subject to more frequent and detailed monitoring.",
+          "rationale": "Clause 12.2 requires assessments to determine appropriate monitoring. Risk-based monitoring optimises resource allocation.",
+          "owner": "Compliance",
+          "frequency": "Per OSP; monitoring levels reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Due diligence should include technical security assessments of the OSP's environment.",
+      "requirements": [
+        {
+          "id": "12.2-T1",
+          "requirement": "Include technical security assessment in OSP due diligence covering the OSP's information security controls, encryption practices, access management, and incident response capabilities.",
+          "rationale": "Technical assessment validates the OSP's ability to protect customer information within their environment.",
+          "owner": "IT Security",
+          "frequency": "Per OSP selection",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Due diligence processes must be formalised and results documented.",
+      "requirements": [
+        {
+          "id": "12.2-G1",
+          "requirement": "Maintain a standardised OSP Due Diligence Framework with defined assessment criteria, scoring methodology, and approval thresholds for OSP engagement.",
+          "rationale": "Standardised due diligence ensures consistent assessment quality and enables comparability across OSP candidates.",
+          "owner": "Compliance",
+          "frequency": "Framework reviewed annually",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "12.3": {
+    "clauseId": "12.3",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must verify that OSPs maintain policies, procedures, and controls comparable to the FSP's own standards for safeguarding customer information.",
+      "requirements": [
+        {
+          "id": "12.3-B1",
+          "requirement": "Assess each OSP's customer information protection policies, procedures, and controls against the FSP's own standards, identifying gaps and requiring remediation to achieve comparable protection.",
+          "rationale": "Clause 12.3 requires comparable standards. Assessment against the FSP's own benchmarks ensures equivalent protection.",
+          "owner": "Compliance",
+          "frequency": "At engagement; reassessed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical controls at the OSP must be validated as comparable to the FSP's standards.",
+      "requirements": [
+        {
+          "id": "12.3-T1",
+          "requirement": "Conduct technical security assessments of OSP environments to verify controls are comparable to FSP standards, including encryption, access controls, monitoring, and incident detection.",
+          "rationale": "Comparable standards require technical validation, not just policy review.",
+          "owner": "IT Security",
+          "frequency": "At engagement; reassessed at least biennially",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Comparability assessments must be documented and gaps tracked.",
+      "requirements": [
+        {
+          "id": "12.3-G1",
+          "requirement": "Document comparability assessments for each OSP with gap analysis and remediation tracking until comparable standards are achieved.",
+          "rationale": "Documentation provides evidence of compliance and enables tracking of gap closure.",
+          "owner": "Compliance",
+          "frequency": "Per assessment; gaps tracked to closure",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "12.4": {
+    "clauseId": "12.4",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: SLAs with OSPs must include nine mandatory obligations: (a) safeguard customer data, (b) maintain adequate policies, (c) vet personnel, (d) restrict access to SLA purposes, (e) ensure personnel comply with disclosure prohibitions, (f) investigate breaches, (g) report breaches within agreed timeframes, (h) destroy/return data upon termination, and (i) permit FSP audits. Existing SLAs must be amended to comply.",
+      "requirements": [
+        {
+          "id": "12.4-B1",
+          "requirement": "Review and amend all existing OSP SLAs to include all nine mandatory provisions specified in clause 12.4, and ensure all new SLAs include these provisions from inception.",
+          "rationale": "Clause 12.4 mandates nine specific SLA provisions and requires amendment of existing SLAs, not just new ones. Immediate compliance action is needed.",
+          "owner": "Legal",
+          "frequency": "Immediate review of existing SLAs; per new SLA",
+          "priority": "critical"
+        },
+        {
+          "id": "12.4-B2",
+          "requirement": "Develop a standard SLA Addendum Template incorporating all nine mandatory provisions that can be efficiently executed with existing OSPs.",
+          "rationale": "An addendum template enables rapid compliance across the existing OSP portfolio without full contract renegotiation.",
+          "owner": "Legal",
+          "frequency": "Template created once; reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical capabilities must support the SLA obligations including audit access, breach reporting integration, and data return/destruction.",
+      "requirements": [
+        {
+          "id": "12.4-T1",
+          "requirement": "Implement technical capabilities to support SLA obligations including: audit trail access for FSP audit rights, secure channels for breach reporting, and verified data destruction/return procedures.",
+          "rationale": "SLA obligations require technical enablement. The FSP must be able to exercise its rights and verify OSP compliance.",
+          "owner": "IT Security",
+          "frequency": "Capabilities maintained continuously",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: SLA compliance with clause 12.4 must be tracked across the entire OSP portfolio.",
+      "requirements": [
+        {
+          "id": "12.4-G1",
+          "requirement": "Maintain an OSP SLA Compliance Register tracking the inclusion of all nine mandatory provisions across all OSP agreements, with remediation tracking for non-compliant SLAs.",
+          "rationale": "Portfolio-wide tracking ensures no OSP SLA is overlooked and demonstrates systematic compliance to regulators.",
+          "owner": "Compliance",
+          "frequency": "Continuously maintained; reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "12.5": {
+    "clauseId": "12.5",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: FSPs are encouraged to clearly communicate to OSPs the specific control measures expected for processing, storing, transmitting, disposing, or destroying customer information.",
+      "requirements": [
+        {
+          "id": "12.5-B1",
+          "requirement": "Develop and communicate OSP Control Measure Specifications detailing the expected control measures for each stage of customer information handling: processing, storage, transmission, disposal, and destruction.",
+          "rationale": "Clause 12.5 encourages clear expectations. Specific control specifications prevent ambiguity and enable compliance verification.",
+          "owner": "IT Security",
+          "frequency": "Per OSP engagement; reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical control specifications should be detailed enough for OSP implementation.",
+      "requirements": [
+        {
+          "id": "12.5-T1",
+          "requirement": "Define technical control specifications for OSPs covering encryption standards, access control requirements, monitoring expectations, and secure disposal methods.",
+          "rationale": "Technical specifications enable OSPs to implement controls that meet the FSP's expectations without ambiguity.",
+          "owner": "IT Security",
+          "frequency": "Per OSP engagement; reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Control expectations should be documented and acknowledged by OSPs.",
+      "requirements": [
+        {
+          "id": "12.5-G1",
+          "requirement": "Obtain documented acknowledgement from each OSP of the communicated control measure expectations.",
+          "rationale": "Acknowledgement creates accountability and provides evidence that expectations were communicated.",
+          "owner": "Compliance",
+          "frequency": "Per OSP engagement",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "12.6": {
+    "clauseId": "12.6",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must ensure that OSPs execute a legally binding non-disclosure agreement covering the handling of customer information.",
+      "requirements": [
+        {
+          "id": "12.6-B1",
+          "requirement": "Require all OSPs to sign a legally binding Non-Disclosure Agreement (NDA) specifically covering customer information before any customer data is shared or access is granted.",
+          "rationale": "Clause 12.6 mandates a binding NDA. The NDA creates legal recourse in case of unauthorised disclosure.",
+          "owner": "Legal",
+          "frequency": "Per OSP engagement; NDA validity tracked",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: OSP access should not be provisioned until NDA execution is confirmed.",
+      "requirements": [
+        {
+          "id": "12.6-T1",
+          "requirement": "Implement access provisioning controls that prevent customer information access from being granted to OSPs until NDA execution is confirmed in the system.",
+          "rationale": "Technical enforcement prevents access before legal protections are in place.",
+          "owner": "IT Security",
+          "frequency": "Per OSP onboarding",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: NDA execution must be tracked across the OSP portfolio.",
+      "requirements": [
+        {
+          "id": "12.6-G1",
+          "requirement": "Maintain a register of all OSP NDAs with execution dates, expiry dates, and coverage confirmation, ensuring no OSP operates without a current NDA.",
+          "rationale": "NDA tracking ensures continuous legal protection across all OSP relationships.",
+          "owner": "Legal",
+          "frequency": "Continuously maintained; reviewed quarterly",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "12.7": {
+    "clauseId": "12.7",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must ensure OSPs provide regular training to their personnel on customer information handling and review the adequacy and effectiveness of training.",
+      "requirements": [
+        {
+          "id": "12.7-B1",
+          "requirement": "Require OSPs to demonstrate regular training delivery to their personnel on customer information handling, with evidence of training content, frequency, and completion rates.",
+          "rationale": "Clause 12.7 requires FSPs to ensure OSP training occurs. Evidence-based verification ensures the obligation is met.",
+          "owner": "Operations",
+          "frequency": "Annual verification; training evidence collected",
+          "priority": "high"
+        },
+        {
+          "id": "12.7-B2",
+          "requirement": "Assess the adequacy and effectiveness of OSP training programmes through review of training content, assessment results, and incident correlation.",
+          "rationale": "Clause 12.7 requires review of training adequacy and effectiveness, not just verification that training occurred.",
+          "owner": "Compliance",
+          "frequency": "Annual assessment",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: OSP training evidence should be collected and tracked centrally.",
+      "requirements": [
+        {
+          "id": "12.7-T1",
+          "requirement": "Establish a mechanism to collect and track OSP training evidence centrally, including training completion certificates, assessment scores, and programme review reports.",
+          "rationale": "Centralised tracking enables systematic verification of the OSP training obligation.",
+          "owner": "IT Security",
+          "frequency": "Annual collection; tracked continuously",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: OSP training adequacy must be part of ongoing vendor governance.",
+      "requirements": [
+        {
+          "id": "12.7-G1",
+          "requirement": "Include OSP training adequacy assessment as a standing item in periodic vendor governance reviews.",
+          "rationale": "Regular governance attention ensures training quality is maintained over time.",
+          "owner": "Compliance",
+          "frequency": "Annual",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "12.8": {
+    "clauseId": "12.8",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: FSPs are encouraged to consider directly training OSP personnel to raise awareness of safeguarding customer information and contractual compliance.",
+      "requirements": [
+        {
+          "id": "12.8-B1",
+          "requirement": "Evaluate the benefit of providing direct training to OSP personnel on the FSP's customer information protection requirements and contractual obligations.",
+          "rationale": "Clause 12.8 suggests direct training may enhance compliance. FSP-provided training ensures messaging consistency.",
+          "owner": "Operations",
+          "frequency": "Annual evaluation",
+          "priority": "low"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Training delivery platforms should support extension to OSP personnel where adopted.",
+      "requirements": [
+        {
+          "id": "12.8-T1",
+          "requirement": "If direct OSP training is adopted, extend LMS access to OSP personnel for FSP-specific customer information protection training modules.",
+          "rationale": "LMS extension provides scalable, trackable training delivery to external personnel.",
+          "owner": "HR",
+          "frequency": "Per decision to adopt; maintained continuously if adopted",
+          "priority": "low"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Direct training decisions should be documented with rationale.",
+      "requirements": [
+        {
+          "id": "12.8-G1",
+          "requirement": "Document the evaluation and decision regarding direct OSP training, including cost-benefit analysis.",
+          "rationale": "Documentation supports governance oversight of vendor management decisions.",
+          "owner": "Compliance",
+          "frequency": "Annual",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "12.9": {
+    "clauseId": "12.9",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must review their OSPs at least biennially to confirm the OSP is meeting contractual obligations to safeguard customer information.",
+      "requirements": [
+        {
+          "id": "12.9-B1",
+          "requirement": "Conduct a comprehensive review of each OSP at least once every two years, assessing fulfilment of all contractual obligations relating to customer information safeguarding.",
+          "rationale": "Clause 12.9 mandates biennial review. Regular review detects control degradation and ensures ongoing compliance.",
+          "owner": "Compliance",
+          "frequency": "At least once every two years per OSP",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical assessment should be included in OSP reviews.",
+      "requirements": [
+        {
+          "id": "12.9-T1",
+          "requirement": "Include technical security assessment (vulnerability assessment, control testing, access review) in biennial OSP reviews.",
+          "rationale": "Technical assessment validates that OSP security controls remain effective over time.",
+          "owner": "IT Security",
+          "frequency": "At least biennially per OSP",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: OSP review schedules must be tracked to ensure the biennial requirement is met.",
+      "requirements": [
+        {
+          "id": "12.9-G1",
+          "requirement": "Maintain an OSP Review Schedule tracking the last and next review dates for each OSP, ensuring no gap exceeds two years.",
+          "rationale": "Schedule tracking prevents inadvertent non-compliance with the biennial requirement.",
+          "owner": "Compliance",
+          "frequency": "Continuously maintained; verified quarterly",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "12.10": {
+    "clauseId": "12.10",
+    "section": "Outsourced service provider",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must maintain accurate and complete records, including audit trails, of all customer information shared with or provided to OSPs.",
+      "requirements": [
+        {
+          "id": "12.10-B1",
+          "requirement": "Establish procedures and systems for recording all customer information shared with or provided to OSPs, including data type, volume, date, purpose, recipient OSP, and authorising party.",
+          "rationale": "Clause 12.10 mandates accurate and complete records. Comprehensive recording enables accountability and audit.",
+          "owner": "Operations",
+          "frequency": "Per data sharing event; records reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Data sharing with OSPs must be technically logged and tracked.",
+      "requirements": [
+        {
+          "id": "12.10-T1",
+          "requirement": "Implement automated data sharing logging that captures all customer information transfers to OSPs, including data type, volume, destination, timestamp, and initiating user.",
+          "rationale": "Automated logging ensures complete and accurate records without reliance on manual processes.",
+          "owner": "IT Security",
+          "frequency": "Continuous; logs retained per retention policy",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Data sharing records must be periodically reviewed for accuracy and completeness.",
+      "requirements": [
+        {
+          "id": "12.10-G1",
+          "requirement": "Conduct quarterly reviews of OSP data sharing records for accuracy, completeness, and authorisation, reporting anomalies to senior management.",
+          "rationale": "Record accuracy must be validated. Quarterly review identifies gaps before they become systemic.",
+          "owner": "Compliance",
+          "frequency": "Quarterly",
+          "priority": "high"
+        }
+      ]
+    }
+  }
+}

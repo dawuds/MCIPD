@@ -1,0 +1,540 @@
+{
+  "9.1": {
+    "clauseId": "9.1",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must bear direct responsibility and accountability for establishing and implementing effective systems and controls to safeguard customer information. This creates an unambiguous accountability chain below the Board level.",
+      "requirements": [
+        {
+          "id": "9.1-B1",
+          "requirement": "Define and document senior management accountability for customer information protection, including named roles responsible for establishing procedures and implementing effective systems and controls.",
+          "rationale": "Clause 9.1 places direct responsibility and accountability on senior management. Documenting this accountability ensures clarity and prevents diffusion of responsibility.",
+          "owner": "Senior Management",
+          "frequency": "Annual review; updated upon organisational changes",
+          "priority": "critical"
+        },
+        {
+          "id": "9.1-B2",
+          "requirement": "Establish a senior management-owned Customer Information Protection Programme that defines the systems, controls, and procedures required to safeguard customer information across all business lines.",
+          "rationale": "Senior management must translate Board-level directives into operational programmes. A defined programme ensures systematic implementation rather than ad-hoc responses.",
+          "owner": "Senior Management",
+          "frequency": "Annual review and update",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must implement the systems and controls that senior management is accountable for, ensuring technical infrastructure provides effective customer information protection.",
+      "requirements": [
+        {
+          "id": "9.1-T1",
+          "requirement": "Deploy and maintain an integrated suite of customer information protection systems including data loss prevention (DLP), access management, encryption, and monitoring tools that collectively provide effective safeguarding.",
+          "rationale": "Senior management's accountability for effective systems requires technology teams to implement and operate the technical controls. An integrated suite ensures comprehensive coverage.",
+          "owner": "CISO",
+          "frequency": "Continuous operation; annual effectiveness review",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance structures must formalise senior management's responsibility and accountability, with clear delegation frameworks and reporting obligations to the Board.",
+      "requirements": [
+        {
+          "id": "9.1-G1",
+          "requirement": "Document senior management accountability for customer information protection in formal role descriptions, terms of reference, and the FSP's governance framework, ensuring accountability is explicit and auditable.",
+          "rationale": "Clause 9.1 creates a regulatory obligation for senior management accountability. Formal documentation provides the evidence base for demonstrating compliance.",
+          "owner": "HR",
+          "frequency": "Annual review",
+          "priority": "critical"
+        },
+        {
+          "id": "9.1-G2",
+          "requirement": "Establish reporting obligations requiring senior management to regularly account to the Board for the effectiveness of customer information protection systems and controls.",
+          "rationale": "Accountability requires reporting. Senior management must demonstrate to the Board that they are fulfilling their responsibility.",
+          "owner": "Senior Management",
+          "frequency": "Quarterly",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "9.2": {
+    "clauseId": "9.2",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must designate a sufficiently senior officer with overall responsibility for implementing and maintaining customer information protection policies, procedures, and controls. This officer must communicate policies throughout the FSP and coordinate with key stakeholders for compliance.",
+      "requirements": [
+        {
+          "id": "9.2-B1",
+          "requirement": "Formally appoint a Designated Officer of sufficient senior ranking with documented overall responsibility for implementing and maintaining customer information protection policies, procedures, and controls.",
+          "rationale": "Clause 9.2 mandates designation of a senior officer. The appointment must be formalised with a clear mandate, reporting lines, and documented authority.",
+          "owner": "Senior Management",
+          "frequency": "Appointment confirmed annually; updated upon personnel changes",
+          "priority": "critical"
+        },
+        {
+          "id": "9.2-B2",
+          "requirement": "Develop and execute a Policy Communication Plan ensuring that the Designated Officer communicates all relevant customer information protection policies consistently throughout the FSP, across all business lines and functional areas.",
+          "rationale": "Clause 9.2(a) requires communicating relevant policies throughout the FSP. A structured communication plan ensures no part of the organisation is left uninformed.",
+          "owner": "DPO",
+          "frequency": "Ongoing; reviewed quarterly",
+          "priority": "high"
+        },
+        {
+          "id": "9.2-B3",
+          "requirement": "Establish a Stakeholder Coordination Programme with key internal stakeholders (IT, HR, Legal, Compliance, Operations, Business Lines) to ensure coordinated compliance with the MCIPD Policy Document.",
+          "rationale": "Clause 9.2(b) requires coordination with key stakeholders. A formal programme ensures systematic engagement rather than ad-hoc interactions.",
+          "owner": "DPO",
+          "frequency": "Monthly coordination meetings; quarterly programme review",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology must support the Designated Officer's mandate by providing communication platforms, policy management systems, and coordination tools that enable organisation-wide policy dissemination and stakeholder engagement.",
+      "requirements": [
+        {
+          "id": "9.2-T1",
+          "requirement": "Implement a centralised Policy Management System that enables the Designated Officer to publish, distribute, track acknowledgement of, and update customer information protection policies across the entire organisation.",
+          "rationale": "The Designated Officer's communication responsibilities require a scalable, auditable system for policy distribution and acknowledgement tracking.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; system reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The Designated Officer role must be formally established within the governance framework with clearly defined authority, mandate, reporting lines, and accountability measures.",
+      "requirements": [
+        {
+          "id": "9.2-G1",
+          "requirement": "Document the Designated Officer's mandate in a formal Terms of Reference including scope of responsibility, authority levels, reporting lines (to senior management and Board), and accountability for policy implementation and maintenance.",
+          "rationale": "Clause 9.2 creates a specific role obligation. Formal terms of reference ensure the role is properly scoped and empowered.",
+          "owner": "Senior Management",
+          "frequency": "Annual review",
+          "priority": "critical"
+        },
+        {
+          "id": "9.2-G2",
+          "requirement": "Ensure the Designated Officer has direct access to the Board or relevant Board committee for escalation of material customer information protection matters.",
+          "rationale": "Sufficient seniority implies the ability to escalate. Governance structures must enable direct Board access when warranted.",
+          "owner": "Board",
+          "frequency": "Standing access; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "9.3": {
+    "clauseId": "9.3",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: FSPs may leverage existing senior positions such as CDO, CIO, or DPO to carry out the Designated Officer responsibilities, rather than creating an entirely new role. This provides practical flexibility in organisational design.",
+      "requirements": [
+        {
+          "id": "9.3-B1",
+          "requirement": "Evaluate existing senior roles (CDO, CIO, DPO, or equivalent) for suitability to assume the Designated Officer responsibilities under paragraph 9.2, considering bandwidth, expertise, and potential conflicts of interest.",
+          "rationale": "Clause 9.3 encourages leveraging existing positions. A formal evaluation ensures the selected role has the capacity and competence to fulfil the mandate without conflicts.",
+          "owner": "Senior Management",
+          "frequency": "Upon initial designation; reviewed upon organisational changes",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: No specific technology requirements arise from this guidance clause; however, the selected officer should have appropriate access to technology systems and tools needed to fulfil the Designated Officer mandate.",
+      "requirements": [
+        {
+          "id": "9.3-T1",
+          "requirement": "Ensure the officer designated under paragraph 9.2 has appropriate system access and tooling to monitor, manage, and report on customer information protection across all technology platforms.",
+          "rationale": "Regardless of which existing role assumes the Designated Officer responsibilities, they must have the technical access needed to fulfil their mandate effectively.",
+          "owner": "IT Security",
+          "frequency": "Upon designation; reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The governance framework must document the rationale for the role assignment and ensure that any dual-hatting of the Designated Officer role does not create conflicts of interest.",
+      "requirements": [
+        {
+          "id": "9.3-G1",
+          "requirement": "Document the rationale for assigning the Designated Officer role to an existing position, including conflict of interest assessment and any mitigating measures implemented.",
+          "rationale": "Assigning the role to an existing position (e.g., CIO who also oversees IT operations) could create conflicts. Documentation demonstrates thoughtful governance.",
+          "owner": "Compliance",
+          "frequency": "Upon designation; reviewed upon organisational changes",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "9.4": {
+    "clauseId": "9.4",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must ensure that responsibility for preserving customer information confidentiality and security is distributed across all business and functional lines, not concentrated in a single team. This embeds data protection as a shared organisational responsibility.",
+      "requirements": [
+        {
+          "id": "9.4-B1",
+          "requirement": "Assign documented customer information protection responsibilities to each business line and functional unit head, making them accountable for safeguarding customer data within their respective areas.",
+          "rationale": "Clause 9.4 requires responsibility to be placed on business and functional lines. Documented assignment prevents any line from disclaiming responsibility.",
+          "owner": "Senior Management",
+          "frequency": "Annual review; updated upon organisational changes",
+          "priority": "critical"
+        },
+        {
+          "id": "9.4-B2",
+          "requirement": "Incorporate customer information protection responsibilities into the performance objectives and KPIs of business line and functional unit heads.",
+          "rationale": "Accountability requires measurable expectations. Embedding protection responsibilities into KPIs ensures they are treated as business priorities.",
+          "owner": "HR",
+          "frequency": "Annual (aligned with performance review cycle)",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology must support decentralised responsibility by providing business lines with the tools and visibility needed to manage customer information protection within their domains.",
+      "requirements": [
+        {
+          "id": "9.4-T1",
+          "requirement": "Provide each business and functional line with access to relevant data protection dashboards and monitoring tools that enable them to track and manage customer information security within their domain.",
+          "rationale": "Distributed responsibility requires distributed visibility. Business lines cannot be accountable for protection without the tools to monitor it.",
+          "owner": "IT Security",
+          "frequency": "Continuous access; reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The governance framework must formalise the distributed responsibility model with clear accountability at each business and functional line.",
+      "requirements": [
+        {
+          "id": "9.4-G1",
+          "requirement": "Establish a RACI matrix for customer information protection that maps responsibilities across all business and functional lines, ensuring every aspect of data protection has a clearly identified responsible and accountable party.",
+          "rationale": "Clause 9.4 creates distributed responsibility. A RACI matrix formalises this and prevents accountability gaps.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "9.5": {
+    "clauseId": "9.5",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must ensure that FSP-appointed representatives and agents maintain appropriate and adequate control measures to safeguard customer information, extending the protection framework beyond the FSP's direct workforce.",
+      "requirements": [
+        {
+          "id": "9.5-B1",
+          "requirement": "Establish minimum control measure requirements for all appointed representatives and agents, specifying the customer information protection standards they must meet as a condition of their appointment.",
+          "rationale": "Clause 9.5 requires representatives and agents to have adequate controls. Minimum requirements provide a clear baseline for assessment and enforcement.",
+          "owner": "Operations",
+          "frequency": "Annual review; assessed at each appointment or renewal",
+          "priority": "critical"
+        },
+        {
+          "id": "9.5-B2",
+          "requirement": "Conduct periodic assessments of representatives' and agents' customer information protection controls to verify they remain adequate and effective.",
+          "rationale": "Initial verification is insufficient. Ongoing assessment ensures that control standards are maintained throughout the relationship.",
+          "owner": "Compliance",
+          "frequency": "Annual assessment",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must extend security controls and monitoring to cover data accessed or handled by representatives and agents.",
+      "requirements": [
+        {
+          "id": "9.5-T1",
+          "requirement": "Implement technical controls (e.g., secure access portals, data encryption, access logging) for customer information accessed by representatives and agents, ensuring equivalent protection to internal access.",
+          "rationale": "Representatives and agents accessing customer information through FSP systems must be subject to technical controls that prevent unauthorised access or misuse.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance structures must formalise oversight of representatives' and agents' customer information protection practices.",
+      "requirements": [
+        {
+          "id": "9.5-G1",
+          "requirement": "Include customer information protection obligations in all representative and agent appointment agreements, with defined audit rights and consequences for non-compliance.",
+          "rationale": "Contractual obligations provide the legal basis for enforcing customer information protection standards on representatives and agents.",
+          "owner": "Legal",
+          "frequency": "At each appointment; reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "9.6": {
+    "clauseId": "9.6",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must communicate a clear message to staff, representatives, and agents about the importance of preserving customer information confidentiality and security, reinforcing the tone set by the Board.",
+      "requirements": [
+        {
+          "id": "9.6-B1",
+          "requirement": "Develop and deliver a senior management communication programme that clearly conveys the importance of customer information confidentiality and security to all staff, representatives, and agents through multiple channels.",
+          "rationale": "Clause 9.6 requires clear communication from senior management. A structured programme ensures consistent, organisation-wide messaging.",
+          "owner": "Senior Management",
+          "frequency": "At least annually; supplemented by ongoing reinforcement",
+          "priority": "high"
+        },
+        {
+          "id": "9.6-B2",
+          "requirement": "Issue periodic senior management communications (e.g., CEO messages, town halls, internal memos) emphasising customer information protection priorities, recent developments, and expectations.",
+          "rationale": "One-time communication is insufficient. Regular reinforcement from senior leadership maintains awareness and demonstrates ongoing commitment.",
+          "owner": "Senior Management",
+          "frequency": "Quarterly at minimum",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology platforms must support effective communication and tracking of senior management messages on customer information protection.",
+      "requirements": [
+        {
+          "id": "9.6-T1",
+          "requirement": "Utilise enterprise communication platforms (intranet, email, collaboration tools) to distribute and track acknowledgement of senior management communications on customer information protection.",
+          "rationale": "Effective communication requires delivery mechanisms that reach all intended recipients and can demonstrate that messages were received.",
+          "owner": "IT Security",
+          "frequency": "Per communication; tracking reviewed quarterly",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Communication activities must be documented and tracked to demonstrate compliance with the communication obligation.",
+      "requirements": [
+        {
+          "id": "9.6-G1",
+          "requirement": "Maintain records of all senior management communications on customer information protection, including content, distribution lists, dates, and acknowledgement rates.",
+          "rationale": "Regulatory examination requires evidence that communication occurred. Documentation provides the audit trail.",
+          "owner": "Compliance",
+          "frequency": "Ongoing; archived annually",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "9.7": {
+    "clauseId": "9.7",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must ensure adequate training on relevant policies is provided to all staff, and that representatives and agents similarly train their own staff. This creates a cascading training obligation.",
+      "requirements": [
+        {
+          "id": "9.7-B1",
+          "requirement": "Develop and implement a comprehensive Customer Information Protection Training Programme covering all relevant policies, tailored to different roles and responsibilities within the FSP.",
+          "rationale": "Clause 9.7 requires adequate training on relevant policies. A role-based training programme ensures relevance and effectiveness.",
+          "owner": "HR",
+          "frequency": "Annual delivery; content reviewed and updated annually",
+          "priority": "critical"
+        },
+        {
+          "id": "9.7-B2",
+          "requirement": "Require representatives and agents to demonstrate that they provide adequate customer information protection training to their own staff, with evidence of training delivery and completion.",
+          "rationale": "Clause 9.7 extends the training obligation to representatives' and agents' staff. FSPs must verify that this cascaded training occurs.",
+          "owner": "Operations",
+          "frequency": "Annual verification",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: A learning management system and training delivery platform must support the training programme with tracking and completion monitoring capabilities.",
+      "requirements": [
+        {
+          "id": "9.7-T1",
+          "requirement": "Deploy or utilise a Learning Management System (LMS) that delivers, tracks, and reports on customer information protection training completion across all staff, with automated reminders for overdue training.",
+          "rationale": "Adequate training requires systematic delivery and completion tracking. An LMS provides scalable, auditable training management.",
+          "owner": "HR",
+          "frequency": "Continuous operation; system reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Training governance must ensure comprehensive coverage, track completion rates, and escalate non-completion appropriately.",
+      "requirements": [
+        {
+          "id": "9.7-G1",
+          "requirement": "Establish a Training Compliance Monitoring process that tracks training completion rates across all staff and escalates non-completion to senior management.",
+          "rationale": "Training obligations are only met if staff actually complete the training. Monitoring and escalation ensure full coverage.",
+          "owner": "HR",
+          "frequency": "Monthly monitoring; quarterly compliance reports",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "9.8": {
+    "clauseId": "9.8",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must ensure an independent review is conducted at least once every two years on the effectiveness of customer information protection policies, procedures, and controls, in accordance with the independent review requirements under Section 10.",
+      "requirements": [
+        {
+          "id": "9.8-B1",
+          "requirement": "Commission an independent review of the effectiveness of customer information protection policies, procedures, and controls at least once every two years, in accordance with paragraphs 10.53 to 10.56.",
+          "rationale": "Clause 9.8 mandates a biennial independent review. Senior management must ensure this is planned, resourced, and executed within the required timeframe.",
+          "owner": "Senior Management",
+          "frequency": "At least once every two years",
+          "priority": "critical"
+        },
+        {
+          "id": "9.8-B2",
+          "requirement": "Develop remediation plans to address findings from the independent review and track implementation to completion.",
+          "rationale": "The independent review is only valuable if findings are acted upon. Remediation tracking ensures that identified deficiencies are corrected.",
+          "owner": "Senior Management",
+          "frequency": "Following each independent review",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must support the independent review by providing access to systems, documentation, and evidence required for the assessment.",
+      "requirements": [
+        {
+          "id": "9.8-T1",
+          "requirement": "Prepare and maintain an independent review readiness package including system documentation, control configurations, audit logs, and access records to facilitate efficient independent review execution.",
+          "rationale": "Independent reviews require extensive evidence gathering. A readiness package reduces disruption and ensures the review can be conducted effectively.",
+          "owner": "IT Security",
+          "frequency": "Updated annually; ready for review at all times",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance structures must ensure the independent review cycle is maintained, properly scoped, and its findings are appropriately actioned.",
+      "requirements": [
+        {
+          "id": "9.8-G1",
+          "requirement": "Maintain a Biennial Independent Review Schedule that tracks review cycles, ensuring no gap exceeds two years, with defined scope aligned to paragraphs 10.53 to 10.56.",
+          "rationale": "Clause 9.8 imposes a two-year maximum interval. A formal schedule with tracking prevents inadvertent non-compliance.",
+          "owner": "Compliance",
+          "frequency": "Schedule maintained continuously; executed biennially",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "9.9": {
+    "clauseId": "9.9",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must notify the Board upon detecting customer information breaches, with the notification urgency proportional to the breach severity and data sensitivity. This ensures the Board has timely awareness of material incidents.",
+      "requirements": [
+        {
+          "id": "9.9-B1",
+          "requirement": "Establish a Board Breach Notification Protocol defining the criteria, timeframes, and mechanisms for senior management to notify the Board of customer information breaches, with severity-based escalation tiers.",
+          "rationale": "Clause 9.9 requires Board notification dependent on breach nature and data sensitivity. A structured protocol ensures appropriate and timely notification.",
+          "owner": "Senior Management",
+          "frequency": "Protocol reviewed annually; applied per breach event",
+          "priority": "critical"
+        },
+        {
+          "id": "9.9-B2",
+          "requirement": "Classify customer information breach types by severity and data sensitivity to enable consistent application of the Board notification protocol.",
+          "rationale": "Notification urgency depends on breach nature and sensitivity. A classification framework enables consistent, proportionate escalation decisions.",
+          "owner": "CISO",
+          "frequency": "Classification framework reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology systems must support rapid breach detection and notification workflows that enable senior management to meet their Board notification obligations.",
+      "requirements": [
+        {
+          "id": "9.9-T1",
+          "requirement": "Implement breach detection and alerting systems that immediately notify senior management upon identification of customer information breaches, with severity classification to support Board notification decisions.",
+          "rationale": "Senior management cannot notify the Board of breaches they are unaware of. Automated detection and alerting ensures timely awareness.",
+          "owner": "CISO",
+          "frequency": "Continuous operation",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance structures must formalise the breach-to-Board notification pathway with documented escalation triggers and audit trails.",
+      "requirements": [
+        {
+          "id": "9.9-G1",
+          "requirement": "Document all Board breach notifications in a formal Breach Notification Register, recording the breach details, notification timing, Board response, and any directives issued.",
+          "rationale": "An audit trail of Board notifications demonstrates compliance with the notification obligation and records the Board's oversight response.",
+          "owner": "Compliance",
+          "frequency": "Per breach event; register reviewed quarterly",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "9.10": {
+    "clauseId": "9.10",
+    "section": "Senior management",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must report to the Board on breach investigation findings in accordance with paragraph 11.21, ensuring the Board receives comprehensive information on root causes, actions taken, and lessons learnt.",
+      "requirements": [
+        {
+          "id": "9.10-B1",
+          "requirement": "Submit comprehensive breach investigation reports to the Board covering root causes, impact assessment, actions taken against involved parties, remedial measures, and lessons learnt, in accordance with paragraph 11.21.",
+          "rationale": "Clause 9.10 requires Board reporting on investigation findings. Comprehensive reports enable the Board to assess adequacy of response and direct further action.",
+          "owner": "Senior Management",
+          "frequency": "Per breach investigation completion",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must support investigation processes by preserving evidence, conducting forensic analysis, and providing technical findings for Board reporting.",
+      "requirements": [
+        {
+          "id": "9.10-T1",
+          "requirement": "Maintain forensic investigation capabilities and evidence preservation procedures that support comprehensive breach investigations and produce findings suitable for Board-level reporting.",
+          "rationale": "Investigation findings for the Board must be evidence-based. Forensic capabilities ensure that technical root causes are properly identified and documented.",
+          "owner": "CISO",
+          "frequency": "Capabilities maintained continuously; deployed per incident",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Board reporting on breach investigations must be formalised with defined content requirements and presentation protocols.",
+      "requirements": [
+        {
+          "id": "9.10-G1",
+          "requirement": "Define a Board Investigation Report Template specifying required content (root cause, impact, actions taken, remediation plan, lessons learnt) and presentation protocol for breach investigation findings.",
+          "rationale": "Standardised reporting ensures completeness and consistency of breach investigation findings presented to the Board.",
+          "owner": "Compliance",
+          "frequency": "Template reviewed annually; used per investigation",
+          "priority": "high"
+        }
+      ]
+    }
+  }
+}

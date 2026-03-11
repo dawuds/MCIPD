@@ -1,0 +1,533 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-03-11",
+    "alignment": "BNM MCIPD June 2025",
+    "aiGenerated": true,
+    "verificationNote": "AI Generated: Indicative customer information risk register. All risk ratings, scenarios, and treatment plans are illustrative. Organisations must conduct their own risk assessments proportionate to their size, complexity, and data holdings."
+  },
+  "title": "Customer Information Risk Register",
+  "description": "Register of key customer information risks for Malaysian financial service providers under BNM MCIPD, with inherent and residual risk ratings.",
+  "risks": [
+    {
+      "id": "CIR-001",
+      "name": "Unauthorised Disclosure by Staff via Social Media",
+      "category": "insider-threat",
+      "domain": "ict-controls",
+      "description": "Staff with access to customer information deliberately or inadvertently disclose customer data through web-based communication platforms or social media channels, including end-to-end encrypted platforms.",
+      "threatSource": "Internal - deliberate or negligent",
+      "affectedAssets": ["Customer account data", "Customer personal identifiers", "Transaction records"],
+      "applicableClauses": ["10.20", "10.21", "10.22", "10.23"],
+      "inherentRisk": {
+        "likelihood": 4,
+        "impact": 4,
+        "score": 16,
+        "rating": "Critical"
+      },
+      "existingControls": ["social-media-web-restriction", "unauthorised-disclosure-deterrence", "unauthorised-activity-detection"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 4,
+        "score": 8,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Implement web content filtering for all customer-data-handling roles; deploy DLP monitoring on outbound web traffic; restrict personal device use in call centres and data processing areas",
+      "riskOwner": "Chief Information Security Officer",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-002",
+      "name": "Bulk Customer Data Exfiltration by Insider",
+      "category": "insider-threat",
+      "domain": "ict-controls",
+      "description": "A malicious insider systematically downloads large volumes of customer information through authorised system access, portable storage devices, or email for sale or personal gain.",
+      "threatSource": "Internal - deliberate",
+      "affectedAssets": ["Customer database records", "Account statements", "Customer contact details"],
+      "applicableClauses": ["10.16", "10.17", "10.19", "10.23", "10.49"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 5,
+        "score": 15,
+        "rating": "High"
+      },
+      "existingControls": ["portable-device-controls", "unauthorised-activity-detection", "multi-level-access-controls"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 5,
+        "score": 10,
+        "rating": "High"
+      },
+      "treatmentPlan": "Implement UEBA to detect anomalous download patterns; enforce USB whitelisting; deploy data watermarking for bulk exports; enhance exit interview procedures with data access audit",
+      "riskOwner": "Chief Information Security Officer",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-003",
+      "name": "OSP Customer Data Breach",
+      "category": "third-party-risk",
+      "domain": "outsourced-service-providers",
+      "description": "An outsourced service provider handling customer information suffers a data breach due to inadequate controls, compromising the FSP's customer information held by the OSP.",
+      "threatSource": "External - OSP control failure",
+      "affectedAssets": ["Customer data shared with OSP", "Processed customer records", "Archived customer information"],
+      "applicableClauses": ["12.1", "12.2", "12.3", "12.4", "12.9"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 4,
+        "score": 12,
+        "rating": "High"
+      },
+      "existingControls": ["osp-due-diligence", "osp-comparable-controls", "osp-sla-requirements", "osp-biennial-review"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 4,
+        "score": 8,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Enhance OSP due diligence with security posture scoring; require SOC 2 Type II reports from high-risk OSPs; implement continuous OSP monitoring through security rating services",
+      "riskOwner": "Head of Vendor Management",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-004",
+      "name": "Inadequate Data Disposal Leading to Information Recovery",
+      "category": "disposal-failure",
+      "domain": "data-disposal",
+      "description": "Customer information is not securely destroyed during disposal, allowing recovery of data from discarded paper documents, decommissioned hardware, or returned storage devices.",
+      "threatSource": "Internal/External - process failure",
+      "affectedAssets": ["Paper customer records", "Decommissioned hard drives", "Returned portable storage devices"],
+      "applicableClauses": ["10.32", "10.33", "10.34", "10.35", "10.36", "10.37"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 3,
+        "score": 9,
+        "rating": "Medium"
+      },
+      "existingControls": ["secure-destruction-methods", "outsourced-destruction-oversight", "data-retention-identification"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Deploy certified data wiping tools (NIST SP 800-88 compliant); conduct witnessed destruction events quarterly; implement tamper-proof collection containers at all branches",
+      "riskOwner": "Head of Operations",
+      "reviewDate": "2026-09-30"
+    },
+    {
+      "id": "CIR-005",
+      "name": "Customer Data Breach via Phishing or Social Engineering",
+      "category": "cyber-attack",
+      "domain": "ict-controls",
+      "description": "Staff are deceived through phishing emails, vishing calls, or social engineering into disclosing customer information or granting system access to malicious actors.",
+      "threatSource": "External - social engineering",
+      "affectedAssets": ["Staff credentials", "Customer account access", "Customer personal data"],
+      "applicableClauses": ["10.12", "10.14", "10.41", "10.43"],
+      "inherentRisk": {
+        "likelihood": 4,
+        "impact": 4,
+        "score": 16,
+        "rating": "Critical"
+      },
+      "existingControls": ["preventive-detective-ict-controls", "staff-awareness-programme", "training-and-reminders", "offsite-work-controls"],
+      "residualRisk": {
+        "likelihood": 3,
+        "impact": 3,
+        "score": 9,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Deploy advanced email threat protection; conduct quarterly phishing simulations; implement MFA for all customer-data-access systems; establish real-time phishing reporting channel",
+      "riskOwner": "Chief Information Security Officer",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-006",
+      "name": "Unauthorised Access Due to Stale Access Rights",
+      "category": "access-control-failure",
+      "domain": "access-controls",
+      "description": "Former staff or staff who have changed roles retain access to customer information systems, enabling continued unauthorised viewing, modification, or download of customer data.",
+      "threatSource": "Internal - process failure",
+      "affectedAssets": ["Core banking systems", "CRM databases", "Document management systems"],
+      "applicableClauses": ["10.25", "10.26", "10.27"],
+      "inherentRisk": {
+        "likelihood": 4,
+        "impact": 3,
+        "score": 12,
+        "rating": "High"
+      },
+      "existingControls": ["role-based-access-profiles", "access-review-and-revocation", "multi-level-access-controls"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Integrate HR system with IAM for automated deprovisioning; implement same-day access revocation on termination; conduct quarterly access recertification campaigns",
+      "riskOwner": "Head of IT Security",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-007",
+      "name": "Physical Document Exposure or Theft",
+      "category": "physical-breach",
+      "domain": "physical-security",
+      "description": "Physical documents containing customer information are left unattended, stolen from premises, lost during transit, or accessed by unauthorised persons in filing rooms or workstations.",
+      "threatSource": "Internal/External - negligence or theft",
+      "affectedAssets": ["Paper customer files", "Printed reports", "Customer forms"],
+      "applicableClauses": ["10.28", "10.29", "10.30", "10.31"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 3,
+        "score": 9,
+        "rating": "Medium"
+      },
+      "existingControls": ["physical-security-controls", "restricted-area-controls", "clear-desk-policy", "offsite-data-in-transit-controls"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 2,
+        "score": 4,
+        "rating": "Low"
+      },
+      "treatmentPlan": "Enforce clear-desk policy with spot checks; install badge-access for all filing rooms; provide lockable storage at all workstations; implement tracked courier for document transit",
+      "riskOwner": "Head of Facilities Management",
+      "reviewDate": "2026-09-30"
+    },
+    {
+      "id": "CIR-008",
+      "name": "Non-compliance with Customer Consent Requirements",
+      "category": "consent-failure",
+      "domain": "permitted-disclosure",
+      "description": "Customer information is disclosed to third parties without obtaining valid informed consent, or consent records are incomplete, invalid, or not properly maintained.",
+      "threatSource": "Internal - process failure",
+      "affectedAssets": ["Customer consent records", "Customer personal data", "Disclosure records"],
+      "applicableClauses": ["13.1", "13.2"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 3,
+        "score": 9,
+        "rating": "Medium"
+      },
+      "existingControls": ["consent-management", "disclosure-record-keeping"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Deploy digital consent management platform with audit trail; implement consent validity checks at point of disclosure; conduct annual consent records audit",
+      "riskOwner": "Head of Compliance",
+      "reviewDate": "2026-09-30"
+    },
+    {
+      "id": "CIR-009",
+      "name": "Cross-Border Disclosure Without Adequate Safeguards",
+      "category": "cross-border-risk",
+      "domain": "permitted-disclosure",
+      "description": "Customer information is transmitted to overseas entities, group companies, or foreign regulators without adequate data protection safeguards, regulatory approval, or customer consent.",
+      "threatSource": "Internal - process failure or legal gap",
+      "affectedAssets": ["Customer data shared internationally", "Group reporting data", "Regulatory submissions"],
+      "applicableClauses": ["13.3", "13.4"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 4,
+        "score": 12,
+        "rating": "High"
+      },
+      "existingControls": ["cross-border-disclosure-controls", "consent-management"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Establish cross-border data transfer register; implement jurisdiction adequacy assessments; require legal review for all new cross-border data flows; deploy encryption for all cross-border transmissions",
+      "riskOwner": "Head of Compliance",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-010",
+      "name": "Delayed or Inadequate Breach Notification to BNM",
+      "category": "regulatory-breach",
+      "domain": "breach-management",
+      "description": "The FSP fails to notify BNM immediately upon discovering a qualifying breach, or the notification content is incomplete, leading to regulatory non-compliance and potential enforcement action.",
+      "threatSource": "Internal - process failure",
+      "affectedAssets": ["Regulatory relationship", "Breach investigation records"],
+      "applicableClauses": ["11.8", "11.16", "11.17"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 4,
+        "score": 12,
+        "rating": "High"
+      },
+      "existingControls": ["bnm-notification", "breach-response-plan", "breach-impact-assessment"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Pre-draft BNM notification templates; establish designated officer escalation hotline; conduct annual breach notification drill; implement automated breach classification against notification triggers",
+      "riskOwner": "Designated Officer (S9.2)",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-011",
+      "name": "OSP Personnel Mishandling of Customer Information",
+      "category": "third-party-risk",
+      "domain": "outsourced-service-providers",
+      "description": "OSP personnel who have not been adequately vetted or trained mishandle customer information through negligence or deliberate misconduct, causing a breach.",
+      "threatSource": "External - OSP personnel failure",
+      "affectedAssets": ["Customer data processed by OSP", "Customer records in OSP custody"],
+      "applicableClauses": ["12.4", "12.6", "12.7", "12.8"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 3,
+        "score": 9,
+        "rating": "Medium"
+      },
+      "existingControls": ["osp-sla-requirements", "osp-nda", "osp-personnel-training"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Require evidence of OSP personnel vetting before granting access; provide FSP-delivered training to key OSP personnel; conduct unannounced OSP site visits",
+      "riskOwner": "Head of Vendor Management",
+      "reviewDate": "2026-09-30"
+    },
+    {
+      "id": "CIR-012",
+      "name": "External Vendor Personnel Data Theft on FSP Premises",
+      "category": "insider-threat",
+      "domain": "staff-awareness-training",
+      "description": "External vendor personnel working on FSP premises (security guards, cleaners, maintenance engineers) access or steal customer information due to inadequate vetting and access restrictions.",
+      "threatSource": "External - vendor personnel",
+      "affectedAssets": ["Physical customer documents", "Visible screen data", "Server room data"],
+      "applicableClauses": ["10.40", "10.29"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 3,
+        "score": 9,
+        "rating": "Medium"
+      },
+      "existingControls": ["external-vendor-vetting", "restricted-area-controls", "physical-security-controls"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 2,
+        "score": 4,
+        "rating": "Low"
+      },
+      "treatmentPlan": "Require documented background checks for all on-premises vendor personnel; restrict vendor access to non-sensitive areas; escort vendors in sensitive zones; implement privacy screens on monitors",
+      "riskOwner": "Head of Facilities Management",
+      "reviewDate": "2026-09-30"
+    },
+    {
+      "id": "CIR-013",
+      "name": "Staff Photographing Customer Data from Screens or Documents",
+      "category": "insider-threat",
+      "domain": "ict-controls",
+      "description": "Staff use personal mobile phones or cameras to photograph customer information displayed on screens or in physical documents, bypassing electronic data loss prevention controls.",
+      "threatSource": "Internal - deliberate",
+      "affectedAssets": ["Customer information displayed on screens", "Physical customer documents", "Customer statements"],
+      "applicableClauses": ["10.20", "10.21"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 4,
+        "score": 12,
+        "rating": "High"
+      },
+      "existingControls": ["unauthorised-disclosure-deterrence", "physical-security-controls"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Restrict personal electronic devices in data-sensitive areas; install CCTV covering customer data processing areas; implement privacy screen filters; enforce clean-desk and screen-lock policies",
+      "riskOwner": "Chief Information Security Officer",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-014",
+      "name": "Insufficient Board Oversight of Customer Information Protection",
+      "category": "governance-failure",
+      "domain": "governance-and-oversight",
+      "description": "The Board fails to exercise adequate oversight, does not review management reports, or does not obtain annual written assurance on the effectiveness of customer information controls.",
+      "threatSource": "Internal - governance gap",
+      "affectedAssets": ["Policy framework", "Control environment", "Regulatory compliance"],
+      "applicableClauses": ["8.1", "8.2", "8.3", "8.4"],
+      "inherentRisk": {
+        "likelihood": 2,
+        "impact": 4,
+        "score": 8,
+        "rating": "Medium"
+      },
+      "existingControls": ["board-tone-at-the-top", "board-policy-approval", "board-oversight-reporting", "annual-written-assurance"],
+      "residualRisk": {
+        "likelihood": 1,
+        "impact": 4,
+        "score": 4,
+        "rating": "Low"
+      },
+      "treatmentPlan": "Establish customer information protection as standing Board agenda item; implement structured quarterly reporting template; formalise annual assurance process with designated officer sign-off",
+      "riskOwner": "Company Secretary",
+      "reviewDate": "2026-09-30"
+    },
+    {
+      "id": "CIR-015",
+      "name": "Customer Data Exposure Through Call Recording Systems",
+      "category": "access-control-failure",
+      "domain": "ict-controls",
+      "description": "Call recordings containing sensitive customer information are accessed by staff without a legitimate need-to-know, or call recording systems have inadequate access controls enabling bulk retrieval.",
+      "threatSource": "Internal - access control weakness",
+      "affectedAssets": ["Call recordings", "Voice data containing customer PII", "Account verification recordings"],
+      "applicableClauses": ["10.18"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 3,
+        "score": 9,
+        "rating": "Medium"
+      },
+      "existingControls": ["call-recording-access"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 2,
+        "score": 4,
+        "rating": "Low"
+      },
+      "treatmentPlan": "Implement granular RBAC on call recording platform; enable audit logging for all access events; deploy automated alerts for bulk playback requests; implement auto-expiry of recording access",
+      "riskOwner": "Head of Customer Service Operations",
+      "reviewDate": "2026-09-30"
+    },
+    {
+      "id": "CIR-016",
+      "name": "Data Breach at Outsourced Destruction Provider",
+      "category": "disposal-failure",
+      "domain": "data-disposal",
+      "description": "An outsourced service provider engaged for data destruction fails to properly destroy customer information, or customer data is exposed during transit to the destruction facility.",
+      "threatSource": "External - OSP failure",
+      "affectedAssets": ["Paper records awaiting destruction", "Decommissioned hardware in transit", "Digital media for sanitisation"],
+      "applicableClauses": ["10.35", "10.36", "10.37"],
+      "inherentRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "existingControls": ["outsourced-destruction-oversight"],
+      "residualRisk": {
+        "likelihood": 1,
+        "impact": 3,
+        "score": 3,
+        "rating": "Low"
+      },
+      "treatmentPlan": "Pre-shred paper documents before collection; use tamper-proof sealed containers; conduct quarterly unannounced audits of destruction provider; require destruction certificates with photographic evidence",
+      "riskOwner": "Head of Operations",
+      "reviewDate": "2026-09-30"
+    },
+    {
+      "id": "CIR-017",
+      "name": "Inadequate Training Leading to Accidental Disclosure",
+      "category": "human-error",
+      "domain": "staff-awareness-training",
+      "description": "Staff who are inadequately trained on customer information handling procedures accidentally disclose customer data through misdirected emails, faxes, or sharing with wrong recipients.",
+      "threatSource": "Internal - negligence",
+      "affectedAssets": ["Customer emails", "Customer statements", "Customer correspondence"],
+      "applicableClauses": ["10.38", "10.41", "10.43", "10.44", "10.47"],
+      "inherentRisk": {
+        "likelihood": 4,
+        "impact": 2,
+        "score": 8,
+        "rating": "Medium"
+      },
+      "existingControls": ["training-and-reminders", "staff-awareness-programme", "training-effectiveness-measurement"],
+      "residualRisk": {
+        "likelihood": 3,
+        "impact": 2,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Implement email DLP rules to flag external sends of customer data; deploy autocomplete address book restrictions; enhance onboarding training with practical scenarios; measure training effectiveness quarterly",
+      "riskOwner": "Head of Human Resources",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-018",
+      "name": "Failure to Complete Breach Investigation Within Three Months",
+      "category": "regulatory-breach",
+      "domain": "breach-management",
+      "description": "Breach investigations are not completed within the required three-month timeframe due to resource constraints, investigation complexity, or poor case management, delaying Board reporting and BNM submission.",
+      "threatSource": "Internal - resource or process failure",
+      "affectedAssets": ["Investigation reports", "Board submissions", "BNM regulatory relationship"],
+      "applicableClauses": ["11.18", "11.19", "11.20"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 3,
+        "score": 9,
+        "rating": "Medium"
+      },
+      "existingControls": ["breach-investigation-and-reporting", "breach-register"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Establish dedicated breach investigation team; deploy case management system with milestone tracking; engage standby forensic investigation partners; implement three-month countdown alerts",
+      "riskOwner": "Designated Officer (S9.2)",
+      "reviewDate": "2026-06-30"
+    },
+    {
+      "id": "CIR-019",
+      "name": "Loss of Portable Storage Device Containing Customer Data",
+      "category": "physical-breach",
+      "domain": "ict-controls",
+      "description": "An FSP-provided portable storage device (USB drive, external hard disk, laptop) containing customer information is lost or stolen, with data potentially accessible if not adequately encrypted.",
+      "threatSource": "Internal/External - loss or theft",
+      "affectedAssets": ["USB drives with customer data", "Laptops with local customer data", "External hard drives"],
+      "applicableClauses": ["10.16", "10.17", "10.31"],
+      "inherentRisk": {
+        "likelihood": 3,
+        "impact": 4,
+        "score": 12,
+        "rating": "High"
+      },
+      "existingControls": ["portable-device-controls", "offsite-data-in-transit-controls"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 2,
+        "score": 4,
+        "rating": "Low"
+      },
+      "treatmentPlan": "Enforce full-disk encryption on all portable devices; implement remote wipe capability; deploy hardware-encrypted USB drives only; maintain asset register with location tracking",
+      "riskOwner": "Head of IT Operations",
+      "reviewDate": "2026-09-30"
+    },
+    {
+      "id": "CIR-020",
+      "name": "Independent Review Identifies Systemic Control Deficiencies",
+      "category": "control-failure",
+      "domain": "independent-review",
+      "description": "The biennial independent review reveals systemic deficiencies in the FSP's customer information protection controls that have gone undetected, indicating failure in the first and second lines of defence.",
+      "threatSource": "Internal - control environment weakness",
+      "affectedAssets": ["Entire customer information control environment", "Policy framework", "Operational controls"],
+      "applicableClauses": ["10.53", "10.54", "10.55", "10.56"],
+      "inherentRisk": {
+        "likelihood": 2,
+        "impact": 4,
+        "score": 8,
+        "rating": "Medium"
+      },
+      "existingControls": ["biennial-independent-review", "review-effectiveness-assessment", "review-findings-communication"],
+      "residualRisk": {
+        "likelihood": 2,
+        "impact": 3,
+        "score": 6,
+        "rating": "Medium"
+      },
+      "treatmentPlan": "Strengthen first-line control self-assessment programme; implement continuous monitoring between independent reviews; establish rapid remediation process for independent review findings; track finding closure rates",
+      "riskOwner": "Head of Internal Audit",
+      "reviewDate": "2026-09-30"
+    }
+  ]
+}

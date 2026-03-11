@@ -1,0 +1,112 @@
+[
+  {
+    "id": "9.1",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "Senior management must be responsible and accountable for establishing and implementing procedures including effective systems and controls to safeguard customer information.",
+    "translation": "AI Generated: Senior management bears direct responsibility and accountability for building and running effective systems and controls that protect customer information.",
+    "keywords": ["senior management", "accountability", "systems", "controls"]
+  },
+  {
+    "id": "9.2",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "Senior management must also designate a person of sufficient senior ranking with the overall responsibility for the implementation and on-going maintenance of policies, procedures and controls with regard to safeguarding customer information. The responsibilities of the designated officer must include, but are not limited to- (a) communicating relevant policies throughout the FSP to ensure consistent implementation of processes and procedures; and (b) coordinating with key stakeholders within the FSP to comply with this Policy Document.",
+    "translation": "AI Generated: Senior management must appoint a senior officer responsible for ongoing implementation and maintenance of customer information protection, including policy communication and stakeholder coordination.",
+    "keywords": ["senior management", "designated officer", "accountability", "coordination"]
+  },
+  {
+    "id": "9.3",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "G",
+    "verbatim": "FSPs may consider establishing or designating an existing position such as the chief data officer, chief information officer or data protection officer to carry out the responsibilities in paragraph 9.2.",
+    "translation": "AI Generated: FSPs are encouraged to assign the designated officer role to existing positions like CDO, CIO, or DPO rather than necessarily creating a new role.",
+    "keywords": ["CDO", "CIO", "DPO", "designated officer"]
+  },
+  {
+    "id": "9.4",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "Senior management must also place the responsibility on the business and functional lines of the FSP in preserving the confidentiality and security of customer information.",
+    "translation": "AI Generated: Responsibility for customer data confidentiality and security must be embedded across all business and functional lines, not just centralised in one team.",
+    "keywords": ["business lines", "functional lines", "confidentiality", "security"]
+  },
+  {
+    "id": "9.5",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "Senior management must ensure that the FSP's appointed representatives and agents also have in place appropriate and adequate control measures to properly safeguard customer information.",
+    "translation": "AI Generated: Representatives and agents of the FSP must also maintain adequate controls to protect customer information.",
+    "keywords": ["representatives", "agents", "control measures"]
+  },
+  {
+    "id": "9.6",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "Senior management must communicate a clear message to staff and the FSP's appointed representatives and agents, on the importance of preserving the confidentiality and security of customer information.",
+    "translation": "AI Generated: Senior management must clearly communicate to all staff, representatives, and agents about the critical importance of protecting customer information confidentiality.",
+    "keywords": ["communication", "staff", "representatives", "agents", "confidentiality"]
+  },
+  {
+    "id": "9.7",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "Senior management must also ensure that adequate training on relevant policies is provided to staff and that the appointed representatives and agents provide adequate training to their staff.",
+    "translation": "AI Generated: Adequate training on information protection policies must be provided to all staff, and representatives/agents must similarly train their own staff.",
+    "keywords": ["training", "staff", "representatives", "agents"]
+  },
+  {
+    "id": "9.8",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "Senior management must ensure that an independent review is carried out at least once in every two years in accordance with paragraphs 10.53, 10.54, 10.55 and 10.56 on the effectiveness of policies, procedures and control measures in protecting customer information.",
+    "translation": "AI Generated: An independent review of the effectiveness of customer information protection policies, procedures, and controls must be conducted at least every two years.",
+    "keywords": ["independent review", "biennial", "effectiveness", "policies", "controls"]
+  },
+  {
+    "id": "9.9",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "Senior management must notify the Board upon the detection of customer information breaches, depending on the nature of the breach and sensitivity of the customer information.",
+    "translation": "AI Generated: Senior management must promptly notify the board when customer information breaches are detected, with urgency proportional to breach severity and data sensitivity.",
+    "keywords": ["board notification", "breach detection", "sensitivity"]
+  },
+  {
+    "id": "9.10",
+    "section": "9",
+    "sectionTitle": "Senior management",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "Senior management must also report to the Board on the findings of the investigation of customer information breaches, in accordance with paragraph 11.21.",
+    "translation": "AI Generated: Senior management must report breach investigation findings to the board as required under the investigation reporting requirements.",
+    "keywords": ["board reporting", "breach investigation", "findings"]
+  }
+]

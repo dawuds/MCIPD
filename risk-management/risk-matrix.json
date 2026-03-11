@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-03-11",
+    "alignment": "BNM MCIPD June 2025",
+    "aiGenerated": true,
+    "verificationNote": "AI Generated: 5x5 risk scoring matrix for customer information risks. Organisations should calibrate thresholds to their board-approved risk appetite."
+  },
+  "title": "Customer Information Risk Matrix",
+  "description": "5x5 risk scoring matrix mapping likelihood against impact for customer information risks under BNM MCIPD.",
+  "axes": {
+    "x": {
+      "label": "Impact",
+      "values": [1, 2, 3, 4, 5],
+      "labels": ["Insignificant", "Minor", "Moderate", "Major", "Critical"]
+    },
+    "y": {
+      "label": "Likelihood",
+      "values": [1, 2, 3, 4, 5],
+      "labels": ["Rare", "Unlikely", "Possible", "Likely", "Almost Certain"]
+    }
+  },
+  "matrix": [
+    {
+      "likelihood": 1,
+      "likelihoodLabel": "Rare",
+      "cells": [
+        { "impact": 1, "score": 1, "rating": "Low" },
+        { "impact": 2, "score": 2, "rating": "Low" },
+        { "impact": 3, "score": 3, "rating": "Low" },
+        { "impact": 4, "score": 4, "rating": "Low" },
+        { "impact": 5, "score": 5, "rating": "Medium" }
+      ]
+    },
+    {
+      "likelihood": 2,
+      "likelihoodLabel": "Unlikely",
+      "cells": [
+        { "impact": 1, "score": 2, "rating": "Low" },
+        { "impact": 2, "score": 4, "rating": "Low" },
+        { "impact": 3, "score": 6, "rating": "Medium" },
+        { "impact": 4, "score": 8, "rating": "Medium" },
+        { "impact": 5, "score": 10, "rating": "High" }
+      ]
+    },
+    {
+      "likelihood": 3,
+      "likelihoodLabel": "Possible",
+      "cells": [
+        { "impact": 1, "score": 3, "rating": "Low" },
+        { "impact": 2, "score": 6, "rating": "Medium" },
+        { "impact": 3, "score": 9, "rating": "Medium" },
+        { "impact": 4, "score": 12, "rating": "High" },
+        { "impact": 5, "score": 15, "rating": "High" }
+      ]
+    },
+    {
+      "likelihood": 4,
+      "likelihoodLabel": "Likely",
+      "cells": [
+        { "impact": 1, "score": 4, "rating": "Low" },
+        { "impact": 2, "score": 8, "rating": "Medium" },
+        { "impact": 3, "score": 12, "rating": "High" },
+        { "impact": 4, "score": 16, "rating": "Critical" },
+        { "impact": 5, "score": 20, "rating": "Critical" }
+      ]
+    },
+    {
+      "likelihood": 5,
+      "likelihoodLabel": "Almost Certain",
+      "cells": [
+        { "impact": 1, "score": 5, "rating": "Medium" },
+        { "impact": 2, "score": 10, "rating": "High" },
+        { "impact": 3, "score": 15, "rating": "High" },
+        { "impact": 4, "score": 20, "rating": "Critical" },
+        { "impact": 5, "score": 25, "rating": "Critical" }
+      ]
+    }
+  ],
+  "ratingDefinitions": {
+    "Low": {
+      "scoreRange": "1-4",
+      "color": "#22c55e",
+      "action": "Accept and monitor",
+      "reviewFrequency": "Annually",
+      "escalation": "None required",
+      "description": "Risk is within appetite. Monitor through regular review cycle and report in aggregate to management."
+    },
+    "Medium": {
+      "scoreRange": "5-9",
+      "color": "#f59e0b",
+      "action": "Mitigate within 90 days",
+      "reviewFrequency": "Quarterly",
+      "escalation": "Report to designated officer under S9.2",
+      "description": "Risk requires attention. Develop mitigation plan within 30 days and implement within 90 days. Include in quarterly management reporting."
+    },
+    "High": {
+      "scoreRange": "10-15",
+      "color": "#f97316",
+      "action": "Mitigate within 30 days",
+      "reviewFrequency": "Monthly",
+      "escalation": "Escalate to senior management and designated officer under S9.2",
+      "description": "Significant risk requiring prompt attention. Mitigate within 30 days. Report to senior management. Include in Board reporting under S8.3."
+    },
+    "Critical": {
+      "scoreRange": "16-25",
+      "color": "#ef4444",
+      "action": "Immediate escalation to Board",
+      "reviewFrequency": "Weekly until mitigated",
+      "escalation": "Immediate Board notification under S8.3; notify BNM if threshold criteria met under S11.8",
+      "description": "Severe risk requiring immediate action. Escalate to Board within 24 hours. Implement interim controls immediately. Assess BNM notification requirements."
+    }
+  }
+}

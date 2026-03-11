@@ -1,0 +1,46 @@
+[
+  {
+    "id": "8.1",
+    "section": "8",
+    "sectionTitle": "Board oversight",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "The Board must set the tone-at-the-top on the importance of safeguarding customer information and the potential consequences on the FSP in the event of a customer information breach. The Board shall also exercise its oversight function in all matters pertaining to the proper handling of customer information.",
+    "translation": "AI Generated: The board of directors must champion customer information protection from the top, setting clear expectations and actively overseeing all aspects of how the FSP handles customer data.",
+    "keywords": ["board", "oversight", "tone-at-the-top", "customer information"]
+  },
+  {
+    "id": "8.2",
+    "section": "8",
+    "sectionTitle": "Board oversight",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "The Board must approve the FSP's written policies and ensure that written policies, procedures and controls are in place to provide adequate protection over the confidentiality and security of customer information.",
+    "translation": "AI Generated: The board must formally approve information protection policies and verify that comprehensive written policies, procedures, and controls exist to adequately safeguard customer data confidentiality and security.",
+    "keywords": ["board", "policies", "procedures", "controls", "approval"]
+  },
+  {
+    "id": "8.3",
+    "section": "8",
+    "sectionTitle": "Board oversight",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "The Board must oversee the implementation and maintenance of the policies and procedures, including reviewing reports relating to the management of customer information from senior management. These reports should include risk assessments, findings, and mitigation plans. The Board must be satisfied that the policies, procedures and controls are adequate and effective in safeguarding customer information. These reports and mitigation plans must be periodically reviewed to reflect changes in the operating environment and evolving risks, ensuring continued relevance and effectiveness.",
+    "translation": "AI Generated: The board must actively monitor policy implementation by reviewing senior management reports on customer information management, including risk assessments and mitigation plans. The board must confirm adequacy and effectiveness of controls, with periodic reviews to adapt to changing risks.",
+    "keywords": ["board", "oversight", "reports", "risk assessment", "mitigation", "periodic review"]
+  },
+  {
+    "id": "8.4",
+    "section": "8",
+    "sectionTitle": "Board oversight",
+    "part": "B",
+    "subsection": null,
+    "marker": "S",
+    "verbatim": "The Board must require written assurance from senior management annually that the controls in place to protect customer information are working effectively and the FSP's outsourced service providers fulfil their obligations in accordance with the contract provisions on safeguarding customer information.",
+    "translation": "AI Generated: The board must obtain annual written assurance from senior management confirming that customer information protection controls are effective and that outsourced service providers are meeting their contractual obligations.",
+    "keywords": ["board", "annual assurance", "controls", "outsourced service providers"]
+  }
+]

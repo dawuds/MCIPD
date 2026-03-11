@@ -1,0 +1,186 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "AI Generated: Customer information risk assessment methodology aligned to BNM MCIPD requirements. Organisations should adapt to their specific risk appetite and board-approved frameworks.",
+  "title": "Customer Information Risk Assessment Methodology",
+  "description": "Structured methodology for assessing customer information risks in Malaysian financial service providers, aligned to BNM Management of Customer Information and Permitted Disclosures (MCIPD) policy document.",
+  "framework": "BNM MCIPD",
+  "approach": "qualitative-quantitative",
+  "applicableClauses": ["10.1", "10.2", "10.3", "10.4", "10.5"],
+  "proportionalityPrinciple": "The depth, frequency, and rigour of the risk assessment must be proportionate to the FSP's size, nature, and complexity of operations, as well as the volume and sensitivity of customer information held (clause 10.4).",
+  "scales": {
+    "likelihood": {
+      "levels": [
+        {
+          "score": 1,
+          "label": "Rare",
+          "description": "May occur only in exceptional circumstances (<5% annual probability)",
+          "frequency": "Less than once in 10 years",
+          "indicators": "No history of occurrence; strong controls in place; threat actors have low motivation"
+        },
+        {
+          "score": 2,
+          "label": "Unlikely",
+          "description": "Could occur but not expected (5-20% annual probability)",
+          "frequency": "Once in 5-10 years",
+          "indicators": "Limited history of occurrence; controls are generally effective; external threat landscape is moderate"
+        },
+        {
+          "score": 3,
+          "label": "Possible",
+          "description": "Might occur at some time (20-50% annual probability)",
+          "frequency": "Once in 2-5 years",
+          "indicators": "Has occurred in the industry; some control weaknesses known; moderate threat actor capability and motivation"
+        },
+        {
+          "score": 4,
+          "label": "Likely",
+          "description": "Will probably occur in most circumstances (50-80% annual probability)",
+          "frequency": "Once or more per year",
+          "indicators": "Has occurred at the FSP or frequently in the industry; known control gaps; active threat landscape"
+        },
+        {
+          "score": 5,
+          "label": "Almost Certain",
+          "description": "Expected to occur in most circumstances (>80% annual probability)",
+          "frequency": "Multiple times per year",
+          "indicators": "Regular occurrence; inadequate controls; high threat actor motivation and capability; ongoing vulnerabilities"
+        }
+      ]
+    },
+    "impact": {
+      "dimensions": [
+        "Customer harm",
+        "Financial loss",
+        "Regulatory consequence",
+        "Reputational damage",
+        "Operational disruption"
+      ],
+      "levels": [
+        {
+          "score": 1,
+          "label": "Insignificant",
+          "description": "Minimal impact on customers, no regulatory consequence, negligible financial loss",
+          "examples": [
+            "Exposure of non-sensitive customer contact details to internal staff",
+            "Single customer affected with no financial or identity risk",
+            "Self-contained incident with no external exposure"
+          ],
+          "customerImpact": "No material harm to customers",
+          "financialRange": "<RM50K",
+          "regulatoryConsequence": "No regulatory action expected"
+        },
+        {
+          "score": 2,
+          "label": "Minor",
+          "description": "Limited customer inconvenience, internal escalation, contained financial loss",
+          "examples": [
+            "Misdirected customer correspondence to wrong address",
+            "Temporary unauthorised view of customer records by staff (no download)",
+            "Small number of customers affected with low-sensitivity data"
+          ],
+          "customerImpact": "Minor inconvenience, low risk of harm",
+          "financialRange": "RM50K-500K",
+          "regulatoryConsequence": "Internal reporting, no BNM notification required"
+        },
+        {
+          "score": 3,
+          "label": "Moderate",
+          "description": "Significant customer concern, potential BNM notification, material financial exposure",
+          "examples": [
+            "Bulk customer data exposure (under 1,000 customers) with moderate sensitivity",
+            "Unauthorised download of customer records by staff",
+            "OSP control failure exposing customer data"
+          ],
+          "customerImpact": "Significant concern, potential for identity risk",
+          "financialRange": "RM500K-5M",
+          "regulatoryConsequence": "Potential BNM notification, supervisory inquiry"
+        },
+        {
+          "score": 4,
+          "label": "Major",
+          "description": "Serious customer harm, BNM notification required, substantial financial and reputational impact",
+          "examples": [
+            "Breach affecting over 1,000 customers (significant scale per clause 11.11)",
+            "Exposure of sensitive customer information (credentials, biometrics, medical data)",
+            "Customer data sold or disclosed to criminal elements",
+            "High-profile customer or public figure data exposed"
+          ],
+          "customerImpact": "Significant harm including financial loss, identity theft risk, or safety threat",
+          "financialRange": "RM5M-50M",
+          "regulatoryConsequence": "BNM notification required, investigation report to Board and BNM, potential enforcement action"
+        },
+        {
+          "score": 5,
+          "label": "Critical",
+          "description": "Catastrophic customer and institutional impact, licence-threatening, systemic implications",
+          "examples": [
+            "Mass data breach affecting tens of thousands of customers",
+            "Customer data breach leading to widespread fraud or identity theft",
+            "Breach attracting national media attention and public confidence erosion",
+            "Deliberate large-scale data exfiltration by insider or external attacker"
+          ],
+          "customerImpact": "Severe widespread harm, mass financial loss, or safety threats to customers",
+          "financialRange": ">RM50M",
+          "regulatoryConsequence": "Immediate BNM escalation, potential enforcement, licence review, law enforcement referral"
+        }
+      ]
+    }
+  },
+  "riskRating": {
+    "formula": "Likelihood x Impact",
+    "bands": [
+      { "range": [1, 4], "label": "Low", "color": "#22c55e", "action": "Accept and monitor through regular review cycle" },
+      { "range": [5, 9], "label": "Medium", "color": "#f59e0b", "action": "Mitigate within 90 days; include in management reporting" },
+      { "range": [10, 15], "label": "High", "color": "#f97316", "action": "Mitigate within 30 days; escalate to designated officer under S9.2" },
+      { "range": [16, 25], "label": "Critical", "color": "#ef4444", "action": "Immediate escalation to Board; mitigate within 14 days; notify BNM if threshold criteria met" }
+    ]
+  },
+  "assessmentProcess": {
+    "steps": [
+      {
+        "step": 1,
+        "name": "Asset Identification",
+        "description": "Identify and classify all customer information assets across systems, media, and locations",
+        "clause": "10.26"
+      },
+      {
+        "step": 2,
+        "name": "Threat Identification",
+        "description": "Identify internal and external threats including negligent and deliberate acts",
+        "clause": "10.1, 10.3"
+      },
+      {
+        "step": 3,
+        "name": "Vulnerability Assessment",
+        "description": "Identify vulnerabilities in systems, processes, and people controls",
+        "clause": "10.1"
+      },
+      {
+        "step": 4,
+        "name": "Risk Analysis",
+        "description": "Assess likelihood and impact for each threat-vulnerability pair, including third-party risks",
+        "clause": "10.2"
+      },
+      {
+        "step": 5,
+        "name": "Risk Evaluation",
+        "description": "Compare risk levels against risk appetite and determine treatment priority",
+        "clause": "10.2"
+      },
+      {
+        "step": 6,
+        "name": "Mitigation Planning",
+        "description": "Develop and implement mitigation plans based on identified risks",
+        "clause": "10.2"
+      },
+      {
+        "step": 7,
+        "name": "Monitoring and Review",
+        "description": "Continuously monitor risk indicators and review assessment periodically",
+        "clause": "10.13"
+      }
+    ]
+  },
+  "reviewCycle": "Annually, or upon material change in operating environment, business model, or regulatory requirements",
+  "approvalAuthority": "Designated officer under paragraph 9.2, with Board oversight under paragraph 8.3"
+}

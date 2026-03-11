@@ -1,0 +1,640 @@
+[
+  {
+    "id": "10.1",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "A: Risk assessment",
+    "marker": "S",
+    "verbatim": "FSPs must identify and address potential threats and vulnerabilities that could result in theft, loss, misuse, or unauthorised access, modification or disclosure by whatever means, of customer information.",
+    "translation": "AI Generated: FSPs are required to proactively identify and remediate threats and vulnerabilities that may lead to any form of compromise of customer information, whether through theft, loss, misuse, or unauthorised access, modification, or disclosure.",
+    "keywords": ["risk assessment", "threats", "vulnerabilities", "customer information", "unauthorised access"]
+  },
+  {
+    "id": "10.2",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "A: Risk assessment",
+    "marker": "S",
+    "verbatim": "FSPs must also assess the likelihood that identified threats and vulnerabilities will materialise, and the potential impact on both the FSP and its customers in the event a customer information breach occurs. This assessment, among other considerations, must include third-party service providers and outsourcing arrangements, and be supported by mitigation plans that are developed and implemented based on the threats identified.",
+    "translation": "AI Generated: FSPs must perform a likelihood-and-impact assessment of identified threats and vulnerabilities, covering third-party and outsourcing risks, and must develop and implement corresponding mitigation plans.",
+    "keywords": ["risk assessment", "likelihood", "impact", "third-party", "outsourcing", "mitigation plans"]
+  },
+  {
+    "id": "10.3",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "A: Risk assessment",
+    "marker": "G",
+    "verbatim": "Threats and vulnerabilities to customer information can be internal or external and could be due to negligence or a deliberate act of any person.",
+    "translation": "AI Generated: Threats and vulnerabilities may originate from internal or external sources and may arise from either negligent or intentional conduct.",
+    "keywords": ["threats", "vulnerabilities", "internal", "external", "negligence", "deliberate act"]
+  },
+  {
+    "id": "10.4",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "A: Risk assessment",
+    "marker": "S",
+    "verbatim": "FSPs must ensure the risk assessment referred to under paragraph 10.2 is proportionate to the size, nature and complexity of the FSP's operations as well as the amount and sensitivity of customer information held.",
+    "translation": "AI Generated: The risk assessment must be scaled proportionately to the FSP's operational size, nature, complexity, and the volume and sensitivity of customer information it holds.",
+    "keywords": ["risk assessment", "proportionality", "size", "complexity", "sensitivity"]
+  },
+  {
+    "id": "10.5",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "A: Risk assessment",
+    "marker": "G",
+    "verbatim": "FSPs may leverage on the existing arrangements, functions or tools that have a similar focus on managing risks to the confidentiality and security of customer information.",
+    "translation": "AI Generated: FSPs are encouraged to reuse existing risk management arrangements, functions, or tools that already address confidentiality and security of customer information, rather than building entirely new frameworks.",
+    "keywords": ["existing arrangements", "risk management", "confidentiality", "security"]
+  },
+  {
+    "id": "10.6",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "verbatim": "FSPs must establish and have in place written policies and procedures to safeguard customer information, and this must include the collection, access, storage, use, transmission, sharing, disclosure and disposal of customer information.",
+    "translation": "AI Generated: FSPs must have documented policies and procedures covering the full lifecycle of customer information: collection, access, storage, use, transmission, sharing, disclosure, and disposal.",
+    "keywords": ["policies", "procedures", "data lifecycle", "collection", "access", "storage", "disposal"],
+    "footnotes": [
+      {
+        "number": 9,
+        "text": "Policies refer to documented principles that express a FSP's goals and objectives and determine the formulation of strategy, plans, actions and procedures."
+      },
+      {
+        "number": 10,
+        "text": "Procedures refer to detailed steps to be followed as a consistent approach to put into action the policies approved by the Board in day-to-day operations."
+      }
+    ]
+  },
+  {
+    "id": "10.7",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "verbatim": "The written policies and procedures must be proportionate to the FSP's size, nature and complexity of the FSP's operations and the amount and sensitivity of customer information the FSP handles.",
+    "translation": "AI Generated: Policies and procedures must be proportionate to the FSP's size, operational complexity, and the volume and sensitivity of customer information it handles.",
+    "keywords": ["policies", "procedures", "proportionality", "size", "complexity", "sensitivity"]
+  },
+  {
+    "id": "10.8",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "verbatim": "Without limiting the generality of paragraphs 10.6 and 10.7, FSPs must have clear written policies and procedures governing these areas- (a) off-site work arrangements that allow access to customer information in the FSP's systems; (b) handling and transporting of physical documents containing customer information outside the FSP's premises; (c) the use of portable IT equipment and data storage devices; and (d) customer information breach incident handling.",
+    "translation": "AI Generated: At a minimum, FSPs must have specific written policies and procedures for: (a) remote/off-site work access, (b) physical document handling and transport, (c) portable IT equipment and storage devices, and (d) breach incident handling.",
+    "keywords": ["policies", "procedures", "off-site work", "physical documents", "portable devices", "breach incident handling"]
+  },
+  {
+    "id": "10.9",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "B: Policies and procedures",
+    "marker": "G",
+    "verbatim": "FSPs may incorporate the requirements on the proper handling of customer information in other policies, if appropriate. These may include written policies on human resource, code of conduct, information security, outsourcing and the disclosure of customer information to parties permitted under the law.",
+    "translation": "AI Generated: FSPs may integrate customer information handling requirements into existing policies such as HR, code of conduct, information security, outsourcing, and lawful disclosure policies.",
+    "keywords": ["policies", "integration", "human resource", "code of conduct", "information security", "outsourcing"]
+  },
+  {
+    "id": "10.10",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that the written policies and procedures are readily accessible and clearly communicated to staff by the person designated under paragraph 9.2, to ensure compliance with such policies and procedures.",
+    "translation": "AI Generated: The designated officer under paragraph 9.2 must ensure that policies and procedures are easily accessible and clearly communicated to all staff to drive compliance.",
+    "keywords": ["policies", "procedures", "communication", "staff awareness", "designated officer", "compliance"]
+  },
+  {
+    "id": "10.11",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "verbatim": "FSPs must continually review their written policies and procedures to ensure that they remain adequate, relevant and operate effectively in response to changes in the operating environment.",
+    "translation": "AI Generated: FSPs must continuously review and update their policies and procedures to ensure they remain adequate, relevant, and effective as the operating environment evolves.",
+    "keywords": ["policies", "procedures", "review", "continuous improvement", "operating environment"]
+  },
+  {
+    "id": "10.12",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "verbatim": "FSPs must deploy preventive and detective ICT controls to- (a) prevent theft, loss, misuse or unauthorised access, modification or disclosure of customer information; and (b) detect errors and irregularities when they occur.",
+    "translation": "AI Generated: FSPs must implement both preventive and detective ICT controls to stop and detect theft, loss, misuse, unauthorised access, modification, disclosure, errors, and irregularities involving customer information.",
+    "keywords": ["ICT controls", "preventive controls", "detective controls", "unauthorised access", "errors"]
+  },
+  {
+    "id": "10.13",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "verbatim": "FSPs must regularly monitor the effectiveness of these controls to ensure that they remain responsive to changing threats.",
+    "translation": "AI Generated: FSPs must conduct regular monitoring of their ICT controls to ensure they remain effective and responsive to evolving threats.",
+    "keywords": ["ICT controls", "monitoring", "effectiveness", "changing threats"]
+  },
+  {
+    "id": "10.14",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "verbatim": "On occasions where FSPs' staff, representatives and agents undertake offsite work arrangements, FSPs must have in place appropriate controls for such offsite work arrangements including for the ICT equipment used that allow access into FSPs' systems and customer information.",
+    "translation": "AI Generated: FSPs must establish appropriate controls for off-site work arrangements, including controls over ICT equipment used by staff, representatives, and agents to access FSP systems and customer information remotely.",
+    "keywords": ["off-site work", "remote access", "ICT equipment", "controls", "representatives", "agents"]
+  },
+  {
+    "id": "10.15",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "G",
+    "verbatim": "The controls referred to in paragraph 10.14 may include robust authentication for remote access into FSPs' systems, encrypting data stored on the ICT equipment and ensuring data transmission is securely protected.",
+    "translation": "AI Generated: Examples of off-site work controls include strong authentication for remote access, encryption of data stored on ICT equipment, and secure data transmission.",
+    "keywords": ["remote access", "authentication", "encryption", "data transmission", "off-site work"]
+  },
+  {
+    "id": "10.16",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that only staff with a legitimate business need is allowed to download customer information into portable storage devices provided by the FSP.",
+    "translation": "AI Generated: Only staff with a legitimate business need may download customer information to FSP-provided portable storage devices.",
+    "keywords": ["portable storage devices", "download", "business need", "access restriction"]
+  },
+  {
+    "id": "10.17",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "verbatim": "FSPs must put in place the relevant controls to ensure that the customer information stored in such portable storage devices pursuant to paragraph 10.16 is adequately protected, such as password and data encryption, to prevent theft, loss, misuse or unauthorised access, modification or disclosure by whatever means.",
+    "translation": "AI Generated: Customer information stored on portable storage devices must be protected with controls such as password protection and data encryption to prevent any form of compromise.",
+    "keywords": ["portable storage devices", "password", "encryption", "data protection"]
+  },
+  {
+    "id": "10.18",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that staff are given access to call recordings on a strictly \"need-to-know\" basis for recorded telephone conversations with customers that contain customer information.",
+    "translation": "AI Generated: Access to call recordings containing customer information must be restricted to staff on a strict need-to-know basis.",
+    "keywords": ["call recordings", "need-to-know", "access restriction", "telephone conversations"]
+  },
+  {
+    "id": "10.19",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "G",
+    "verbatim": "FSPs may consider disabling USB ports and CD writers on desktop and laptop computers of staff who do not have any operational need to download, transmit or store customer information.",
+    "translation": "AI Generated: FSPs are encouraged to disable USB ports and CD writers on computers of staff who do not operationally need to download, transmit, or store customer information.",
+    "keywords": ["USB ports", "CD writers", "data leakage prevention", "endpoint controls"]
+  },
+  {
+    "id": "10.20",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "verbatim": "FSPs must have in place mechanisms that create a strong deterrent effect against unauthorised disclosure by whatever means of customer information by staff.",
+    "translation": "AI Generated: FSPs must implement mechanisms that strongly deter staff from making unauthorised disclosures of customer information by any means.",
+    "keywords": ["deterrent", "unauthorised disclosure", "staff", "mechanisms"]
+  },
+  {
+    "id": "10.21",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "G",
+    "verbatim": "Unauthorised disclosure may occur in many ways and forms such as staff taking photograph of documents or screens that contain customer information. The mechanisms referred to in paragraph 10.20 may include raising staff awareness on the disciplinary actions for unauthorised disclosure by whatever means, installing CCTV at relevant areas, having an open office concept, encouraging whistleblowing in this respect, or restricting personal electronic devices at high risk areas like data centres, dealing rooms, call centres, etc.",
+    "translation": "AI Generated: Deterrent mechanisms may include staff awareness of disciplinary actions, CCTV installation, open office layouts, whistleblowing encouragement, and restricting personal electronic devices in high-risk areas such as data centres, dealing rooms, and call centres.",
+    "keywords": ["unauthorised disclosure", "CCTV", "whistleblowing", "disciplinary actions", "personal devices", "high-risk areas"]
+  },
+  {
+    "id": "10.22",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "verbatim": "FSPs must restrict access to web-based communication websites and social media platforms, particularly those which are encrypted from end-to-end (e.g., WhatsApp Desktop, Facebook and Skype Messenger) on staff who handle customer information, to prevent unauthorised disclosure of customer information to external parties via internet services.",
+    "translation": "AI Generated: FSPs must restrict staff who handle customer information from accessing web-based communication and social media platforms, especially end-to-end encrypted ones like WhatsApp Desktop, Facebook, and Skype Messenger, to prevent unauthorised external disclosure.",
+    "keywords": ["social media", "web-based communication", "end-to-end encryption", "WhatsApp", "data leakage prevention"]
+  },
+  {
+    "id": "10.23",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "verbatim": "FSPs must also implement mechanisms for the prompt detection of- (a) unauthorised access to customer information; (b) unusual frequent viewing of customer information in the FSPs' systems by staff; (c) unusual or suspicious downloading activities that involve customer information; and (d) unauthorised disclosure of customer information to external parties.",
+    "translation": "AI Generated: FSPs must implement detection mechanisms for: (a) unauthorised access, (b) unusual frequent viewing by staff, (c) suspicious downloading activities, and (d) unauthorised disclosure of customer information to external parties.",
+    "keywords": ["detection", "unauthorised access", "unusual activity", "suspicious downloads", "monitoring"]
+  },
+  {
+    "id": "10.24",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "G",
+    "verbatim": "The mechanisms referred to in paragraph 10.23 may include installing key-logger software, conducting regular reviews of audit trail and carrying out random periodic sample checks.",
+    "translation": "AI Generated: Detection mechanisms may include key-logger software, regular audit trail reviews, and random periodic sample checks.",
+    "keywords": ["key-logger", "audit trail", "sample checks", "detection mechanisms"]
+  },
+  {
+    "id": "10.25",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Access controls",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that the role profile for each type of job includes a description of the access rights to customer information if relevant, for staff to perform their jobs in accordance with the access rights.",
+    "translation": "AI Generated: Each job role profile must include a description of the relevant access rights to customer information, ensuring staff operate within defined access boundaries.",
+    "keywords": ["access controls", "role profile", "access rights", "job description"]
+  },
+  {
+    "id": "10.26",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Access controls",
+    "marker": "S",
+    "verbatim": "FSPs must identify the location of customer information residing in different systems and ensure that adequate access controls are in place at different levels (i.e. application level, database level, operating system level and network level) to prevent unauthorised access, modification or disclosure by whatever means of customer information to external parties.",
+    "translation": "AI Generated: FSPs must map where customer information resides across systems and implement access controls at application, database, operating system, and network levels to prevent unauthorised access, modification, or disclosure.",
+    "keywords": ["access controls", "data mapping", "application level", "database level", "operating system level", "network level"]
+  },
+  {
+    "id": "10.27",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Access controls",
+    "marker": "S",
+    "verbatim": "FSPs must regularly review the access rights of staff and immediately revoke the access rights of any staff leaving the FSP or changing to a new role or position that does not require access to customer information to prevent the theft of customer information.",
+    "translation": "AI Generated: FSPs must regularly review staff access rights and immediately revoke access when staff leave the organisation or move to roles that no longer require access to customer information.",
+    "keywords": ["access review", "access revocation", "role change", "staff departure", "access rights"]
+  },
+  {
+    "id": "10.28",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Physical security",
+    "marker": "S",
+    "verbatim": "FSPs must implement adequate physical security controls to ensure customer information stored either in paper or electronic forms are properly protected against theft, loss, misuse or unauthorised access, modification or disclosure by whatever means.",
+    "translation": "AI Generated: FSPs must implement physical security controls to protect customer information in both paper and electronic forms against all forms of compromise.",
+    "keywords": ["physical security", "paper records", "electronic records", "protection"]
+  },
+  {
+    "id": "10.29",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Physical security",
+    "marker": "S",
+    "verbatim": "FSPs must restrict access and implement robust intruder deterrents in areas where large amounts, or critical and sensitive customer information are accessible and stored, for example, the server and filing rooms.",
+    "translation": "AI Generated: FSPs must restrict access and deploy intruder deterrents in areas storing large volumes of or critical and sensitive customer information, such as server rooms and filing rooms.",
+    "keywords": ["physical security", "access restriction", "intruder deterrents", "server rooms", "filing rooms"]
+  },
+  {
+    "id": "10.30",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Physical security",
+    "marker": "G",
+    "verbatim": "To minimise the risks of theft, loss, misuse or unauthorised access, modification or disclosure by whatever means of customer information, FSPs may consider implementing a clear-desk policy.",
+    "translation": "AI Generated: FSPs are encouraged to implement a clear-desk policy to reduce the risk of customer information being compromised through physical exposure.",
+    "keywords": ["clear-desk policy", "physical security", "risk minimisation"]
+  },
+  {
+    "id": "10.31",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Off-site and data-in-transit",
+    "marker": "S",
+    "verbatim": "FSPs must provide clear policy and procedures encompassing adequate controls to be put in place for the proper handling of customer information collected off-site and in-transit. This must include ensuring that physical documents are securely stored while the customer information stored in portable devices are securely protected to prevent theft, loss, misuse or unauthorised access, modification or disclosure by whatever means.",
+    "translation": "AI Generated: FSPs must have clear policies and procedures with adequate controls for handling customer information collected off-site and in-transit, ensuring secure storage of physical documents and protection of information on portable devices.",
+    "keywords": ["off-site", "data-in-transit", "physical documents", "portable devices", "controls"]
+  },
+  {
+    "id": "10.32",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "S",
+    "verbatim": "To effectively safeguard customer information throughout its lifecycle, FSPs must have proper procedures in place to identify customer information that is no longer required from the perspective of the operation or requirements of any written law. FSPs shall deploy appropriate methods to securely dispose of such customer information which includes any paper and digital records of the customer information.",
+    "translation": "AI Generated: FSPs must have procedures to identify customer information no longer needed operationally or legally, and must deploy appropriate methods to securely dispose of both paper and digital records.",
+    "keywords": ["disposal", "data lifecycle", "secure destruction", "paper records", "digital records", "retention"]
+  },
+  {
+    "id": "10.33",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "G",
+    "verbatim": "Customer information is considered securely disposed of when it is beyond any possibility of recovery, is irreversible or cannot be reconstructed in any way.",
+    "translation": "AI Generated: Secure disposal means customer information is irrecoverable, irreversible, and cannot be reconstructed by any means.",
+    "keywords": ["secure disposal", "irrecoverable", "irreversible", "data destruction"]
+  },
+  {
+    "id": "10.34",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "G",
+    "verbatim": "To ensure secure data destruction, all devices may undergo proper sanitization using industry standard method and chain of custody controls, such as data wiping software, physical destruction or degaussing. For information stored in digital devices, a simple file deletion or reformatting of hard drives and portable storage devices may not be sufficient to completely destroy the stored information.",
+    "translation": "AI Generated: Devices should be sanitised using industry-standard methods such as data wiping software, physical destruction, or degaussing, with chain of custody controls. Simple file deletion or reformatting is insufficient for digital devices.",
+    "keywords": ["data destruction", "sanitization", "data wiping", "physical destruction", "degaussing", "chain of custody"]
+  },
+  {
+    "id": "10.35",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "S",
+    "verbatim": "FSPs must assess the risks and benefits of engaging an outsourced service provider for the destruction of customer information which involves transporting customer information outside the FSP's premises.",
+    "translation": "AI Generated: FSPs must conduct a risk-benefit assessment before engaging an outsourced service provider for customer information destruction, particularly where it involves transporting information off-premises.",
+    "keywords": ["outsourced destruction", "risk assessment", "third-party", "data transport"]
+  },
+  {
+    "id": "10.36",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "S",
+    "verbatim": "FSPs must shred or store customer information in a manner that is inaccessible such as sealed in bags with tamper proof fasteners or stored in locked containers before it is collected by outsourced service providers for destruction.",
+    "translation": "AI Generated: Before collection by outsourced service providers, customer information must be shredded or stored inaccessibly in tamper-proof sealed bags or locked containers.",
+    "keywords": ["shredding", "tamper-proof", "locked containers", "outsourced destruction", "secure storage"]
+  },
+  {
+    "id": "10.37",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "S",
+    "verbatim": "FSPs must conduct random checks on the collection and destruction process carried out by outsourced service providers to ensure that customer information is properly destroyed.",
+    "translation": "AI Generated: FSPs must perform random checks on outsourced service providers' collection and destruction processes to verify proper destruction of customer information.",
+    "keywords": ["random checks", "outsourced destruction", "verification", "monitoring"]
+  },
+  {
+    "id": "10.38",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "G",
+    "verbatim": "Human factors are common contributory causes to theft, loss, misuse or unauthorised access, modification or disclosure by whatever means of customer information. It is therefore important that all staff understand the importance of protecting the confidentiality and security of customer information.",
+    "translation": "AI Generated: Human factors are a common cause of customer information compromise, making it essential that all staff understand the importance of protecting customer information confidentiality and security.",
+    "keywords": ["human factors", "staff awareness", "confidentiality", "security"]
+  },
+  {
+    "id": "10.39",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that employment contracts contain a provision requiring all staff to sign a confidentiality undertaking that clearly specifies the obligation and requirement under the relevant written law to safeguard customer information as well as the consequences for failure to comply with such obligation and requirement.",
+    "translation": "AI Generated: Employment contracts must include a confidentiality undertaking signed by all staff, specifying legal obligations to safeguard customer information and consequences for non-compliance.",
+    "keywords": ["employment contracts", "confidentiality undertaking", "legal obligations", "consequences", "non-compliance"]
+  },
+  {
+    "id": "10.40",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "Where FSPs engage with external vendors to carry out duties or services within the FSPs' premises (e.g., security guards, cleaners and maintenance officers/engineers), FSPs must ensure that the external vendors carry out an appropriate level of vetting and monitoring on their personnel to reduce the risk of customer information theft.",
+    "translation": "AI Generated: When engaging external vendors working on-premises (e.g., security guards, cleaners, maintenance staff), FSPs must ensure vendors appropriately vet and monitor their personnel to mitigate customer information theft risk.",
+    "keywords": ["external vendors", "vetting", "monitoring", "on-premises", "security guards", "cleaners", "maintenance"]
+  },
+  {
+    "id": "10.41",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "FSPs must ensure a high degree of staff awareness at all times on the following: (a) the need to protect the confidentiality and security of customer information; (b) the importance of complying with relevant policies and procedures established by the FSPs; and (c) the consequences if any staff is involved in any theft, loss, misuse or unauthorised access, modification or disclosure by whatever means of customer information.",
+    "translation": "AI Generated: FSPs must maintain a high level of ongoing staff awareness on: (a) protecting customer information confidentiality and security, (b) complying with relevant policies and procedures, and (c) the consequences of involvement in any customer information breach.",
+    "keywords": ["staff awareness", "confidentiality", "compliance", "consequences", "policies", "procedures"]
+  },
+  {
+    "id": "10.42",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "FSPs must have in place robust monitoring mechanisms to ensure that the relevant policies, procedures and controls established by the FSPs are adhered to by staff.",
+    "translation": "AI Generated: FSPs must implement robust monitoring mechanisms to ensure staff adhere to established policies, procedures, and controls.",
+    "keywords": ["monitoring", "compliance", "staff adherence", "policies", "procedures", "controls"]
+  },
+  {
+    "id": "10.43",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "FSPs must provide relevant training and regularly remind all staff on their obligations to ensure the confidentiality of customer information is safeguarded when dealing with such information.",
+    "translation": "AI Generated: FSPs must provide training and regular reminders to all staff about their obligations to safeguard the confidentiality of customer information.",
+    "keywords": ["training", "staff reminders", "obligations", "confidentiality"]
+  },
+  {
+    "id": "10.44",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "FSPs must include in their programme for new staff, specific trainings to explain the relevant policies and procedures on protecting customer information.",
+    "translation": "AI Generated: New staff onboarding programmes must include specific training on the FSP's policies and procedures for protecting customer information.",
+    "keywords": ["onboarding", "new staff", "training", "policies", "procedures"]
+  },
+  {
+    "id": "10.45",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that new staff are notified on the possible actions that may be taken for non-compliance with policies and procedures.",
+    "translation": "AI Generated: New staff must be informed of the possible disciplinary or other actions that may result from non-compliance with customer information protection policies and procedures.",
+    "keywords": ["new staff", "non-compliance", "disciplinary actions", "notification"]
+  },
+  {
+    "id": "10.46",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "G",
+    "verbatim": "Guidance provided to staff on safeguarding customer information should be concise and reader-friendly to enable understanding among staff on how to comply with the relevant policies and procedures.",
+    "translation": "AI Generated: Staff guidance on safeguarding customer information should be concise and easy to understand to promote effective compliance.",
+    "keywords": ["staff guidance", "reader-friendly", "understanding", "compliance"]
+  },
+  {
+    "id": "10.47",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "FSPs must have in place mechanisms to gauge the effectiveness of trainings to staff on safeguarding customer information.",
+    "translation": "AI Generated: FSPs must have mechanisms to measure the effectiveness of staff training on safeguarding customer information.",
+    "keywords": ["training effectiveness", "measurement", "staff training"]
+  },
+  {
+    "id": "10.48",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "G",
+    "verbatim": "The mechanisms referred to in paragraph 10.47 may include conducting an annual awareness survey to assess the level of understanding among staff on protecting the confidentiality and security of customer information and reporting a customer information breach.",
+    "translation": "AI Generated: Training effectiveness mechanisms may include annual awareness surveys to assess staff understanding of customer information protection and breach reporting.",
+    "keywords": ["awareness survey", "training effectiveness", "annual assessment", "breach reporting"]
+  },
+  {
+    "id": "10.49",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "FSPs must conduct a thorough and timely investigation upon detecting theft, loss, misuse or unauthorised access, modification or disclosure by whatever means of customer information by staff and take appropriate actions against the staff concerned.",
+    "translation": "AI Generated: FSPs must promptly and thoroughly investigate any detected customer information breach by staff and take appropriate action against those involved.",
+    "keywords": ["investigation", "breach", "staff misconduct", "appropriate action", "timely"]
+  },
+  {
+    "id": "10.50",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "The actions taken pursuant to paragraph 10.49 must send a strong message to all staff and act as deterrent to prevent future recurrence of the customer information breach. Where the FSP decides not to take action against the staff in breach, the reason for not taking any action must be properly documented and approved by senior management.",
+    "translation": "AI Generated: Disciplinary actions must serve as a strong deterrent to all staff. If the FSP chooses not to act against a staff member in breach, the rationale must be documented and approved by senior management.",
+    "keywords": ["deterrent", "disciplinary action", "documentation", "senior management approval", "recurrence prevention"]
+  },
+  {
+    "id": "10.51",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "In accordance with paragraph 9.10, FSPs must report to the Board the result of the investigation and actions taken against the staff concerned.",
+    "translation": "AI Generated: FSPs must report investigation outcomes and actions taken against staff to the Board, in line with paragraph 9.10.",
+    "keywords": ["Board reporting", "investigation results", "staff actions", "governance"]
+  },
+  {
+    "id": "10.52",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "verbatim": "FSPs shall remain accountable for the conduct and actions of their appointed representatives and agents for any theft, loss, misuse or unauthorised access, modification or disclosure by whatever means of customer information.",
+    "translation": "AI Generated: FSPs retain full accountability for the conduct and actions of their appointed representatives and agents regarding any customer information breach.",
+    "keywords": ["accountability", "representatives", "agents", "conduct", "customer information breach"]
+  },
+  {
+    "id": "10.53",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "E: Independent review",
+    "marker": "S",
+    "verbatim": "FSPs must subject their written policies, procedures and control measures for safeguarding customer information to an independent review at least once in every two years.",
+    "translation": "AI Generated: FSPs must have their customer information protection policies, procedures, and controls independently reviewed at least once every two years.",
+    "keywords": ["independent review", "biennial", "policies", "procedures", "controls"],
+    "footnotes": [
+      {
+        "number": 11,
+        "text": "Independent review is to be carried out by a function independent of the business units involved in the handling of customer information, such as internal audit. There is no expectation for FSPs to engage an external party to carry out the independent review."
+      }
+    ]
+  },
+  {
+    "id": "10.54",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "E: Independent review",
+    "marker": "S",
+    "verbatim": "FSPs must ensure that the independent review must include an assessment of the effectiveness of senior management and their oversight as well as the adequacy and effectiveness of measures undertaken by the FSP to protect customer information from theft, loss, misuse or unauthorised access, modification or disclosure by whatever means.",
+    "translation": "AI Generated: The independent review must assess both senior management effectiveness and oversight, and the adequacy and effectiveness of measures to protect customer information.",
+    "keywords": ["independent review", "senior management effectiveness", "oversight", "adequacy", "effectiveness"]
+  },
+  {
+    "id": "10.55",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "E: Independent review",
+    "marker": "S",
+    "verbatim": "The independent reviewer under paragraph 10.53 must communicate the written findings to the senior management and the Board of the FSP.",
+    "translation": "AI Generated: The independent reviewer must provide written findings to both senior management and the Board.",
+    "keywords": ["independent review", "written findings", "senior management", "Board", "communication"],
+    "footnotes": [
+      {
+        "number": 12,
+        "text": "The written findings should include the review's scope, methodologies used, findings, evidence obtained, and any limitations of the review"
+      }
+    ]
+  },
+  {
+    "id": "10.56",
+    "section": "10",
+    "sectionTitle": "Control environment",
+    "part": "B",
+    "subsection": "E: Independent review",
+    "marker": "S",
+    "verbatim": "Based on the written findings under paragraph 10.55, senior management must ensure that appropriate and timely actions are taken to rectify any deficiencies in the control measures.",
+    "translation": "AI Generated: Senior management must take appropriate and timely corrective actions to address any deficiencies identified in the independent review findings.",
+    "keywords": ["corrective actions", "deficiencies", "senior management", "independent review", "remediation"]
+  }
+]

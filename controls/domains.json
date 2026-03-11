@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-03-11",
+    "alignment": "BNM MCIPD June 2025",
+    "aiGenerated": true,
+    "verificationNote": "AI Generated: Control domains derived from BNM Management of Customer Information and Permitted Disclosures policy structure. Organisations should adapt to their specific operating context."
+  },
+  "governance-and-oversight": {
+    "name": "Governance & Oversight",
+    "description": "Board and senior management oversight of customer information protection, including tone-at-the-top, policy approval, management reporting, and annual assurance",
+    "sections": ["8", "9"]
+  },
+  "risk-assessment": {
+    "name": "Risk Assessment",
+    "description": "Identification and assessment of threats and vulnerabilities to customer information, including likelihood-impact analysis, proportionality, and mitigation planning",
+    "sections": ["10.A"]
+  },
+  "policies-and-procedures": {
+    "name": "Policies & Procedures",
+    "description": "Establishment, communication, and continuous review of written policies and procedures governing the full lifecycle of customer information",
+    "sections": ["10.B"]
+  },
+  "ict-controls": {
+    "name": "ICT Controls",
+    "description": "Preventive and detective ICT controls to safeguard customer information, including monitoring, deterrent mechanisms, social media restrictions, and detection of unauthorised activity",
+    "sections": ["10.C"]
+  },
+  "access-controls": {
+    "name": "Access Controls",
+    "description": "Role-based access profiles, multi-level access controls across applications, databases, operating systems, and networks, and periodic access reviews and revocation",
+    "sections": ["10.C"]
+  },
+  "physical-security": {
+    "name": "Physical Security",
+    "description": "Physical protection of customer information in paper and electronic forms, restricted area controls, intruder deterrents, and clear-desk policies",
+    "sections": ["10.C"]
+  },
+  "data-disposal": {
+    "name": "Data Disposal",
+    "description": "Secure lifecycle disposal of customer information including identification of redundant data, secure destruction methods, outsourced destruction oversight, and chain of custody",
+    "sections": ["10.C"]
+  },
+  "staff-awareness-training": {
+    "name": "Staff Awareness & Training",
+    "description": "Employee and external vendor personnel awareness, confidentiality undertakings, training programmes, effectiveness measurement, and disciplinary frameworks",
+    "sections": ["10.D"]
+  },
+  "independent-review": {
+    "name": "Independent Review",
+    "description": "Biennial independent review of policies, procedures, and controls, including assessment of senior management effectiveness and communication of findings",
+    "sections": ["10.E"]
+  },
+  "breach-management": {
+    "name": "Breach Management",
+    "description": "Customer information breach handling and response plans, escalation procedures, BNM notification, impact assessment, investigation, customer notification, and breach register maintenance",
+    "sections": ["11"]
+  },
+  "outsourced-service-providers": {
+    "name": "Outsourced Service Providers",
+    "description": "Due diligence, SLA requirements, OSP monitoring, NDA obligations, personnel vetting, training, biennial reviews, and audit rights for outsourced service providers handling customer information",
+    "sections": ["12"]
+  },
+  "permitted-disclosure": {
+    "name": "Permitted Disclosure",
+    "description": "Controls governing lawful disclosure of customer information including consent management, cross-border transfers, regulatory disclosures, and disclosure record-keeping",
+    "sections": ["13"]
+  }
+}

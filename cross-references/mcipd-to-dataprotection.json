@@ -1,0 +1,60 @@
+{
+  "source": "MCIPD 2025 (BNM/RH/PD 028-65)",
+  "target": "Data Protection Control Domains (dataprotection repo)",
+  "relationship": "MCIPD customer information protection requirements map to generic data protection control domains",
+  "mappings": [
+    {
+      "mcipd": "10.6-10.11",
+      "dpDomain": "DCLS",
+      "dpDomainName": "Data Classification",
+      "rationale": "MCIPD policies covering collection, access, storage, use, transmission, sharing, disclosure and disposal require data classification as a foundational capability."
+    },
+    {
+      "mcipd": "10.14-10.17",
+      "dpDomain": "EART",
+      "dpDomainName": "Encryption at Rest",
+      "rationale": "MCIPD requirements for encrypting data on portable devices and offsite equipment map to encryption at rest controls."
+    },
+    {
+      "mcipd": "10.14-10.15",
+      "dpDomain": "EITR",
+      "dpDomainName": "Encryption in Transit",
+      "rationale": "MCIPD para 10.15 references encrypting data transmission for remote access, mapping to encryption in transit controls."
+    },
+    {
+      "mcipd": "10.20-10.24",
+      "dpDomain": "DLPS",
+      "dpDomainName": "Data Loss Prevention",
+      "rationale": "MCIPD detection mechanisms for unauthorised access, unusual downloading, and unauthorised disclosure directly map to DLP controls."
+    },
+    {
+      "mcipd": "10.17",
+      "dpDomain": "KMGT",
+      "dpDomainName": "Key Management",
+      "rationale": "MCIPD encryption requirements for portable storage devices imply key management controls for encryption key lifecycle."
+    },
+    {
+      "mcipd": "10.32-10.37",
+      "dpDomain": "SDSP",
+      "dpDomainName": "Secure Disposal",
+      "rationale": "Direct mapping - MCIPD secure disposal requirements (10.32-10.37) correspond exactly to the Secure Disposal control domain."
+    },
+    {
+      "mcipd": "10.25-10.27",
+      "dpDomain": "DBSC",
+      "dpDomainName": "Database Security",
+      "rationale": "MCIPD para 10.26 explicitly requires access controls at application, database, OS, and network levels."
+    },
+    {
+      "mcipd": "11.23-11.24",
+      "dpDomain": "BKRC",
+      "dpDomainName": "Backup & Recovery",
+      "rationale": "MCIPD breach register and 7-year retention requirement relate to backup and recovery for investigation records."
+    }
+  ],
+  "notes": [
+    "AI Generated: These mappings connect MCIPD requirements to the generic data protection control domains in the dataprotection repo.",
+    "The dataprotection repository at /Users/dawud/claude/dataprotection/ contains detailed control specifications for each domain.",
+    "Not all MCIPD requirements map directly to data protection technology controls - governance, personnel, and disclosure requirements are sector-specific."
+  ]
+}

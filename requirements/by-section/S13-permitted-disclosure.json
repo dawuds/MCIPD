@@ -1,0 +1,214 @@
+{
+  "13.1": {
+    "clauseId": "13.1",
+    "section": "Conditions in relation to permitted disclosure",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Financial institutions, their directors and officers must comply with specified conditions when making permitted disclosures of customer information under Schedule 11 of the FSA and IFSA, and the Fourth Schedule of the DFIA.",
+      "requirements": [
+        {
+          "id": "13.1-B1",
+          "requirement": "Map all scenarios where customer information disclosure is permitted under Schedule 11 of the FSA/IFSA and the Fourth Schedule of the DFIA, and document the specific conditions that must be met for each disclosure type.",
+          "rationale": "Clause 13.1 requires compliance with specified conditions for each disclosure type. A comprehensive mapping ensures no disclosure scenario is handled without proper conditions.",
+          "owner": "Legal",
+          "frequency": "Annual review; updated upon legislative changes",
+          "priority": "critical"
+        },
+        {
+          "id": "13.1-B2",
+          "requirement": "Communicate permitted disclosure conditions to all directors, officers, and staff who may be involved in customer information disclosure decisions or execution.",
+          "rationale": "Clause 13.1 applies to the financial institution, its directors and officers. All relevant personnel must understand the applicable conditions.",
+          "owner": "Compliance",
+          "frequency": "Annual training; updated upon changes",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology systems should support enforcement of disclosure conditions through workflow controls.",
+      "requirements": [
+        {
+          "id": "13.1-T1",
+          "requirement": "Implement disclosure management workflows that enforce condition compliance for permitted disclosures, preventing disclosures that have not been verified against applicable conditions.",
+          "rationale": "Workflow enforcement reduces the risk of non-compliant disclosures by requiring condition verification before data release.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Permitted disclosure governance must ensure all disclosures comply with the conditions table.",
+      "requirements": [
+        {
+          "id": "13.1-G1",
+          "requirement": "Establish a Permitted Disclosure Governance Framework defining the approval process, condition verification, documentation requirements, and audit trail for each category of permitted disclosure.",
+          "rationale": "Governance ensures that the conditions specified in the regulatory table are systematically applied to every disclosure.",
+          "owner": "Compliance",
+          "frequency": "Framework reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "13.2": {
+    "clauseId": "13.2",
+    "section": "Conditions in relation to permitted disclosure",
+    "subsection": null,
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Items 5 (foreign supervisory authority), 6 (centralised group functions), and 7 (due diligence for M&A, capital raising, asset sales) in the disclosure conditions table do not apply to prescribed institutions.",
+      "requirements": [
+        {
+          "id": "13.2-B1",
+          "requirement": "If the FSP is a prescribed institution, document the exemption from items 5, 6, and 7 of the disclosure conditions table and ensure this is reflected in disclosure procedures and training.",
+          "rationale": "Clause 13.2 provides a specific exemption for prescribed institutions. Accurate application prevents unnecessary compliance burden.",
+          "owner": "Legal",
+          "frequency": "Annual verification of institutional classification",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Disclosure workflow systems should reflect applicable exemptions based on institutional type.",
+      "requirements": [
+        {
+          "id": "13.2-T1",
+          "requirement": "Configure disclosure management workflows to reflect applicable exemptions based on the FSP's institutional classification.",
+          "rationale": "System configuration should accurately reflect the regulatory requirements applicable to the specific FSP type.",
+          "owner": "IT Security",
+          "frequency": "Upon initial configuration; verified annually",
+          "priority": "low"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Exemption applicability must be formally determined and documented.",
+      "requirements": [
+        {
+          "id": "13.2-G1",
+          "requirement": "Obtain and document a formal legal determination of the FSP's classification as a prescribed or non-prescribed institution for the purpose of clause 13.2 exemptions.",
+          "rationale": "The exemption's applicability depends on institutional classification. Formal determination prevents incorrect application.",
+          "owner": "Legal",
+          "frequency": "Upon initial determination; reviewed upon regulatory changes",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "13.3": {
+    "clauseId": "13.3",
+    "section": "Conditions in relation to permitted disclosure",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Financial institutions must establish adequate controls over permitted disclosures, including at minimum: verification of disclosure request authenticity, documentation requirements, and approval authority at senior levels.",
+      "requirements": [
+        {
+          "id": "13.3-B1",
+          "requirement": "Establish an authenticity verification process for all disclosure orders and requests, specifying the steps responsible officers must take to confirm the legitimacy of the request before any disclosure.",
+          "rationale": "Clause 13.3(a) requires processes to verify authenticity. Fraudulent disclosure requests could lead to unauthorised data release.",
+          "owner": "Compliance",
+          "frequency": "Per disclosure request; process reviewed annually",
+          "priority": "critical"
+        },
+        {
+          "id": "13.3-B2",
+          "requirement": "Define comprehensive documentation requirements for all permitted disclosures, including the request, verification steps taken, data disclosed, recipient, date, and approval authority.",
+          "rationale": "Clause 13.3(b) mandates documentation requirements. Complete records provide audit trail and regulatory evidence.",
+          "owner": "Compliance",
+          "frequency": "Per disclosure; requirements reviewed annually",
+          "priority": "critical"
+        },
+        {
+          "id": "13.3-B3",
+          "requirement": "Establish authority levels for approving customer information disclosures at appropriately senior levels, with a documented authority matrix specifying who can approve each disclosure type.",
+          "rationale": "Clause 13.3(c) requires authority levels at an appropriate senior level. Authority matrix prevents junior staff from authorising sensitive disclosures.",
+          "owner": "Senior Management",
+          "frequency": "Authority matrix reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology must support disclosure control measures including verification, documentation, and approval workflows.",
+      "requirements": [
+        {
+          "id": "13.3-T1",
+          "requirement": "Implement a disclosure management system with built-in verification checklists, documentation capture, senior-level approval workflows, and audit trail for all permitted customer information disclosures.",
+          "rationale": "A dedicated system ensures the three mandatory control elements are consistently applied to every disclosure.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; system reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Disclosure control adequacy must be periodically assessed and disclosures audited.",
+      "requirements": [
+        {
+          "id": "13.3-G1",
+          "requirement": "Conduct periodic audits of permitted disclosures to verify that authenticity verification, documentation, and appropriate authority approval were obtained for each disclosure.",
+          "rationale": "Audit provides assurance that disclosure controls are functioning effectively in practice.",
+          "owner": "Compliance",
+          "frequency": "Quarterly audit",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "13.4": {
+    "clauseId": "13.4",
+    "section": "Conditions in relation to permitted disclosure",
+    "subsection": null,
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Financial institutions seeking BNM approval for customer information disclosure under specific sections of the FSA, IFSA, or DFIA must complete and submit the Appendix V application form to BNM.",
+      "requirements": [
+        {
+          "id": "13.4-B1",
+          "requirement": "Establish a BNM Disclosure Approval Application Process including Appendix V form preparation, internal review, and submission procedures for disclosure requests requiring BNM approval.",
+          "rationale": "Clause 13.4 specifies the application form and process for BNM-approved disclosures. A defined process ensures complete and timely applications.",
+          "owner": "Legal",
+          "frequency": "Process reviewed annually; executed per application",
+          "priority": "critical"
+        },
+        {
+          "id": "13.4-B2",
+          "requirement": "Maintain a register of all BNM disclosure approval applications submitted, their status, and outcomes, ensuring no disclosure proceeds without the required BNM approval.",
+          "rationale": "Tracking prevents disclosure before BNM approval is obtained and provides a complete record for compliance purposes.",
+          "owner": "Compliance",
+          "frequency": "Per application; register maintained continuously",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Systems must enforce the requirement for BNM approval before regulated disclosures proceed.",
+      "requirements": [
+        {
+          "id": "13.4-T1",
+          "requirement": "Configure disclosure workflows to block disclosures requiring BNM approval until approval confirmation is recorded in the system.",
+          "rationale": "Technical enforcement prevents premature disclosure before BNM approval is obtained.",
+          "owner": "IT Security",
+          "frequency": "Configuration reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: BNM approval applications must be governed with appropriate oversight.",
+      "requirements": [
+        {
+          "id": "13.4-G1",
+          "requirement": "Require senior management review and approval of all BNM disclosure approval applications before submission, ensuring completeness and appropriateness.",
+          "rationale": "Applications to BNM represent the FSP officially. Senior oversight ensures quality and appropriateness.",
+          "owner": "Senior Management",
+          "frequency": "Per application",
+          "priority": "high"
+        }
+      ]
+    }
+  }
+}

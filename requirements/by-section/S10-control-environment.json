@@ -1,0 +1,2674 @@
+{
+  "10.1": {
+    "clauseId": "10.1",
+    "section": "Control environment",
+    "subsection": "A: Risk assessment",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must proactively identify and address threats and vulnerabilities that could lead to theft, loss, misuse, or unauthorised access, modification, or disclosure of customer information.",
+      "requirements": [
+        {
+          "id": "10.1-B1",
+          "requirement": "Establish a formal threat and vulnerability identification programme covering all channels and systems through which customer information could be compromised.",
+          "rationale": "Clause 10.1 requires identification and remediation of potential threats and vulnerabilities. A systematic programme ensures comprehensive coverage.",
+          "owner": "CISO",
+          "frequency": "Continuous; formal review quarterly",
+          "priority": "critical"
+        },
+        {
+          "id": "10.1-B2",
+          "requirement": "Develop and maintain remediation plans for all identified threats and vulnerabilities, with assigned owners, timelines, and tracking mechanisms.",
+          "rationale": "Identification without remediation is insufficient. Clause 10.1 requires both identification and addressing of threats.",
+          "owner": "CISO",
+          "frequency": "Ongoing; reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must deploy scanning, detection, and assessment tools to systematically identify threats and vulnerabilities across all systems holding customer information.",
+      "requirements": [
+        {
+          "id": "10.1-T1",
+          "requirement": "Deploy vulnerability scanning tools across all systems storing, processing, or transmitting customer information, with regular automated scans and manual penetration testing.",
+          "rationale": "Automated scanning identifies known vulnerabilities; penetration testing uncovers exploitable weaknesses that scanners may miss.",
+          "owner": "IT Security",
+          "frequency": "Automated scans weekly; penetration testing annually",
+          "priority": "critical"
+        },
+        {
+          "id": "10.1-T2",
+          "requirement": "Implement threat intelligence feeds and monitoring to identify emerging threats relevant to customer information protection.",
+          "rationale": "Threats evolve continuously. Threat intelligence provides early warning of new attack vectors targeting customer data.",
+          "owner": "IT Security",
+          "frequency": "Continuous",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: A governance framework must ensure threat and vulnerability identification is systematic, documented, and feeds into the risk management lifecycle.",
+      "requirements": [
+        {
+          "id": "10.1-G1",
+          "requirement": "Integrate customer information threat and vulnerability management into the enterprise risk management framework with defined escalation thresholds and reporting obligations.",
+          "rationale": "Clause 10.1 creates a regulatory obligation. Integration into the ERM framework ensures it receives appropriate governance attention.",
+          "owner": "Compliance",
+          "frequency": "Annual framework review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.2": {
+    "clauseId": "10.2",
+    "section": "Control environment",
+    "subsection": "A: Risk assessment",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must assess the likelihood and potential impact of identified threats and vulnerabilities, including third-party and outsourcing risks, and develop and implement corresponding mitigation plans.",
+      "requirements": [
+        {
+          "id": "10.2-B1",
+          "requirement": "Conduct formal likelihood-and-impact risk assessments for all identified threats and vulnerabilities to customer information, using a consistent methodology and rating scale.",
+          "rationale": "Clause 10.2 mandates assessment of likelihood and potential impact. A consistent methodology ensures comparability and prioritisation.",
+          "owner": "CISO",
+          "frequency": "Annual comprehensive assessment; updated upon significant changes",
+          "priority": "critical"
+        },
+        {
+          "id": "10.2-B2",
+          "requirement": "Include third-party service providers and outsourcing arrangements within the scope of threat and vulnerability risk assessments.",
+          "rationale": "Clause 10.2 explicitly requires coverage of third-party and outsourcing risks. These represent a significant attack surface.",
+          "owner": "Operations",
+          "frequency": "Annual; updated upon new outsourcing arrangements",
+          "priority": "critical"
+        },
+        {
+          "id": "10.2-B3",
+          "requirement": "Develop and implement mitigation plans for all assessed risks, with clear ownership, timelines, resource allocation, and success criteria.",
+          "rationale": "Clause 10.2 requires mitigation plans based on identified threats. Plans must be actionable and trackable.",
+          "owner": "CISO",
+          "frequency": "Developed per assessment; tracked quarterly",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must provide quantitative and qualitative data to support risk assessments and implement the technical components of mitigation plans.",
+      "requirements": [
+        {
+          "id": "10.2-T1",
+          "requirement": "Maintain a risk assessment platform or register that captures threats, vulnerabilities, likelihood scores, impact ratings, and linked mitigation plans for all customer information systems including third-party connections.",
+          "rationale": "Structured risk data enables consistent assessment and tracking of mitigation progress.",
+          "owner": "IT Security",
+          "frequency": "Continuously updated",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Risk assessment processes must be governed with defined methodologies, review cycles, and Board reporting pathways.",
+      "requirements": [
+        {
+          "id": "10.2-G1",
+          "requirement": "Establish a Risk Assessment Methodology document defining the approach, rating scales, assessment frequency, and reporting requirements for customer information risk assessments.",
+          "rationale": "A documented methodology ensures consistency, repeatability, and auditability of risk assessments.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.3": {
+    "clauseId": "10.3",
+    "section": "Control environment",
+    "subsection": "A: Risk assessment",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Threats and vulnerabilities may be internal or external and may arise from negligent or deliberate conduct. Risk assessments must account for all threat actor types and motivations.",
+      "requirements": [
+        {
+          "id": "10.3-B1",
+          "requirement": "Ensure risk assessments explicitly consider both internal and external threat sources, and both negligent and deliberate threat scenarios, with documented analysis of each category.",
+          "rationale": "Clause 10.3 highlights the breadth of threat sources. Risk assessments that only consider external or deliberate threats will leave significant gaps.",
+          "owner": "CISO",
+          "frequency": "Per risk assessment cycle",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Detection and monitoring systems must be calibrated to identify both internal and external threats, including insider negligence and malicious actions.",
+      "requirements": [
+        {
+          "id": "10.3-T1",
+          "requirement": "Configure monitoring and detection systems to cover both external attack vectors and internal threat indicators, including user behaviour analytics for detecting negligent or deliberate misuse.",
+          "rationale": "Technical controls must address the full spectrum of threats described in clause 10.3.",
+          "owner": "IT Security",
+          "frequency": "Continuous; rules reviewed quarterly",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Risk assessment frameworks should explicitly categorise threats by source and motivation to ensure comprehensive coverage.",
+      "requirements": [
+        {
+          "id": "10.3-G1",
+          "requirement": "Include a threat taxonomy in the risk assessment methodology that categorises threats by source (internal/external) and motivation (negligent/deliberate).",
+          "rationale": "A structured taxonomy ensures comprehensive threat identification aligned with regulatory guidance.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "10.4": {
+    "clauseId": "10.4",
+    "section": "Control environment",
+    "subsection": "A: Risk assessment",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Risk assessments must be proportionate to the FSP's size, nature, and complexity of operations, as well as the amount and sensitivity of customer information held.",
+      "requirements": [
+        {
+          "id": "10.4-B1",
+          "requirement": "Calibrate the depth, scope, and frequency of customer information risk assessments proportionate to the FSP's operational size, complexity, and the volume and sensitivity of customer information held.",
+          "rationale": "Clause 10.4 mandates proportionality. A small FSP handling limited customer data requires different assessment rigour than a large FSP with millions of sensitive records.",
+          "owner": "CISO",
+          "frequency": "Proportionality calibration reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical risk assessment tools and approaches should be scaled appropriately to the FSP's technology footprint and data volumes.",
+      "requirements": [
+        {
+          "id": "10.4-T1",
+          "requirement": "Scale technical risk assessment activities (vulnerability scanning frequency, penetration testing scope, threat modelling depth) proportionate to the FSP's technology infrastructure complexity and customer data volumes.",
+          "rationale": "Proportionate assessment ensures resources are allocated effectively without under- or over-investing relative to actual risk exposure.",
+          "owner": "IT Security",
+          "frequency": "Scaling reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The governance framework must document the proportionality rationale applied to risk assessment activities.",
+      "requirements": [
+        {
+          "id": "10.4-G1",
+          "requirement": "Document the proportionality rationale for the FSP's risk assessment approach, referencing organisational size, complexity, and data sensitivity as factors in determining assessment scope and frequency.",
+          "rationale": "Regulatory examination will assess whether the FSP's approach is proportionate. Documented rationale provides the evidence base.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.5": {
+    "clauseId": "10.5",
+    "section": "Control environment",
+    "subsection": "A: Risk assessment",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: FSPs may leverage existing risk management arrangements, functions, or tools that already address confidentiality and security, avoiding duplication of effort.",
+      "requirements": [
+        {
+          "id": "10.5-B1",
+          "requirement": "Conduct a mapping exercise to identify existing risk management arrangements, functions, and tools that can be leveraged for customer information protection risk assessment, avoiding unnecessary duplication.",
+          "rationale": "Clause 10.5 encourages reuse of existing frameworks. A mapping exercise identifies opportunities for efficiency.",
+          "owner": "CISO",
+          "frequency": "Upon initial implementation; reviewed annually",
+          "priority": "low"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Existing security tools and platforms should be evaluated for applicability to customer information risk assessment before deploying new solutions.",
+      "requirements": [
+        {
+          "id": "10.5-T1",
+          "requirement": "Evaluate existing GRC platforms, risk registers, and security monitoring tools for suitability in supporting customer information risk assessment before procuring new solutions.",
+          "rationale": "Leveraging existing tools reduces cost and complexity while maintaining consistency across risk management domains.",
+          "owner": "IT Security",
+          "frequency": "Upon initial implementation",
+          "priority": "low"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The governance framework should document which existing arrangements are being leveraged and ensure they adequately cover customer information protection requirements.",
+      "requirements": [
+        {
+          "id": "10.5-G1",
+          "requirement": "Document which existing risk management arrangements are leveraged for customer information protection, with a gap analysis confirming they adequately address MCIPD requirements.",
+          "rationale": "Leveraging existing arrangements requires confirmation they are fit for purpose under MCIPD requirements.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "10.6": {
+    "clauseId": "10.6",
+    "section": "Control environment",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must establish written policies and procedures covering the full data lifecycle: collection, access, storage, use, transmission, sharing, disclosure, and disposal of customer information.",
+      "requirements": [
+        {
+          "id": "10.6-B1",
+          "requirement": "Develop and maintain written Customer Information Protection Policies covering all lifecycle stages: collection, access, storage, use, transmission, sharing, disclosure, and disposal.",
+          "rationale": "Clause 10.6 mandates written policies covering the complete data lifecycle. Gaps in any stage create regulatory non-compliance and data protection risks.",
+          "owner": "DPO",
+          "frequency": "Annual review; updated upon material changes",
+          "priority": "critical"
+        },
+        {
+          "id": "10.6-B2",
+          "requirement": "Develop corresponding written procedures that operationalise each policy, providing step-by-step guidance for staff on handling customer information at each lifecycle stage.",
+          "rationale": "Clause 10.6 requires both policies and procedures. Procedures translate policy principles into actionable guidance.",
+          "owner": "Operations",
+          "frequency": "Annual review; updated upon process changes",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical systems must enforce data lifecycle policies through controls at each stage from collection through disposal.",
+      "requirements": [
+        {
+          "id": "10.6-T1",
+          "requirement": "Implement technical controls at each data lifecycle stage: secure collection forms, access management, encrypted storage, usage logging, secure transmission channels, controlled sharing mechanisms, authorised disclosure workflows, and secure disposal processes.",
+          "rationale": "Written policies must be technically enforceable. Controls at each lifecycle stage ensure policy compliance is not purely dependent on human behaviour.",
+          "owner": "CISO",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Policy and procedure governance must ensure complete lifecycle coverage with no gaps, supported by a policy register and review schedule.",
+      "requirements": [
+        {
+          "id": "10.6-G1",
+          "requirement": "Maintain a Policy and Procedure Register that maps each data lifecycle stage to its corresponding policy and procedure documents, identifying and tracking any coverage gaps.",
+          "rationale": "A register ensures no lifecycle stage is left unaddressed, providing regulatory evidence of comprehensive coverage.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.7": {
+    "clauseId": "10.7",
+    "section": "Control environment",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Written policies and procedures must be proportionate to the FSP's size, nature, complexity, and the amount and sensitivity of customer information handled.",
+      "requirements": [
+        {
+          "id": "10.7-B1",
+          "requirement": "Ensure customer information protection policies and procedures are calibrated in scope and detail proportionate to the FSP's operational characteristics and data profile.",
+          "rationale": "Clause 10.7 requires proportionality. Overly complex policies for a small FSP or insufficiently detailed policies for a large FSP both represent non-compliance.",
+          "owner": "DPO",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical control implementations should reflect the proportionality principle, with more sophisticated controls for larger, more complex environments.",
+      "requirements": [
+        {
+          "id": "10.7-T1",
+          "requirement": "Scale technical control sophistication proportionate to the FSP's technology landscape and data sensitivity, ensuring appropriate investment without over- or under-engineering.",
+          "rationale": "Proportionality applies to technical controls as well as policies. Control complexity should match risk exposure.",
+          "owner": "IT Security",
+          "frequency": "Annual review",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Proportionality rationale must be documented to demonstrate regulatory compliance.",
+      "requirements": [
+        {
+          "id": "10.7-G1",
+          "requirement": "Document the proportionality assessment for the FSP's policy and procedure framework, explaining how scope and detail reflect organisational size, complexity, and data profile.",
+          "rationale": "Regulatory examiners will assess proportionality. Documentation provides the evidence base.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.8": {
+    "clauseId": "10.8",
+    "section": "Control environment",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must have specific written policies and procedures for: (a) off-site work arrangements with system access, (b) handling and transporting physical documents, (c) use of portable IT equipment and storage devices, and (d) breach incident handling.",
+      "requirements": [
+        {
+          "id": "10.8-B1",
+          "requirement": "Develop a written Remote/Off-site Work Policy governing access to customer information in FSP systems from outside the premises, including eligibility criteria, security requirements, and monitoring provisions.",
+          "rationale": "Clause 10.8(a) specifically requires policies for off-site work arrangements. Remote access presents elevated risks requiring specific controls.",
+          "owner": "HR",
+          "frequency": "Annual review",
+          "priority": "critical"
+        },
+        {
+          "id": "10.8-B2",
+          "requirement": "Develop written procedures for handling and transporting physical documents containing customer information outside the FSP's premises, including chain of custody requirements.",
+          "rationale": "Clause 10.8(b) specifically requires policies for physical document handling and transport. Physical documents are vulnerable to loss and theft during transit.",
+          "owner": "Operations",
+          "frequency": "Annual review",
+          "priority": "high"
+        },
+        {
+          "id": "10.8-B3",
+          "requirement": "Develop a written Portable IT Equipment and Storage Device Policy covering the use, control, encryption, and tracking of portable devices that may contain customer information.",
+          "rationale": "Clause 10.8(c) specifically requires policies for portable IT equipment and storage. These devices are high-risk assets for data loss.",
+          "owner": "IT Security",
+          "frequency": "Annual review",
+          "priority": "high"
+        },
+        {
+          "id": "10.8-B4",
+          "requirement": "Develop a written Customer Information Breach Incident Handling Policy and procedure covering detection, containment, investigation, notification, and remediation.",
+          "rationale": "Clause 10.8(d) specifically requires policies for breach incident handling. Effective incident response requires pre-defined procedures.",
+          "owner": "CISO",
+          "frequency": "Annual review; tested via simulation exercises",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical controls must support each of the four specific policy areas: remote access security, physical document tracking, portable device management, and incident detection/response.",
+      "requirements": [
+        {
+          "id": "10.8-T1",
+          "requirement": "Implement secure remote access infrastructure (VPN, MFA, endpoint compliance checking) supporting the off-site work policy requirements.",
+          "rationale": "Off-site work access to customer information requires robust technical security controls.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "critical"
+        },
+        {
+          "id": "10.8-T2",
+          "requirement": "Deploy mobile device management (MDM) and endpoint encryption solutions for all portable IT equipment and storage devices used to access or store customer information.",
+          "rationale": "Portable devices require encryption and management controls to prevent data compromise if lost or stolen.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Each of the four mandatory policy areas must be governed with clear ownership, review schedules, and compliance monitoring.",
+      "requirements": [
+        {
+          "id": "10.8-G1",
+          "requirement": "Maintain a compliance checklist confirming the existence and currency of all four mandatory policy areas specified in clause 10.8, with assigned owners and review dates.",
+          "rationale": "Clause 10.8 creates four specific mandatory policy requirements. A checklist ensures none is overlooked.",
+          "owner": "Compliance",
+          "frequency": "Annual verification",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.9": {
+    "clauseId": "10.9",
+    "section": "Control environment",
+    "subsection": "B: Policies and procedures",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: FSPs may integrate customer information handling requirements into existing policies such as HR, code of conduct, information security, outsourcing, and lawful disclosure policies.",
+      "requirements": [
+        {
+          "id": "10.9-B1",
+          "requirement": "Review existing organisational policies (HR, code of conduct, information security, outsourcing, disclosure) to identify integration opportunities for customer information protection requirements.",
+          "rationale": "Clause 10.9 encourages policy integration. Integration reduces policy proliferation and improves staff compliance.",
+          "owner": "DPO",
+          "frequency": "Upon initial implementation; reviewed annually",
+          "priority": "low"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Policy management systems should support cross-referencing between integrated policies to maintain traceability of customer information protection requirements.",
+      "requirements": [
+        {
+          "id": "10.9-T1",
+          "requirement": "Ensure policy management systems support cross-referencing and traceability where customer information protection requirements are embedded in other policies.",
+          "rationale": "Integration requires traceability. Staff and auditors must be able to locate all customer information requirements regardless of which policy document contains them.",
+          "owner": "IT Security",
+          "frequency": "Annual review",
+          "priority": "low"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Where integration is adopted, governance must maintain a master mapping of where each MCIPD requirement resides across the policy suite.",
+      "requirements": [
+        {
+          "id": "10.9-G1",
+          "requirement": "Maintain a MCIPD Requirements Mapping that traces each customer information protection requirement to its location within the FSP's policy suite, whether standalone or integrated.",
+          "rationale": "Integration without traceability creates compliance risk. A mapping ensures complete coverage is demonstrable.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.10": {
+    "clauseId": "10.10",
+    "section": "Control environment",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The designated officer must ensure policies and procedures are readily accessible and clearly communicated to all staff to ensure compliance.",
+      "requirements": [
+        {
+          "id": "10.10-B1",
+          "requirement": "Ensure all customer information protection policies and procedures are published in readily accessible locations (e.g., intranet, shared drives) with clear navigation and version control.",
+          "rationale": "Clause 10.10 requires policies to be readily accessible. Staff cannot comply with policies they cannot find or access.",
+          "owner": "DPO",
+          "frequency": "Continuous; accessibility audited annually",
+          "priority": "high"
+        },
+        {
+          "id": "10.10-B2",
+          "requirement": "Execute a policy communication campaign led by the Designated Officer ensuring all staff are aware of and understand the customer information protection policies and procedures.",
+          "rationale": "Clause 10.10 requires clear communication by the designated officer. Awareness drives compliance.",
+          "owner": "DPO",
+          "frequency": "Upon policy updates; annual reinforcement",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology platforms must support policy accessibility and acknowledgement tracking.",
+      "requirements": [
+        {
+          "id": "10.10-T1",
+          "requirement": "Deploy a policy management platform that enables centralised publication, version control, staff acknowledgement tracking, and search functionality for all customer information protection policies.",
+          "rationale": "Ready accessibility requires a reliable, searchable platform. Acknowledgement tracking provides evidence of communication.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance must track policy communication effectiveness and staff acknowledgement rates.",
+      "requirements": [
+        {
+          "id": "10.10-G1",
+          "requirement": "Monitor and report on policy acknowledgement rates and accessibility metrics, escalating low engagement to the Designated Officer and senior management.",
+          "rationale": "Communication obligations require evidence of effectiveness. Metrics and escalation ensure the obligation is met.",
+          "owner": "Compliance",
+          "frequency": "Quarterly monitoring",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.11": {
+    "clauseId": "10.11",
+    "section": "Control environment",
+    "subsection": "B: Policies and procedures",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must continually review policies and procedures to ensure they remain adequate, relevant, and effective in response to changes in the operating environment.",
+      "requirements": [
+        {
+          "id": "10.11-B1",
+          "requirement": "Establish a continuous policy review process with defined triggers for review (regulatory changes, incident findings, technology changes, organisational restructuring) and annual scheduled reviews.",
+          "rationale": "Clause 10.11 requires continual review. A trigger-based plus scheduled approach ensures policies adapt to both planned and unplanned changes.",
+          "owner": "DPO",
+          "frequency": "Continuous; formal review at least annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology change management processes must feed into policy review triggers.",
+      "requirements": [
+        {
+          "id": "10.11-T1",
+          "requirement": "Integrate technology change management with policy review processes, ensuring that significant system changes, new technology deployments, or architecture modifications trigger a review of affected customer information protection policies.",
+          "rationale": "Technology changes can render existing policies inadequate. Integration ensures policies evolve with the technology environment.",
+          "owner": "IT Security",
+          "frequency": "Per change; reviewed quarterly",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Policy review governance must ensure no policy goes unreviewed beyond a defined maximum interval.",
+      "requirements": [
+        {
+          "id": "10.11-G1",
+          "requirement": "Maintain a Policy Review Schedule tracking the last review date, next review date, and review trigger events for each customer information protection policy and procedure.",
+          "rationale": "Continual review requires systematic tracking. A schedule ensures no policy becomes stale.",
+          "owner": "Compliance",
+          "frequency": "Continuously maintained",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.12": {
+    "clauseId": "10.12",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must deploy both preventive and detective ICT controls to prevent and detect theft, loss, misuse, unauthorised access, modification, disclosure, errors, and irregularities involving customer information.",
+      "requirements": [
+        {
+          "id": "10.12-B1",
+          "requirement": "Define a comprehensive ICT Controls Framework specifying both preventive controls (preventing incidents) and detective controls (identifying incidents when they occur) for customer information protection.",
+          "rationale": "Clause 10.12 explicitly requires both preventive and detective controls. A framework ensures balanced coverage across both categories.",
+          "owner": "CISO",
+          "frequency": "Annual review",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must implement a layered defence of preventive and detective controls across all systems handling customer information.",
+      "requirements": [
+        {
+          "id": "10.12-T1",
+          "requirement": "Deploy preventive ICT controls including firewalls, access controls, encryption, DLP, input validation, and network segmentation to prevent customer information compromise.",
+          "rationale": "Clause 10.12(a) requires preventive controls. Layered preventive controls reduce the probability of successful attacks.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed quarterly",
+          "priority": "critical"
+        },
+        {
+          "id": "10.12-T2",
+          "requirement": "Deploy detective ICT controls including intrusion detection systems, SIEM, log monitoring, anomaly detection, and integrity checking to detect errors and irregularities.",
+          "rationale": "Clause 10.12(b) requires detective controls. No preventive control is perfect; detective controls identify incidents that bypass prevention.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance must ensure balanced investment in and oversight of both preventive and detective controls.",
+      "requirements": [
+        {
+          "id": "10.12-G1",
+          "requirement": "Maintain a Controls Inventory categorising all customer information protection controls as preventive or detective, identifying any gaps in coverage.",
+          "rationale": "Regulatory compliance requires both categories. An inventory enables gap identification and balanced resource allocation.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.13": {
+    "clauseId": "10.13",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must regularly monitor ICT control effectiveness to ensure they remain responsive to changing threats.",
+      "requirements": [
+        {
+          "id": "10.13-B1",
+          "requirement": "Establish a control effectiveness monitoring programme that regularly tests and validates the operational effectiveness of all customer information ICT controls.",
+          "rationale": "Clause 10.13 requires regular monitoring of control effectiveness. Controls may degrade over time or become ineffective against new threats.",
+          "owner": "CISO",
+          "frequency": "Quarterly testing; continuous monitoring where feasible",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must implement automated control testing and monitoring capabilities.",
+      "requirements": [
+        {
+          "id": "10.13-T1",
+          "requirement": "Implement automated control monitoring tools that continuously validate the operational status and effectiveness of ICT controls, generating alerts when controls degrade or fail.",
+          "rationale": "Manual control testing is point-in-time. Automated monitoring provides continuous assurance of control effectiveness.",
+          "owner": "IT Security",
+          "frequency": "Continuous",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Control effectiveness monitoring results must be reported and acted upon through governance channels.",
+      "requirements": [
+        {
+          "id": "10.13-G1",
+          "requirement": "Report control effectiveness monitoring results to senior management quarterly, with escalation of any controls found to be ineffective or degraded.",
+          "rationale": "Monitoring is only valuable if results are reviewed and deficiencies addressed. Governance reporting ensures accountability.",
+          "owner": "Compliance",
+          "frequency": "Quarterly",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.14": {
+    "clauseId": "10.14",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must have appropriate controls for off-site work arrangements, including controls over ICT equipment used by staff, representatives, and agents to access FSP systems and customer information remotely.",
+      "requirements": [
+        {
+          "id": "10.14-B1",
+          "requirement": "Define mandatory control requirements for all off-site work arrangements where staff, representatives, or agents access FSP systems and customer information, including minimum security standards for ICT equipment used.",
+          "rationale": "Clause 10.14 requires appropriate controls for off-site work. Remote access significantly expands the attack surface.",
+          "owner": "IT Security",
+          "frequency": "Annual review",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical controls must secure remote access pathways and endpoints used in off-site work arrangements.",
+      "requirements": [
+        {
+          "id": "10.14-T1",
+          "requirement": "Implement secure remote access controls including VPN with strong encryption, multi-factor authentication, endpoint compliance verification, session timeouts, and remote wipe capabilities.",
+          "rationale": "Off-site work requires robust technical controls to maintain security equivalent to on-premises access.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Off-site work control requirements must be governed through formal approval processes and compliance monitoring.",
+      "requirements": [
+        {
+          "id": "10.14-G1",
+          "requirement": "Establish an off-site work approval process requiring security assessment and control verification before staff, representatives, or agents are authorised for remote access to customer information.",
+          "rationale": "Access should not be granted by default. An approval process ensures controls are verified before access is enabled.",
+          "owner": "Operations",
+          "frequency": "Per request; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.15": {
+    "clauseId": "10.15",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Off-site work controls may include robust authentication for remote access, encryption of data stored on ICT equipment, and secure data transmission protection.",
+      "requirements": [
+        {
+          "id": "10.15-B1",
+          "requirement": "Evaluate and adopt recommended off-site work controls including robust authentication, data-at-rest encryption on ICT equipment, and secure transmission protocols as minimum standards.",
+          "rationale": "Clause 10.15 provides practical guidance on effective off-site work controls. These represent industry best practices for remote access security.",
+          "owner": "IT Security",
+          "frequency": "Annual review",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams should implement the specific controls referenced in the guidance: strong authentication, endpoint encryption, and secure transmission.",
+      "requirements": [
+        {
+          "id": "10.15-T1",
+          "requirement": "Implement multi-factor authentication for all remote access, full-disk encryption on all ICT equipment used off-site, and TLS/encrypted tunnels for all data transmission involving customer information.",
+          "rationale": "These specific controls directly address the guidance in clause 10.15 and represent security baseline requirements.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Adoption of recommended controls should be documented and any deviations justified.",
+      "requirements": [
+        {
+          "id": "10.15-G1",
+          "requirement": "Document adoption of recommended off-site work controls with rationale for any deviations from the guidance, approved by senior management.",
+          "rationale": "While guidance is not mandatory, deviations should be risk-assessed and justified.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "10.16": {
+    "clauseId": "10.16",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Only staff with a legitimate business need may download customer information to FSP-provided portable storage devices.",
+      "requirements": [
+        {
+          "id": "10.16-B1",
+          "requirement": "Establish a formal approval process for downloading customer information to portable storage devices, requiring documented legitimate business justification and management authorisation.",
+          "rationale": "Clause 10.16 restricts downloads to those with legitimate business need. A formal approval process ensures consistent application of this restriction.",
+          "owner": "Operations",
+          "frequency": "Per request; process reviewed annually",
+          "priority": "high"
+        },
+        {
+          "id": "10.16-B2",
+          "requirement": "Maintain a register of all approved portable storage device downloads, including the staff member, business justification, data scope, device identifier, and approval authority.",
+          "rationale": "A register provides accountability and audit trail for all data downloads to portable devices.",
+          "owner": "IT Security",
+          "frequency": "Continuously maintained; reviewed quarterly",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical controls must enforce the restriction on downloading customer information to portable devices.",
+      "requirements": [
+        {
+          "id": "10.16-T1",
+          "requirement": "Implement endpoint DLP and device control policies that block customer information downloads to portable storage devices by default, with whitelisting only for approved staff and FSP-provided devices.",
+          "rationale": "Technical enforcement prevents policy circumvention. Default-deny with exception management implements the business need restriction.",
+          "owner": "IT Security",
+          "frequency": "Continuous enforcement; reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance must ensure the approval process is followed and download activities are monitored.",
+      "requirements": [
+        {
+          "id": "10.16-G1",
+          "requirement": "Audit portable storage device download approvals periodically to verify business justification validity and compliance with the approval process.",
+          "rationale": "Governance oversight ensures the approval process is functioning as intended and not being circumvented.",
+          "owner": "Compliance",
+          "frequency": "Quarterly audit",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.17": {
+    "clauseId": "10.17",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Customer information stored on portable storage devices must be protected with controls such as password protection and data encryption to prevent any form of compromise.",
+      "requirements": [
+        {
+          "id": "10.17-B1",
+          "requirement": "Define mandatory security requirements for all portable storage devices containing customer information, including encryption standards and password protection requirements.",
+          "rationale": "Clause 10.17 requires adequate protection of data on portable devices. Defined standards ensure consistent protection.",
+          "owner": "IT Security",
+          "frequency": "Annual review of standards",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical controls must enforce encryption and password protection on portable storage devices.",
+      "requirements": [
+        {
+          "id": "10.17-T1",
+          "requirement": "Enforce hardware or software encryption (AES-256 or equivalent) and strong password/PIN protection on all FSP-provided portable storage devices before they can be used to store customer information.",
+          "rationale": "Clause 10.17 specifically references password and encryption controls. Technical enforcement ensures compliance.",
+          "owner": "IT Security",
+          "frequency": "Continuous enforcement",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Compliance with portable device security requirements must be monitored and verified.",
+      "requirements": [
+        {
+          "id": "10.17-G1",
+          "requirement": "Conduct periodic compliance checks on portable storage devices to verify encryption and password protection are active and meeting defined standards.",
+          "rationale": "Standards without verification are ineffective. Compliance checks ensure ongoing adherence.",
+          "owner": "IT Security",
+          "frequency": "Quarterly",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.18": {
+    "clauseId": "10.18",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Access to call recordings containing customer information must be restricted to staff on a strict need-to-know basis.",
+      "requirements": [
+        {
+          "id": "10.18-B1",
+          "requirement": "Define and enforce need-to-know access criteria for call recordings containing customer information, specifying which roles have legitimate access and the purposes for which access is permitted.",
+          "rationale": "Clause 10.18 mandates strict need-to-know access. Without defined criteria, access may be overly broad.",
+          "owner": "Operations",
+          "frequency": "Annual review of access criteria",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Call recording systems must implement granular access controls with audit logging.",
+      "requirements": [
+        {
+          "id": "10.18-T1",
+          "requirement": "Implement role-based access controls on call recording systems with full audit logging of all access to recordings containing customer information.",
+          "rationale": "Need-to-know requires technical enforcement. Audit logging provides evidence of access patterns for review.",
+          "owner": "IT Security",
+          "frequency": "Continuous; access reviewed quarterly",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Call recording access must be periodically reviewed to ensure need-to-know principles are maintained.",
+      "requirements": [
+        {
+          "id": "10.18-G1",
+          "requirement": "Conduct quarterly reviews of call recording access rights to verify they remain aligned with need-to-know requirements and current role assignments.",
+          "rationale": "Access rights drift over time. Periodic reviews maintain the need-to-know restriction.",
+          "owner": "Compliance",
+          "frequency": "Quarterly",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.19": {
+    "clauseId": "10.19",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: FSPs are encouraged to disable USB ports and CD writers on computers of staff who do not need to download, transmit, or store customer information.",
+      "requirements": [
+        {
+          "id": "10.19-B1",
+          "requirement": "Assess and implement USB port and removable media drive disabling for staff who do not have an operational need to download, transmit, or store customer information on portable devices.",
+          "rationale": "Clause 10.19 recommends disabling USB ports and CD writers. This prevents data exfiltration through removable media for non-essential users.",
+          "owner": "IT Security",
+          "frequency": "Annual review of applicability",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Endpoint management solutions should enforce USB port and removable media restrictions based on staff role profiles.",
+      "requirements": [
+        {
+          "id": "10.19-T1",
+          "requirement": "Deploy endpoint management policies that disable USB ports and CD/DVD writers by default on all endpoints, with exceptions managed through the approved portable device access process.",
+          "rationale": "Default-deny with exceptions implements the guidance effectively and reduces data exfiltration risk.",
+          "owner": "IT Security",
+          "frequency": "Continuous enforcement; exceptions reviewed quarterly",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Exceptions to USB and removable media restrictions should be governed through a formal exception process.",
+      "requirements": [
+        {
+          "id": "10.19-G1",
+          "requirement": "Maintain a register of USB/removable media exceptions with documented business justification and management approval.",
+          "rationale": "Exception management ensures the restriction is maintained with appropriate oversight.",
+          "owner": "IT Security",
+          "frequency": "Per exception; reviewed quarterly",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "10.20": {
+    "clauseId": "10.20",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must implement mechanisms that strongly deter staff from making unauthorised disclosures of customer information by any means.",
+      "requirements": [
+        {
+          "id": "10.20-B1",
+          "requirement": "Implement a comprehensive deterrence programme including clear disciplinary policies, awareness campaigns on consequences of unauthorised disclosure, and visible monitoring measures.",
+          "rationale": "Clause 10.20 requires strong deterrent effect. Deterrence combines awareness of consequences with visible enforcement.",
+          "owner": "HR",
+          "frequency": "Ongoing; programme reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology must support deterrence through visible monitoring and detection capabilities that staff are aware of.",
+      "requirements": [
+        {
+          "id": "10.20-T1",
+          "requirement": "Deploy visible monitoring and detection mechanisms (e.g., DLP alerts, screen watermarking, activity logging) that staff are informed about, creating a technology-enabled deterrent against unauthorised disclosure.",
+          "rationale": "Visible technical monitoring creates a deterrent effect. Staff awareness of monitoring reduces the likelihood of deliberate unauthorised disclosure.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Deterrence mechanisms must be supported by clear disciplinary policies and escalation procedures.",
+      "requirements": [
+        {
+          "id": "10.20-G1",
+          "requirement": "Ensure disciplinary policies clearly define the consequences for unauthorised disclosure of customer information, and that these consequences are communicated to all staff.",
+          "rationale": "Deterrence requires clarity about consequences. Staff must understand what actions constitute violations and what penalties apply.",
+          "owner": "HR",
+          "frequency": "Annual review; communicated to all staff",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.21": {
+    "clauseId": "10.21",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Deterrent mechanisms may include staff awareness of disciplinary actions, CCTV installation, open office layouts, whistleblowing encouragement, and restricting personal electronic devices in high-risk areas such as data centres, dealing rooms, and call centres.",
+      "requirements": [
+        {
+          "id": "10.21-B1",
+          "requirement": "Evaluate and adopt appropriate deterrent measures from the guidance list including disciplinary action awareness, CCTV in relevant areas, open office concepts, whistleblowing channels, and personal device restrictions in high-risk areas.",
+          "rationale": "Clause 10.21 provides practical examples of deterrent mechanisms. Adopting contextually appropriate measures strengthens the deterrence programme.",
+          "owner": "HR",
+          "frequency": "Annual assessment",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams should support deterrent mechanisms through CCTV deployment, personal device detection, and whistleblowing platform implementation.",
+      "requirements": [
+        {
+          "id": "10.21-T1",
+          "requirement": "Deploy CCTV systems at high-risk areas where large volumes of customer information are handled or accessible, with appropriate retention and review capabilities.",
+          "rationale": "CCTV is specifically mentioned as a deterrent. Deployment in high-risk areas provides both deterrence and forensic evidence.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; placement reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Deterrent mechanism selection should be documented with rationale for the measures chosen.",
+      "requirements": [
+        {
+          "id": "10.21-G1",
+          "requirement": "Document the deterrent mechanisms adopted with rationale for selection and any measures from the guidance not adopted with justification.",
+          "rationale": "Documentation demonstrates considered adoption of guidance measures.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "10.22": {
+    "clauseId": "10.22",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must restrict access to web-based communication and social media platforms, especially end-to-end encrypted ones (WhatsApp Desktop, Facebook, Skype Messenger), for staff handling customer information to prevent unauthorised external disclosure.",
+      "requirements": [
+        {
+          "id": "10.22-B1",
+          "requirement": "Define and enforce a Web-Based Communication Restriction Policy that restricts staff handling customer information from accessing end-to-end encrypted messaging platforms and social media on work systems.",
+          "rationale": "Clause 10.22 mandates restriction of encrypted communication platforms. These channels can facilitate undetectable data exfiltration.",
+          "owner": "IT Security",
+          "frequency": "Annual review; updated as new platforms emerge",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Web filtering and endpoint controls must block access to specified platforms for relevant staff.",
+      "requirements": [
+        {
+          "id": "10.22-T1",
+          "requirement": "Implement web filtering and application control policies that block access to end-to-end encrypted messaging platforms (WhatsApp Desktop, Facebook Messenger, Skype, Signal, Telegram, etc.) on systems used by staff who handle customer information.",
+          "rationale": "Technical enforcement is essential as policy alone cannot prevent access. Web filtering ensures compliance with the restriction.",
+          "owner": "IT Security",
+          "frequency": "Continuous enforcement; platform list updated quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance must define which staff roles are subject to the restriction and manage any exceptions.",
+      "requirements": [
+        {
+          "id": "10.22-G1",
+          "requirement": "Maintain a register of staff roles subject to web-based communication restrictions and manage any business-justified exceptions through a formal approval process.",
+          "rationale": "The restriction applies to staff who handle customer information. Clear role identification ensures appropriate application.",
+          "owner": "Compliance",
+          "frequency": "Quarterly review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.23": {
+    "clauseId": "10.23",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must implement detection mechanisms for: unauthorised access to customer information, unusual frequent viewing by staff, suspicious downloading activities, and unauthorised disclosure to external parties.",
+      "requirements": [
+        {
+          "id": "10.23-B1",
+          "requirement": "Define detection use cases and alert thresholds for each of the four mandatory detection categories: unauthorised access, unusual frequent viewing, suspicious downloads, and unauthorised external disclosure.",
+          "rationale": "Clause 10.23 specifies four mandatory detection categories. Defined use cases and thresholds ensure each is systematically addressed.",
+          "owner": "CISO",
+          "frequency": "Thresholds reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must implement monitoring and alerting systems covering all four detection categories.",
+      "requirements": [
+        {
+          "id": "10.23-T1",
+          "requirement": "Implement user activity monitoring and anomaly detection systems that can identify: (a) unauthorised access attempts, (b) unusually frequent viewing patterns, (c) suspicious bulk downloads, and (d) data transmission to unauthorised external destinations.",
+          "rationale": "Each detection category requires specific technical capabilities. A comprehensive monitoring platform addresses all four requirements.",
+          "owner": "IT Security",
+          "frequency": "Continuous monitoring; rules tuned quarterly",
+          "priority": "critical"
+        },
+        {
+          "id": "10.23-T2",
+          "requirement": "Configure automated alerts with severity-based escalation for all four detection categories, with defined response procedures for each alert type.",
+          "rationale": "Detection without alerting is ineffective. Automated alerts ensure timely response to detected anomalies.",
+          "owner": "IT Security",
+          "frequency": "Continuous; alert rules reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Detection capabilities must be governed with defined review processes for alerts and regular validation of detection effectiveness.",
+      "requirements": [
+        {
+          "id": "10.23-G1",
+          "requirement": "Establish a detection review process requiring regular analysis of alerts generated across all four detection categories, with escalation of confirmed incidents.",
+          "rationale": "Alerts require human review and investigation. A governed process ensures they are acted upon systematically.",
+          "owner": "CISO",
+          "frequency": "Daily alert review; monthly trend analysis",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.24": {
+    "clauseId": "10.24",
+    "section": "Control environment",
+    "subsection": "C: Control measures - ICT controls",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Detection mechanisms may include key-logger software, regular audit trail reviews, and random periodic sample checks.",
+      "requirements": [
+        {
+          "id": "10.24-B1",
+          "requirement": "Evaluate and adopt appropriate detection mechanisms from the guidance including audit trail reviews and random sample checks, with consideration of key-logger software where legally permissible and proportionate.",
+          "rationale": "Clause 10.24 provides practical detection mechanism examples. Selection should balance effectiveness with privacy and legal considerations.",
+          "owner": "CISO",
+          "frequency": "Annual assessment",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology implementations should include audit trail capabilities and automated sample checking.",
+      "requirements": [
+        {
+          "id": "10.24-T1",
+          "requirement": "Implement comprehensive audit trail logging for all customer information access with automated tools for regular review and random sample extraction.",
+          "rationale": "Audit trails are essential for both detection and forensic purposes. Automated review tools make regular analysis feasible.",
+          "owner": "IT Security",
+          "frequency": "Continuous logging; automated reviews weekly",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Detection mechanism selection should be documented with legal and privacy impact assessments where relevant.",
+      "requirements": [
+        {
+          "id": "10.24-G1",
+          "requirement": "Document the detection mechanisms adopted with supporting legal and privacy impact assessments, particularly for intrusive mechanisms like key-loggers.",
+          "rationale": "Some detection mechanisms have significant privacy implications. Documentation demonstrates responsible adoption.",
+          "owner": "Legal",
+          "frequency": "Per mechanism adoption; reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.25": {
+    "clauseId": "10.25",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Access controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Each job role profile must include a description of the relevant access rights to customer information, ensuring staff operate within defined access boundaries.",
+      "requirements": [
+        {
+          "id": "10.25-B1",
+          "requirement": "Define and document customer information access rights within each job role profile, specifying what customer data the role may access, for what purposes, and through which systems.",
+          "rationale": "Clause 10.25 mandates role-level access right descriptions. This is foundational for implementing least-privilege access controls.",
+          "owner": "HR",
+          "frequency": "Updated upon role creation or modification; reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Identity and access management systems must implement role-based access controls aligned to documented role profiles.",
+      "requirements": [
+        {
+          "id": "10.25-T1",
+          "requirement": "Implement role-based access control (RBAC) in all systems containing customer information, with access profiles derived from and traceable to documented job role access right descriptions.",
+          "rationale": "Technical RBAC implementation enforces the access boundaries defined in role profiles.",
+          "owner": "IT Security",
+          "frequency": "Continuous enforcement; role mapping reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Role profile access rights must be governed through a formal lifecycle management process.",
+      "requirements": [
+        {
+          "id": "10.25-G1",
+          "requirement": "Establish a Role Access Rights Governance Process that requires security review and approval of access right definitions for new or modified role profiles before implementation.",
+          "rationale": "Access rights should not be defined by business units alone. Security review ensures least-privilege principles are maintained.",
+          "owner": "HR",
+          "frequency": "Per role change; annual comprehensive review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.26": {
+    "clauseId": "10.26",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Access controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must identify where customer information resides across systems and implement access controls at application, database, operating system, and network levels to prevent unauthorised access, modification, or disclosure.",
+      "requirements": [
+        {
+          "id": "10.26-B1",
+          "requirement": "Conduct and maintain a Customer Information Data Mapping exercise that identifies the location of customer data across all systems, databases, applications, and networks.",
+          "rationale": "Clause 10.26 requires identification of customer information locations. You cannot protect what you cannot locate.",
+          "owner": "DPO",
+          "frequency": "Annual comprehensive review; updated upon system changes",
+          "priority": "critical"
+        },
+        {
+          "id": "10.26-B2",
+          "requirement": "Verify that access controls are implemented at all four levels (application, database, operating system, network) for every system identified as holding customer information.",
+          "rationale": "Clause 10.26 specifically requires multi-level access controls. A single level of control is insufficient against determined attackers.",
+          "owner": "IT Security",
+          "frequency": "Annual verification",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Multi-layered access controls must be deployed at application, database, OS, and network levels for all systems containing customer information.",
+      "requirements": [
+        {
+          "id": "10.26-T1",
+          "requirement": "Implement and maintain access controls at four levels for all customer information systems: application-level authentication and authorisation, database-level access restrictions, operating system-level permissions, and network-level segmentation and firewall rules.",
+          "rationale": "Defence in depth requires controls at every layer. Compromise of one layer should not grant unrestricted access to customer information.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Data mapping and multi-level access control coverage must be governed and verified.",
+      "requirements": [
+        {
+          "id": "10.26-G1",
+          "requirement": "Conduct annual access control coverage assessments verifying that all customer information repositories identified in the data map have controls at all four required levels.",
+          "rationale": "Governance oversight ensures no system or layer is left unprotected.",
+          "owner": "Compliance",
+          "frequency": "Annual",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.27": {
+    "clauseId": "10.27",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Access controls",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must regularly review staff access rights and immediately revoke access when staff leave the organisation or move to roles not requiring access to customer information.",
+      "requirements": [
+        {
+          "id": "10.27-B1",
+          "requirement": "Establish a periodic user access review programme requiring business line managers to review and certify access rights of their staff to customer information systems at least quarterly.",
+          "rationale": "Clause 10.27 requires regular review. Periodic certification by managers ensures access remains appropriate to current role requirements.",
+          "owner": "Operations",
+          "frequency": "Quarterly",
+          "priority": "critical"
+        },
+        {
+          "id": "10.27-B2",
+          "requirement": "Implement an immediate access revocation process triggered by staff departure or role change, integrated with HR offboarding and transfer procedures, with a target of same-day revocation.",
+          "rationale": "Clause 10.27 requires immediate revocation. Delayed revocation creates a window for data theft by departing or transferred staff.",
+          "owner": "HR",
+          "frequency": "Per event; process reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Identity management systems must support automated access reviews and rapid revocation workflows.",
+      "requirements": [
+        {
+          "id": "10.27-T1",
+          "requirement": "Implement automated access revocation workflows integrated with HR systems that disable customer information access immediately upon staff departure notification or role change, with audit logging of all revocation actions.",
+          "rationale": "Manual revocation processes are error-prone and slow. Automation ensures immediate and complete access removal.",
+          "owner": "IT Security",
+          "frequency": "Continuous; integration tested quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Access review and revocation processes must be governed with compliance monitoring and exception reporting.",
+      "requirements": [
+        {
+          "id": "10.27-G1",
+          "requirement": "Monitor access revocation timeliness metrics and report exceptions (revocations not completed within defined timeframes) to senior management.",
+          "rationale": "Monitoring ensures the immediate revocation requirement is consistently met. Exception reporting drives process improvement.",
+          "owner": "Compliance",
+          "frequency": "Monthly monitoring; quarterly reporting",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.28": {
+    "clauseId": "10.28",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Physical security",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must implement adequate physical security controls to protect customer information in both paper and electronic forms against all forms of compromise.",
+      "requirements": [
+        {
+          "id": "10.28-B1",
+          "requirement": "Establish a Physical Security Policy for customer information that covers both paper and electronic records, defining protection requirements for all premises where customer information is handled or stored.",
+          "rationale": "Clause 10.28 requires physical security for both forms. Physical compromise can bypass all logical security controls.",
+          "owner": "Operations",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Physical security technology must protect both paper document storage areas and electronic equipment hosting customer information.",
+      "requirements": [
+        {
+          "id": "10.28-T1",
+          "requirement": "Deploy physical security technology (access card systems, CCTV, alarm systems, environmental controls) at all locations where customer information is stored or processed in paper or electronic form.",
+          "rationale": "Physical security technology provides deterrence, detection, and forensic evidence for physical compromise attempts.",
+          "owner": "Operations",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Physical security controls must be subject to regular assessment and testing.",
+      "requirements": [
+        {
+          "id": "10.28-G1",
+          "requirement": "Conduct annual physical security assessments of all premises where customer information is handled, stored, or processed.",
+          "rationale": "Physical security requires periodic validation to identify deterioration or gaps.",
+          "owner": "Operations",
+          "frequency": "Annual",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.29": {
+    "clauseId": "10.29",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Physical security",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must restrict access and deploy intruder deterrents in areas storing large volumes of or critical and sensitive customer information, such as server rooms and filing rooms.",
+      "requirements": [
+        {
+          "id": "10.29-B1",
+          "requirement": "Identify and classify areas where large amounts or critical/sensitive customer information is accessible or stored, and implement enhanced access restrictions and intruder deterrents at these locations.",
+          "rationale": "Clause 10.29 requires enhanced protection for high-risk physical areas. Classification ensures proportionate protection.",
+          "owner": "Operations",
+          "frequency": "Annual review of area classification",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Enhanced physical security technology must be deployed at high-risk areas.",
+      "requirements": [
+        {
+          "id": "10.29-T1",
+          "requirement": "Implement enhanced physical access controls (biometric access, mantrap entries, visitor escort requirements) and intruder detection systems (motion sensors, alarm systems) at classified high-risk areas such as server rooms and filing rooms.",
+          "rationale": "High-risk areas require stronger physical controls than general office areas.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Access to high-risk areas must be logged and regularly reviewed.",
+      "requirements": [
+        {
+          "id": "10.29-G1",
+          "requirement": "Maintain access logs for all classified high-risk areas and review them periodically for unauthorised or unusual access patterns.",
+          "rationale": "Logging and review provide both deterrence and detection for physical access to sensitive areas.",
+          "owner": "Operations",
+          "frequency": "Monthly log review",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.30": {
+    "clauseId": "10.30",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Physical security",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: FSPs are encouraged to implement a clear-desk policy to reduce the risk of customer information being compromised through physical exposure.",
+      "requirements": [
+        {
+          "id": "10.30-B1",
+          "requirement": "Implement and enforce a clear-desk policy requiring staff to secure all customer information documents and remove them from desks when unattended or at end of day.",
+          "rationale": "Clause 10.30 recommends a clear-desk policy. This simple control significantly reduces exposure of customer information to unauthorised viewing or theft.",
+          "owner": "Operations",
+          "frequency": "Continuous enforcement; compliance checks quarterly",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology controls should complement the clear-desk policy with automatic screen locks and secure printing.",
+      "requirements": [
+        {
+          "id": "10.30-T1",
+          "requirement": "Implement automatic screen lock policies and secure print release (pull printing) to complement the clear-desk policy.",
+          "rationale": "Screen locks prevent viewing of on-screen customer information; secure printing prevents uncollected printouts from being exposed.",
+          "owner": "IT Security",
+          "frequency": "Continuous enforcement",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Clear-desk policy compliance should be periodically verified.",
+      "requirements": [
+        {
+          "id": "10.30-G1",
+          "requirement": "Conduct periodic clear-desk compliance checks (walkthroughs) with results reported to management.",
+          "rationale": "Policies require verification. Walkthroughs identify non-compliance and reinforce expected behaviours.",
+          "owner": "Operations",
+          "frequency": "Quarterly",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "10.31": {
+    "clauseId": "10.31",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Off-site and data-in-transit",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must have clear policies and procedures with adequate controls for handling customer information collected off-site and in-transit, including secure storage of physical documents and protection of data on portable devices.",
+      "requirements": [
+        {
+          "id": "10.31-B1",
+          "requirement": "Develop written policies and procedures for off-site customer information collection and data-in-transit scenarios, covering secure handling, storage, and transport of both physical and digital customer information.",
+          "rationale": "Clause 10.31 requires clear policies and procedures for off-site and in-transit data. These scenarios present elevated risks due to reduced physical controls.",
+          "owner": "Operations",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical controls must protect customer information during off-site collection and transit.",
+      "requirements": [
+        {
+          "id": "10.31-T1",
+          "requirement": "Implement encryption for all data-in-transit (TLS, VPN tunnels) and encryption at rest on all portable devices used for off-site customer information collection.",
+          "rationale": "Technical encryption controls protect data during the most vulnerable phases: collection off-site and transit between locations.",
+          "owner": "IT Security",
+          "frequency": "Continuous enforcement",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Off-site collection and data-in-transit activities must be governed with approval and tracking processes.",
+      "requirements": [
+        {
+          "id": "10.31-G1",
+          "requirement": "Establish a tracking and approval process for off-site customer information collection activities, including chain of custody documentation.",
+          "rationale": "Off-site activities require additional governance to compensate for reduced direct oversight.",
+          "owner": "Operations",
+          "frequency": "Per activity; process reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.32": {
+    "clauseId": "10.32",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must have procedures to identify customer information no longer required operationally or legally, and deploy appropriate methods to securely dispose of both paper and digital records.",
+      "requirements": [
+        {
+          "id": "10.32-B1",
+          "requirement": "Develop a Data Retention and Disposal Policy that defines retention periods for each category of customer information and triggers for disposal when information is no longer needed.",
+          "rationale": "Clause 10.32 requires identification of information no longer required. A retention schedule provides the framework for making disposal decisions.",
+          "owner": "DPO",
+          "frequency": "Annual review",
+          "priority": "critical"
+        },
+        {
+          "id": "10.32-B2",
+          "requirement": "Establish secure disposal procedures for both paper records (shredding, incineration) and digital records (data wiping, physical destruction) of customer information.",
+          "rationale": "Clause 10.32 requires secure disposal of both paper and digital records. Procedures must ensure information cannot be recovered.",
+          "owner": "IT Security",
+          "frequency": "Annual review; executed per disposal event",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must implement secure data destruction capabilities for both digital storage and physical media.",
+      "requirements": [
+        {
+          "id": "10.32-T1",
+          "requirement": "Implement certified data destruction tools and processes for digital media including data wiping software (meeting NIST 800-88 or equivalent standards), physical destruction capabilities, and degaussing equipment as appropriate.",
+          "rationale": "Secure digital disposal requires industry-standard destruction methods. Simple file deletion is insufficient.",
+          "owner": "IT Security",
+          "frequency": "Tools maintained continuously; used per disposal event",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Disposal activities must be documented and verified through governance processes.",
+      "requirements": [
+        {
+          "id": "10.32-G1",
+          "requirement": "Maintain a Disposal Register documenting all customer information disposal events including data type, volume, disposal method, date, responsible party, and verification of complete destruction.",
+          "rationale": "Documentation provides an audit trail confirming proper disposal and prevents disputes about data retention obligations.",
+          "owner": "Compliance",
+          "frequency": "Per disposal event; register reviewed quarterly",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.33": {
+    "clauseId": "10.33",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Secure disposal means customer information is irrecoverable, irreversible, and cannot be reconstructed by any means.",
+      "requirements": [
+        {
+          "id": "10.33-B1",
+          "requirement": "Define secure disposal standards that require disposal methods to render customer information irrecoverable, irreversible, and non-reconstructable, and verify all disposal methods meet this standard.",
+          "rationale": "Clause 10.33 defines the standard for secure disposal. All methods must demonstrably meet this threshold.",
+          "owner": "IT Security",
+          "frequency": "Annual verification of disposal method effectiveness",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical disposal methods must be validated to ensure data is truly irrecoverable.",
+      "requirements": [
+        {
+          "id": "10.33-T1",
+          "requirement": "Validate disposal methods through periodic verification testing to confirm that disposed data cannot be recovered by any means, including advanced forensic recovery techniques.",
+          "rationale": "Validation ensures that disposal methods actually achieve the irrecoverability standard defined in clause 10.33.",
+          "owner": "IT Security",
+          "frequency": "Annual validation testing",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Disposal standards must be documented and disposal method certifications maintained.",
+      "requirements": [
+        {
+          "id": "10.33-G1",
+          "requirement": "Document the FSP's secure disposal standard and maintain certifications or validation reports for each disposal method used.",
+          "rationale": "Documented standards and validation evidence demonstrate regulatory compliance.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.34": {
+    "clauseId": "10.34",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Devices should be sanitised using industry-standard methods (data wiping, physical destruction, degaussing) with chain of custody controls. Simple deletion or reformatting is insufficient for digital devices.",
+      "requirements": [
+        {
+          "id": "10.34-B1",
+          "requirement": "Adopt industry-standard sanitisation methods for all devices containing customer information, and explicitly prohibit simple file deletion or reformatting as sole disposal methods.",
+          "rationale": "Clause 10.34 warns that simple deletion/reformatting is insufficient. Industry-standard methods must be mandated.",
+          "owner": "IT Security",
+          "frequency": "Per disposal event; standards reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must deploy industry-standard sanitisation tools and maintain chain of custody controls.",
+      "requirements": [
+        {
+          "id": "10.34-T1",
+          "requirement": "Deploy NIST 800-88 compliant data wiping software, maintain physical destruction capabilities (shredders, crushers), and establish chain of custody tracking for devices awaiting or undergoing sanitisation.",
+          "rationale": "Industry-standard tools ensure effective sanitisation. Chain of custody prevents data exposure between decommissioning and destruction.",
+          "owner": "IT Security",
+          "frequency": "Tools maintained continuously; chain of custody per device",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Sanitisation records and chain of custody documentation must be maintained.",
+      "requirements": [
+        {
+          "id": "10.34-G1",
+          "requirement": "Maintain sanitisation certificates and chain of custody records for all devices containing customer information that undergo disposal or decommissioning.",
+          "rationale": "Records provide evidence that proper sanitisation occurred and maintain accountability throughout the disposal process.",
+          "owner": "IT Security",
+          "frequency": "Per device; records retained per retention policy",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.35": {
+    "clauseId": "10.35",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must conduct a risk-benefit assessment before engaging outsourced service providers for customer information destruction that involves transporting data off-premises.",
+      "requirements": [
+        {
+          "id": "10.35-B1",
+          "requirement": "Conduct a formal risk-benefit assessment before engaging any outsourced service provider for customer information destruction, documenting the risks of off-premises transport against the benefits of specialised destruction services.",
+          "rationale": "Clause 10.35 mandates this assessment. Transporting customer information off-premises for destruction introduces additional risk that must be weighed against benefits.",
+          "owner": "Operations",
+          "frequency": "Per OSP engagement; reviewed at contract renewal",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology controls should support tracking and monitoring of customer information sent for outsourced destruction.",
+      "requirements": [
+        {
+          "id": "10.35-T1",
+          "requirement": "Implement tracking systems for customer information materials sent for outsourced destruction, including barcode/RFID tracking of containers and GPS tracking of transport vehicles where proportionate.",
+          "rationale": "Tracking provides visibility into the disposal chain and enables verification that materials reach the destruction facility.",
+          "owner": "IT Security",
+          "frequency": "Per disposal event",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Risk-benefit assessments must be documented and approved by appropriate management.",
+      "requirements": [
+        {
+          "id": "10.35-G1",
+          "requirement": "Document and obtain senior management approval for risk-benefit assessments of outsourced destruction arrangements, with periodic reassessment.",
+          "rationale": "Management approval ensures the risk acceptance decision is made at an appropriate level.",
+          "owner": "Compliance",
+          "frequency": "Per engagement; reassessed annually",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.36": {
+    "clauseId": "10.36",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Before collection by outsourced service providers for destruction, customer information must be shredded or stored inaccessibly in tamper-proof sealed bags or locked containers.",
+      "requirements": [
+        {
+          "id": "10.36-B1",
+          "requirement": "Establish pre-collection security procedures requiring that customer information is either shredded or sealed in tamper-proof bags or locked containers before being handed to outsourced destruction service providers.",
+          "rationale": "Clause 10.36 mandates pre-collection protection. This prevents exposure of customer information during the collection and transport process.",
+          "owner": "Operations",
+          "frequency": "Per collection event; procedures reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Secure storage facilities and tamper-evident packaging must be available at all locations generating customer information waste.",
+      "requirements": [
+        {
+          "id": "10.36-T1",
+          "requirement": "Provide tamper-proof sealed bags, locked collection containers, and on-site shredding equipment at all locations where customer information documents are generated for disposal.",
+          "rationale": "Physical security equipment must be readily available to ensure pre-collection protection is practical and consistently applied.",
+          "owner": "Operations",
+          "frequency": "Equipment maintained continuously; availability audited annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Pre-collection procedures must be documented and compliance verified.",
+      "requirements": [
+        {
+          "id": "10.36-G1",
+          "requirement": "Verify compliance with pre-collection security procedures through periodic spot checks and handover documentation review.",
+          "rationale": "Procedures are only effective if consistently followed. Spot checks ensure compliance.",
+          "owner": "Operations",
+          "frequency": "Quarterly spot checks",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.37": {
+    "clauseId": "10.37",
+    "section": "Control environment",
+    "subsection": "C: Control measures - Disposal",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must perform random checks on outsourced service providers' collection and destruction processes to verify proper destruction of customer information.",
+      "requirements": [
+        {
+          "id": "10.37-B1",
+          "requirement": "Implement a random inspection programme for outsourced destruction service providers, including unannounced site visits and observation of collection and destruction processes.",
+          "rationale": "Clause 10.37 mandates random checks. Random inspections verify that destruction providers maintain standards consistently, not just during planned audits.",
+          "owner": "Operations",
+          "frequency": "At least quarterly random checks",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology may support verification through destruction certificates, video evidence, and audit trail systems.",
+      "requirements": [
+        {
+          "id": "10.37-T1",
+          "requirement": "Require outsourced destruction providers to supply certificates of destruction and, where feasible, video evidence of destruction for each batch of customer information destroyed.",
+          "rationale": "Certificates and video evidence provide verifiable proof of destruction complementing random physical checks.",
+          "owner": "IT Security",
+          "frequency": "Per destruction event",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Random check results must be documented and non-compliance addressed.",
+      "requirements": [
+        {
+          "id": "10.37-G1",
+          "requirement": "Document all random check findings and escalate any non-compliance or concerns to senior management for action, including consideration of alternative providers for serious deficiencies.",
+          "rationale": "Inspection results must drive corrective action. Documentation provides the evidence base for provider management decisions.",
+          "owner": "Compliance",
+          "frequency": "Per inspection; summary reports quarterly",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.38": {
+    "clauseId": "10.38",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Human factors are a common cause of customer information compromise. All staff must understand the importance of protecting customer information confidentiality and security.",
+      "requirements": [
+        {
+          "id": "10.38-B1",
+          "requirement": "Integrate human factor risk considerations into the customer information risk assessment, identifying high-risk roles, processes, and scenarios where human error or misconduct is most likely.",
+          "rationale": "Clause 10.38 highlights human factors as common causes. Risk assessments must explicitly address the human element.",
+          "owner": "CISO",
+          "frequency": "Per risk assessment cycle",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology controls should compensate for human factor risks through automation and error-proofing.",
+      "requirements": [
+        {
+          "id": "10.38-T1",
+          "requirement": "Implement technology controls that reduce reliance on human diligence, such as automated data masking, confirmation prompts before bulk data operations, and DLP rules that prevent accidental mass disclosures.",
+          "rationale": "Technology controls compensate for human fallibility by preventing common error scenarios.",
+          "owner": "IT Security",
+          "frequency": "Continuous; reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Human factor risks should be addressed through governance measures including awareness programmes and cultural initiatives.",
+      "requirements": [
+        {
+          "id": "10.38-G1",
+          "requirement": "Include human factor risk analysis in governance reporting to senior management, tracking trends in human-caused incidents and effectiveness of mitigation measures.",
+          "rationale": "Governance visibility into human factor trends enables targeted interventions.",
+          "owner": "Compliance",
+          "frequency": "Quarterly reporting",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "10.39": {
+    "clauseId": "10.39",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Employment contracts must include a confidentiality undertaking signed by all staff, specifying legal obligations to safeguard customer information and consequences for non-compliance.",
+      "requirements": [
+        {
+          "id": "10.39-B1",
+          "requirement": "Include a Customer Information Confidentiality Undertaking in all employment contracts that specifies the legal obligations under relevant written law to safeguard customer information and clearly states the consequences for failure to comply.",
+          "rationale": "Clause 10.39 mandates contractual confidentiality undertakings. This creates a legally binding obligation and ensures staff are aware of consequences.",
+          "owner": "HR",
+          "frequency": "At hiring; reviewed annually for adequacy",
+          "priority": "critical"
+        },
+        {
+          "id": "10.39-B2",
+          "requirement": "Ensure all existing staff who have not signed the confidentiality undertaking are required to do so, with records maintained centrally.",
+          "rationale": "Clause 10.39 applies to all staff. Legacy employees must also be covered.",
+          "owner": "HR",
+          "frequency": "One-time remediation; ongoing for new hires",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: HR systems should track confidentiality undertaking signatures for all staff.",
+      "requirements": [
+        {
+          "id": "10.39-T1",
+          "requirement": "Configure HR systems to track and report on confidentiality undertaking signature status for all staff, flagging any staff without signed undertakings.",
+          "rationale": "Automated tracking ensures no staff member is missed and provides compliance evidence.",
+          "owner": "HR",
+          "frequency": "Continuous tracking; exceptions reported monthly",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Confidentiality undertaking coverage must be monitored and reported.",
+      "requirements": [
+        {
+          "id": "10.39-G1",
+          "requirement": "Monitor confidentiality undertaking coverage percentage and report any gaps to senior management, with a target of 100% coverage.",
+          "rationale": "Complete coverage is a regulatory requirement. Monitoring ensures compliance.",
+          "owner": "HR",
+          "frequency": "Monthly monitoring; quarterly reporting",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.40": {
+    "clauseId": "10.40",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: When engaging external vendors working on-premises (e.g., security guards, cleaners, maintenance staff), FSPs must ensure vendors appropriately vet and monitor their personnel to mitigate customer information theft risk.",
+      "requirements": [
+        {
+          "id": "10.40-B1",
+          "requirement": "Require all on-premises external vendors to demonstrate that they conduct appropriate vetting (background checks, reference checks) on personnel who may have access to areas containing customer information.",
+          "rationale": "Clause 10.40 requires FSPs to ensure external vendor personnel are vetted. On-premises vendors can access physical areas containing customer information.",
+          "owner": "Operations",
+          "frequency": "At vendor engagement; verified annually",
+          "priority": "high"
+        },
+        {
+          "id": "10.40-B2",
+          "requirement": "Require external vendors to implement ongoing monitoring of their on-premises personnel, including supervision requirements and incident reporting obligations.",
+          "rationale": "Clause 10.40 requires both vetting and monitoring. Ongoing monitoring addresses risks that emerge after initial vetting.",
+          "owner": "Operations",
+          "frequency": "Continuous; verified annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Physical access systems should support vendor personnel access management and tracking.",
+      "requirements": [
+        {
+          "id": "10.40-T1",
+          "requirement": "Issue time-limited, area-restricted access credentials to external vendor personnel, with access logging and automatic expiration.",
+          "rationale": "Technical access controls limit vendor personnel to necessary areas and provide audit trails.",
+          "owner": "IT Security",
+          "frequency": "Per vendor personnel; access reviewed monthly",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Vendor vetting and monitoring requirements must be contractually documented and compliance verified.",
+      "requirements": [
+        {
+          "id": "10.40-G1",
+          "requirement": "Include vetting and monitoring requirements in all on-premises vendor contracts, with the right to verify compliance through audit and inspection.",
+          "rationale": "Contractual obligations provide the legal basis for enforcing vetting and monitoring requirements on external vendors.",
+          "owner": "Legal",
+          "frequency": "At contract execution; reviewed at renewal",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.41": {
+    "clauseId": "10.41",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must maintain high staff awareness at all times on: protecting customer information, complying with policies, and understanding the consequences of involvement in any breach.",
+      "requirements": [
+        {
+          "id": "10.41-B1",
+          "requirement": "Implement a continuous Staff Awareness Programme addressing three mandatory areas: (a) importance of protecting customer information confidentiality and security, (b) compliance with policies and procedures, and (c) consequences of involvement in any breach.",
+          "rationale": "Clause 10.41 specifies three mandatory awareness areas that must be maintained at all times. A continuous programme ensures sustained awareness.",
+          "owner": "HR",
+          "frequency": "Continuous; refreshed at least quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Awareness delivery should leverage technology platforms for reach and tracking.",
+      "requirements": [
+        {
+          "id": "10.41-T1",
+          "requirement": "Utilise e-learning platforms, desktop reminders, login banners, and digital signage to deliver and reinforce customer information protection awareness messages continuously.",
+          "rationale": "Technology-enabled delivery ensures reach across the organisation and provides usage tracking.",
+          "owner": "HR",
+          "frequency": "Continuous delivery",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Awareness programme effectiveness must be measured and reported.",
+      "requirements": [
+        {
+          "id": "10.41-G1",
+          "requirement": "Measure staff awareness levels through periodic assessments (quizzes, surveys) and report results to senior management, with targeted interventions for low-scoring areas.",
+          "rationale": "Awareness programmes must demonstrate effectiveness. Measurement enables targeted improvement.",
+          "owner": "HR",
+          "frequency": "Annual assessment; quarterly reporting",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.42": {
+    "clauseId": "10.42",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must implement robust monitoring mechanisms to ensure staff adhere to established policies, procedures, and controls.",
+      "requirements": [
+        {
+          "id": "10.42-B1",
+          "requirement": "Implement a staff compliance monitoring programme with defined monitoring activities, frequency, and escalation procedures for identified non-compliance.",
+          "rationale": "Clause 10.42 requires robust monitoring of staff adherence. Monitoring provides assurance that policies are followed in practice.",
+          "owner": "Compliance",
+          "frequency": "Continuous; compliance reports quarterly",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology must support automated monitoring of staff compliance with customer information protection policies.",
+      "requirements": [
+        {
+          "id": "10.42-T1",
+          "requirement": "Deploy automated compliance monitoring tools that track staff adherence to customer information protection controls (e.g., DLP policy violations, access control exceptions, data handling procedure deviations).",
+          "rationale": "Automated monitoring provides continuous, scalable compliance assurance beyond what manual oversight can achieve.",
+          "owner": "IT Security",
+          "frequency": "Continuous",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Monitoring results must be reported through governance channels with consequences for persistent non-compliance.",
+      "requirements": [
+        {
+          "id": "10.42-G1",
+          "requirement": "Report staff compliance monitoring results to senior management quarterly, with trend analysis and escalation of persistent or significant non-compliance.",
+          "rationale": "Governance oversight of monitoring results ensures that non-compliance is addressed and systemic issues are identified.",
+          "owner": "Compliance",
+          "frequency": "Quarterly",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.43": {
+    "clauseId": "10.43",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must provide relevant training and regularly remind all staff about their obligations to safeguard customer information confidentiality.",
+      "requirements": [
+        {
+          "id": "10.43-B1",
+          "requirement": "Deliver role-specific customer information protection training to all staff and supplement with regular reminders (e.g., email bulletins, posters, team briefings) about confidentiality obligations.",
+          "rationale": "Clause 10.43 requires both training and regular reminders. Training provides depth; reminders maintain top-of-mind awareness.",
+          "owner": "HR",
+          "frequency": "Training annually; reminders at least quarterly",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Training delivery and reminder systems must reach all staff effectively.",
+      "requirements": [
+        {
+          "id": "10.43-T1",
+          "requirement": "Utilise LMS for formal training delivery and enterprise communication tools for regular reminder distribution, with delivery and engagement tracking.",
+          "rationale": "Systematic delivery ensures universal coverage and provides evidence of compliance.",
+          "owner": "HR",
+          "frequency": "Continuous",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Training delivery and reminder frequency must be tracked and reported.",
+      "requirements": [
+        {
+          "id": "10.43-G1",
+          "requirement": "Track and report training completion rates and reminder delivery metrics, escalating gaps in coverage to management.",
+          "rationale": "Tracking ensures the training and reminder obligations are met across the entire staff population.",
+          "owner": "HR",
+          "frequency": "Monthly tracking; quarterly reporting",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.44": {
+    "clauseId": "10.44",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: New staff onboarding programmes must include specific training on the FSP's policies and procedures for protecting customer information.",
+      "requirements": [
+        {
+          "id": "10.44-B1",
+          "requirement": "Include mandatory customer information protection training as a required component of all new staff onboarding programmes, to be completed before the staff member is granted access to customer information.",
+          "rationale": "Clause 10.44 mandates onboarding-specific training. Training before access ensures new staff understand obligations from day one.",
+          "owner": "HR",
+          "frequency": "Per new hire; content reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Onboarding training must be integrated with access provisioning to ensure training is completed before access is granted.",
+      "requirements": [
+        {
+          "id": "10.44-T1",
+          "requirement": "Integrate onboarding training completion with access provisioning systems so that customer information system access is only granted after training completion is confirmed.",
+          "rationale": "Technical integration enforces the training-before-access principle and prevents procedural bypass.",
+          "owner": "IT Security",
+          "frequency": "Per new hire; integration tested annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Onboarding training completion must be verified before access is granted.",
+      "requirements": [
+        {
+          "id": "10.44-G1",
+          "requirement": "Maintain records of onboarding training completion for all new staff and verify no access is provisioned prior to training completion.",
+          "rationale": "Records demonstrate compliance and the access verification ensures the control is effective.",
+          "owner": "HR",
+          "frequency": "Per new hire; audited quarterly",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.45": {
+    "clauseId": "10.45",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: New staff must be informed of the possible disciplinary or other actions that may result from non-compliance with customer information protection policies and procedures.",
+      "requirements": [
+        {
+          "id": "10.45-B1",
+          "requirement": "Include a clear explanation of consequences for non-compliance (disciplinary action, termination, legal proceedings) in new staff onboarding materials and require written acknowledgement.",
+          "rationale": "Clause 10.45 requires notification of possible actions for non-compliance. Awareness of consequences strengthens deterrence.",
+          "owner": "HR",
+          "frequency": "Per new hire; content reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Acknowledgement of consequences must be digitally captured and tracked.",
+      "requirements": [
+        {
+          "id": "10.45-T1",
+          "requirement": "Capture digital acknowledgements from new staff confirming they have been informed of non-compliance consequences, stored in the HR system.",
+          "rationale": "Digital capture provides verifiable evidence that the notification obligation was met.",
+          "owner": "HR",
+          "frequency": "Per new hire",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Acknowledgement records must be maintained for compliance evidence.",
+      "requirements": [
+        {
+          "id": "10.45-G1",
+          "requirement": "Monitor acknowledgement completion rates for new staff consequence notifications and escalate any gaps.",
+          "rationale": "100% acknowledgement ensures all new staff are aware of consequences as required.",
+          "owner": "HR",
+          "frequency": "Monthly monitoring",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.46": {
+    "clauseId": "10.46",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Staff guidance on safeguarding customer information should be concise and easy to understand to promote effective compliance.",
+      "requirements": [
+        {
+          "id": "10.46-B1",
+          "requirement": "Develop concise, reader-friendly staff guidance materials (quick reference cards, infographics, FAQs) that complement detailed policies and enable practical understanding of customer information protection requirements.",
+          "rationale": "Clause 10.46 emphasises readability and understanding. Accessible guidance promotes actual compliance.",
+          "owner": "DPO",
+          "frequency": "Updated with each policy revision",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Guidance materials should be easily accessible through technology platforms.",
+      "requirements": [
+        {
+          "id": "10.46-T1",
+          "requirement": "Publish staff guidance materials on the intranet, mobile apps, or other readily accessible platforms with search functionality and contextual linking.",
+          "rationale": "Accessibility maximises the value of reader-friendly guidance.",
+          "owner": "IT Security",
+          "frequency": "Updated per guidance revision",
+          "priority": "low"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Guidance material usability should be assessed through staff feedback.",
+      "requirements": [
+        {
+          "id": "10.46-G1",
+          "requirement": "Collect periodic staff feedback on the clarity and usability of customer information protection guidance materials and use findings to improve content.",
+          "rationale": "Feedback-driven improvement ensures guidance remains practical and effective.",
+          "owner": "DPO",
+          "frequency": "Annual feedback collection",
+          "priority": "low"
+        }
+      ]
+    }
+  },
+  "10.47": {
+    "clauseId": "10.47",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must have mechanisms to measure the effectiveness of staff training on safeguarding customer information.",
+      "requirements": [
+        {
+          "id": "10.47-B1",
+          "requirement": "Implement training effectiveness measurement mechanisms including post-training assessments, practical scenario testing, and correlation analysis between training completion and incident rates.",
+          "rationale": "Clause 10.47 mandates effectiveness measurement. Training that does not change behaviour is not effective.",
+          "owner": "HR",
+          "frequency": "Per training cycle; analysis annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: LMS and assessment tools should support training effectiveness measurement.",
+      "requirements": [
+        {
+          "id": "10.47-T1",
+          "requirement": "Configure LMS to deliver post-training assessments with scoring, track pass/fail rates, and generate effectiveness reports by department and role.",
+          "rationale": "Automated assessment and reporting provides scalable effectiveness measurement.",
+          "owner": "HR",
+          "frequency": "Per training delivery; reports quarterly",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Training effectiveness results must be reported and used to drive improvements.",
+      "requirements": [
+        {
+          "id": "10.47-G1",
+          "requirement": "Report training effectiveness metrics to senior management with recommendations for improvement where effectiveness is below target thresholds.",
+          "rationale": "Governance oversight ensures training effectiveness is treated as a management priority.",
+          "owner": "HR",
+          "frequency": "Quarterly reporting",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.48": {
+    "clauseId": "10.48",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "G",
+    "business": {
+      "summary": "AI Generated: Training effectiveness mechanisms may include annual awareness surveys to assess staff understanding of customer information protection and breach reporting.",
+      "requirements": [
+        {
+          "id": "10.48-B1",
+          "requirement": "Conduct annual awareness surveys to assess staff understanding of customer information protection requirements and breach reporting procedures.",
+          "rationale": "Clause 10.48 specifically suggests annual surveys. Surveys provide a broad measure of awareness levels across the organisation.",
+          "owner": "HR",
+          "frequency": "Annual",
+          "priority": "medium"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Survey tools should support anonymous, organisation-wide awareness assessments.",
+      "requirements": [
+        {
+          "id": "10.48-T1",
+          "requirement": "Deploy survey tools that support anonymous, organisation-wide awareness assessments with automated analysis and reporting capabilities.",
+          "rationale": "Anonymous surveys encourage honest responses. Automated analysis enables trend tracking over time.",
+          "owner": "HR",
+          "frequency": "Annual deployment",
+          "priority": "low"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Survey results should inform training programme improvements.",
+      "requirements": [
+        {
+          "id": "10.48-G1",
+          "requirement": "Analyse annual awareness survey results and use findings to update training content, target specific awareness gaps, and report trends to senior management.",
+          "rationale": "Surveys are only valuable if results drive action. Governance ensures findings translate into programme improvements.",
+          "owner": "HR",
+          "frequency": "Annual analysis",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "10.49": {
+    "clauseId": "10.49",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must conduct thorough and timely investigations when staff are involved in customer information breaches and take appropriate actions against those involved.",
+      "requirements": [
+        {
+          "id": "10.49-B1",
+          "requirement": "Establish a Staff Breach Investigation Procedure defining investigation triggers, methodology, timeline requirements, evidence preservation, and the range of appropriate actions for staff involved in customer information breaches.",
+          "rationale": "Clause 10.49 requires thorough and timely investigation. A defined procedure ensures consistent and comprehensive response.",
+          "owner": "HR",
+          "frequency": "Procedure reviewed annually; executed per incident",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Digital forensic and evidence preservation capabilities must support staff breach investigations.",
+      "requirements": [
+        {
+          "id": "10.49-T1",
+          "requirement": "Maintain digital forensic investigation capabilities including evidence preservation tools, audit log analysis, and chain of custody procedures for digital evidence.",
+          "rationale": "Thorough investigation of digital breaches requires forensic capabilities. Proper evidence handling supports potential disciplinary or legal proceedings.",
+          "owner": "CISO",
+          "frequency": "Capabilities maintained continuously; deployed per incident",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Investigation procedures must ensure fairness, thoroughness, and timeliness.",
+      "requirements": [
+        {
+          "id": "10.49-G1",
+          "requirement": "Track investigation timelines against targets and report completion metrics to senior management, ensuring timeliness is maintained.",
+          "rationale": "Clause 10.49 requires timely investigation. Tracking prevents investigations from stalling.",
+          "owner": "Compliance",
+          "frequency": "Per investigation; monthly tracking",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.50": {
+    "clauseId": "10.50",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Disciplinary actions must serve as a strong deterrent. If an FSP chooses not to act against a staff member in breach, the rationale must be documented and approved by senior management.",
+      "requirements": [
+        {
+          "id": "10.50-B1",
+          "requirement": "Ensure disciplinary actions for customer information breaches are communicated organisation-wide (in anonymised form) to serve as a deterrent and send a strong message against future breaches.",
+          "rationale": "Clause 10.50 requires actions to send a strong message and act as a deterrent. Communication of consequences reinforces the deterrent effect.",
+          "owner": "HR",
+          "frequency": "Per significant disciplinary action",
+          "priority": "high"
+        },
+        {
+          "id": "10.50-B2",
+          "requirement": "Where the FSP decides not to take action against a staff member involved in a breach, document the rationale and obtain senior management approval, maintaining the record for audit purposes.",
+          "rationale": "Clause 10.50 explicitly requires documentation and senior management approval for decisions not to act. This prevents inconsistent enforcement.",
+          "owner": "HR",
+          "frequency": "Per decision; records retained per policy",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Case management systems should support investigation outcomes and disciplinary action tracking.",
+      "requirements": [
+        {
+          "id": "10.50-T1",
+          "requirement": "Maintain a case management system that tracks breach investigations, disciplinary decisions, and outcomes, including documented rationale for any decisions not to act.",
+          "rationale": "Systematic tracking ensures compliance with documentation requirements and supports trend analysis.",
+          "owner": "HR",
+          "frequency": "Continuous; reviewed quarterly",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Disciplinary consistency and deterrent effectiveness must be governed.",
+      "requirements": [
+        {
+          "id": "10.50-G1",
+          "requirement": "Review disciplinary action consistency across breach cases annually, ensuring proportionate and consistent treatment that maintains the deterrent effect.",
+          "rationale": "Inconsistent disciplinary actions undermine deterrence and create legal risk. Annual review ensures consistency.",
+          "owner": "HR",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.51": {
+    "clauseId": "10.51",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must report investigation results and actions taken against staff to the Board, in accordance with paragraph 9.10.",
+      "requirements": [
+        {
+          "id": "10.51-B1",
+          "requirement": "Submit investigation results and staff actions to the Board as part of breach reporting, including root cause analysis, actions taken, and lessons learnt.",
+          "rationale": "Clause 10.51 requires Board reporting of investigation results. Board visibility ensures governance oversight of disciplinary responses.",
+          "owner": "Senior Management",
+          "frequency": "Per investigation completion",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Investigation reporting should be supported by data from case management and forensic investigation systems.",
+      "requirements": [
+        {
+          "id": "10.51-T1",
+          "requirement": "Generate Board-ready investigation summary reports from case management systems, including investigation timeline, findings, and actions taken.",
+          "rationale": "Board reports must be comprehensive yet concise. Automated report generation ensures consistency and completeness.",
+          "owner": "CISO",
+          "frequency": "Per investigation",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Board reporting on investigations must follow a defined format and process.",
+      "requirements": [
+        {
+          "id": "10.51-G1",
+          "requirement": "Use a standardised Board Investigation Report Template for all breach investigation outcomes reported to the Board, ensuring completeness and consistency.",
+          "rationale": "Standardised reporting ensures all required information reaches the Board in a consistent format.",
+          "owner": "Compliance",
+          "frequency": "Per investigation; template reviewed annually",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.52": {
+    "clauseId": "10.52",
+    "section": "Control environment",
+    "subsection": "D: Staff, Representatives, Agents and External Vendors' Personnel",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs retain full accountability for the conduct and actions of their appointed representatives and agents regarding any customer information breach, regardless of the direct involvement of the FSP.",
+      "requirements": [
+        {
+          "id": "10.52-B1",
+          "requirement": "Establish contractual and operational frameworks that enable the FSP to maintain accountability for representatives' and agents' conduct, including audit rights, monitoring provisions, and breach reporting obligations.",
+          "rationale": "Clause 10.52 creates non-delegable accountability. The FSP must have the mechanisms to exercise oversight despite the actions being performed by third parties.",
+          "owner": "Legal",
+          "frequency": "Annual review; per contract",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology must extend monitoring and control capabilities to representatives' and agents' activities.",
+      "requirements": [
+        {
+          "id": "10.52-T1",
+          "requirement": "Extend monitoring, logging, and alerting capabilities to cover customer information access and handling by representatives and agents, with equivalent visibility to internal staff monitoring.",
+          "rationale": "Accountability requires visibility. The FSP cannot be accountable for conduct it cannot observe.",
+          "owner": "IT Security",
+          "frequency": "Continuous; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Governance must formalise the FSP's accountability for representatives and agents.",
+      "requirements": [
+        {
+          "id": "10.52-G1",
+          "requirement": "Include explicit accountability provisions in the governance framework confirming the FSP's non-delegable responsibility for representatives' and agents' customer information handling.",
+          "rationale": "The governance framework must reflect this regulatory accountability to ensure it is not overlooked or informally delegated.",
+          "owner": "Compliance",
+          "frequency": "Annual review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "10.53": {
+    "clauseId": "10.53",
+    "section": "Control environment",
+    "subsection": "E: Independent review",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must have their customer information protection policies, procedures, and controls independently reviewed at least once every two years by a function independent of business units handling customer information.",
+      "requirements": [
+        {
+          "id": "10.53-B1",
+          "requirement": "Commission an independent review of customer information protection policies, procedures, and controls at least once every two years, ensuring the reviewer is independent of business units involved in handling customer information.",
+          "rationale": "Clause 10.53 mandates biennial independent review. Independence ensures objectivity and credibility of findings.",
+          "owner": "Senior Management",
+          "frequency": "At least once every two years",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must provide full access and cooperation to independent reviewers.",
+      "requirements": [
+        {
+          "id": "10.53-T1",
+          "requirement": "Provide independent reviewers with comprehensive access to systems, configurations, logs, and documentation necessary to assess the effectiveness of technical controls protecting customer information.",
+          "rationale": "Independent reviewers cannot assess effectiveness without full access. Cooperation must be mandated by management.",
+          "owner": "IT Security",
+          "frequency": "Per review cycle",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Independent review commissioning, scope, and execution must be formally governed.",
+      "requirements": [
+        {
+          "id": "10.53-G1",
+          "requirement": "Define the independent review scope, methodology requirements, and independence criteria in a formal Terms of Engagement, ensuring coverage of all MCIPD requirements.",
+          "rationale": "A well-defined scope ensures the review is comprehensive and meets regulatory expectations.",
+          "owner": "Compliance",
+          "frequency": "Per review cycle",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "10.54": {
+    "clauseId": "10.54",
+    "section": "Control environment",
+    "subsection": "E: Independent review",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The independent review must include assessment of senior management effectiveness and oversight, and the adequacy and effectiveness of customer information protection measures.",
+      "requirements": [
+        {
+          "id": "10.54-B1",
+          "requirement": "Ensure the independent review scope explicitly includes assessment of: (a) senior management effectiveness and oversight of customer information protection, and (b) the adequacy and effectiveness of all protective measures implemented.",
+          "rationale": "Clause 10.54 mandates two specific assessment areas. Both must be explicitly covered in the review scope.",
+          "owner": "Senior Management",
+          "frequency": "Per review cycle",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical evidence must be available to support the independent review's assessment of control adequacy and effectiveness.",
+      "requirements": [
+        {
+          "id": "10.54-T1",
+          "requirement": "Prepare control effectiveness evidence packages including test results, incident data, monitoring reports, and control performance metrics to support independent review assessments.",
+          "rationale": "Assessment of adequacy and effectiveness requires evidence. Pre-prepared packages ensure efficient review execution.",
+          "owner": "IT Security",
+          "frequency": "Per review cycle",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The independent review must have a mandate to assess governance and management effectiveness, not just technical controls.",
+      "requirements": [
+        {
+          "id": "10.54-G1",
+          "requirement": "Ensure the independent reviewer has a mandate and access to assess senior management oversight effectiveness, including reviewing Board reports, management responses, and governance meeting minutes.",
+          "rationale": "Clause 10.54 requires assessment of senior management effectiveness. The reviewer must have access to governance evidence.",
+          "owner": "Board",
+          "frequency": "Per review cycle",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "10.55": {
+    "clauseId": "10.55",
+    "section": "Control environment",
+    "subsection": "E: Independent review",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The independent reviewer must provide written findings to both senior management and the Board, covering scope, methodologies, findings, evidence, and limitations.",
+      "requirements": [
+        {
+          "id": "10.55-B1",
+          "requirement": "Require the independent reviewer to deliver formal written findings to both senior management and the Board, covering review scope, methodologies used, detailed findings, evidence obtained, and any limitations.",
+          "rationale": "Clause 10.55 mandates written findings to both audiences. Written reports provide the permanent record and evidence of review completion.",
+          "owner": "Senior Management",
+          "frequency": "Per review cycle",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Written findings must include technology-specific assessments of control effectiveness.",
+      "requirements": [
+        {
+          "id": "10.55-T1",
+          "requirement": "Ensure technology-related findings are presented in the independent review report with sufficient technical detail for management action and sufficient clarity for Board understanding.",
+          "rationale": "Technical findings must be actionable for technology teams while being comprehensible for Board oversight.",
+          "owner": "CISO",
+          "frequency": "Per review cycle",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The Board must receive and formally acknowledge the independent review findings.",
+      "requirements": [
+        {
+          "id": "10.55-G1",
+          "requirement": "Schedule formal Board presentation of independent review findings, with documented Board acknowledgement, deliberation, and any directives issued in response to findings.",
+          "rationale": "Board receipt of findings must be documented. Board response demonstrates active governance oversight.",
+          "owner": "Board",
+          "frequency": "Per review cycle",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "10.56": {
+    "clauseId": "10.56",
+    "section": "Control environment",
+    "subsection": "E: Independent review",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Senior management must take appropriate and timely corrective actions to address any deficiencies identified in the independent review findings.",
+      "requirements": [
+        {
+          "id": "10.56-B1",
+          "requirement": "Develop a Remediation Action Plan for all deficiencies identified in the independent review, with assigned owners, timelines, resource allocation, and success criteria, approved by senior management.",
+          "rationale": "Clause 10.56 requires appropriate and timely corrective actions. A structured plan ensures deficiencies are systematically addressed.",
+          "owner": "Senior Management",
+          "frequency": "Per review cycle; progress tracked monthly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology teams must implement remediation actions for technical deficiencies identified in the review.",
+      "requirements": [
+        {
+          "id": "10.56-T1",
+          "requirement": "Implement technical remediation actions for all technology-related deficiencies identified in the independent review, with testing to confirm deficiency resolution.",
+          "rationale": "Identified deficiencies must be resolved. Testing confirms that remediation was effective.",
+          "owner": "IT Security",
+          "frequency": "Per finding; completion within agreed timelines",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Remediation progress must be tracked and reported to the Board.",
+      "requirements": [
+        {
+          "id": "10.56-G1",
+          "requirement": "Track remediation progress against the action plan and report status to the Board quarterly until all deficiencies are resolved, with escalation of any overdue items.",
+          "rationale": "Governance oversight of remediation ensures timely completion and Board awareness of outstanding deficiencies.",
+          "owner": "Compliance",
+          "frequency": "Monthly tracking; quarterly Board reporting",
+          "priority": "critical"
+        }
+      ]
+    }
+  }
+}

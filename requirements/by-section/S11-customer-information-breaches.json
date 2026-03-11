@@ -1,0 +1,1445 @@
+{
+  "11.1": {
+    "clauseId": "11.1",
+    "section": "Customer information breaches",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must establish a breach handling and response plan covering all forms of customer information compromise, encompassing both deliberate and non-deliberate breaches.",
+      "requirements": [
+        {
+          "id": "11.1-B1",
+          "requirement": "Develop and maintain a comprehensive Customer Information Breach Handling and Response Plan covering theft, loss, misuse, unauthorised access, modification, and disclosure of customer information.",
+          "rationale": "Clause 11.1 mandates a breach handling and response plan. Pre-defined plans enable rapid, coordinated response when incidents occur.",
+          "owner": "CISO",
+          "frequency": "Annual review; tested via simulation at least annually",
+          "priority": "critical"
+        },
+        {
+          "id": "11.1-B2",
+          "requirement": "Ensure the breach response plan explicitly addresses both deliberate (malicious) and non-deliberate (accidental/negligent) breach scenarios with tailored response procedures for each.",
+          "rationale": "Clause 11.1 specifically requires coverage of both deliberate and non-deliberate breaches. Response approaches differ based on intent.",
+          "owner": "CISO",
+          "frequency": "Annual review",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology infrastructure must support rapid breach detection, containment, and response execution.",
+      "requirements": [
+        {
+          "id": "11.1-T1",
+          "requirement": "Implement an incident response platform that supports the full breach response lifecycle: detection, triage, containment, investigation, remediation, notification, and closure with workflow automation and audit trails.",
+          "rationale": "Manual breach response is slow and error-prone. A platform ensures consistent, trackable execution of the response plan.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The breach response plan must be governed with clear ownership, regular testing, and update cycles.",
+      "requirements": [
+        {
+          "id": "11.1-G1",
+          "requirement": "Assign clear ownership of the breach response plan and establish a governance process for plan maintenance, testing, and post-incident improvement.",
+          "rationale": "Plans without ownership and testing become stale. Governance ensures the plan remains current and effective.",
+          "owner": "CISO",
+          "frequency": "Annual governance review; plan tested annually",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.2": {
+    "clauseId": "11.2",
+    "section": "Customer information breaches",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The breach response plan must include escalation procedures and clear responsibility lines for containment, remediation, and recurrence prevention.",
+      "requirements": [
+        {
+          "id": "11.2-B1",
+          "requirement": "Define escalation procedures within the breach response plan specifying severity levels, escalation triggers, escalation targets (by role), and maximum response timeframes for each level.",
+          "rationale": "Clause 11.2 mandates escalation procedures. Clear escalation ensures the right people are engaged at the right time.",
+          "owner": "CISO",
+          "frequency": "Annual review",
+          "priority": "critical"
+        },
+        {
+          "id": "11.2-B2",
+          "requirement": "Define a clear RACI matrix for breach response activities covering containment, remediation, investigation, notification, and recurrence prevention.",
+          "rationale": "Clause 11.2 requires clear lines of responsibility. A RACI matrix eliminates ambiguity during high-pressure breach scenarios.",
+          "owner": "CISO",
+          "frequency": "Annual review",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Escalation workflows must be automated to ensure timeliness.",
+      "requirements": [
+        {
+          "id": "11.2-T1",
+          "requirement": "Implement automated escalation workflows in the incident management system that trigger notifications based on severity, time elapsed, and response status.",
+          "rationale": "Automated escalation prevents delays in engaging appropriate personnel during breach response.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation; workflows reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Escalation procedures must be tested and validated through regular exercises.",
+      "requirements": [
+        {
+          "id": "11.2-G1",
+          "requirement": "Test escalation procedures through tabletop exercises and breach simulations at least annually, documenting outcomes and improvements.",
+          "rationale": "Untested escalation procedures may fail under pressure. Regular testing validates effectiveness.",
+          "owner": "CISO",
+          "frequency": "Annual",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.3": {
+    "clauseId": "11.3",
+    "section": "Customer information breaches",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: All staff must understand escalation procedures, and relevant staff must be trained to take effective remedial actions during breaches to protect affected customers.",
+      "requirements": [
+        {
+          "id": "11.3-B1",
+          "requirement": "Train all staff on breach escalation procedures and provide specialised incident response training to staff with specific breach response roles.",
+          "rationale": "Clause 11.3 requires universal understanding of escalation and specific training for responders. Both general awareness and specialist capability are needed.",
+          "owner": "HR",
+          "frequency": "Annual training; refreshers after significant incidents",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Training should include practical exercises using the incident response platform.",
+      "requirements": [
+        {
+          "id": "11.3-T1",
+          "requirement": "Include hands-on exercises using the incident response platform in specialised breach response training, ensuring responders are proficient with the tools.",
+          "rationale": "Tool proficiency under pressure requires practice. Hands-on training builds muscle memory for effective response.",
+          "owner": "IT Security",
+          "frequency": "Annual",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Training completion must be tracked and response capability validated.",
+      "requirements": [
+        {
+          "id": "11.3-G1",
+          "requirement": "Track escalation procedure training completion for all staff and specialised response training for designated responders, escalating gaps in coverage.",
+          "rationale": "Universal understanding requires universal training. Tracking ensures no gaps exist.",
+          "owner": "HR",
+          "frequency": "Quarterly tracking",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.4": {
+    "clauseId": "11.4",
+    "section": "Customer information breaches",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must have mechanisms to detect breaches, including those surfaced through customer complaints, and must investigate complaints promptly and properly.",
+      "requirements": [
+        {
+          "id": "11.4-B1",
+          "requirement": "Establish breach identification mechanisms across all channels including technical monitoring systems, internal reporting channels, and customer complaint analysis workflows.",
+          "rationale": "Clause 11.4 requires breach identification mechanisms including those arising from complaints. Multi-channel detection maximises breach discovery.",
+          "owner": "CISO",
+          "frequency": "Continuous; reviewed annually",
+          "priority": "critical"
+        },
+        {
+          "id": "11.4-B2",
+          "requirement": "Integrate customer complaint handling processes with breach identification workflows so that complaints potentially indicative of breaches are flagged and investigated promptly.",
+          "rationale": "Clause 11.4 specifically includes customer complaints as a breach identification source. Integration prevents complaints falling through cracks.",
+          "owner": "Operations",
+          "frequency": "Continuous; integration reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical detection mechanisms must complement human reporting channels.",
+      "requirements": [
+        {
+          "id": "11.4-T1",
+          "requirement": "Deploy automated breach detection systems (SIEM, DLP, anomaly detection) complemented by easy-to-use internal reporting channels (hotline, web form, email) for staff and customer-reported breaches.",
+          "rationale": "Comprehensive breach identification requires both automated detection and accessible human reporting channels.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: All breach identification sources must be monitored and complaint investigations tracked.",
+      "requirements": [
+        {
+          "id": "11.4-G1",
+          "requirement": "Track complaint investigation timeliness and outcomes, reporting trends and systemic issues to senior management.",
+          "rationale": "Prompt and proper investigation of complaints is a regulatory requirement. Tracking ensures timeliness.",
+          "owner": "Compliance",
+          "frequency": "Monthly tracking",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.5": {
+    "clauseId": "11.5",
+    "section": "Customer information breaches",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must act immediately to contain any customer information breach through appropriate mitigation measures.",
+      "requirements": [
+        {
+          "id": "11.5-B1",
+          "requirement": "Define and maintain pre-approved containment playbooks for common breach scenarios enabling immediate containment without waiting for management approval.",
+          "rationale": "Clause 11.5 requires immediate containment. Pre-approved playbooks eliminate approval delays during the critical initial response window.",
+          "owner": "CISO",
+          "frequency": "Annual review of playbooks",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical containment capabilities must support immediate response.",
+      "requirements": [
+        {
+          "id": "11.5-T1",
+          "requirement": "Maintain immediate containment capabilities including network isolation, account suspension, system shutdown, and data access revocation, executable within minutes of breach confirmation.",
+          "rationale": "Immediate containment requires pre-configured technical capabilities. Delays in containment increase breach impact.",
+          "owner": "IT Security",
+          "frequency": "Capabilities tested quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Containment response times must be measured and reported.",
+      "requirements": [
+        {
+          "id": "11.5-G1",
+          "requirement": "Measure and report containment response times for all breach incidents, with targets for time-to-contain and escalation for breaches exceeding target times.",
+          "rationale": "Measuring response times drives continuous improvement in containment speed.",
+          "owner": "CISO",
+          "frequency": "Per incident; quarterly trend reporting",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.6": {
+    "clauseId": "11.6",
+    "section": "Customer information breaches",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: When a breach at one FSP involves customer data belonging to another FSP, the breached FSP must promptly notify the other FSP for timely remedial actions.",
+      "requirements": [
+        {
+          "id": "11.6-B1",
+          "requirement": "Establish a cross-FSP breach notification procedure specifying how to identify when a breach involves another FSP's customer data, notification channels, required content, and timeframes.",
+          "rationale": "Clause 11.6 requires prompt notification to affected FSPs. A predefined procedure ensures this happens without delay.",
+          "owner": "Compliance",
+          "frequency": "Annual review; executed per event",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Systems must support identification of cross-FSP data in breach scenarios.",
+      "requirements": [
+        {
+          "id": "11.6-T1",
+          "requirement": "Ensure data classification and mapping enables identification of customer information belonging to other FSPs within the FSP's systems, supporting cross-FSP breach impact assessment.",
+          "rationale": "You cannot notify another FSP if you cannot identify their data in a breach. Data classification is foundational.",
+          "owner": "IT Security",
+          "frequency": "Data mapping reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Cross-FSP notification obligations must be incorporated into the breach response governance framework.",
+      "requirements": [
+        {
+          "id": "11.6-G1",
+          "requirement": "Include cross-FSP notification as a mandatory step in the breach response checklist, with documentation of notifications sent and received.",
+          "rationale": "Cross-FSP notification is a regulatory obligation that must not be overlooked during breach response.",
+          "owner": "Compliance",
+          "frequency": "Per breach event; process reviewed annually",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.7": {
+    "clauseId": "11.7",
+    "section": "Customer information breaches",
+    "subsection": "A: Handling customer information breaches",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must assess breach impact considering: accidental vs intentional nature, data type and sensitivity, number of affected customers, who data was exposed to, and likelihood of fraudulent or harmful use.",
+      "requirements": [
+        {
+          "id": "11.7-B1",
+          "requirement": "Develop a Breach Impact Assessment Framework with mandatory assessment criteria covering all five factors specified: (a) intent, (b) data type/sensitivity, (c) affected customer count, (d) exposure recipients, and (e) fraud/harm likelihood.",
+          "rationale": "Clause 11.7 mandates assessment against five specific criteria. A structured framework ensures comprehensive and consistent impact assessment.",
+          "owner": "CISO",
+          "frequency": "Framework reviewed annually; applied per incident",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Systems must support rapid impact assessment data gathering.",
+      "requirements": [
+        {
+          "id": "11.7-T1",
+          "requirement": "Implement tools and queries that enable rapid determination of breach scope: affected data types, record counts, customer counts, and data recipients, within hours of breach discovery.",
+          "rationale": "Impact assessment depends on scope determination. Rapid technical analysis supports timely assessment and notification decisions.",
+          "owner": "IT Security",
+          "frequency": "Tools maintained continuously; tested in exercises",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Impact assessments must be documented and reviewed for consistency.",
+      "requirements": [
+        {
+          "id": "11.7-G1",
+          "requirement": "Document all breach impact assessments using the standardised framework and review assessment consistency across incidents annually.",
+          "rationale": "Documented assessments provide regulatory evidence and enable consistency review.",
+          "owner": "Compliance",
+          "frequency": "Per incident; annual consistency review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.8": {
+    "clauseId": "11.8",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must immediately notify BNM upon discovering a breach that: (a) poses reputational risk or threatens public confidence, (b) causes or may cause significant harm to customers, or (c) affects or may affect a large number of customers (significant scale).",
+      "requirements": [
+        {
+          "id": "11.8-B1",
+          "requirement": "Establish a BNM Notification Decision Protocol defining the three mandatory trigger criteria and the process for making rapid notification decisions, with pre-drafted notification templates.",
+          "rationale": "Clause 11.8 requires immediate notification. Pre-defined criteria and templates enable rapid decision-making and notification execution.",
+          "owner": "Compliance",
+          "frequency": "Protocol reviewed annually; executed per qualifying breach",
+          "priority": "critical"
+        },
+        {
+          "id": "11.8-B2",
+          "requirement": "Designate and train staff authorised to make BNM notification decisions, ensuring 24/7 availability of a decision-maker for after-hours breaches.",
+          "rationale": "Immediate notification requires available decision-makers. 24/7 availability ensures no delay in notification regardless of when a breach is discovered.",
+          "owner": "Senior Management",
+          "frequency": "Designations reviewed annually; availability confirmed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technology must support rapid breach qualification against BNM notification criteria.",
+      "requirements": [
+        {
+          "id": "11.8-T1",
+          "requirement": "Integrate BNM notification trigger assessment into the incident management workflow, with automated checks against the three notification criteria and escalation when thresholds are likely met.",
+          "rationale": "Automated trigger assessment reduces the risk of missing a notification obligation during a complex breach response.",
+          "owner": "IT Security",
+          "frequency": "Continuous; reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: BNM notification decisions must be documented and auditable.",
+      "requirements": [
+        {
+          "id": "11.8-G1",
+          "requirement": "Document all BNM notification decisions (both to notify and decisions that notification was not required) with supporting rationale, for regulatory audit purposes.",
+          "rationale": "Both notification and non-notification decisions must be defensible. Documentation provides the evidence base.",
+          "owner": "Compliance",
+          "frequency": "Per breach event",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.9": {
+    "clauseId": "11.9",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: A breach poses reputational risk when it involves disclosure to suspected criminals, public circulation via social media, or concerns a public figure or is likely to attract media attention.",
+      "requirements": [
+        {
+          "id": "11.9-B1",
+          "requirement": "Incorporate the specific reputational risk indicators from clause 11.9 into the BNM notification assessment criteria: (a) criminal involvement, (b) public/social media circulation, and (c) public figure involvement or media attention likelihood.",
+          "rationale": "Clause 11.9 defines specific reputational risk triggers. These must be explicitly checked during breach assessment.",
+          "owner": "Compliance",
+          "frequency": "Per breach assessment; criteria reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Media and social media monitoring should support reputational risk assessment.",
+      "requirements": [
+        {
+          "id": "11.9-T1",
+          "requirement": "Implement social media and media monitoring capabilities that can rapidly identify whether breach-related information is circulating publicly, supporting the reputational risk assessment.",
+          "rationale": "Real-time media monitoring enables rapid detection of public exposure, triggering BNM notification obligations.",
+          "owner": "IT Security",
+          "frequency": "Activated per breach event; tools maintained continuously",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Reputational risk assessments must be documented as part of the BNM notification decision.",
+      "requirements": [
+        {
+          "id": "11.9-G1",
+          "requirement": "Document reputational risk assessment findings for each breach, recording the evaluation against each specified indicator.",
+          "rationale": "Documentation supports the notification decision and provides regulatory evidence.",
+          "owner": "Compliance",
+          "frequency": "Per breach event",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.10": {
+    "clauseId": "11.10",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Significant harm is indicated when a breach risks: financial loss, property damage, reputational harm, credit record impact, safety threats, illegal misuse, identity theft/fraud, or involves sensitive customer information.",
+      "requirements": [
+        {
+          "id": "11.10-B1",
+          "requirement": "Incorporate all significant harm indicators from clause 11.10 into the breach impact assessment framework: (a) financial loss/property damage/reputation/credit/safety, (b) illegal misuse, (c) identity theft/fraud, and (d) sensitive information involvement.",
+          "rationale": "Clause 11.10 defines what constitutes significant harm. Each indicator must be explicitly assessed for every breach.",
+          "owner": "Compliance",
+          "frequency": "Per breach assessment; criteria reviewed annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Data classification must enable rapid identification of sensitive customer information in breach scope.",
+      "requirements": [
+        {
+          "id": "11.10-T1",
+          "requirement": "Maintain data classification that tags sensitive customer information categories (security credentials, biometric data, health information) enabling rapid identification of sensitive data in breach scope assessment.",
+          "rationale": "Sensitive information involvement is a significant harm indicator. Classification enables rapid scope qualification.",
+          "owner": "IT Security",
+          "frequency": "Classification maintained continuously",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Significant harm assessments must be formally documented.",
+      "requirements": [
+        {
+          "id": "11.10-G1",
+          "requirement": "Document the significant harm assessment for each breach, recording the evaluation against each specified indicator and the overall determination.",
+          "rationale": "The significant harm determination drives BNM notification and customer notification obligations. Documentation must be thorough.",
+          "owner": "Compliance",
+          "frequency": "Per breach event",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.11": {
+    "clauseId": "11.11",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: A breach is of significant scale if the number of affected customers exceeds 1,000.",
+      "requirements": [
+        {
+          "id": "11.11-B1",
+          "requirement": "Establish a 1,000-customer threshold in breach assessment procedures as the trigger for significant scale classification, with rapid customer count estimation procedures.",
+          "rationale": "Clause 11.11 defines the 1,000-customer threshold. Clear operational procedures ensure this is quickly assessed.",
+          "owner": "CISO",
+          "frequency": "Procedure reviewed annually; applied per breach",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Systems must support rapid affected customer counting.",
+      "requirements": [
+        {
+          "id": "11.11-T1",
+          "requirement": "Maintain pre-built queries and tools that can rapidly estimate and then precisely count the number of customers affected by a breach, across all impacted systems.",
+          "rationale": "The 1,000-customer threshold requires rapid counting capability. Pre-built queries enable fast estimation.",
+          "owner": "IT Security",
+          "frequency": "Tools maintained continuously; tested in exercises",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Customer count determinations must be documented and justified.",
+      "requirements": [
+        {
+          "id": "11.11-G1",
+          "requirement": "Document the customer count methodology and results for each breach, including initial estimates and final counts, with audit trail showing the basis for each figure.",
+          "rationale": "The customer count directly affects regulatory notification obligations. Methodology must be transparent and defensible.",
+          "owner": "Compliance",
+          "frequency": "Per breach event",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.12": {
+    "clauseId": "11.12",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: When a breach reaches significant scale (over 1,000 customers), FSPs must assess potential impact and take actions to avoid or reduce harm to affected customers.",
+      "requirements": [
+        {
+          "id": "11.12-B1",
+          "requirement": "Develop pre-defined harm reduction playbooks for significant-scale breaches, including proactive customer protection measures such as account monitoring enhancement, credential resets, and fraud alert activation.",
+          "rationale": "Clause 11.12 requires appropriate actions to reduce harm. Pre-defined playbooks enable rapid customer protection at scale.",
+          "owner": "Operations",
+          "frequency": "Annual review; executed per qualifying breach",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Technical capabilities must support mass customer protection actions.",
+      "requirements": [
+        {
+          "id": "11.12-T1",
+          "requirement": "Maintain capabilities for mass customer protection actions including bulk credential resets, account monitoring enhancement, transaction alerts, and temporary access restrictions deployable at scale.",
+          "rationale": "Significant-scale breaches require protection measures that can be applied to thousands of customers rapidly.",
+          "owner": "IT Security",
+          "frequency": "Capabilities tested annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Harm reduction actions must be documented and reported.",
+      "requirements": [
+        {
+          "id": "11.12-G1",
+          "requirement": "Document all harm reduction actions taken for significant-scale breaches, including timing, scope, and effectiveness assessment.",
+          "rationale": "Regulatory review will assess the adequacy of harm reduction measures. Documentation provides the evidence base.",
+          "owner": "Compliance",
+          "frequency": "Per qualifying breach",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.13": {
+    "clauseId": "11.13",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The assessment of significant harm must be confirmed by the designated senior officer appointed under paragraph 9.2.",
+      "requirements": [
+        {
+          "id": "11.13-B1",
+          "requirement": "Require the Designated Officer under paragraph 9.2 to formally confirm or approve all significant harm assessments before BNM notification decisions are finalised.",
+          "rationale": "Clause 11.13 mandates senior officer confirmation. This ensures appropriate seniority in the notification decision chain.",
+          "owner": "DPO",
+          "frequency": "Per breach assessment",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Workflow systems must route significant harm assessments to the Designated Officer for approval.",
+      "requirements": [
+        {
+          "id": "11.13-T1",
+          "requirement": "Configure incident management workflows to require Designated Officer sign-off on significant harm assessments before BNM notification can proceed.",
+          "rationale": "Workflow enforcement ensures the approval step cannot be bypassed.",
+          "owner": "IT Security",
+          "frequency": "Configuration reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Designated Officer sign-off must be documented and auditable.",
+      "requirements": [
+        {
+          "id": "11.13-G1",
+          "requirement": "Maintain records of all Designated Officer significant harm assessment confirmations, including timestamp, assessment reviewed, and confirmation decision.",
+          "rationale": "Auditable sign-off records demonstrate compliance with the senior officer confirmation requirement.",
+          "owner": "Compliance",
+          "frequency": "Per assessment",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.14": {
+    "clauseId": "11.14",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: When breaches become public via social media or other channels, FSPs must manage reputational risk and ensure immediate BNM notification.",
+      "requirements": [
+        {
+          "id": "11.14-B1",
+          "requirement": "Develop a Reputational Risk Management Playbook for public breaches, including media response protocols, social media management, and coordinated BNM notification.",
+          "rationale": "Clause 11.14 requires effective reputational risk management for public breaches. Pre-planned responses prevent reactive, inconsistent messaging.",
+          "owner": "Senior Management",
+          "frequency": "Annual review; executed per public breach event",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Social media monitoring and crisis communication tools must support rapid response.",
+      "requirements": [
+        {
+          "id": "11.14-T1",
+          "requirement": "Deploy social media monitoring and crisis communication tools that alert the FSP when breach-related information appears publicly and support coordinated response.",
+          "rationale": "Early detection of public exposure enables proactive management rather than reactive damage control.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Public breach response actions must be coordinated through a defined crisis management structure.",
+      "requirements": [
+        {
+          "id": "11.14-G1",
+          "requirement": "Establish a crisis management team structure for public breach scenarios with defined roles, communication protocols, and decision-making authority.",
+          "rationale": "Public breaches require coordinated multi-functional response. A predefined structure enables effective coordination.",
+          "owner": "Senior Management",
+          "frequency": "Annual review; activated per event",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.15": {
+    "clauseId": "11.15",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: If a breach appears to involve fraud, criminal activity, or potential identity theft, FSPs must also notify relevant law enforcement as soon as practicable.",
+      "requirements": [
+        {
+          "id": "11.15-B1",
+          "requirement": "Establish a Law Enforcement Notification Procedure specifying the criteria for law enforcement engagement, designated contact points, and the process for making and documenting notifications.",
+          "rationale": "Clause 11.15 requires law enforcement notification for criminal breaches. Pre-defined procedures ensure timely notification without compromising evidence.",
+          "owner": "Legal",
+          "frequency": "Annual review; executed per qualifying breach",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Evidence preservation must support potential law enforcement investigations.",
+      "requirements": [
+        {
+          "id": "11.15-T1",
+          "requirement": "Implement forensic evidence preservation procedures that maintain chain of custody and evidentiary integrity for potential law enforcement proceedings.",
+          "rationale": "Law enforcement referrals require evidence that meets legal standards. Forensic preservation ensures evidence admissibility.",
+          "owner": "CISO",
+          "frequency": "Procedures maintained continuously; applied per criminal breach",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Law enforcement notification decisions must be governed and documented.",
+      "requirements": [
+        {
+          "id": "11.15-G1",
+          "requirement": "Document all law enforcement notification decisions including rationale and maintain records of all interactions with law enforcement during breach investigations.",
+          "rationale": "Documentation supports regulatory review and provides an audit trail for governance oversight.",
+          "owner": "Legal",
+          "frequency": "Per qualifying breach",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.16": {
+    "clauseId": "11.16",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: BNM notification must include at minimum: breach description with data types affected, number of affected customers, actual and potential consequences, and measures taken or planned.",
+      "requirements": [
+        {
+          "id": "11.16-B1",
+          "requirement": "Create and maintain a BNM Breach Notification Template covering all five mandatory content elements: (a) breach description and data types, (b) affected customer count, (c) actual consequences, (d) potential consequences, and (e) measures taken or planned.",
+          "rationale": "Clause 11.16 specifies five mandatory notification elements. A template ensures completeness under time pressure.",
+          "owner": "Compliance",
+          "frequency": "Template reviewed annually; used per notification",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Systems must support rapid compilation of notification data.",
+      "requirements": [
+        {
+          "id": "11.16-T1",
+          "requirement": "Enable rapid extraction of breach notification data from incident management and monitoring systems, including affected data types, record counts, and containment measures taken.",
+          "rationale": "Notification timeliness depends on data availability. Integrated systems reduce compilation time.",
+          "owner": "IT Security",
+          "frequency": "Capabilities maintained continuously",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: All BNM notifications must be quality-reviewed before submission.",
+      "requirements": [
+        {
+          "id": "11.16-G1",
+          "requirement": "Establish a quality review process for BNM notifications ensuring all five mandatory elements are addressed before submission, with sign-off by the Designated Officer.",
+          "rationale": "Incomplete notifications may result in regulatory follow-up and demonstrate inadequate processes.",
+          "owner": "Compliance",
+          "frequency": "Per notification",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.17": {
+    "clauseId": "11.17",
+    "section": "Customer information breaches",
+    "subsection": "B: Notification to BNM",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: If complete information is unavailable when notifying BNM, FSPs must provide whatever is available immediately, submit estimated affected customer numbers, and provide complete information without undue delay.",
+      "requirements": [
+        {
+          "id": "11.17-B1",
+          "requirement": "Establish a Phased Notification Procedure for BNM notifications where complete information is unavailable, defining initial notification content, estimation methodology for affected customer counts, and follow-up information submission timelines.",
+          "rationale": "Clause 11.17 creates a phased notification framework. Procedures must support immediate partial notification followed by complete notification.",
+          "owner": "Compliance",
+          "frequency": "Procedure reviewed annually; applied per event",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Estimation tools must support rapid customer count approximation when exact figures are unavailable.",
+      "requirements": [
+        {
+          "id": "11.17-T1",
+          "requirement": "Develop customer impact estimation tools and methodologies that can produce defensible estimates when exact counts are not yet available, with clear assumptions documentation.",
+          "rationale": "Clause 11.17(b) requires estimated numbers based on initial assessment. Estimation tools enable compliance when exact counts are unavailable.",
+          "owner": "IT Security",
+          "frequency": "Tools maintained continuously",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Phased notifications must be tracked to ensure complete information is submitted without undue delay.",
+      "requirements": [
+        {
+          "id": "11.17-G1",
+          "requirement": "Track all phased BNM notifications to ensure complete information is submitted without undue delay, with escalation if follow-up submissions are overdue.",
+          "rationale": "Incomplete initial notifications must be completed. Tracking prevents follow-up submissions from being overlooked.",
+          "owner": "Compliance",
+          "frequency": "Per notification; tracked until completion",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.18": {
+    "clauseId": "11.18",
+    "section": "Customer information breaches",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must investigate breach root causes and determine remedial actions. The investigation must be conducted by a competent party and overseen by a party independent of the business unit where the breach occurred.",
+      "requirements": [
+        {
+          "id": "11.18-B1",
+          "requirement": "Establish a Breach Investigation Framework requiring root cause analysis, remediation planning, competent investigation parties, and independent oversight separate from the affected business unit.",
+          "rationale": "Clause 11.18 mandates competent investigation with independent oversight. This ensures objectivity and thoroughness.",
+          "owner": "CISO",
+          "frequency": "Framework reviewed annually; applied per breach",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Forensic investigation tools and evidence management capabilities must support competent investigations.",
+      "requirements": [
+        {
+          "id": "11.18-T1",
+          "requirement": "Maintain forensic investigation capabilities including log analysis, data flow reconstruction, timeline analysis, and evidence management tools to support competent breach investigations.",
+          "rationale": "Competent investigation requires proper tools. Forensic capabilities enable thorough root cause analysis.",
+          "owner": "CISO",
+          "frequency": "Capabilities maintained continuously",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Investigation independence must be verified and documented.",
+      "requirements": [
+        {
+          "id": "11.18-G1",
+          "requirement": "Verify and document the independence of the investigation oversight party from the affected business unit for each breach investigation.",
+          "rationale": "Independence is a regulatory requirement. Verification ensures it is genuine, not nominal.",
+          "owner": "Compliance",
+          "frequency": "Per investigation",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.19": {
+    "clauseId": "11.19",
+    "section": "Customer information breaches",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Investigations must be completed within three months of detecting a breach, and a detailed investigation report must be tabled to the Board.",
+      "requirements": [
+        {
+          "id": "11.19-B1",
+          "requirement": "Enforce a three-month maximum investigation timeline from breach detection to Board tabling, with milestone tracking and escalation for investigations at risk of exceeding the deadline.",
+          "rationale": "Clause 11.19 mandates a three-month completion timeline. Milestone tracking ensures timely completion.",
+          "owner": "CISO",
+          "frequency": "Per investigation; tracked weekly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Investigation project management tools must track timelines and milestones.",
+      "requirements": [
+        {
+          "id": "11.19-T1",
+          "requirement": "Use investigation management tools that track investigation milestones against the three-month deadline with automated alerts for approaching deadlines.",
+          "rationale": "Timeline tracking ensures the regulatory deadline is met and early warning is provided for at-risk investigations.",
+          "owner": "IT Security",
+          "frequency": "Per investigation",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Investigation timelines must be monitored and reported to the Board.",
+      "requirements": [
+        {
+          "id": "11.19-G1",
+          "requirement": "Report investigation status and timeline compliance to the Board, with immediate escalation if any investigation risks exceeding the three-month deadline.",
+          "rationale": "Board awareness of investigation progress is essential given the Board tabling requirement.",
+          "owner": "Compliance",
+          "frequency": "Monthly status updates; Board tabling per completion",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.20": {
+    "clauseId": "11.20",
+    "section": "Customer information breaches",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The detailed investigation report and Appendix 1 must be submitted to BNM within one working day of Board tabling for breaches causing significant harm, exceeding 1,000 customers, or involving deliberate unauthorised disclosure.",
+      "requirements": [
+        {
+          "id": "11.20-B1",
+          "requirement": "Establish a BNM Investigation Report Submission Process with a one-working-day target from Board tabling, including pre-preparation of Appendix 1 and submission logistics to ensure the deadline is met.",
+          "rationale": "Clause 11.20 mandates one-working-day submission. Pre-preparation is essential given the tight timeline.",
+          "owner": "Compliance",
+          "frequency": "Process reviewed annually; executed per qualifying breach",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Report preparation tools must support rapid compilation and submission.",
+      "requirements": [
+        {
+          "id": "11.20-T1",
+          "requirement": "Maintain templates and data extraction capabilities that enable rapid compilation of the detailed investigation report and Appendix 1 for BNM submission.",
+          "rationale": "One-working-day submission requires efficient report compilation. Templates and data tools reduce preparation time.",
+          "owner": "IT Security",
+          "frequency": "Templates maintained continuously",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Submission timeliness must be tracked and verified.",
+      "requirements": [
+        {
+          "id": "11.20-G1",
+          "requirement": "Track submission dates relative to Board tabling dates for all qualifying breaches, ensuring compliance with the one-working-day requirement.",
+          "rationale": "Late submission represents regulatory non-compliance. Tracking ensures the obligation is met.",
+          "owner": "Compliance",
+          "frequency": "Per qualifying breach",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.21": {
+    "clauseId": "11.21",
+    "section": "Customer information breaches",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: The investigation report must be signed off by the designated senior officer and submitted to the appropriate BNM department (Consumer and Market Conduct Department, or Payment Services Oversight Department for payment entities).",
+      "requirements": [
+        {
+          "id": "11.21-B1",
+          "requirement": "Obtain Designated Officer sign-off on all investigation reports before submission to BNM, and ensure submission is directed to the correct BNM department based on the FSP's licence type.",
+          "rationale": "Clause 11.21 requires designated officer sign-off and specifies the correct submission addresses. Incorrect routing delays regulatory processing.",
+          "owner": "Compliance",
+          "frequency": "Per report submission",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Document management systems must support sign-off workflows and submission tracking.",
+      "requirements": [
+        {
+          "id": "11.21-T1",
+          "requirement": "Implement digital sign-off workflows for investigation reports with audit trails confirming the Designated Officer's approval before submission.",
+          "rationale": "Digital sign-off provides verifiable evidence of the required approval and supports rapid processing.",
+          "owner": "IT Security",
+          "frequency": "Per report submission",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Sign-off and submission records must be maintained for audit purposes.",
+      "requirements": [
+        {
+          "id": "11.21-G1",
+          "requirement": "Maintain a submission register recording all investigation reports submitted to BNM, including sign-off date, submission date, BNM department, and delivery confirmation.",
+          "rationale": "A submission register provides the audit trail demonstrating compliance with submission requirements.",
+          "owner": "Compliance",
+          "frequency": "Per submission; register maintained continuously",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.22": {
+    "clauseId": "11.22",
+    "section": "Customer information breaches",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: When a breach at one FSP involves another FSP's customer data, the FSP where the breach occurred bears full responsibility for investigation and reporting.",
+      "requirements": [
+        {
+          "id": "11.22-B1",
+          "requirement": "Include cross-FSP breach investigation responsibility in the breach response framework, ensuring the FSP where the breach occurred takes ownership of all investigation and reporting actions regardless of data ownership.",
+          "rationale": "Clause 11.22 assigns investigation responsibility to the breached FSP. This must be operationally clear to prevent responsibility disputes.",
+          "owner": "Compliance",
+          "frequency": "Framework reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Investigation capabilities must cover data belonging to other FSPs within the FSP's systems.",
+      "requirements": [
+        {
+          "id": "11.22-T1",
+          "requirement": "Ensure investigation tools and processes can identify and analyse breaches affecting other FSPs' customer data within the FSP's systems.",
+          "rationale": "Cross-FSP investigations require the ability to identify and scope data belonging to partner FSPs.",
+          "owner": "IT Security",
+          "frequency": "Capabilities reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Cross-FSP investigation responsibilities must be documented in inter-FSP agreements.",
+      "requirements": [
+        {
+          "id": "11.22-G1",
+          "requirement": "Include investigation responsibility and cooperation obligations in inter-FSP data sharing agreements, aligning with clause 11.22 requirements.",
+          "rationale": "Contractual clarity prevents disputes during breach scenarios where multiple FSPs are involved.",
+          "owner": "Legal",
+          "frequency": "Per agreement; reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "11.23": {
+    "clauseId": "11.23",
+    "section": "Customer information breaches",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: FSPs must maintain a breach register recording all customer information breaches, root causes, remedial actions, and lessons learnt.",
+      "requirements": [
+        {
+          "id": "11.23-B1",
+          "requirement": "Establish and maintain a comprehensive Breach Register recording every customer information breach including: date, description, root cause, affected systems/data, customer impact, remedial actions taken, lessons learnt, and preventive measures implemented.",
+          "rationale": "Clause 11.23 mandates a breach register with specific content requirements. A comprehensive register supports trend analysis and regulatory review.",
+          "owner": "CISO",
+          "frequency": "Continuously maintained; reviewed quarterly",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: The breach register should be maintained in a secure, auditable system.",
+      "requirements": [
+        {
+          "id": "11.23-T1",
+          "requirement": "Implement a secure, access-controlled breach register system with audit trail capabilities, supporting trend analysis and reporting.",
+          "rationale": "The breach register contains sensitive information requiring protection. Audit trails ensure register integrity.",
+          "owner": "IT Security",
+          "frequency": "Continuous operation",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: The breach register must be regularly reviewed for trends and completeness.",
+      "requirements": [
+        {
+          "id": "11.23-G1",
+          "requirement": "Review the breach register quarterly for completeness, trend analysis, and lessons learnt, reporting findings to senior management.",
+          "rationale": "A register is only valuable if reviewed. Regular analysis identifies patterns and informs preventive measures.",
+          "owner": "Compliance",
+          "frequency": "Quarterly review",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.24": {
+    "clauseId": "11.24",
+    "section": "Customer information breaches",
+    "subsection": "C: Submission of detailed investigation report",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Investigation reports for all breach incidents must be retained for at least seven years from the date tabled to the Board.",
+      "requirements": [
+        {
+          "id": "11.24-B1",
+          "requirement": "Establish a seven-year minimum retention policy for all breach investigation reports, measured from the date the report was tabled to the Board.",
+          "rationale": "Clause 11.24 mandates seven-year retention. Clear retention policy ensures compliance and prevents premature disposal.",
+          "owner": "Compliance",
+          "frequency": "Policy reviewed annually; retention verified continuously",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Document management systems must enforce the seven-year retention requirement.",
+      "requirements": [
+        {
+          "id": "11.24-T1",
+          "requirement": "Configure document management systems to enforce seven-year retention of breach investigation reports with retention hold dates tied to Board tabling dates and prevent premature deletion.",
+          "rationale": "Technical enforcement prevents accidental or premature disposal of investigation reports.",
+          "owner": "IT Security",
+          "frequency": "Configuration reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Retention compliance must be verified periodically.",
+      "requirements": [
+        {
+          "id": "11.24-G1",
+          "requirement": "Conduct annual audits of breach investigation report retention to verify all reports are retained for the required seven-year period.",
+          "rationale": "Retention obligations require periodic verification to ensure compliance over the long retention period.",
+          "owner": "Compliance",
+          "frequency": "Annual audit",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "11.25": {
+    "clauseId": "11.25",
+    "section": "Customer information breaches",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: When a breach causes or may cause significant harm, FSPs must notify affected customers without undue delay after BNM notification.",
+      "requirements": [
+        {
+          "id": "11.25-B1",
+          "requirement": "Establish a Customer Notification Decision and Execution Process triggered by significant harm determination, with defined timelines for notification following BNM notification, and pre-approved notification templates.",
+          "rationale": "Clause 11.25 requires notification without undue delay. Pre-prepared processes and templates enable rapid customer notification.",
+          "owner": "Operations",
+          "frequency": "Process reviewed annually; executed per qualifying breach",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Mass customer notification capabilities must support rapid, multi-channel delivery.",
+      "requirements": [
+        {
+          "id": "11.25-T1",
+          "requirement": "Maintain mass customer notification capabilities supporting multiple channels (email, SMS, push notification, mail) with personalisation, delivery tracking, and scalability for large-scale breaches.",
+          "rationale": "Notification without undue delay at scale requires pre-built, tested mass communication capabilities.",
+          "owner": "IT Security",
+          "frequency": "Capabilities tested annually",
+          "priority": "critical"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Notification timing must be tracked and documented.",
+      "requirements": [
+        {
+          "id": "11.25-G1",
+          "requirement": "Track and document the timeline from BNM notification to customer notification for each qualifying breach, with justification for any delays.",
+          "rationale": "Without undue delay requires demonstrable timeliness. Timeline documentation provides evidence of compliance.",
+          "owner": "Compliance",
+          "frequency": "Per qualifying breach",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.26": {
+    "clauseId": "11.26",
+    "section": "Customer information breaches",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Any delay in notifying affected customers must not result in further harm to those customers.",
+      "requirements": [
+        {
+          "id": "11.26-B1",
+          "requirement": "Implement interim protective measures for affected customers during any notification delay period to prevent further harm, such as enhanced account monitoring or preventive fraud controls.",
+          "rationale": "Clause 11.26 prohibits delays that cause further harm. Interim measures protect customers while notification is being prepared.",
+          "owner": "Operations",
+          "frequency": "Per breach event where notification is delayed",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Interim protection measures must be deployable before formal customer notification.",
+      "requirements": [
+        {
+          "id": "11.26-T1",
+          "requirement": "Maintain the ability to deploy protective controls (enhanced monitoring, transaction limits, fraud alerts) for affected customer accounts before formal notification is sent.",
+          "rationale": "Technical protection can be applied faster than notification can be prepared and delivered, reducing the harm window.",
+          "owner": "IT Security",
+          "frequency": "Capabilities maintained continuously",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Delay justification and interim protective measures must be documented.",
+      "requirements": [
+        {
+          "id": "11.26-G1",
+          "requirement": "Document any notification delay, the justification, interim protective measures applied, and assessment that the delay does not cause further harm.",
+          "rationale": "Regulatory scrutiny of notification delays requires documented justification and evidence of harm prevention.",
+          "owner": "Compliance",
+          "frequency": "Per delayed notification",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.27": {
+    "clauseId": "11.27",
+    "section": "Customer information breaches",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Customer notifications must include: breach description, potential consequences, protective steps for customers, FSP remedial measures, and contact details for further assistance.",
+      "requirements": [
+        {
+          "id": "11.27-B1",
+          "requirement": "Create customer notification templates that include all five mandatory elements: (a) breach description, (b) potential consequences, (c) protective steps customers should take, (d) FSP remedial measures, and (e) contact details for assistance.",
+          "rationale": "Clause 11.27 specifies five mandatory notification elements. Templates ensure completeness under time pressure.",
+          "owner": "Operations",
+          "frequency": "Templates reviewed annually; used per notification",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Notification delivery systems must support personalised, content-rich notifications.",
+      "requirements": [
+        {
+          "id": "11.27-T1",
+          "requirement": "Configure notification systems to deliver personalised breach notifications containing all five mandatory elements, with dynamic content based on the specific breach characteristics.",
+          "rationale": "Different breaches require different protective advice. Dynamic content enables relevant, personalised notifications.",
+          "owner": "IT Security",
+          "frequency": "Configuration maintained continuously",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Notification content must be reviewed for completeness before delivery.",
+      "requirements": [
+        {
+          "id": "11.27-G1",
+          "requirement": "Establish a notification content review process ensuring all five mandatory elements are present and accurate before customer notification delivery.",
+          "rationale": "Incomplete notifications fail to meet regulatory requirements and may not adequately protect customers.",
+          "owner": "Compliance",
+          "frequency": "Per notification",
+          "priority": "critical"
+        }
+      ]
+    }
+  },
+  "11.28": {
+    "clauseId": "11.28",
+    "section": "Customer information breaches",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Notifications must be clear, in plain language, and draw customers' attention to protective steps they should take.",
+      "requirements": [
+        {
+          "id": "11.28-B1",
+          "requirement": "Ensure all customer breach notifications are written in plain, non-technical language, with protective steps prominently highlighted and clearly actionable.",
+          "rationale": "Clause 11.28 requires plain language and emphasis on protective steps. Notifications that customers cannot understand fail their purpose.",
+          "owner": "Operations",
+          "frequency": "Per notification; templates reviewed annually",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Notification formatting should emphasise protective steps visually.",
+      "requirements": [
+        {
+          "id": "11.28-T1",
+          "requirement": "Design notification templates with clear visual hierarchy that draws attention to protective steps customers should take, tested for readability across all delivery channels.",
+          "rationale": "Visual design affects comprehension. Protective steps must be unmissable in the notification.",
+          "owner": "IT Security",
+          "frequency": "Template design reviewed annually",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Notification clarity should be validated through readability testing.",
+      "requirements": [
+        {
+          "id": "11.28-G1",
+          "requirement": "Test notification templates for readability and comprehension with representative customer samples before finalising.",
+          "rationale": "Plain language is subjective. Testing with actual readers validates that notifications achieve their communication purpose.",
+          "owner": "Operations",
+          "frequency": "Upon template creation or major revision",
+          "priority": "medium"
+        }
+      ]
+    }
+  },
+  "11.29": {
+    "clauseId": "11.29",
+    "section": "Customer information breaches",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Affected customers must be notified directly. In exceptional cases of disproportionate effort, FSPs may use public announcements and prominent branch/website notices if sufficient.",
+      "requirements": [
+        {
+          "id": "11.29-B1",
+          "requirement": "Default to direct individual notification for all affected customers, using appropriate channels (registered mail, email, phone, SMS, push notification, in-app notification).",
+          "rationale": "Clause 11.29 mandates direct notification as the default. Alternative methods are only for exceptional circumstances.",
+          "owner": "Operations",
+          "frequency": "Per breach notification",
+          "priority": "critical"
+        },
+        {
+          "id": "11.29-B2",
+          "requirement": "Define criteria for determining when direct notification entails disproportionate effort, with a documented approval process by senior management for switching to public announcement notification.",
+          "rationale": "Clause 11.29 limits the public announcement alternative to exceptional circumstances. Criteria and approval prevent overuse of this exception.",
+          "owner": "Compliance",
+          "frequency": "Criteria reviewed annually; applied per exception",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Multi-channel notification capabilities must support direct customer contact.",
+      "requirements": [
+        {
+          "id": "11.29-T1",
+          "requirement": "Maintain multi-channel direct notification capabilities (email, SMS, push notification, in-app, mail) with customer contact information accuracy verified regularly.",
+          "rationale": "Direct notification requires accurate contact information and working delivery channels. Regular verification ensures deliverability.",
+          "owner": "IT Security",
+          "frequency": "Contact accuracy verified annually; channels tested quarterly",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Decisions to use alternative notification methods must be documented and justified.",
+      "requirements": [
+        {
+          "id": "11.29-G1",
+          "requirement": "Document any decision to use public announcement notification instead of direct notification, including the disproportionate effort justification and senior management approval.",
+          "rationale": "Alternative methods require documented justification for regulatory scrutiny.",
+          "owner": "Compliance",
+          "frequency": "Per exception decision",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.30": {
+    "clauseId": "11.30",
+    "section": "Customer information breaches",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: If specific affected customers cannot be identified, FSPs must first issue a general public announcement. Once identified, they must be notified directly as soon as feasible.",
+      "requirements": [
+        {
+          "id": "11.30-B1",
+          "requirement": "Develop a two-stage notification procedure for breaches where affected customers cannot initially be identified: Stage 1 - immediate public announcement and branch/website notices; Stage 2 - direct individual notification once customers are identified.",
+          "rationale": "Clause 11.30 defines a two-stage notification approach for unknown-victim breaches. Both stages must be planned and executed.",
+          "owner": "Operations",
+          "frequency": "Procedure reviewed annually; executed per qualifying event",
+          "priority": "critical"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Customer identification tools must support progressive identification of affected customers.",
+      "requirements": [
+        {
+          "id": "11.30-T1",
+          "requirement": "Implement data analysis capabilities that progressively identify specific affected customers as investigation proceeds, triggering Stage 2 direct notifications.",
+          "rationale": "Progressive identification requires analytical tools that can correlate breach scope with customer records.",
+          "owner": "IT Security",
+          "frequency": "Capabilities maintained continuously",
+          "priority": "high"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Both notification stages must be tracked to completion.",
+      "requirements": [
+        {
+          "id": "11.30-G1",
+          "requirement": "Track progression from general public announcement to direct customer notification, ensuring all eventually-identified customers receive direct notification.",
+          "rationale": "The general announcement does not discharge the direct notification obligation. Tracking ensures all customers are eventually directly notified.",
+          "owner": "Compliance",
+          "frequency": "Per event; tracked until all identified customers notified",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "11.31": {
+    "clauseId": "11.31",
+    "section": "Customer information breaches",
+    "subsection": "D: Notification to affected customers",
+    "marker": "S",
+    "business": {
+      "summary": "AI Generated: Staff must be trained to handle queries from affected customers and provide assistance on protective measures against potential breach consequences.",
+      "requirements": [
+        {
+          "id": "11.31-B1",
+          "requirement": "Train front-line and customer-facing staff to handle breach-related customer queries, including providing guidance on protective measures and escalating complex queries to specialist teams.",
+          "rationale": "Clause 11.31 requires staff training for post-breach customer support. Affected customers will contact the FSP seeking assistance.",
+          "owner": "HR",
+          "frequency": "Training included in annual programme; refreshed after significant breaches",
+          "priority": "high"
+        },
+        {
+          "id": "11.31-B2",
+          "requirement": "Prepare breach-specific customer query response guides and FAQs for front-line staff when a significant breach occurs, with approved responses for common questions.",
+          "rationale": "Staff need specific guidance for each breach scenario. Generic training alone is insufficient for effective customer support.",
+          "owner": "Operations",
+          "frequency": "Per significant breach event",
+          "priority": "high"
+        }
+      ]
+    },
+    "technology": {
+      "summary": "AI Generated: Customer support systems must be equipped to handle breach-related queries efficiently.",
+      "requirements": [
+        {
+          "id": "11.31-T1",
+          "requirement": "Configure customer support systems with breach-specific FAQs, response scripts, and escalation workflows that enable efficient handling of breach-related customer queries.",
+          "rationale": "Configured systems enable consistent, accurate responses and ensure queries are handled efficiently during high-volume periods.",
+          "owner": "IT Security",
+          "frequency": "Per significant breach event",
+          "priority": "medium"
+        }
+      ]
+    },
+    "governance": {
+      "summary": "AI Generated: Customer query handling effectiveness must be monitored during breach response.",
+      "requirements": [
+        {
+          "id": "11.31-G1",
+          "requirement": "Monitor customer query volumes, response times, and resolution rates during breach notification periods, reporting to senior management.",
+          "rationale": "Monitoring ensures affected customers receive adequate assistance and identifies capacity constraints.",
+          "owner": "Operations",
+          "frequency": "Daily during active breach response; summary post-incident",
+          "priority": "medium"
+        }
+      ]
+    }
+  }
+}
