@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCIPD Explorer</title>
+  <meta name="description" content="Interactive browser for BNM Management of Customer Information and Permitted Disclosures (MCIPD) — explore clauses, controls, evidence, artifacts, and cross-references.">
+  <meta property="og:title" content="MCIPD Compliance Framework">
+  <meta property="og:description" content="BNM Management of Customer Information and Permitted Disclosures compliance reference with 115 clauses, 59 controls, 402 requirements, 54 artifacts, and risk management">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="site-header">
+    <div class="header-inner">
+      <a href="#" class="header-brand" title="Home">
+        <h1>MCIPD Explorer</h1>
+        <span class="header-subtitle">Management of Customer Information and Permitted Disclosures (BNM/RH/PD 028-65)</span>
+      </a>
+      <div class="header-search">
+        <input type="text" id="search-input" aria-label="Search compliance data" placeholder="Search clauses, controls, requirements…" autocomplete="off">
+      </div>
+    </div>
+  </header>
+  <nav class="nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-link active" data-view="overview">Overview</a>
+      <a href="#framework" class="nav-link" data-view="framework">Framework</a>
+      <a href="#controls" class="nav-link" data-view="controls">Controls</a>
+      <a href="#risk" class="nav-link" data-view="risk">Risk Management</a>
+      <a href="#reference" class="nav-link" data-view="reference">Reference</a>
+
+      <div class="nav-actions">
+        <button onclick="exportToPDF()" class="btn-export">PDF</button>
+        <button onclick="exportToCSV()" class="btn-export">CSV</button>
+      </div>
+    </div>
+  </nav>
+  <div id="app">
+    <noscript>This application requires JavaScript to run. Please enable JavaScript in your browser settings.</noscript>
+    <div class="loading">
+      <div class="spinner"></div>
+      <span>Loading MCIPD data…</span>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
