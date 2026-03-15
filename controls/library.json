@@ -6,6 +6,12 @@
     "aiGenerated": true,
     "verificationNote": "AI Generated: Controls library for BNM Management of Customer Information and Permitted Disclosures. All content is indicative and should be validated against the FSP's operating context, risk appetite, and proportionality requirements."
   },
+  "_source": {
+    "sourceDocument": "Management of Customer Information and Permitted Disclosures (BNM/RH/PD 028-65)",
+    "sourceVersion": "BNM/RH/PD 028-65",
+    "sourceDate": "2024-01-01",
+    "sourceURL": "https://www.bnm.gov.my"
+  },
   "controls": [
     {
       "slug": "board-tone-at-the-top",
@@ -14,7 +20,9 @@
       "type": "preventive",
       "layer": "policy",
       "description": "The board sets and communicates clear expectations on the importance of safeguarding customer information, establishing a culture of data protection accountability across the FSP.",
-      "clauses": ["8.1"],
+      "clauses": [
+        "8.1"
+      ],
       "keyActivities": [
         "Board formally communicates the strategic importance of customer information protection",
         "Board sets expectations on consequences for customer information breaches",
@@ -26,9 +34,16 @@
         "mature": "Board issues annual statement on customer information protection, expectations documented in board charter, regular board discussions on data protection posture",
         "advanced": "Board-driven culture programme with measurable KPIs on customer information protection, regular board engagement with frontline staff, public commitment to data stewardship"
       },
-      "toolExamples": ["Diligent Boards", "BoardEffect"],
-      "nist": ["GV.OV-01"],
-      "iso27001": ["A.5.1"]
+      "toolExamples": [
+        "Diligent Boards",
+        "BoardEffect"
+      ],
+      "nist": [
+        "GV.OV-01"
+      ],
+      "iso27001": [
+        "A.5.1"
+      ]
     },
     {
       "slug": "board-policy-approval",
@@ -37,7 +52,9 @@
       "type": "preventive",
       "layer": "policy",
       "description": "The board formally approves all written policies governing customer information protection and ensures that comprehensive policies, procedures, and controls are in place for confidentiality and security.",
-      "clauses": ["8.2"],
+      "clauses": [
+        "8.2"
+      ],
       "keyActivities": [
         "Board reviews and formally approves customer information protection policies",
         "Board verifies that policies cover the complete customer information lifecycle",
@@ -49,9 +66,17 @@
         "mature": "Formal board approval process with structured review of policy adequacy, documented resolutions, and annual re-approval cycle",
         "advanced": "Board-level policy governance framework with policy effectiveness metrics, benchmarking against regulatory expectations, and proactive policy enhancement"
       },
-      "toolExamples": ["Diligent Boards", "PolicyHub", "NAVEX Global"],
-      "nist": ["GV.PO-01"],
-      "iso27001": ["A.5.1"]
+      "toolExamples": [
+        "Diligent Boards",
+        "PolicyHub",
+        "NAVEX Global"
+      ],
+      "nist": [
+        "GV.PO-01"
+      ],
+      "iso27001": [
+        "A.5.1"
+      ]
     },
     {
       "slug": "board-oversight-reporting",
@@ -60,7 +85,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Board reviews senior management reports on customer information management including risk assessments, findings, and mitigation plans, with periodic reviews to reflect changes in the operating environment.",
-      "clauses": ["8.3"],
+      "clauses": [
+        "8.3"
+      ],
       "keyActivities": [
         "Senior management provides structured reports to the board on customer information management",
         "Reports include risk assessments, audit findings, and mitigation plans",
@@ -72,9 +99,19 @@
         "mature": "Quarterly structured reporting with standard template covering risk assessments, incidents, and mitigation status, board documented challenge and follow-up",
         "advanced": "Real-time dashboard reporting, trend analysis, predictive risk indicators, and board-level scenario analysis on emerging customer information threats"
       },
-      "toolExamples": ["Power BI", "Tableau", "Diligent Boards"],
-      "nist": ["GV.OV-02", "GV.OV-03"],
-      "iso27001": ["A.5.1", "A.5.4"]
+      "toolExamples": [
+        "Power BI",
+        "Tableau",
+        "Diligent Boards"
+      ],
+      "nist": [
+        "GV.OV-02",
+        "GV.OV-03"
+      ],
+      "iso27001": [
+        "A.5.1",
+        "A.5.4"
+      ]
     },
     {
       "slug": "annual-written-assurance",
@@ -83,7 +120,9 @@
       "type": "detective",
       "layer": "process",
       "description": "The board obtains annual written assurance from senior management confirming that customer information controls are effective and that outsourced service providers meet their contractual safeguarding obligations.",
-      "clauses": ["8.4"],
+      "clauses": [
+        "8.4"
+      ],
       "keyActivities": [
         "Senior management prepares annual written assurance on control effectiveness",
         "Assurance covers both internal controls and OSP contractual compliance",
@@ -95,9 +134,18 @@
         "mature": "Formal annual written assurance signed by CEO/CRO with supporting evidence, documented board review, and gap tracking",
         "advanced": "Continuous assurance model with automated control testing evidence, third-party validation, and quantified assurance metrics"
       },
-      "toolExamples": ["AuditBoard", "Workiva", "Diligent"],
-      "nist": ["GV.OV-02"],
-      "iso27001": ["A.5.35", "A.5.36"]
+      "toolExamples": [
+        "AuditBoard",
+        "Workiva",
+        "Diligent"
+      ],
+      "nist": [
+        "GV.OV-02"
+      ],
+      "iso27001": [
+        "A.5.35",
+        "A.5.36"
+      ]
     },
     {
       "slug": "threat-vulnerability-identification",
@@ -106,7 +154,10 @@
       "type": "preventive",
       "layer": "process",
       "description": "Systematic identification and remediation of threats and vulnerabilities that could result in theft, loss, misuse, or unauthorised access, modification, or disclosure of customer information.",
-      "clauses": ["10.1", "10.3"],
+      "clauses": [
+        "10.1",
+        "10.3"
+      ],
       "keyActivities": [
         "Identify internal and external threats to customer information",
         "Assess vulnerabilities across systems, processes, and people",
@@ -118,9 +169,19 @@
         "mature": "Annual threat and vulnerability assessment with structured methodology, covering internal, external, negligent, and deliberate threat sources",
         "advanced": "Continuous threat intelligence integration, automated vulnerability discovery, red-team exercises specifically targeting customer information assets"
       },
-      "toolExamples": ["Qualys", "Tenable", "MITRE ATT&CK Framework"],
-      "nist": ["ID.RA-01", "ID.RA-02"],
-      "iso27001": ["A.5.7", "A.8.8"]
+      "toolExamples": [
+        "Qualys",
+        "Tenable",
+        "MITRE ATT&CK Framework"
+      ],
+      "nist": [
+        "ID.RA-01",
+        "ID.RA-02"
+      ],
+      "iso27001": [
+        "A.5.7",
+        "A.8.8"
+      ]
     },
     {
       "slug": "likelihood-impact-assessment",
@@ -129,7 +190,9 @@
       "type": "preventive",
       "layer": "process",
       "description": "Formal assessment of the likelihood of identified threats materialising and their potential impact on the FSP and customers, including third-party and outsourcing risks, supported by mitigation plans.",
-      "clauses": ["10.2"],
+      "clauses": [
+        "10.2"
+      ],
       "keyActivities": [
         "Assess likelihood of each identified threat materialising",
         "Evaluate potential impact on both the FSP and affected customers",
@@ -141,9 +204,18 @@
         "mature": "Structured likelihood-impact matrix with defined scales, documented assessments, mitigation plans with owners and deadlines, covering third-party risks",
         "advanced": "Quantitative risk modelling with scenario analysis, Monte Carlo simulation for customer information breach impacts, integrated with enterprise risk management"
       },
-      "toolExamples": ["RSA Archer", "ServiceNow GRC", "MetricStream"],
-      "nist": ["ID.RA-03", "ID.RA-04"],
-      "iso27001": ["A.5.7"]
+      "toolExamples": [
+        "RSA Archer",
+        "ServiceNow GRC",
+        "MetricStream"
+      ],
+      "nist": [
+        "ID.RA-03",
+        "ID.RA-04"
+      ],
+      "iso27001": [
+        "A.5.7"
+      ]
     },
     {
       "slug": "proportionate-risk-assessment",
@@ -152,7 +224,10 @@
       "type": "preventive",
       "layer": "process",
       "description": "Risk assessment scaled proportionately to the FSP's operational size, nature, complexity, and the volume and sensitivity of customer information held.",
-      "clauses": ["10.4", "10.5"],
+      "clauses": [
+        "10.4",
+        "10.5"
+      ],
       "keyActivities": [
         "Calibrate risk assessment depth and frequency to FSP's size and complexity",
         "Factor in the volume and sensitivity of customer information handled",
@@ -164,9 +239,16 @@
         "mature": "Risk assessment framework explicitly calibrated to FSP size, complexity, and data sensitivity, with documented proportionality rationale",
         "advanced": "Dynamic proportionality model that automatically adjusts assessment rigour based on data volume changes, business model evolution, and regulatory expectations"
       },
-      "toolExamples": ["ServiceNow GRC", "RSA Archer"],
-      "nist": ["GV.RM-01"],
-      "iso27001": ["A.5.7"]
+      "toolExamples": [
+        "ServiceNow GRC",
+        "RSA Archer"
+      ],
+      "nist": [
+        "GV.RM-01"
+      ],
+      "iso27001": [
+        "A.5.7"
+      ]
     },
     {
       "slug": "customer-information-lifecycle-policy",
@@ -175,7 +257,10 @@
       "type": "preventive",
       "layer": "policy",
       "description": "Written policies and procedures covering the full lifecycle of customer information: collection, access, storage, use, transmission, sharing, disclosure, and disposal.",
-      "clauses": ["10.6", "10.7"],
+      "clauses": [
+        "10.6",
+        "10.7"
+      ],
       "keyActivities": [
         "Document policies covering each stage of the customer information lifecycle",
         "Ensure policies are proportionate to FSP size, complexity, and data sensitivity",
@@ -187,9 +272,19 @@
         "mature": "Comprehensive lifecycle policies reviewed annually, proportionality documented, aligned with all applicable legislation, accessible to all staff",
         "advanced": "Policy automation with data classification-driven controls, real-time policy compliance monitoring, and integrated policy-to-control mapping"
       },
-      "toolExamples": ["PolicyHub", "NAVEX Global", "OneTrust"],
-      "nist": ["GV.PO-01", "GV.PO-02"],
-      "iso27001": ["A.5.1", "A.5.10"]
+      "toolExamples": [
+        "PolicyHub",
+        "NAVEX Global",
+        "OneTrust"
+      ],
+      "nist": [
+        "GV.PO-01",
+        "GV.PO-02"
+      ],
+      "iso27001": [
+        "A.5.1",
+        "A.5.10"
+      ]
     },
     {
       "slug": "specific-handling-policies",
@@ -198,7 +293,10 @@
       "type": "preventive",
       "layer": "policy",
       "description": "Written policies and procedures for specific high-risk handling scenarios: off-site work arrangements, physical document transport, portable IT equipment and storage devices, and breach incident handling.",
-      "clauses": ["10.8", "10.9"],
+      "clauses": [
+        "10.8",
+        "10.9"
+      ],
       "keyActivities": [
         "Establish policy for off-site work arrangements involving customer information access",
         "Document procedures for handling and transporting physical documents containing customer information",
@@ -210,9 +308,20 @@
         "mature": "Dedicated policies for each specified area, integrated with HR and IT policies, regularly tested through simulations and drills",
         "advanced": "Context-aware policies with automated enforcement, real-time compliance monitoring for remote work, and integrated breach response playbooks"
       },
-      "toolExamples": ["OneTrust", "ServiceNow", "BigPanda"],
-      "nist": ["GV.PO-01", "PR.IR-01"],
-      "iso27001": ["A.5.10", "A.6.7", "A.7.9"]
+      "toolExamples": [
+        "OneTrust",
+        "ServiceNow",
+        "BigPanda"
+      ],
+      "nist": [
+        "GV.PO-01",
+        "PR.IR-01"
+      ],
+      "iso27001": [
+        "A.5.10",
+        "A.6.7",
+        "A.7.9"
+      ]
     },
     {
       "slug": "policy-communication",
@@ -221,7 +330,9 @@
       "type": "preventive",
       "layer": "process",
       "description": "The designated officer ensures customer information policies and procedures are readily accessible and clearly communicated to all staff to drive compliance.",
-      "clauses": ["10.10"],
+      "clauses": [
+        "10.10"
+      ],
       "keyActivities": [
         "Designated officer oversees communication of all customer information policies",
         "Policies are published on accessible platforms such as intranet or policy management system",
@@ -233,9 +344,18 @@
         "mature": "Centralised policy portal with version control, mandatory annual acknowledgement by all staff, and designated officer-led communication programme",
         "advanced": "AI-powered policy search, personalised policy notifications based on role, real-time compliance dashboards, and multilingual accessibility"
       },
-      "toolExamples": ["PolicyHub", "SharePoint", "Confluence"],
-      "nist": ["GV.PO-02"],
-      "iso27001": ["A.5.1", "A.6.3"]
+      "toolExamples": [
+        "PolicyHub",
+        "SharePoint",
+        "Confluence"
+      ],
+      "nist": [
+        "GV.PO-02"
+      ],
+      "iso27001": [
+        "A.5.1",
+        "A.6.3"
+      ]
     },
     {
       "slug": "policy-continuous-review",
@@ -244,7 +364,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Continuous review of written policies and procedures to ensure they remain adequate, relevant, and effective in response to changes in the operating environment.",
-      "clauses": ["10.11"],
+      "clauses": [
+        "10.11"
+      ],
       "keyActivities": [
         "Establish a formal policy review cycle triggered by regulatory changes, incidents, or operating model shifts",
         "Assess policy adequacy, relevance, and operational effectiveness",
@@ -256,9 +378,17 @@
         "mature": "Annual review cycle with trigger-based interim reviews, documented assessment criteria, and formal change approval process",
         "advanced": "Continuous monitoring of regulatory changes with automated policy gap analysis, proactive policy enhancement, and benchmarking against industry practices"
       },
-      "toolExamples": ["OneTrust", "NAVEX Global", "RegTech Solutions"],
-      "nist": ["GV.PO-01"],
-      "iso27001": ["A.5.1"]
+      "toolExamples": [
+        "OneTrust",
+        "NAVEX Global",
+        "RegTech Solutions"
+      ],
+      "nist": [
+        "GV.PO-01"
+      ],
+      "iso27001": [
+        "A.5.1"
+      ]
     },
     {
       "slug": "preventive-detective-ict-controls",
@@ -267,7 +397,10 @@
       "type": "preventive",
       "layer": "technical",
       "description": "Deployment of preventive ICT controls to stop theft, loss, misuse, or unauthorised access to customer information, and detective controls to identify errors and irregularities when they occur.",
-      "clauses": ["10.12", "10.13"],
+      "clauses": [
+        "10.12",
+        "10.13"
+      ],
       "keyActivities": [
         "Deploy preventive ICT controls such as firewalls, encryption, and DLP",
         "Implement detective controls including SIEM, anomaly detection, and audit logging",
@@ -279,9 +412,20 @@
         "mature": "Layered preventive and detective controls with SIEM integration, regular effectiveness reviews, and documented control testing results",
         "advanced": "AI-driven threat detection, automated response orchestration, continuous control validation through breach-and-attack simulation, and real-time effectiveness metrics"
       },
-      "toolExamples": ["Splunk", "Microsoft Sentinel", "Palo Alto NGFW", "Symantec DLP"],
-      "nist": ["PR.DS-01", "DE.CM-01"],
-      "iso27001": ["A.8.15", "A.8.16"]
+      "toolExamples": [
+        "Splunk",
+        "Microsoft Sentinel",
+        "Palo Alto NGFW",
+        "Symantec DLP"
+      ],
+      "nist": [
+        "PR.DS-01",
+        "DE.CM-01"
+      ],
+      "iso27001": [
+        "A.8.15",
+        "A.8.16"
+      ]
     },
     {
       "slug": "offsite-work-controls",
@@ -290,7 +434,10 @@
       "type": "preventive",
       "layer": "technical",
       "description": "Controls for off-site work arrangements including robust authentication for remote access, encryption of data on ICT equipment, and secure data transmission for staff, representatives, and agents.",
-      "clauses": ["10.14", "10.15"],
+      "clauses": [
+        "10.14",
+        "10.15"
+      ],
       "keyActivities": [
         "Implement strong multi-factor authentication for remote access to FSP systems",
         "Encrypt data stored on all off-site ICT equipment",
@@ -302,9 +449,20 @@
         "mature": "MFA-enforced remote access, full disk encryption on all remote devices, secure tunnelling, and endpoint compliance checks before access granted",
         "advanced": "Zero-trust architecture with continuous authentication, device posture assessment, micro-segmentation for remote access, and real-time session monitoring"
       },
-      "toolExamples": ["Zscaler", "CrowdStrike Falcon", "Microsoft Intune", "Okta"],
-      "nist": ["PR.AC-01", "PR.DS-02"],
-      "iso27001": ["A.6.7", "A.8.1"]
+      "toolExamples": [
+        "Zscaler",
+        "CrowdStrike Falcon",
+        "Microsoft Intune",
+        "Okta"
+      ],
+      "nist": [
+        "PR.AC-01",
+        "PR.DS-02"
+      ],
+      "iso27001": [
+        "A.6.7",
+        "A.8.1"
+      ]
     },
     {
       "slug": "portable-device-controls",
@@ -313,7 +471,11 @@
       "type": "preventive",
       "layer": "technical",
       "description": "Restriction of customer information downloads to FSP-provided portable devices on a legitimate business-need basis, with mandatory password protection and data encryption.",
-      "clauses": ["10.16", "10.17", "10.19"],
+      "clauses": [
+        "10.16",
+        "10.17",
+        "10.19"
+      ],
       "keyActivities": [
         "Restrict customer information downloads to FSP-approved portable devices only",
         "Enforce business-need justification and approval for downloads",
@@ -325,9 +487,19 @@
         "mature": "Whitelisted USB devices only, mandatory BitLocker/FileVault encryption, approval workflow for downloads, USB port restrictions for non-operational staff",
         "advanced": "Hardware-enforced device whitelisting, automated DLP scanning of all removable media, real-time alerting on unapproved device connections"
       },
-      "toolExamples": ["Microsoft Intune", "Endpoint Protector", "Symantec DLP"],
-      "nist": ["PR.DS-01", "PR.AC-03"],
-      "iso27001": ["A.8.1", "A.8.10"]
+      "toolExamples": [
+        "Microsoft Intune",
+        "Endpoint Protector",
+        "Symantec DLP"
+      ],
+      "nist": [
+        "PR.DS-01",
+        "PR.AC-03"
+      ],
+      "iso27001": [
+        "A.8.1",
+        "A.8.10"
+      ]
     },
     {
       "slug": "call-recording-access",
@@ -336,7 +508,9 @@
       "type": "preventive",
       "layer": "technical",
       "description": "Need-to-know access restriction for call recordings containing customer information from recorded telephone conversations.",
-      "clauses": ["10.18"],
+      "clauses": [
+        "10.18"
+      ],
       "keyActivities": [
         "Implement role-based access to call recording systems",
         "Restrict access to call recordings on a strict need-to-know basis",
@@ -348,9 +522,18 @@
         "mature": "Role-based access with need-to-know enforcement, audit logging, and periodic access reviews",
         "advanced": "Automated access expiry, real-time monitoring of unusual access patterns, data masking in call recordings for non-authorised listeners"
       },
-      "toolExamples": ["NICE", "Verint", "Genesys"],
-      "nist": ["PR.AC-01"],
-      "iso27001": ["A.5.15", "A.8.3"]
+      "toolExamples": [
+        "NICE",
+        "Verint",
+        "Genesys"
+      ],
+      "nist": [
+        "PR.AC-01"
+      ],
+      "iso27001": [
+        "A.5.15",
+        "A.8.3"
+      ]
     },
     {
       "slug": "unauthorised-disclosure-deterrence",
@@ -359,7 +542,10 @@
       "type": "preventive",
       "layer": "process",
       "description": "Mechanisms creating a strong deterrent effect against unauthorised disclosure of customer information by staff, including awareness of disciplinary actions, CCTV, open-office layouts, and device restrictions.",
-      "clauses": ["10.20", "10.21"],
+      "clauses": [
+        "10.20",
+        "10.21"
+      ],
       "keyActivities": [
         "Communicate disciplinary consequences for unauthorised disclosure to all staff",
         "Install CCTV in relevant areas where customer information is handled",
@@ -372,9 +558,20 @@
         "mature": "Comprehensive deterrent programme with CCTV, personal device restrictions in high-risk zones, whistleblowing channel, and regular communication of consequences",
         "advanced": "Behavioural analytics to detect insider threat indicators, gamified reporting incentives, digital watermarking of sensitive documents, and proactive culture surveys"
       },
-      "toolExamples": ["Axis CCTV Systems", "NAVEX EthicsPoint", "Dtex Systems"],
-      "nist": ["PR.AC-06", "DE.CM-03"],
-      "iso27001": ["A.5.10", "A.6.4", "A.7.4"]
+      "toolExamples": [
+        "Axis CCTV Systems",
+        "NAVEX EthicsPoint",
+        "Dtex Systems"
+      ],
+      "nist": [
+        "PR.AC-06",
+        "DE.CM-03"
+      ],
+      "iso27001": [
+        "A.5.10",
+        "A.6.4",
+        "A.7.4"
+      ]
     },
     {
       "slug": "social-media-web-restriction",
@@ -383,7 +580,9 @@
       "type": "preventive",
       "layer": "technical",
       "description": "Restriction of access to web-based communication websites and end-to-end encrypted social media platforms for staff handling customer information to prevent external data leakage.",
-      "clauses": ["10.22"],
+      "clauses": [
+        "10.22"
+      ],
       "keyActivities": [
         "Identify and categorise web-based communication and social media platforms to restrict",
         "Block or restrict access to encrypted platforms such as WhatsApp Desktop, Facebook Messenger, and Skype Messenger",
@@ -395,9 +594,18 @@
         "mature": "Web content filtering blocking designated social media and messaging platforms for customer-information-handling roles, with policy exception process",
         "advanced": "Context-aware web filtering with user-behaviour analytics, real-time DLP inspection of web traffic, and automated policy enforcement tied to data classification"
       },
-      "toolExamples": ["Zscaler", "Palo Alto URL Filtering", "Forcepoint Web Security"],
-      "nist": ["PR.DS-05"],
-      "iso27001": ["A.8.22", "A.8.23"]
+      "toolExamples": [
+        "Zscaler",
+        "Palo Alto URL Filtering",
+        "Forcepoint Web Security"
+      ],
+      "nist": [
+        "PR.DS-05"
+      ],
+      "iso27001": [
+        "A.8.22",
+        "A.8.23"
+      ]
     },
     {
       "slug": "unauthorised-activity-detection",
@@ -406,7 +614,10 @@
       "type": "detective",
       "layer": "technical",
       "description": "Detection mechanisms for unauthorised access, unusual frequent viewing, suspicious downloading activities, and unauthorised disclosure of customer information to external parties.",
-      "clauses": ["10.23", "10.24"],
+      "clauses": [
+        "10.23",
+        "10.24"
+      ],
       "keyActivities": [
         "Deploy monitoring for unauthorised access to customer information",
         "Detect unusual or frequent viewing patterns by staff",
@@ -419,9 +630,20 @@
         "mature": "SIEM-based monitoring with defined use cases for unauthorised access, bulk downloads, and unusual viewing patterns, with regular audit trail reviews",
         "advanced": "User and entity behaviour analytics (UEBA), machine learning-driven anomaly detection, automated incident creation and response, and continuous insider threat monitoring"
       },
-      "toolExamples": ["Splunk UBA", "Microsoft Sentinel", "Securonix", "Exabeam"],
-      "nist": ["DE.CM-01", "DE.CM-03"],
-      "iso27001": ["A.8.15", "A.8.16"]
+      "toolExamples": [
+        "Splunk UBA",
+        "Microsoft Sentinel",
+        "Securonix",
+        "Exabeam"
+      ],
+      "nist": [
+        "DE.CM-01",
+        "DE.CM-03"
+      ],
+      "iso27001": [
+        "A.8.15",
+        "A.8.16"
+      ]
     },
     {
       "slug": "role-based-access-profiles",
@@ -430,7 +652,9 @@
       "type": "preventive",
       "layer": "process",
       "description": "Each job role profile includes a defined description of access rights to customer information, ensuring staff operate strictly within their authorised access boundaries.",
-      "clauses": ["10.25"],
+      "clauses": [
+        "10.25"
+      ],
       "keyActivities": [
         "Define access rights to customer information in each job role profile",
         "Map role profiles to system access permissions",
@@ -442,9 +666,19 @@
         "mature": "Formal RBAC model with documented role profiles, access rights mapped to job descriptions, and HR-IT integration for joiners/movers/leavers",
         "advanced": "Dynamic RBAC with attribute-based access controls, automated provisioning/deprovisioning, and real-time access certification"
       },
-      "toolExamples": ["SailPoint", "CyberArk", "Saviynt"],
-      "nist": ["PR.AC-01", "PR.AC-04"],
-      "iso27001": ["A.5.15", "A.5.18"]
+      "toolExamples": [
+        "SailPoint",
+        "CyberArk",
+        "Saviynt"
+      ],
+      "nist": [
+        "PR.AC-01",
+        "PR.AC-04"
+      ],
+      "iso27001": [
+        "A.5.15",
+        "A.5.18"
+      ]
     },
     {
       "slug": "multi-level-access-controls",
@@ -453,7 +687,9 @@
       "type": "preventive",
       "layer": "technical",
       "description": "Identification of customer information locations across systems with layered access controls at application, database, operating system, and network levels to prevent unauthorised access.",
-      "clauses": ["10.26"],
+      "clauses": [
+        "10.26"
+      ],
       "keyActivities": [
         "Map and inventory all locations where customer information resides",
         "Implement access controls at application level",
@@ -466,9 +702,20 @@
         "mature": "Complete data inventory with access controls implemented and tested at all four levels (application, database, OS, network), with documented control evidence",
         "advanced": "Automated data discovery and classification, microsegmentation, zero-trust access controls at every layer, and continuous access control validation"
       },
-      "toolExamples": ["Imperva", "Varonis", "CyberArk", "Illumio"],
-      "nist": ["PR.AC-01", "PR.AC-05"],
-      "iso27001": ["A.5.15", "A.8.3"]
+      "toolExamples": [
+        "Imperva",
+        "Varonis",
+        "CyberArk",
+        "Illumio"
+      ],
+      "nist": [
+        "PR.AC-01",
+        "PR.AC-05"
+      ],
+      "iso27001": [
+        "A.5.15",
+        "A.8.3"
+      ]
     },
     {
       "slug": "access-review-and-revocation",
@@ -477,7 +724,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Regular review of staff access rights to customer information with immediate revocation for departing staff or role changes that no longer require customer information access.",
-      "clauses": ["10.27"],
+      "clauses": [
+        "10.27"
+      ],
       "keyActivities": [
         "Conduct periodic access rights reviews for all staff with customer information access",
         "Immediately revoke access for staff leaving the FSP",
@@ -489,9 +738,19 @@
         "mature": "Quarterly access reviews with automated joiner/mover/leaver integration, same-day revocation on departure, documented review outcomes",
         "advanced": "Continuous access monitoring with automated recertification, real-time revocation triggered by HR events, and AI-driven access anomaly detection"
       },
-      "toolExamples": ["SailPoint", "Saviynt", "Oracle Identity Governance"],
-      "nist": ["PR.AC-01", "PR.AC-06"],
-      "iso27001": ["A.5.18", "A.8.2"]
+      "toolExamples": [
+        "SailPoint",
+        "Saviynt",
+        "Oracle Identity Governance"
+      ],
+      "nist": [
+        "PR.AC-01",
+        "PR.AC-06"
+      ],
+      "iso27001": [
+        "A.5.18",
+        "A.8.2"
+      ]
     },
     {
       "slug": "physical-security-controls",
@@ -500,7 +759,9 @@
       "type": "preventive",
       "layer": "physical",
       "description": "Physical security controls ensuring customer information in paper and electronic forms is protected against theft, loss, misuse, or unauthorised access in all FSP premises.",
-      "clauses": ["10.28"],
+      "clauses": [
+        "10.28"
+      ],
       "keyActivities": [
         "Implement physical access controls for areas storing customer information",
         "Protect both paper-based and electronic customer information physically",
@@ -512,9 +773,19 @@
         "mature": "Electronic access control, CCTV, visitor management, secure document storage, and periodic physical security assessments",
         "advanced": "Integrated physical-logical security with biometric access, real-time occupancy monitoring, AI-powered CCTV analytics, and environmental threat detection"
       },
-      "toolExamples": ["Lenel OnGuard", "Genetec Security Center", "HID Global"],
-      "nist": ["PR.AC-02"],
-      "iso27001": ["A.7.1", "A.7.2", "A.7.3"]
+      "toolExamples": [
+        "Lenel OnGuard",
+        "Genetec Security Center",
+        "HID Global"
+      ],
+      "nist": [
+        "PR.AC-02"
+      ],
+      "iso27001": [
+        "A.7.1",
+        "A.7.2",
+        "A.7.3"
+      ]
     },
     {
       "slug": "restricted-area-controls",
@@ -523,7 +794,9 @@
       "type": "preventive",
       "layer": "physical",
       "description": "Access restriction and intruder deterrents for areas storing large volumes of or critical and sensitive customer information, such as server rooms and filing rooms.",
-      "clauses": ["10.29"],
+      "clauses": [
+        "10.29"
+      ],
       "keyActivities": [
         "Identify areas storing large volumes or sensitive customer information",
         "Restrict access to identified areas to authorised personnel only",
@@ -535,9 +808,18 @@
         "mature": "Multi-factor physical access control for restricted areas, CCTV with retention, intrusion detection systems, and periodic access reviews",
         "advanced": "Biometric access, man-trap entry systems, 24/7 security monitoring, environmental sensors, and tamper-evident controls"
       },
-      "toolExamples": ["Genetec", "Honeywell Pro-Watch", "Axis Communications"],
-      "nist": ["PR.AC-02"],
-      "iso27001": ["A.7.1", "A.7.4"]
+      "toolExamples": [
+        "Genetec",
+        "Honeywell Pro-Watch",
+        "Axis Communications"
+      ],
+      "nist": [
+        "PR.AC-02"
+      ],
+      "iso27001": [
+        "A.7.1",
+        "A.7.4"
+      ]
     },
     {
       "slug": "clear-desk-policy",
@@ -546,7 +828,9 @@
       "type": "preventive",
       "layer": "physical",
       "description": "Implementation of clear-desk policies to minimise the risk of customer information exposure through physical documents left unattended on desks or workstations.",
-      "clauses": ["10.30"],
+      "clauses": [
+        "10.30"
+      ],
       "keyActivities": [
         "Establish and communicate a clear-desk policy for all staff handling customer information",
         "Provide secure storage facilities for physical documents at each workstation",
@@ -558,9 +842,16 @@
         "mature": "Active clear-desk programme with regular spot checks, compliance tracking, secure storage at all workstations, and consequences for non-compliance",
         "advanced": "Automated clean-desk verification through sensors or after-hours inspections, gamified compliance programme, and integration with physical security monitoring"
       },
-      "toolExamples": ["Internal Audit Checklists", "Facility Management Systems"],
-      "nist": ["PR.AC-02"],
-      "iso27001": ["A.7.7"]
+      "toolExamples": [
+        "Internal Audit Checklists",
+        "Facility Management Systems"
+      ],
+      "nist": [
+        "PR.AC-02"
+      ],
+      "iso27001": [
+        "A.7.7"
+      ]
     },
     {
       "slug": "offsite-data-in-transit-controls",
@@ -569,7 +860,9 @@
       "type": "preventive",
       "layer": "process",
       "description": "Policies, procedures, and controls for the proper handling of customer information collected off-site and in-transit, including secure storage of physical documents and protection of portable device data.",
-      "clauses": ["10.31"],
+      "clauses": [
+        "10.31"
+      ],
       "keyActivities": [
         "Establish clear procedures for off-site customer information collection",
         "Ensure secure storage of physical documents during transit",
@@ -581,9 +874,19 @@
         "mature": "Documented procedures for off-site collection and transit, encrypted portable devices, secure document carriers, and compliance monitoring",
         "advanced": "GPS-tracked secure document pouches, tamper-evident packaging, real-time device tracking, and automated compliance verification"
       },
-      "toolExamples": ["Encrypted USB drives", "Secure courier services", "Mobile Device Management"],
-      "nist": ["PR.DS-02", "PR.DS-05"],
-      "iso27001": ["A.7.9", "A.8.10"]
+      "toolExamples": [
+        "Encrypted USB drives",
+        "Secure courier services",
+        "Mobile Device Management"
+      ],
+      "nist": [
+        "PR.DS-02",
+        "PR.DS-05"
+      ],
+      "iso27001": [
+        "A.7.9",
+        "A.8.10"
+      ]
     },
     {
       "slug": "data-retention-identification",
@@ -592,7 +895,9 @@
       "type": "preventive",
       "layer": "process",
       "description": "Procedures to identify customer information no longer required from operational or legal perspectives, ensuring timely transition to secure disposal.",
-      "clauses": ["10.32"],
+      "clauses": [
+        "10.32"
+      ],
       "keyActivities": [
         "Establish data retention schedules for all categories of customer information",
         "Identify customer information no longer required operationally or legally",
@@ -604,9 +909,18 @@
         "mature": "Documented retention schedules aligned with legal requirements, periodic identification of data for disposal, and disposal approval workflow",
         "advanced": "Automated data lifecycle management with retention policy enforcement, data discovery tools identifying orphaned data, and real-time compliance dashboards"
       },
-      "toolExamples": ["Veritas Information Map", "Microsoft Purview", "Iron Mountain"],
-      "nist": ["PR.DS-03"],
-      "iso27001": ["A.5.33", "A.8.10"]
+      "toolExamples": [
+        "Veritas Information Map",
+        "Microsoft Purview",
+        "Iron Mountain"
+      ],
+      "nist": [
+        "PR.DS-03"
+      ],
+      "iso27001": [
+        "A.5.33",
+        "A.8.10"
+      ]
     },
     {
       "slug": "secure-destruction-methods",
@@ -615,7 +929,11 @@
       "type": "preventive",
       "layer": "technical",
       "description": "Deployment of industry-standard data destruction methods for paper and digital records, ensuring customer information is irrecoverable, including data wiping, physical destruction, or degaussing.",
-      "clauses": ["10.32", "10.33", "10.34"],
+      "clauses": [
+        "10.32",
+        "10.33",
+        "10.34"
+      ],
       "keyActivities": [
         "Use industry-standard data wiping software for digital media",
         "Apply physical destruction or degaussing for hardware disposal",
@@ -628,9 +946,20 @@
         "mature": "Certified data wiping tools, cross-cut shredding, degaussing for magnetic media, destruction certificates maintained, and chain of custody documented",
         "advanced": "NIST SP 800-88 compliant media sanitisation, automated destruction scheduling, blockchain-based chain of custody, and independent verification of destruction"
       },
-      "toolExamples": ["Blancco", "DBAN", "Garner Degaussers", "Iron Mountain Shredding"],
-      "nist": ["PR.DS-03", "PR.IP-06"],
-      "iso27001": ["A.7.14", "A.8.10"]
+      "toolExamples": [
+        "Blancco",
+        "DBAN",
+        "Garner Degaussers",
+        "Iron Mountain Shredding"
+      ],
+      "nist": [
+        "PR.DS-03",
+        "PR.IP-06"
+      ],
+      "iso27001": [
+        "A.7.14",
+        "A.8.10"
+      ]
     },
     {
       "slug": "outsourced-destruction-oversight",
@@ -639,7 +968,11 @@
       "type": "detective",
       "layer": "process",
       "description": "Risk-benefit assessment of outsourced destruction providers, secure pre-collection storage in tamper-proof containers, and random checks on collection and destruction processes.",
-      "clauses": ["10.35", "10.36", "10.37"],
+      "clauses": [
+        "10.35",
+        "10.36",
+        "10.37"
+      ],
       "keyActivities": [
         "Conduct risk-benefit assessment before engaging outsourced destruction providers",
         "Shred or store data in tamper-proof sealed bags or locked containers before collection",
@@ -651,9 +984,18 @@
         "mature": "Documented risk-benefit assessment, tamper-proof pre-collection storage, scheduled and random destruction audits, and destruction certificates filed",
         "advanced": "Witnessed destruction events, CCTV coverage of destruction process, chain-of-custody tracking from FSP premises to destruction, and provider certification requirements"
       },
-      "toolExamples": ["Iron Mountain", "Recall", "Shred-it"],
-      "nist": ["PR.DS-03"],
-      "iso27001": ["A.5.30", "A.7.14"]
+      "toolExamples": [
+        "Iron Mountain",
+        "Recall",
+        "Shred-it"
+      ],
+      "nist": [
+        "PR.DS-03"
+      ],
+      "iso27001": [
+        "A.5.30",
+        "A.7.14"
+      ]
     },
     {
       "slug": "confidentiality-undertaking",
@@ -662,7 +1004,9 @@
       "type": "preventive",
       "layer": "policy",
       "description": "Employment contracts include a signed confidentiality undertaking specifying legal obligations to safeguard customer information and consequences for non-compliance.",
-      "clauses": ["10.39"],
+      "clauses": [
+        "10.39"
+      ],
       "keyActivities": [
         "Include confidentiality undertaking clause in all employment contracts",
         "Specify legal obligations under FSA, IFSA, DFIA, and PDPA",
@@ -674,9 +1018,18 @@
         "mature": "Detailed confidentiality undertaking referencing specific legislation, consequences documented, signed by all staff, and periodically refreshed",
         "advanced": "Role-specific confidentiality undertakings calibrated to data access levels, annual re-signing with updated obligations, and integration with access provisioning"
       },
-      "toolExamples": ["DocuSign", "HR Management Systems"],
-      "nist": ["PR.AC-06"],
-      "iso27001": ["A.6.1", "A.6.2", "A.6.6"]
+      "toolExamples": [
+        "DocuSign",
+        "HR Management Systems"
+      ],
+      "nist": [
+        "PR.AC-06"
+      ],
+      "iso27001": [
+        "A.6.1",
+        "A.6.2",
+        "A.6.6"
+      ]
     },
     {
       "slug": "external-vendor-vetting",
@@ -685,7 +1038,9 @@
       "type": "preventive",
       "layer": "process",
       "description": "Ensuring that external vendors working on FSP premises (security guards, cleaners, maintenance) vet and monitor their personnel to reduce customer information theft risk.",
-      "clauses": ["10.40"],
+      "clauses": [
+        "10.40"
+      ],
       "keyActivities": [
         "Require vendor contracts to mandate personnel vetting and monitoring",
         "Verify vendor vetting processes cover background checks and references",
@@ -697,9 +1052,18 @@
         "mature": "Vendor contracts require documented vetting, vendor personnel registered with building access restricted to approved areas, and periodic compliance reviews",
         "advanced": "Integration of vendor personnel into FSP identity management, real-time access monitoring, escorted-only access in sensitive areas, and continuous vendor risk assessment"
       },
-      "toolExamples": ["SAP Fieldglass", "Beeline", "Visitor Management Systems"],
-      "nist": ["PR.AC-06"],
-      "iso27001": ["A.5.19", "A.5.20"]
+      "toolExamples": [
+        "SAP Fieldglass",
+        "Beeline",
+        "Visitor Management Systems"
+      ],
+      "nist": [
+        "PR.AC-06"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.20"
+      ]
     },
     {
       "slug": "staff-awareness-programme",
@@ -708,7 +1072,9 @@
       "type": "preventive",
       "layer": "process",
       "description": "Maintaining a high degree of staff awareness on the need to protect customer information confidentiality and security, compliance with policies and procedures, and the consequences of breaches.",
-      "clauses": ["10.41"],
+      "clauses": [
+        "10.41"
+      ],
       "keyActivities": [
         "Communicate the importance of protecting customer information confidentiality and security",
         "Ensure all staff understand relevant policies and procedures",
@@ -720,9 +1086,17 @@
         "mature": "Structured annual awareness programme with posters, emails, town halls, and acknowledgement tracking",
         "advanced": "Continuous engagement programme with gamification, phishing simulations focused on customer data, real-time awareness nudges, and culture measurement"
       },
-      "toolExamples": ["KnowBe4", "Proofpoint Security Awareness", "Cofense"],
-      "nist": ["PR.AT-01"],
-      "iso27001": ["A.6.3"]
+      "toolExamples": [
+        "KnowBe4",
+        "Proofpoint Security Awareness",
+        "Cofense"
+      ],
+      "nist": [
+        "PR.AT-01"
+      ],
+      "iso27001": [
+        "A.6.3"
+      ]
     },
     {
       "slug": "compliance-monitoring-mechanisms",
@@ -731,7 +1105,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Robust monitoring mechanisms to ensure staff adhere to established policies, procedures, and controls for customer information protection.",
-      "clauses": ["10.42"],
+      "clauses": [
+        "10.42"
+      ],
       "keyActivities": [
         "Implement monitoring mechanisms for staff compliance with data protection policies",
         "Conduct periodic compliance checks and spot audits",
@@ -743,9 +1119,17 @@
         "mature": "Structured compliance monitoring programme with scheduled spot checks, automated policy compliance reporting, and trend analysis",
         "advanced": "Continuous compliance monitoring with AI-driven behavioural analysis, real-time policy violation alerts, and predictive non-compliance indicators"
       },
-      "toolExamples": ["ServiceNow GRC", "RSA Archer", "LogRhythm"],
-      "nist": ["DE.CM-03"],
-      "iso27001": ["A.5.36"]
+      "toolExamples": [
+        "ServiceNow GRC",
+        "RSA Archer",
+        "LogRhythm"
+      ],
+      "nist": [
+        "DE.CM-03"
+      ],
+      "iso27001": [
+        "A.5.36"
+      ]
     },
     {
       "slug": "training-and-reminders",
@@ -754,7 +1138,12 @@
       "type": "preventive",
       "layer": "process",
       "description": "Relevant training and regular reminders to all staff on their obligations to safeguard customer information confidentiality, including specific onboarding training for new staff.",
-      "clauses": ["10.43", "10.44", "10.45", "10.46"],
+      "clauses": [
+        "10.43",
+        "10.44",
+        "10.45",
+        "10.46"
+      ],
       "keyActivities": [
         "Deliver regular training to all staff on customer information protection obligations",
         "Include specific data protection training in new staff onboarding programmes",
@@ -766,9 +1155,18 @@
         "mature": "Annual training programme with mandatory completion tracking, dedicated onboarding module, reader-friendly guides, and regular refresher reminders",
         "advanced": "Role-specific training paths, scenario-based learning with case studies, microlearning modules, and adaptive training based on individual risk profiles"
       },
-      "toolExamples": ["KnowBe4", "Mimecast Awareness Training", "Cornerstone OnDemand"],
-      "nist": ["PR.AT-01", "PR.AT-02"],
-      "iso27001": ["A.6.3"]
+      "toolExamples": [
+        "KnowBe4",
+        "Mimecast Awareness Training",
+        "Cornerstone OnDemand"
+      ],
+      "nist": [
+        "PR.AT-01",
+        "PR.AT-02"
+      ],
+      "iso27001": [
+        "A.6.3"
+      ]
     },
     {
       "slug": "training-effectiveness-measurement",
@@ -777,7 +1175,10 @@
       "type": "detective",
       "layer": "process",
       "description": "Mechanisms to gauge the effectiveness of customer information protection training, including annual awareness surveys to assess staff understanding.",
-      "clauses": ["10.47", "10.48"],
+      "clauses": [
+        "10.47",
+        "10.48"
+      ],
       "keyActivities": [
         "Conduct annual awareness surveys to assess staff understanding",
         "Measure training completion rates and assessment scores",
@@ -789,9 +1190,17 @@
         "mature": "Annual awareness surveys, post-training assessments, completion tracking, and gap analysis used to improve training programme",
         "advanced": "Continuous effectiveness measurement with phishing simulation results, behavioural analytics, comparative benchmarking, and predictive modelling of awareness levels"
       },
-      "toolExamples": ["KnowBe4", "Proofpoint", "SurveyMonkey"],
-      "nist": ["PR.AT-01"],
-      "iso27001": ["A.6.3"]
+      "toolExamples": [
+        "KnowBe4",
+        "Proofpoint",
+        "SurveyMonkey"
+      ],
+      "nist": [
+        "PR.AT-01"
+      ],
+      "iso27001": [
+        "A.6.3"
+      ]
     },
     {
       "slug": "staff-breach-investigation",
@@ -800,7 +1209,11 @@
       "type": "corrective",
       "layer": "process",
       "description": "Thorough and timely investigation of customer information breaches by staff with appropriate disciplinary actions that serve as a strong deterrent, including Board reporting of outcomes.",
-      "clauses": ["10.49", "10.50", "10.51"],
+      "clauses": [
+        "10.49",
+        "10.50",
+        "10.51"
+      ],
       "keyActivities": [
         "Conduct thorough and timely investigation upon detecting staff-related breaches",
         "Take appropriate disciplinary actions against staff involved in breaches",
@@ -813,9 +1226,17 @@
         "mature": "Formal investigation framework with standard process, consistent disciplinary matrix, documented decisions, senior management sign-off, and Board reporting",
         "advanced": "Forensic investigation capability, independent investigation team, integration with HR and legal, lessons-learnt dissemination, and trend analysis across investigations"
       },
-      "toolExamples": ["Case Management Systems", "i-Sight", "NAVEX Global"],
-      "nist": ["RS.AN-01"],
-      "iso27001": ["A.6.4"]
+      "toolExamples": [
+        "Case Management Systems",
+        "i-Sight",
+        "NAVEX Global"
+      ],
+      "nist": [
+        "RS.AN-01"
+      ],
+      "iso27001": [
+        "A.6.4"
+      ]
     },
     {
       "slug": "representative-agent-accountability",
@@ -824,7 +1245,9 @@
       "type": "preventive",
       "layer": "policy",
       "description": "FSP retains full accountability for the conduct of its appointed representatives and agents regarding any customer information breach, with appropriate contractual and monitoring controls.",
-      "clauses": ["10.52"],
+      "clauses": [
+        "10.52"
+      ],
       "keyActivities": [
         "Define accountability framework for representatives and agents in contracts",
         "Extend customer information protection policies to representatives and agents",
@@ -836,9 +1259,17 @@
         "mature": "Detailed contractual obligations, representative and agent training, periodic compliance monitoring, and incident response covering representatives and agents",
         "advanced": "Real-time monitoring of representative and agent data access, behavioural analytics, and integrated accountability framework across all distribution channels"
       },
-      "toolExamples": ["Contract Management Systems", "Agent Portal with DLP"],
-      "nist": ["GV.SC-01"],
-      "iso27001": ["A.5.19", "A.5.20"]
+      "toolExamples": [
+        "Contract Management Systems",
+        "Agent Portal with DLP"
+      ],
+      "nist": [
+        "GV.SC-01"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.20"
+      ]
     },
     {
       "slug": "biennial-independent-review",
@@ -847,7 +1278,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Independent review of customer information protection policies, procedures, and controls at least once every two years, conducted by a function independent of the business units handling customer information.",
-      "clauses": ["10.53"],
+      "clauses": [
+        "10.53"
+      ],
       "keyActivities": [
         "Schedule and conduct independent review at least biennially",
         "Engage an independent function such as internal audit to perform the review",
@@ -859,9 +1292,18 @@
         "mature": "Biennial independent review by internal audit with structured scope, documented methodology, findings, and Board reporting",
         "advanced": "Annual independent review with combined internal audit and external specialist input, risk-based scope selection, and continuous assurance elements"
       },
-      "toolExamples": ["AuditBoard", "TeamMate+", "Galvanize"],
-      "nist": ["ID.GV-03"],
-      "iso27001": ["A.5.35", "A.5.36"]
+      "toolExamples": [
+        "AuditBoard",
+        "TeamMate+",
+        "Galvanize"
+      ],
+      "nist": [
+        "ID.GV-03"
+      ],
+      "iso27001": [
+        "A.5.35",
+        "A.5.36"
+      ]
     },
     {
       "slug": "review-effectiveness-assessment",
@@ -870,7 +1312,9 @@
       "type": "detective",
       "layer": "process",
       "description": "The independent review assesses senior management effectiveness, their oversight, and the adequacy and effectiveness of measures protecting customer information.",
-      "clauses": ["10.54"],
+      "clauses": [
+        "10.54"
+      ],
       "keyActivities": [
         "Assess senior management effectiveness in overseeing customer information protection",
         "Evaluate the adequacy and effectiveness of all protective measures",
@@ -882,9 +1326,17 @@
         "mature": "Comprehensive review covering both control adequacy and management oversight effectiveness, with actionable recommendations",
         "advanced": "Multi-dimensional effectiveness assessment with quantified metrics, maturity scoring, peer benchmarking, and forward-looking risk assessment"
       },
-      "toolExamples": ["AuditBoard", "TeamMate+"],
-      "nist": ["ID.GV-03", "GV.OV-02"],
-      "iso27001": ["A.5.35"]
+      "toolExamples": [
+        "AuditBoard",
+        "TeamMate+"
+      ],
+      "nist": [
+        "ID.GV-03",
+        "GV.OV-02"
+      ],
+      "iso27001": [
+        "A.5.35"
+      ]
     },
     {
       "slug": "review-findings-communication",
@@ -893,7 +1345,10 @@
       "type": "corrective",
       "layer": "process",
       "description": "Communication of written independent review findings to senior management and the Board, with timely corrective actions to address identified deficiencies.",
-      "clauses": ["10.55", "10.56"],
+      "clauses": [
+        "10.55",
+        "10.56"
+      ],
       "keyActivities": [
         "Prepare written findings including scope, methodology, evidence, and limitations",
         "Communicate findings to both senior management and the Board",
@@ -905,9 +1360,18 @@
         "mature": "Formal written report presented to senior management and Board, corrective action plans with owners and deadlines, and progress tracking through to closure",
         "advanced": "Automated remediation workflow, real-time tracking dashboard, root cause analysis integration, and systemic issue identification across multiple review cycles"
       },
-      "toolExamples": ["AuditBoard", "ServiceNow GRC", "Resolver"],
-      "nist": ["RS.IM-01"],
-      "iso27001": ["A.5.35", "A.5.36"]
+      "toolExamples": [
+        "AuditBoard",
+        "ServiceNow GRC",
+        "Resolver"
+      ],
+      "nist": [
+        "RS.IM-01"
+      ],
+      "iso27001": [
+        "A.5.35",
+        "A.5.36"
+      ]
     },
     {
       "slug": "breach-response-plan",
@@ -916,7 +1380,10 @@
       "type": "corrective",
       "layer": "process",
       "description": "Comprehensive breach handling and response plan covering both deliberate and non-deliberate customer information breaches, with escalation procedures and clear lines of responsibility.",
-      "clauses": ["11.1", "11.2"],
+      "clauses": [
+        "11.1",
+        "11.2"
+      ],
       "keyActivities": [
         "Develop and maintain a customer information breach response plan",
         "Include procedures for both deliberate and non-deliberate breaches",
@@ -929,9 +1396,19 @@
         "mature": "Documented breach response plan with escalation matrix, role assignments, containment procedures, and annual tabletop exercises",
         "advanced": "Automated incident response workflows, integrated with SIEM and SOAR, regular red-team exercises, and continuous plan improvement based on lessons learnt"
       },
-      "toolExamples": ["PagerDuty", "ServiceNow Security Incident Response", "Splunk SOAR"],
-      "nist": ["RS.RP-01", "RS.CO-01"],
-      "iso27001": ["A.5.24", "A.5.26"]
+      "toolExamples": [
+        "PagerDuty",
+        "ServiceNow Security Incident Response",
+        "Splunk SOAR"
+      ],
+      "nist": [
+        "RS.RP-01",
+        "RS.CO-01"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.26"
+      ]
     },
     {
       "slug": "breach-escalation-training",
@@ -940,7 +1417,9 @@
       "type": "preventive",
       "layer": "process",
       "description": "All staff understand escalation procedures and relevant staff are trained to effectively take appropriate remedial actions to protect affected customers during a breach.",
-      "clauses": ["11.3"],
+      "clauses": [
+        "11.3"
+      ],
       "keyActivities": [
         "Communicate breach escalation procedures to all staff",
         "Provide specialised training to incident response team members",
@@ -952,9 +1431,19 @@
         "mature": "Annual breach escalation training for all staff, specialised incident response training for key personnel, and periodic simulation exercises",
         "advanced": "Continuous breach preparedness programme with role-specific scenarios, cross-functional exercises, and real-time escalation testing"
       },
-      "toolExamples": ["KnowBe4", "Immersive Labs", "RangeForce"],
-      "nist": ["RS.CO-01", "PR.AT-01"],
-      "iso27001": ["A.5.24", "A.6.3"]
+      "toolExamples": [
+        "KnowBe4",
+        "Immersive Labs",
+        "RangeForce"
+      ],
+      "nist": [
+        "RS.CO-01",
+        "PR.AT-01"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.6.3"
+      ]
     },
     {
       "slug": "breach-detection-mechanism",
@@ -963,7 +1452,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Mechanisms to identify customer information breaches including those arising from customer complaints, with prompt and proper investigation of complaints.",
-      "clauses": ["11.4"],
+      "clauses": [
+        "11.4"
+      ],
       "keyActivities": [
         "Implement automated breach detection mechanisms",
         "Establish channels for breach reporting by staff and customers",
@@ -975,9 +1466,19 @@
         "mature": "Multi-channel detection including automated monitoring, staff reporting hotline, customer complaint triage, and systematic investigation process",
         "advanced": "AI-powered anomaly detection, integrated threat intelligence, predictive breach indicators, and automated triage and classification"
       },
-      "toolExamples": ["Splunk", "ServiceNow", "Verint Complaint Management"],
-      "nist": ["DE.CM-01", "DE.AE-02"],
-      "iso27001": ["A.5.24", "A.5.25"]
+      "toolExamples": [
+        "Splunk",
+        "ServiceNow",
+        "Verint Complaint Management"
+      ],
+      "nist": [
+        "DE.CM-01",
+        "DE.AE-02"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.25"
+      ]
     },
     {
       "slug": "breach-containment",
@@ -986,7 +1487,10 @@
       "type": "corrective",
       "layer": "process",
       "description": "Immediate mitigating actions to contain a customer information breach, including cross-FSP notification where another FSP's customer data is involved.",
-      "clauses": ["11.5", "11.6"],
+      "clauses": [
+        "11.5",
+        "11.6"
+      ],
       "keyActivities": [
         "Take immediate action to contain and limit the scope of a breach",
         "Preserve evidence for subsequent investigation",
@@ -998,9 +1502,18 @@
         "mature": "Pre-defined containment playbooks for common breach scenarios, cross-FSP notification procedures, and evidence preservation protocols",
         "advanced": "Automated containment actions triggered by detection systems, real-time isolation capabilities, and coordinated cross-FSP incident response"
       },
-      "toolExamples": ["CrowdStrike Falcon", "Splunk SOAR", "Carbon Black"],
-      "nist": ["RS.MI-01", "RS.MI-02"],
-      "iso27001": ["A.5.26"]
+      "toolExamples": [
+        "CrowdStrike Falcon",
+        "Splunk SOAR",
+        "Carbon Black"
+      ],
+      "nist": [
+        "RS.MI-01",
+        "RS.MI-02"
+      ],
+      "iso27001": [
+        "A.5.26"
+      ]
     },
     {
       "slug": "breach-impact-assessment",
@@ -1009,7 +1522,11 @@
       "type": "detective",
       "layer": "process",
       "description": "Structured assessment of breach impact considering whether the breach was accidental or intentional, data sensitivity, number of affected customers, exposure recipients, and fraud risk.",
-      "clauses": ["11.7", "11.12", "11.13"],
+      "clauses": [
+        "11.7",
+        "11.12",
+        "11.13"
+      ],
       "keyActivities": [
         "Determine whether the breach was accidental or intentional",
         "Assess the type and sensitivity of customer information involved",
@@ -1022,9 +1539,18 @@
         "mature": "Structured impact assessment template aligned with MCIPD criteria, senior officer sign-off, and documented assessment rationale",
         "advanced": "Automated impact scoring with data classification integration, real-time affected customer quantification, and predictive fraud risk modelling"
       },
-      "toolExamples": ["OneTrust Incident Management", "ServiceNow Security Incident Response"],
-      "nist": ["RS.AN-01", "RS.AN-02"],
-      "iso27001": ["A.5.24", "A.5.25"]
+      "toolExamples": [
+        "OneTrust Incident Management",
+        "ServiceNow Security Incident Response"
+      ],
+      "nist": [
+        "RS.AN-01",
+        "RS.AN-02"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.25"
+      ]
     },
     {
       "slug": "bnm-notification",
@@ -1033,7 +1559,16 @@
       "type": "corrective",
       "layer": "process",
       "description": "Immediate notification to BNM for breaches posing reputational risk, causing significant harm, or affecting over 1,000 customers, with prescribed minimum content and phased disclosure provisions.",
-      "clauses": ["11.8", "11.9", "11.10", "11.11", "11.14", "11.15", "11.16", "11.17"],
+      "clauses": [
+        "11.8",
+        "11.9",
+        "11.10",
+        "11.11",
+        "11.14",
+        "11.15",
+        "11.16",
+        "11.17"
+      ],
       "keyActivities": [
         "Assess breach against BNM notification triggers (reputational risk, significant harm, significant scale)",
         "Prepare notification with prescribed minimum content",
@@ -1047,9 +1582,18 @@
         "mature": "Pre-drafted notification templates, clear trigger assessment criteria, designated officer approval workflow, and phased notification procedures",
         "advanced": "Automated trigger assessment, pre-populated notification templates with real-time data feeds, integrated regulatory submission portal, and dual-track BNM and law enforcement notification"
       },
-      "toolExamples": ["OneTrust Incident Management", "Radar by Nymity"],
-      "nist": ["RS.CO-02", "RS.CO-03"],
-      "iso27001": ["A.5.24", "A.5.26"]
+      "toolExamples": [
+        "OneTrust Incident Management",
+        "Radar by Nymity"
+      ],
+      "nist": [
+        "RS.CO-02",
+        "RS.CO-03"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.26"
+      ]
     },
     {
       "slug": "breach-investigation-and-reporting",
@@ -1058,7 +1602,13 @@
       "type": "corrective",
       "layer": "process",
       "description": "Root cause investigation by competent party with independent oversight, completion within three months, detailed investigation report tabled to the Board, and submission to BNM within one working day.",
-      "clauses": ["11.18", "11.19", "11.20", "11.21", "11.22"],
+      "clauses": [
+        "11.18",
+        "11.19",
+        "11.20",
+        "11.21",
+        "11.22"
+      ],
       "keyActivities": [
         "Appoint a competent party to investigate with independent oversight",
         "Ascertain root causes and determine remedial actions to prevent recurrence",
@@ -1072,9 +1622,19 @@
         "mature": "Formal investigation framework with competent investigator, independent oversight, root cause analysis, three-month timeline tracking, and Board and BNM reporting workflow",
         "advanced": "Digital forensic investigation capability, automated evidence collection, integrated case management, and continuous improvement loop from investigation outcomes"
       },
-      "toolExamples": ["i-Sight", "NAVEX Global", "AuditBoard"],
-      "nist": ["RS.AN-01", "RS.AN-03"],
-      "iso27001": ["A.5.27", "A.5.28"]
+      "toolExamples": [
+        "i-Sight",
+        "NAVEX Global",
+        "AuditBoard"
+      ],
+      "nist": [
+        "RS.AN-01",
+        "RS.AN-03"
+      ],
+      "iso27001": [
+        "A.5.27",
+        "A.5.28"
+      ]
     },
     {
       "slug": "breach-register",
@@ -1083,7 +1643,10 @@
       "type": "detective",
       "layer": "process",
       "description": "Maintenance of a register recording all customer information breaches with root causes, remedial actions, and lessons learnt, and retention of investigation reports for at least seven years.",
-      "clauses": ["11.23", "11.24"],
+      "clauses": [
+        "11.23",
+        "11.24"
+      ],
       "keyActivities": [
         "Maintain a comprehensive breach register for all customer information incidents",
         "Record root causes, remedial actions, and lessons learnt for each breach",
@@ -1095,9 +1658,18 @@
         "mature": "Structured breach register with mandatory fields for root cause, remedial actions, and lessons learnt, seven-year retention enforced, and periodic trend analysis",
         "advanced": "Digital breach register with automated data capture, real-time trend analytics, predictive risk indicators, and integration with risk management system"
       },
-      "toolExamples": ["ServiceNow", "OneTrust", "RSA Archer"],
-      "nist": ["RS.AN-03"],
-      "iso27001": ["A.5.24", "A.5.27"]
+      "toolExamples": [
+        "ServiceNow",
+        "OneTrust",
+        "RSA Archer"
+      ],
+      "nist": [
+        "RS.AN-03"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.27"
+      ]
     },
     {
       "slug": "customer-breach-notification",
@@ -1106,7 +1678,15 @@
       "type": "corrective",
       "layer": "process",
       "description": "Direct notification to affected customers without undue delay for breaches causing significant harm, with prescribed minimum content in plain language and provisions for public announcement when direct notification is impractical.",
-      "clauses": ["11.25", "11.26", "11.27", "11.28", "11.29", "11.30", "11.31"],
+      "clauses": [
+        "11.25",
+        "11.26",
+        "11.27",
+        "11.28",
+        "11.29",
+        "11.30",
+        "11.31"
+      ],
       "keyActivities": [
         "Notify affected customers directly without undue delay after BNM notification",
         "Include prescribed content: breach description, consequences, protective steps, remedial measures, and contact details",
@@ -1119,9 +1699,18 @@
         "mature": "Pre-drafted notification templates in plain language, multi-channel notification capability, public announcement procedures, and trained helpdesk staff",
         "advanced": "Automated personalised customer notifications, multi-language support, dedicated breach response call centre, proactive customer protection measures, and real-time notification tracking"
       },
-      "toolExamples": ["Twilio", "Salesforce Service Cloud", "OneTrust"],
-      "nist": ["RS.CO-03"],
-      "iso27001": ["A.5.24", "A.5.26"]
+      "toolExamples": [
+        "Twilio",
+        "Salesforce Service Cloud",
+        "OneTrust"
+      ],
+      "nist": [
+        "RS.CO-03"
+      ],
+      "iso27001": [
+        "A.5.24",
+        "A.5.26"
+      ]
     },
     {
       "slug": "osp-risk-monitoring",
@@ -1130,7 +1719,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Continuous monitoring of risks arising from outsourced service providers handling customer information, with proactive identification and management of emerging risks.",
-      "clauses": ["12.1"],
+      "clauses": [
+        "12.1"
+      ],
       "keyActivities": [
         "Identify and categorise risks from each OSP handling customer information",
         "Implement ongoing monitoring of OSP risk indicators",
@@ -1142,9 +1733,19 @@
         "mature": "Structured risk monitoring programme with defined KRIs for each OSP, periodic risk reporting, and escalation procedures",
         "advanced": "Real-time OSP risk monitoring through integrated dashboards, automated risk scoring, threat intelligence feeds on OSP vulnerabilities, and continuous assurance"
       },
-      "toolExamples": ["ServiceNow Vendor Risk", "BitSight", "SecurityScorecard"],
-      "nist": ["GV.SC-01", "GV.SC-04"],
-      "iso27001": ["A.5.19", "A.5.21"]
+      "toolExamples": [
+        "ServiceNow Vendor Risk",
+        "BitSight",
+        "SecurityScorecard"
+      ],
+      "nist": [
+        "GV.SC-01",
+        "GV.SC-04"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.21"
+      ]
     },
     {
       "slug": "osp-due-diligence",
@@ -1153,7 +1754,9 @@
       "type": "preventive",
       "layer": "process",
       "description": "Adequate and relevant due diligence when selecting OSPs with access to customer information, assessing risks introduced and determining appropriate ongoing monitoring.",
-      "clauses": ["12.2"],
+      "clauses": [
+        "12.2"
+      ],
       "keyActivities": [
         "Conduct comprehensive due diligence before appointing OSPs with customer data access",
         "Assess the level of risk each OSP may introduce",
@@ -1165,9 +1768,19 @@
         "mature": "Structured due diligence framework covering security posture, compliance, financial stability, and operational capability, with risk-based monitoring determination",
         "advanced": "Continuous due diligence with real-time security posture assessment, automated risk scoring, and dynamic monitoring calibration"
       },
-      "toolExamples": ["BitSight", "SecurityScorecard", "OneTrust Vendorpedia"],
-      "nist": ["GV.SC-03", "GV.SC-06"],
-      "iso27001": ["A.5.19", "A.5.21"]
+      "toolExamples": [
+        "BitSight",
+        "SecurityScorecard",
+        "OneTrust Vendorpedia"
+      ],
+      "nist": [
+        "GV.SC-03",
+        "GV.SC-06"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.21"
+      ]
     },
     {
       "slug": "osp-comparable-controls",
@@ -1176,7 +1789,10 @@
       "type": "preventive",
       "layer": "process",
       "description": "Verification that OSPs maintain policies, procedures, and controls comparable to the FSP's own standards for safeguarding customer information at all times.",
-      "clauses": ["12.3", "12.5"],
+      "clauses": [
+        "12.3",
+        "12.5"
+      ],
       "keyActivities": [
         "Define minimum control standards for OSPs based on FSP's own standards",
         "Verify OSP policies, procedures, and controls meet comparable standards",
@@ -1188,9 +1804,18 @@
         "mature": "Documented minimum control standards, initial and periodic control assessments, and gap remediation tracking",
         "advanced": "Continuous OSP control monitoring, automated compliance verification, SOC 2 report analysis, and control effectiveness benchmarking"
       },
-      "toolExamples": ["OneTrust Vendorpedia", "Prevalent", "ProcessUnity"],
-      "nist": ["GV.SC-05"],
-      "iso27001": ["A.5.19", "A.5.22"]
+      "toolExamples": [
+        "OneTrust Vendorpedia",
+        "Prevalent",
+        "ProcessUnity"
+      ],
+      "nist": [
+        "GV.SC-05"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.22"
+      ]
     },
     {
       "slug": "osp-sla-requirements",
@@ -1199,7 +1824,9 @@
       "type": "preventive",
       "layer": "policy",
       "description": "Comprehensive SLA provisions ensuring OSP obligations for customer information safeguarding, personnel vetting, access restrictions, breach reporting, data return/destruction, and FSP audit rights.",
-      "clauses": ["12.4"],
+      "clauses": [
+        "12.4"
+      ],
       "keyActivities": [
         "Include mandatory customer information safeguarding provisions in all OSP SLAs",
         "Require personnel vetting and access restrictions in SLA",
@@ -1213,9 +1840,19 @@
         "mature": "Comprehensive SLA template covering all MCIPD paragraph 12.4 requirements, existing SLAs amended, and compliance tracked",
         "advanced": "Dynamic SLA management with automated compliance monitoring, real-time breach reporting integration, and contractual performance analytics"
       },
-      "toolExamples": ["Icertis", "Agiloft", "ContractPodAi"],
-      "nist": ["GV.SC-05", "GV.SC-07"],
-      "iso27001": ["A.5.19", "A.5.20"]
+      "toolExamples": [
+        "Icertis",
+        "Agiloft",
+        "ContractPodAi"
+      ],
+      "nist": [
+        "GV.SC-05",
+        "GV.SC-07"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.5.20"
+      ]
     },
     {
       "slug": "osp-nda",
@@ -1224,7 +1861,9 @@
       "type": "preventive",
       "layer": "policy",
       "description": "Binding non-disclosure undertaking executed by all OSPs handling customer information.",
-      "clauses": ["12.6"],
+      "clauses": [
+        "12.6"
+      ],
       "keyActivities": [
         "Execute binding NDA with every OSP handling customer information",
         "Ensure NDA covers the full scope of customer information handling",
@@ -1236,9 +1875,18 @@
         "mature": "Customer-information-specific NDA template, executed with all relevant OSPs, with register tracking and renewal management",
         "advanced": "Automated NDA lifecycle management, compliance monitoring, and integration with vendor risk management system"
       },
-      "toolExamples": ["DocuSign CLM", "Icertis", "ContractPodAi"],
-      "nist": ["GV.SC-05"],
-      "iso27001": ["A.5.19", "A.6.6"]
+      "toolExamples": [
+        "DocuSign CLM",
+        "Icertis",
+        "ContractPodAi"
+      ],
+      "nist": [
+        "GV.SC-05"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.6.6"
+      ]
     },
     {
       "slug": "osp-personnel-training",
@@ -1247,7 +1895,10 @@
       "type": "preventive",
       "layer": "process",
       "description": "Ensuring OSPs provide regular training to their personnel on customer information handling policies and procedures, with periodic review of training programme effectiveness.",
-      "clauses": ["12.7", "12.8"],
+      "clauses": [
+        "12.7",
+        "12.8"
+      ],
       "keyActivities": [
         "Require OSPs to deliver regular customer information protection training",
         "Review adequacy and effectiveness of OSP training programmes",
@@ -1259,9 +1910,17 @@
         "mature": "Contractual training requirements, periodic review of OSP training materials and completion records, and FSP-provided supplementary training",
         "advanced": "Joint FSP-OSP training programme, FSP-administered assessments for OSP personnel, and continuous training effectiveness monitoring"
       },
-      "toolExamples": ["KnowBe4", "Cornerstone OnDemand"],
-      "nist": ["PR.AT-01"],
-      "iso27001": ["A.5.19", "A.6.3"]
+      "toolExamples": [
+        "KnowBe4",
+        "Cornerstone OnDemand"
+      ],
+      "nist": [
+        "PR.AT-01"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.6.3"
+      ]
     },
     {
       "slug": "osp-biennial-review",
@@ -1270,7 +1929,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Review of each OSP at least once every two years to confirm fulfilment of contractual obligations in safeguarding customer information.",
-      "clauses": ["12.9"],
+      "clauses": [
+        "12.9"
+      ],
       "keyActivities": [
         "Schedule and conduct OSP reviews at least biennially",
         "Assess OSP compliance with SLA customer information provisions",
@@ -1282,9 +1943,17 @@
         "mature": "Biennial review programme with structured assessment criteria, documented findings, remediation tracking, and senior management reporting",
         "advanced": "Annual reviews supplemented by continuous monitoring, risk-based review scope, third-party audit reports (SOC 2/ISO 27001), and integrated vendor risk dashboard"
       },
-      "toolExamples": ["ServiceNow Vendor Risk", "Prevalent", "OneTrust"],
-      "nist": ["GV.SC-04"],
-      "iso27001": ["A.5.22"]
+      "toolExamples": [
+        "ServiceNow Vendor Risk",
+        "Prevalent",
+        "OneTrust"
+      ],
+      "nist": [
+        "GV.SC-04"
+      ],
+      "iso27001": [
+        "A.5.22"
+      ]
     },
     {
       "slug": "osp-data-sharing-records",
@@ -1293,7 +1962,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Maintenance of accurate and complete records and audit trails of all customer information shared with or provided to OSPs.",
-      "clauses": ["12.10"],
+      "clauses": [
+        "12.10"
+      ],
       "keyActivities": [
         "Maintain records of all customer information shared with each OSP",
         "Ensure completeness and accuracy of data sharing records",
@@ -1305,9 +1976,19 @@
         "mature": "Data sharing register maintained for each OSP, audit trail for data transfers, periodic reconciliation, and documented data inventory",
         "advanced": "Automated data lineage tracking, real-time data flow monitoring, data loss prevention at transfer points, and blockchain-based audit trail"
       },
-      "toolExamples": ["Varonis", "Microsoft Purview", "Collibra"],
-      "nist": ["GV.SC-04", "PR.DS-05"],
-      "iso27001": ["A.5.19", "A.8.10"]
+      "toolExamples": [
+        "Varonis",
+        "Microsoft Purview",
+        "Collibra"
+      ],
+      "nist": [
+        "GV.SC-04",
+        "PR.DS-05"
+      ],
+      "iso27001": [
+        "A.5.19",
+        "A.8.10"
+      ]
     },
     {
       "slug": "consent-management",
@@ -1316,7 +1997,10 @@
       "type": "preventive",
       "layer": "process",
       "description": "Processes for obtaining, recording, and managing customer consent for disclosure of their information, ensuring informed and valid consent in compliance with applicable law.",
-      "clauses": ["13.1", "13.2"],
+      "clauses": [
+        "13.1",
+        "13.2"
+      ],
       "keyActivities": [
         "Obtain informed customer consent before disclosing information where required",
         "Record and maintain evidence of consent with timestamps and scope",
@@ -1328,9 +2012,18 @@
         "mature": "Digital consent management platform with audit trail, consent version control, withdrawal mechanism, and periodic validity review",
         "advanced": "Granular consent management with preference centre, real-time consent enforcement at disclosure points, and automated consent lifecycle management"
       },
-      "toolExamples": ["OneTrust Consent Management", "TrustArc", "Securiti.ai"],
-      "nist": ["GV.PO-01"],
-      "iso27001": ["A.5.10", "A.5.34"]
+      "toolExamples": [
+        "OneTrust Consent Management",
+        "TrustArc",
+        "Securiti.ai"
+      ],
+      "nist": [
+        "GV.PO-01"
+      ],
+      "iso27001": [
+        "A.5.10",
+        "A.5.34"
+      ]
     },
     {
       "slug": "cross-border-disclosure-controls",
@@ -1339,7 +2032,10 @@
       "type": "preventive",
       "layer": "process",
       "description": "Controls governing the disclosure of customer information across jurisdictional boundaries, including regulatory approval requirements, data protection adequacy assessments, and additional safeguards.",
-      "clauses": ["13.3", "13.4"],
+      "clauses": [
+        "13.3",
+        "13.4"
+      ],
       "keyActivities": [
         "Identify and classify all cross-border customer information disclosures",
         "Assess data protection adequacy of receiving jurisdiction",
@@ -1351,9 +2047,19 @@
         "mature": "Documented cross-border disclosure policy, jurisdiction adequacy register, regulatory approval workflow, and additional safeguard implementation",
         "advanced": "Automated data transfer impact assessments, real-time cross-border flow monitoring, dynamic safeguard application based on jurisdiction risk rating"
       },
-      "toolExamples": ["OneTrust Data Transfer", "BigID", "Securiti.ai"],
-      "nist": ["GV.PO-01", "PR.DS-05"],
-      "iso27001": ["A.5.10", "A.5.14"]
+      "toolExamples": [
+        "OneTrust Data Transfer",
+        "BigID",
+        "Securiti.ai"
+      ],
+      "nist": [
+        "GV.PO-01",
+        "PR.DS-05"
+      ],
+      "iso27001": [
+        "A.5.10",
+        "A.5.14"
+      ]
     },
     {
       "slug": "disclosure-record-keeping",
@@ -1362,7 +2068,9 @@
       "type": "detective",
       "layer": "process",
       "description": "Comprehensive record-keeping of all permitted disclosures of customer information, including legal basis, recipient details, data disclosed, and approval evidence.",
-      "clauses": ["13.5"],
+      "clauses": [
+        "13.5"
+      ],
       "keyActivities": [
         "Record all permitted disclosures with legal basis, recipient, data scope, and date",
         "Maintain approval evidence for each disclosure",
@@ -1374,9 +2082,18 @@
         "mature": "Centralised disclosure register with mandatory fields for legal basis, recipient, scope, approval evidence, and periodic compliance review",
         "advanced": "Automated disclosure logging integrated with data transfer systems, real-time compliance monitoring, and analytics on disclosure patterns"
       },
-      "toolExamples": ["OneTrust", "Collibra", "ServiceNow GRC"],
-      "nist": ["GV.PO-01"],
-      "iso27001": ["A.5.10", "A.5.34"]
+      "toolExamples": [
+        "OneTrust",
+        "Collibra",
+        "ServiceNow GRC"
+      ],
+      "nist": [
+        "GV.PO-01"
+      ],
+      "iso27001": [
+        "A.5.10",
+        "A.5.34"
+      ]
     }
   ]
 }
