@@ -1,5 +1,7 @@
 # BNM MCIPD — Management of Customer Information and Permitted Disclosures
 
+> **Disclaimer:** This repository is an educational and indicative resource. It does not constitute legal, regulatory, or technical advice. Content marked `sourceType: "constructed-indicative"` has not been verified against official sources. Always refer to authoritative standards bodies and seek professional counsel for compliance decisions.
+
 > Machine-readable GRC compliance database for Bank Negara Malaysia's Policy Document on Management of Customer Information and Permitted Disclosures.
 
 **Live site:** https://dawuds.github.io/MCIPD/

@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "lastUpdated": "2026-03-11",
     "alignment": "BNM MCIPD June 2025",
+    "sourceType": "official-paraphrase",
     "aiGenerated": true,
     "verificationNote": "AI Generated: Controls library for BNM Management of Customer Information and Permitted Disclosures. All content is indicative and should be validated against the FSP's operating context, risk appetite, and proportionality requirements."
   },
